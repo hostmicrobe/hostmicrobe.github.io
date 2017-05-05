@@ -1,0 +1,50 @@
+- alias: Dan
+  name: Daniel Beiting
+  role: Research Assistant Professor; Technical Director
+  twitter: hostmicrobe
+  github: dpbisme
+  web: hostmicrobe.org
+  avatar: headshot.jpg
+  email: danielbeiting@gmail.com
+  phone: +1-215-898-9247
+  fax: +1-215-746-2295
+  address: University of Pennsylvania, Rm 314 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "I am an immunologist using 'omics approaches to interrogate the host-pathogen interface."
+
+- alias: amisic
+  name: Ana M. Misic
+  role: Post-doctoral Scientist
+  email: a.misic@gmail.com
+  twitter: 
+  phone: +1-215-898-9911
+  fax: +1-215-746-2295
+  avatar: ana_bio.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "My research uses DNA sequencing technologies (Illumina, PacBio, Oxford Nanopore) to answer questions about bacteria that are important to human and animal health. My research interests include human and animal pathogens, antimicrobial resistance, and horizontal gene transfer. My favorite bacteria are Staphylococcus schleiferi and Pseudomonas aeruginosa."
+
+- alias: Ayah
+  name: Ayah El-Fahmawi
+  role: Undergraduate researcher
+  email: ayahe@sas.upenn.edu
+  phone: +1-215-898-9911
+  fax: +1-215-746-2295
+  avatar: ayah_bio.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "I am a freshman studying biology at UPenn who is excited to learn more about research, microbiology, and bioinformatics while gaining lab experience.  My project in the lab is focused on understanding the mechanisms by which intestinal inflammation leads to dysbiosis and severe disease"
+
+- alias: Elaine
+  name: Elaine C. P. De Martinis
+  role: Visiting Professor
+  email: edemarti37@yahoo.com.br
+  avatar: elaine.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "I am pharmacist and Ph.D. in Food Sciences and am currently a Visiting Faculty Researcher at UPenn supported by São Paulo Research Foundation, Brazil (BPE - FAPESP).  As an Associate Professor of Pharmaceutical Sciences at the University of São Paulo, Brazil, my main research activities are at the intersection of Microbial Ecology and Food Safety and Health"
+
+- alias: Ying
+  name: Ying Chen
+  role: Lab Volunteer
+  email: ying8@upenn.edu
+  avatar: YingChen.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "I am a computational biology graduate student at UPenn and a volunteer in the lab. My research interests include using high-throughput sequencing technologies and computational tools to study serum biomarkers of disease subtypes and progress of human cutaneous Leishmaniasis."
+
