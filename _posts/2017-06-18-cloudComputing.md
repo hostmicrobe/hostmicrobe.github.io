@@ -2,7 +2,7 @@
 layout: post
 title: "Cloud computing for biologists"
 excerpt: "asdfasdfasdfasdf."
-modified: 2017-06-20
+modified: 2017-06-18
 comments: true
 ---
 
