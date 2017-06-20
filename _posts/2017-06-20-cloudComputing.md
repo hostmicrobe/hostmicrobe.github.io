@@ -4,7 +4,6 @@ title: "Cloud computing for biologists"
 excerpt: "asdfasdfasdfasdf."
 modified: 2017-06-20
 comments: true
-authors: [Beiting]
 ---
 
 The anvi'o [metagenomic workflow]({% post_url anvio/2016-06-22-anvio-tutorial-v2 %}){:target="_blank"} assumes that you have metagenomic short reads. But what if all you have is a bunch of contigs, or a draft genome, or a MAG without any short reads to map to?
