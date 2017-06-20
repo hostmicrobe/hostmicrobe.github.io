@@ -1,5 +1,6 @@
 ---
 layout: post
+authors: [beiting]
 title: "Cloud asdf for biologists"
 excerpt: "asdfasdfasdfasdf."
 modified: 2017-06-18
