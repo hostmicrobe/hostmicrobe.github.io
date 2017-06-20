@@ -1,6 +1,12 @@
 
 
 <div class="pub">
+    <h3><a href="" target="_new">The maternal vaginal microbiome plays a causal role in programming offspring gut-brain development.</a></h3>
+       <span class="pub-authors">Eldin Jasarevic, Christopher D. Howard, Kathleen E. Morrison, Ana M. Misic, Tiffany Weinkopff, Phillip Scott, Christopher A. Hunter, <span class="pub-member-author">Daniel P. Beiting</span>, and Tracy L. Bale</span>
+    <span class="pub-journal"><i>submitted to Nature Neuroscience, May 12</i>. <b></b></span>
+</div>
+
+<div class="pub">
     <h3><a href="" target="_new">Involvement of Innate Immune System in Late Stages of Inherited Photoreceptor Degeneration.</a></h3>
        <span class="pub-authors">Sudharsan R, <span class="pub-member-author">Beiting DP</span>, Aguirre GD, Beltran, WA </span>
     <span class="pub-journal"><i>submitted to EMBO, May 3</i>. <b></b></span>
