@@ -10,6 +10,12 @@ comments: false
 
 # 2017
 <div class="pub">
+    <h3><a href="" target="_new">Cutaneous leishmaniasis induces a transmissible dysbiotic skin microbiome that promotes increased skin inflammation.</a></h3>
+       <span class="pub-authors">Gimblet C, Meisel JS, Loesche MA, Cole SD, Horwinski J, Novais FO, Misic AM, Bradley CW, <span class="pub-member-author">Beiting DP</span>, Rankin SC, Carvalho LP, Scott P, Grice EA</span>
+    <span class="pub-journal"><i>manuscript submitted, Sept 29</i>. <b></b></span>
+</div>
+
+<div class="pub">
     <h3><a href="http://biorxiv.org/content/early/2017/03/26/120766" target="_new">Replication Defective Viral Genomes Exploit A Cellular Pro-Survival Mechanism To Establish Viral Persistence.</a></h3>
     <span class="pub-authors">Jie Xu, Yan Sun, Yize Li, Gordon Ruthel, Susan R Weiss, Arjun Raj, <span class="pub-member-author">Daniel Beiting</span>, Carolina Lopez</span>
 <span class="pub-journal"><i>BioRxiv</i>. <b></b></span>
