@@ -4,18 +4,18 @@ authors: [beiting]
 title: "Cloud computing for metagenomics"
 excerpt: "A step-by-step guide to setting up cloud computing resources and analyzing shotgun metagenomic data, all on your laptop."
 modified: 2017-07-10
+tags: [metagenomics]
+categories: [microbiome]
 comments: true
 ---
 
 {% include _toc.html %}
 
-# this post is a work in progress
-
 ## Some comments before starting
 
 Disclaimer: This is my first blog post.  That's right, I'm a complete rookie at this.  So why now?  Well, since starting my faculty position four years ago and working to help build and direct the Center for Host-Microbial Interactions, I increasingly find myself involved in various collaborations or projects where there's something really interesting that I think would be useful to share with either my lab or with the broader scientific community, but which doesn't easily translate into a traditional publication.  Basically, I'm learning some cool stuff, and it's not always evident in my publications, so here we are.  
 
-Case-in-point, I was recently at this [Microbiome Analysis in the Cloud](http://www.igs.umaryland.edu/topics/microbiome-cloud/), held at the Institute for Genome Sciences at the University of Baltimore.  The two-day workshop had a lot of highlights, including excellent planning and preparation on the part of the organizers, a highly skilled staff the worked the room to help troubleshoot, and a program that covered a lot of different tools and methods.  While that latter point was explicitly stated as a goal of the workshop, it means that I really felt left the workshop feeling like I wasn't going to be able to work through a full dataset on my own.  Now that I've had a chance to work through the workshop materials, I feel a bit more comfortable and want to put down my workflow in this blog post.  Expect updates in the coming months as I continue to navigate this workflow.
+Case-in-point, I was recently at this [Microbiome Analysis in the Cloud](http://www.igs.umaryland.edu/topics/microbiome-cloud/), held at the Institute for Genome Sciences at the University of Baltimore.  The two-day workshop had a lot of highlights, including excellent planning and preparation on the part of the organizers, a highly skilled staff the worked the room to help troubleshoot, and a program that covered a lot of ground.  While that latter point was explicitly stated as a goal of the workshop, it means that I left the workshop feeling I wouldn't be able to work through a full dataset on my own.  Now that I've had a chance to review the workshop materials, I feel a bit more comfortable and want to put down my workflow in this blog post.  Expect updates in the coming months as I marinate on this.
 
 
 ## why should you even care about cloud computing?
