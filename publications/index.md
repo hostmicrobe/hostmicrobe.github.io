@@ -9,6 +9,13 @@ comments: false
 {% include _toc.html %}
 
 # 2017
+
+<div class="pub">
+    <h3><a href="" target="_new">An oxidative central metabolism enables Salmonella to utilize microbiota-derived succinate.</a></h3>
+       <span class="pub-authors">Spiga L, Winter MG, Furtado de Carvalho T, Zhu W, Hughes ER, Gillis CC, Chanin R, Behrendt CL, Kim J, Chessa D, Andrews-Polymenis H, <span class="pub-member-author">Beiting DP</span>, Santos RL, Hooper LV, Winter SE</span>
+    <span class="pub-journal"><i>Cell Host and Microbe</i>. <b>in press</b></span>
+</div>
+
 <div class="pub">
     <h3><a href="" target="_new">Cutaneous leishmaniasis induces a transmissible dysbiotic skin microbiome that promotes increased skin inflammation.</a></h3>
        <span class="pub-authors">Gimblet C, Meisel JS, Loesche MA, Cole SD, Horwinski J, Novais FO, Misic AM, Bradley CW, <span class="pub-member-author">Beiting DP</span>, Rankin SC, Carvalho LP, Scott P, Grice EA</span>

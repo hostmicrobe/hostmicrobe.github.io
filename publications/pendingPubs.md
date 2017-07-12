@@ -13,17 +13,10 @@
 </div>
 
 <div class="pub">
-    <h3><a href="" target="_new">Cutaneous leishmaniasis induces a transmissible dysbiotic skin microbiome that promotes increased skin inflammation.</a></h3>
-       <span class="pub-authors">Gimblet C, Loesche MA, Cole SD, Horwinski J, Misic AM, <span class="pub-member-author">Beiting DP</span>, Rankin S, Scott P, Grice EA</span>
-    <span class="pub-journal"><i>manuscript submitted, Sept 29</i>. <b></b></span>
-</div>
-
-<div class="pub">
     <h3><a href="" target="_new">Mining the T. gondii transcriptome: Generalizable strategies for recognizing alternative splicing, stage-specific mRNA and lncRNA expression, and improving genome annotation</a></h3>
     <span class="pub-authors">Diaz-Miranda MA, Bernal A, <span class="pub-member-author">Beiting DP</span>, Dragomir I, Gregory BD, Xia D, Wastling J, Hehl AB, Fritz HM, Boothroyd JC, Brestelli J, Brunk B, and Roos DS</span>
     <span class="pub-journal"><i>under review at Genome Biology, Dec 22</i>. <b></b></span>
 </div>
-
 
 <div class="pub">
     <h3><a href="" target="_new">CD8 T cells induce cytotoxicity in an NKG2D-dependent manner in human cutaneous leishmaniasis</a></h3>
@@ -32,7 +25,7 @@
 </div>
 
 <div class="pub">
-    <h3><a href="" target="_new">Probiotics rescue age-dependent dysbiosis and suseptibility to enteric viral infection in Drosophila</a></h3>
+    <h3><a href="" target="_new">Aging-associated dysbiosis increases susceptibility to enteric viral infection in Drosophila</a></h3>
     <span class="pub-authors">Christine Sansone, Johnathan Cohen, Beth Gold, Wehan Zhu, Ana M. Misic, <span class="pub-member-author">Beiting DP</span>, Sebastian E. Winter, Sara Cherry</span>
     <span class="pub-journal"><i>submitted</i>. <b></b></span>
 </div>
