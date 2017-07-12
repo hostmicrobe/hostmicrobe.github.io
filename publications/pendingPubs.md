@@ -24,12 +24,6 @@
     <span class="pub-journal"><i>submitted to JID; Brief Definitive Reports</i>. <b></b></span>
 </div>
 
-<div class="pub">
-    <h3><a href="" target="_new">Aging-associated dysbiosis increases susceptibility to enteric viral infection in Drosophila</a></h3>
-    <span class="pub-authors">Christine Sansone, Johnathan Cohen, Beth Gold, Wehan Zhu, Ana M. Misic, <span class="pub-member-author">Beiting DP</span>, Sebastian E. Winter, Sara Cherry</span>
-    <span class="pub-journal"><i>submitted</i>. <b></b></span>
-</div>
-
 
 In progress
 
