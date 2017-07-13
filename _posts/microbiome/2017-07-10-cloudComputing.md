@@ -19,24 +19,28 @@ Case-in-point, I recently attended this [Microbiome Analysis in the Cloud](http:
 
 
 ## Why use the cloud?
-I'm not here to sell you on the idea of cloud computing.  In fact, maybe you should ignore all the buzz about 'the cloud'.  After all, you accrue charges as your cloud instance runs, so failure to shut down a instance could result in some hefty charges.  Some people cite that it's a nussiance to move all your data to the cloud to begin working, only to then have to pull your results off the cloud before you shut it down.  But the same data gymnastics come into play when you use any remote computing resource.  Similarly, folks will often cite the problem that all programs and dependencies needed to carry out your work will have to be installed by you before your cloud instance is useful.  The arrival of [Docker]() (more on this later in the post) has largely made this a non-issue. 
+I'm not here to sell you on the idea of cloud computing.  In fact, maybe you should ignore all the buzz about 'the cloud'.  After all, you accrue charges as your cloud instance runs, so failure to shut down a instance could result in some hefty charges.  Some people cite that it's a nussiance to move all your data to the cloud to begin working, only to then have to pull your results off the cloud before you shut it down.  But the same data gymnastics come into play when you use any remote computing resource.  Similarly, folks will often cite the problem that all programs and dependencies needed to carry out your work will have to be installed by you before your cloud instance is useful.  The arrival of [Docker](https://www.docker.com/) (more on this later in the post) has largely made this a non-issue, in my opinion. 
 
-Still reluctant to dive in?  Well, an alternative to using cloud computing resources is to simply invest in your own compute cluster or leverage compute resources at your institution.  I have to say, both of these alternatives have some pretty darn obvious downsides as well.  Running your own in-house compute cluster gives you tons of control, but with great power comes great responsibility, including that maintining your own compute server requires some sysadmin skills, and serious computer hardware requires a substantial up front investment (think 10K or more) and quickly becomes obsolete.  My university has [a pretty awesome compute cluster](https://hpcwiki.genomics.upenn.edu/index.php/HPC:Main_Page), but if your favorite program isn't available, you likely won't have the access priveldges to install it yourself and it can take some time for the powers-that-be to get it installed.  Here's the bottom line: just like any other resource, cloud computing has its pros and cons, and should be thought of not as the *only* solution to your problems, but rather as one tool in your bioinformatics toolbox.  I know many people who switch between using local compute resources and using a cloud service.  So, let's get started!
+Still reluctant to dive in?  Well, an alternative to using cloud computing resources is to simply invest in your own compute cluster or leverage compute resources at your institution.  I have to say, both of these alternatives have some non-trivial downsides as well.  Running your own in-house compute cluster gives you tons of control, but with great power comes great responsibility, including that you'll have to maintain your own compute server, which requries some sysadmin skills.  Not to mention the fact that serious computer hardware requires a substantial up front investment (think 10K or more) and quickly becomes obsolete.  My university has [a pretty awesome compute cluster](https://hpcwiki.genomics.upenn.edu/index.php/HPC:Main_Page), but if your favorite program isn't available, you likely won't have the access priveldges to install it yourself and it can take some time for the powers-that-be to get it installed.  Here's the bottom line: just like any other resource, cloud computing has its pros and cons, and should be thought of not as the *only* solution to your problems, but rather as one tool in your bioinformatics toolbox.  I know many people who switch between using local compute resources and using a cloud service.  So, let's get started!
 
 ## Fire up your cloud computer
 
 The two most popular cloud computing services are Amazon's Web Services (AWS) and Google's Cloud Platform.  Amazon, although the best known of the two, feels incredibly complicated and cumbersome to me -- the first hour of the workshop and 36 slides were devoted just to getting our AWS instance up and running.  I prefer Google.  If you're still undecided, I'd also point out that **Google gives you a $300 credit**, good for 1 year from the time you activate your cloud account.  This is more than enough cash to work your way through this tutorial and still have plenty left for some of your own analyses. 
 
-To get started, navigate to the [Google Cloud Platform](https://cloud.google.com/).  You'll need to log in with your Google credentials and fill out some basic information (including credit card or bank account) to activate your cloud account.  Once that's done, you'll be able to access the console, the landing page for all things related to your Google Cloud.  It's through this interface that you'll be able to access compute resources and track your expenses.  
+I put together the video tutorial below to walk you through the follow steps:
+* setting up your Google Cloud compute instance
+* installing Docker on this instance
+* installing Chrion for quick and easy access to a bunch of dockerized programs for metagenomics
+* installing the Google Cloud SDK software *on your own computer* (not the cloud) so you can easily connect to your new cloud resources
+* Connecting an FTP client to the instance so you can easily transfer files back and forth.
+* tearing it all down when you're done
 
-![phylo]({{images}}/screenshot-01.png)]({{images}}/phylogenomics-01.png){:.center-img .width-70}
-
-The sidebar provides access to all the produces and services.  There's a lot here that I haven't had a chance to explore, so for the purposes of this tutorial we will only be using the **Compute Engine** -> *VM instances*.  
+I've also included the commands used in the video, below.  
 
 ## Install your programs
 
 Install Docker
-Once your gcloud instance is running, click on the 'ssh' button beside the instance.  This is a really nice feature of glcoud.  Use this ssh terminal window to install Docker
+Once your gcloud instance is running, click on the 'ssh' button beside the instance and you will open .  The is a really nice feature of glcoud.  Use this ssh terminal window to install Docker
 {% highlight bash %}
 sudo apt-get install docker.io
 {% endhighlight %}
@@ -51,22 +55,53 @@ sudo pip3 install pyyaml requests
 sudo pip install pyyaml cwlref-runner
 {% endhighlight %}
 
-Install Chiron.
+Install [Chiron](https://github.com/IGS/Chiron).
 {% highlight bash %}
 git clone https://github.com/IGS/Chiron.git
 {% endhighlight %}
-Any docker images could be installed loaded on your instance.  Take a look [here]() to see if your favorite bioinformatics program has been Dockerized
+Any docker images could be installed loaded on your instance.  Take a look [here](http://biocontainers.pro/) to see if your favorite bioinformatics program has been dockerized
 
-Take a look around your working directory and the Chiron folder
+Take a look around your working directory and the Chiron folder.  Take a look at all the metagenomics tools you now have installed that are available in /Chiron/bin 
 {% highlight bash %}
-ls Chiron
+ls Chiron/bin
 {% endhighlight %}
 
-Although it has been great to use the ssh window, we'll want to be able to connect to our instance from our own terminal window.  In order to do that, you will need to install the google cloud SDK by following the instructions [here](https://cloud.google.com/sdk/downloads#interactive)
+Although it has been great to use the ssh window, we'll want to be able to connect to our instance from our own terminal window.  Go ahead and launch your terminal app.  Before we do anything else, now is a good time to execute a command in the terminal that will allow us to see hidden files in our directory.  We need to get at a few of these hidden files for the purposes of this tutorial.
+{% highlight bash %}
+defaults write com.apple.finder AppleShowAllFiles true
+#then restart the finder to see these changes
+killall Finder
+{% endhighlight %}
+
+Now install the google SDK.   
+{% highlight bash %}
+curl https://sdk.cloud.google.com | bash
+{% endhighlight %}
+
+I my experience, if you encounter any issues with this entire tutorial, with getting the SDK installed and making sure you can connect to your instance. For instance, you may notice that the installation fails with the following error:
+{% highlight bash %}
+ERROR: Failed to fetch component listing from server. Check your network settings and try again
+{% endhighlight %}
+This error has to do with the the IPv6 settings on your computer preventing you from being able to connect with a google server to download the SDK command line tools
+
+If you encounter this error, this fix is simple.  Begin by temporarily turning off IPv6 support for either Wi-Fi or Ethernet, depending on which one you are using to connect to the internet.  If Wi-Fi, then you would turn-off with:
+
+{% highlight bash %}
+networksetup -setv6off Wi-Fi
+{% endhighlight %}
+
+Now reattempt the installation as you did above with:
+{% highlight bash %}
+curl https://sdk.cloud.google.com | bash
+{% endhighlight %} 
+
+Once you have Google Cloud SDK installed, *be sure to turn the IPv6 back on*
+{% highlight bash %}
+networksetup -setv6automatic Wi-Fi
+{% endhighlight %}
 
 ## Connect to your instance
-
-Open *your terminal app* (not the ssh window) and connect to your instance
+Open *your terminal app* (not the ssh window) and connect to your instance.  Be patient here, as this may take a moment to connect.
 {% highlight bash %}
 gcloud compute ssh instance-1
 {% endhighlight %}
@@ -75,8 +110,3 @@ gcloud compute ssh instance-1
 
 Key files have been generated, but will not be visible on your file system until you instruct you OS to show all files using this command
 
-{% highlight bash %}
-defaults write com.apple.finder AppleShowAllFiles YES
-{% endhighlight %}
-	
-Note: you'll need to restart the finder to see these changes take effect
