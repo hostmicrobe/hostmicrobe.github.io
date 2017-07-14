@@ -122,9 +122,9 @@ gcloud auth login
 
 
 ## Launch an interactive session with Chiron
-Chiron gives you access to [QIIME](https://qiime2.org/) for processing marker gene sequence data, as well as the [BioBakery suite](https://bitbucket.org/biobakery/biobakery/wiki/browse/) of tools from [Curtis Huttenhower's lab](https://huttenhower.sph.harvard.edu/) for handling shotgun metagenomic sequencing data.  One of the first steps in the BioBakery workflow is using [MetaPhlan2](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html) to get species and strain level composition information from raw sequence files.  This is a logical place for us to start as well.
+[Chiron](https://github.com/IGS/Chiron) gives you access to [QIIME](https://qiime2.org/) for processing marker gene sequence data, as well as the [BioBakery suite](https://bitbucket.org/biobakery/biobakery/wiki/browse/) of tools from [Curtis Huttenhower's lab](https://huttenhower.sph.harvard.edu/) for handling shotgun metagenomic sequencing data.  One of the first steps in the BioBakery workflow is using [MetaPhlan2](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html) to get species and strain level composition information from raw sequence files.  This is a logical place for us to start as well.
 
-Launch MetaPhlan2
+Launch the MetaPhlan2 interactive
 {% highlight bash %}
 sudo ./Chiron/bin/phlan_interactive -l ~/data
 #the -l option tells the interactive to create a new folder in our home directory called 'data', and sets this folder as the default from which data will be read and to which outputs will be saved 
