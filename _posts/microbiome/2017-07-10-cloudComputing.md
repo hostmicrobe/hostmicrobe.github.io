@@ -38,7 +38,7 @@ I put together the video tutorial below to walk you through the follow steps:
 
 I've also included the commands used in the video, below the video.
 
-{% include _vimeoPlayer.html id=page.225004073 %}
+{% include _vimeoPlayer.html id=225004073 %}
 
 Once your gcloud instance is running, click on the 'ssh' button beside the instance and you will open a terminal window.  This fast and easy way to connect to your cloud instance is one nice feature of the way gcloud is setup. We'll now use this terminal to install Docker and Chiron.
 
