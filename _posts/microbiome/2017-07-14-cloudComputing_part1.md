@@ -12,7 +12,6 @@ comments: true
 {% include _toc.html %}
 
 ## Prelude
-
 **Disclaimer: This is my first blog post.**  That's right, I'm a complete rookie at this.  Why now?  Well, since starting my faculty position four years ago and working to help build and direct the Center for Host-Microbial Interactions, I increasingly find myself involved in various collaborations or projects where I'm learning something I find really interesting and that I think would be useful to share with either my lab or with the broader scientific community, but which doesn't easily translate into a traditional publication.  Basically, I'm learning some cool stuff, and it's not always evident in my publications, so here we are.  
 
 Case-in-point, I recently attended this [Microbiome Analysis in the Cloud](http://www.igs.umaryland.edu/topics/microbiome-cloud/), held at the Institute for Genome Sciences at the University of Baltimore.  The two-day workshop had a lot of high points, including excellent planning and preparation on the part of the organizers, a highly skilled staff that worked the room to help troubleshoot, and a program that covered a lot of ground.  While that latter point was explicitly stated as a goal of the workshop, it means that I left the workshop feeling I wouldn't be able to work through a full dataset on my own.  Now that I've had a chance to review the workshop materials, I feel a bit more comfortable and want to put down my workflow in this blog post.  Expect updates in the coming months as I marinate on this.
@@ -25,7 +24,6 @@ I'm not here to sell you on the idea of cloud computing.  In fact, maybe you sho
 Still reluctant to dive in?  Well, an alternative to using cloud computing resources is to simply invest in your own compute cluster or leverage compute resources at your institution.  I have to say, both of these alternatives have some non-trivial downsides as well.  Running your own in-house compute cluster gives you tons of control, but with great power comes great responsibility, including that you'll have to maintain it, which requries sysadmin skills.  Acquiring your fancy new computer will also take a serious chunk of change (think 10K or more), and the hardware quickly becomes outdated.  My university has [a pretty awesome compute cluster](https://hpcwiki.genomics.upenn.edu/index.php/HPC:Main_Page), but if your favorite program isn't available, you likely won't have the access priveldges to install it yourself and it can take some time for the powers-that-be to get it installed.  We also experience frequent interruptions and server downtime on our university cluster.  Here's the bottom line: just like any other resource, cloud computing has its pros and cons, and should be thought of not as the *only* solution to your problems, but rather as one tool in your bioinformatics toolbox.  So, let's get started!
 
 ## Fire up your cloud computer
-
 The two most popular cloud computing services are Amazon's Web Services (AWS) and Google's Cloud Platform.  Amazon, although the best known of the two, feels cumbersome to me -- the first hour of the workshop and 36 slides were devoted just to getting our AWS instance up and running.  I prefer Google.  If you're still undecided, I'd also point out that **Google gives you a $300 credit**, good for 1 year from the time you activate your cloud account!  This is more than enough cash to work your way through this tutorial and still have plenty left for some of your own analyses. 
 
 I put together the video tutorial below to walk you through the follow steps:
@@ -49,7 +47,7 @@ Install Docker
 sudo apt-get install docker.io
 {% endhighlight %}
 
-Install some dependencies that we'll need for Chiron.
+Install some dependencies that we'll need for Chiron
 {% highlight bash %}
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F76221572C52609D
@@ -59,7 +57,7 @@ sudo pip3 install pyyaml requests
 sudo pip install pyyaml cwlref-runner
 {% endhighlight %}
 
-Install [Chiron](https://github.com/IGS/Chiron).
+Install [Chiron](https://github.com/IGS/Chiron)
 {% highlight bash %}
 git clone https://github.com/IGS/Chiron.git
 {% endhighlight %}
@@ -84,7 +82,7 @@ Now install the google SDK.
 curl https://sdk.cloud.google.com | bash
 {% endhighlight %}
 
-I my experience, if you encounter any issues with this entire tutorial, it will be with getting the SDK installed and connecting to your instance. For example, you may notice that the installation fails with the following error:
+I my experience, if you encounter any issues with this entire tutorial, it will be with getting the SDK installed and connecting to your instance. For example, you may notice that the installation fails with the following error
 {% highlight bash %}
 ERROR: Failed to fetch component listing from server. Check your network settings and try again
 {% endhighlight %}
@@ -96,7 +94,7 @@ If you encounter this error, this fix is simple.  Begin by temporarily turning o
 networksetup -setv6off Wi-Fi #if you're using ethernet, replace 'Wi-Fi' with 'Ethernet' in this line
 {% endhighlight %}
 
-Now reattempt the installation as you did above with:
+Now reattempt the installation as you did above
 {% highlight bash %}
 curl https://sdk.cloud.google.com | bash
 {% endhighlight %} 
@@ -114,14 +112,13 @@ gcloud compute ssh instance-1 #if your instance is not called 'instance-1', be s
 {% endhighlight %}
 
 ## Launch an interactive session with Chiron
-
 Chiron gives you access to [QIIME](https://qiime2.org/) for processing marker gene sequence data, as well as the [BioBakery suite](https://bitbucket.org/biobakery/biobakery/wiki/browse/) of tools from [Curtis Huttenhower's lab](https://huttenhower.sph.harvard.edu/) for handling shotgun metagenomic sequencing data.  One of the first steps in the BioBakery workflow is using [MetaPhlan2](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html) to get species and strain level composition information from raw sequence files.  This is a logical place for us to start as well.
 
 Launch MetaPhlan2
 {% highlight bash %}
 sudo ./Chiron/bin/phlan_interactive -l ~/data
-#the -l option tells the interactive to setup a new folder in our home directory called 'data'.  
-#This is where we'll put all our files for analysis
+#the -l option tells the interactive to create a new folder in our home directory called 'data', and sets this folder as the default from which data will be read and to which outputs will be saved 
+#This is where we'll put all our raw sequence data for analysis
 {% endhighlight %}
 
 Set permissions so you can transfer data
@@ -133,7 +130,7 @@ sudo chown danielbeiting data #replace 'danielbeiting' with your username
 #set yourself as the group for the 'data' folder
 sudo chgrp danielbeiting data
 #give yourself read/write/execute permission for the 'data' folder
-chown 777 data
+chmod 777 data
 {% endhighlight %}
 
 ## Rinse and repeat
@@ -154,6 +151,4 @@ Go back to the your google cloud account, select the instance you've been workin
 Make sure you can repeat the whole set-up again, *except* for the installation of the SDK -- this only needed to be done once.
 
 Once you're comfortable with the whole process, you're ready to move on to [part II of this tutorial]()!
-
-{% include _disqus_comments.html %}
 
