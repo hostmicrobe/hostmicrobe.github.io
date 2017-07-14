@@ -115,6 +115,8 @@ gcloud compute ssh instance-1 #if your instance is not called 'instance-1', be s
 
 ## Launch an interactive session with Chiron
 
+Chiron gives you access to [QIIME](https://qiime2.org/), for processing marker gene sequence data, as well as the [BioBakery suite]() of tools from [Curtis Huttenhower's lab](https://bitbucket.org/biobakery/biobakery/wiki/browse/) for handling shotgun metagenomic sequencing data.  One of the first steps in the BioBaker workflow, is using [MetaPhlan2](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html) to get species and strain level composition from raw sequence files.  This is a logical place for us to start as well.
+
 Launch MetaPhlan
 {% highlight bash %}
 sudo ./Chiron/bin/phlan_interactive -l ~/data
