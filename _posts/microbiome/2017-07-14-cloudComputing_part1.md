@@ -26,7 +26,7 @@ Still reluctant to dive in?  Well, an alternative to using cloud computing resou
 
 ## Fire up your cloud computer
 
-The two most popular cloud computing services are Amazon's Web Services (AWS) and Google's Cloud Platform.  Amazon, although the best known of the two, feels cumbersome to me -- the first hour of the workshop and 36 slides were devoted just to getting our AWS instance up and running.  I prefer Google.  If you're still undecided, I'd also point out that **Google gives you a $300 credit**, good for 1 year from the time you activate your cloud account.  This is more than enough cash to work your way through this tutorial and still have plenty left for some of your own analyses. 
+The two most popular cloud computing services are Amazon's Web Services (AWS) and Google's Cloud Platform.  Amazon, although the best known of the two, feels cumbersome to me -- the first hour of the workshop and 36 slides were devoted just to getting our AWS instance up and running.  I prefer Google.  If you're still undecided, I'd also point out that **Google gives you a $300 credit**, good for 1 year from the time you activate your cloud account!  This is more than enough cash to work your way through this tutorial and still have plenty left for some of your own analyses. 
 
 I put together the video tutorial below to walk you through the follow steps:
 * setting up your Google Cloud compute instance
@@ -115,7 +115,7 @@ gcloud compute ssh instance-1 #if your instance is not called 'instance-1', be s
 
 ## Launch an interactive session with Chiron
 
-Chiron gives you access to [QIIME](https://qiime2.org/), for processing marker gene sequence data, as well as the [BioBakery suite]() of tools from [Curtis Huttenhower's lab](https://bitbucket.org/biobakery/biobakery/wiki/browse/) for handling shotgun metagenomic sequencing data.  One of the first steps in the BioBaker workflow, is using [MetaPhlan2](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html) to get species and strain level composition from raw sequence files.  This is a logical place for us to start as well.
+Chiron gives you access to [QIIME](https://qiime2.org/) for processing marker gene sequence data, as well as the [BioBakery suite](https://bitbucket.org/biobakery/biobakery/wiki/browse/) of tools from [Curtis Huttenhower's lab](https://huttenhower.sph.harvard.edu/) for handling shotgun metagenomic sequencing data.  One of the first steps in the BioBakery workflow is using [MetaPhlan2](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html) to get species and strain level composition information from raw sequence files.  This is a logical place for us to start as well.
 
 Launch MetaPhlan2
 {% highlight bash %}
@@ -155,5 +155,5 @@ Make sure you can repeat the whole set-up again, *except* for the installation o
 
 Once you're comfortable with the whole process, you're ready to move on to [part II of this tutorial]()!
 
-
+{% include _disqus_comments.html %}
 
