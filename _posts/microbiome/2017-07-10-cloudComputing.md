@@ -123,14 +123,29 @@ sudo ./Chiron/bin/phlan_interactive -l ~/data
 Set permissions so you can transfer data
 {% highlight bash %}
 ls -l #checking permissions on all files and folders in the directory
-sudo chown [your username] [name of folder you want to own] #makes you the owner of the folder.  
-sudo chgrp [your group name] [name of folder you want to own] #makes you the group
-chown 777 [name of folder] #changes read/write permission on this folder
+#make yourself owner of the 'data' folder
+sudo chown danielbeiting data #replace 'danielbeiting' with your username
+#set yourself as the group for the 'data' folder
+sudo chgrp danielbeiting data
+#give yourself read/write/execute permission for the 'data' folder
+chown 777 data
 {% endhighlight %}
 
 
 ## Rinse and repeat
-Go back to the your google cloud account, select the instance you've been working with (checkbox to the left of the instance), and choose 'Delete' from the menu bar.  Make sure you can repeat the whole set-up again, *except* for the installation of the SDK -- this only needed to be done once.
+To make sure you have mastered this part of the tutorial:
+* close your terminal, reopen, and make sure you can reconnect with 
+{% highlight bash %}
+gcloud compute ssh instance-1
+{% endhighlight %}
+
+* relaunch the interactive
+{% highlight bash %}
+sudo ./Chiron/bin/phlan_interactive -l ~/data #always be sure to use the '-l ~/data'
+{% endhighlight %}
+
+
+* Go back to the your google cloud account, select the instance you've been working with (checkbox to the left of the instance), and choose 'Delete' from the menu bar.  Make sure you can repeat the whole set-up again, *except* for the installation of the SDK -- this only needed to be done once.
 
 Once you're comfortable with the whole process, you're ready to move on to [part II of this tutorial]()!
 
