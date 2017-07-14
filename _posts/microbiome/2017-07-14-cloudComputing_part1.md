@@ -111,6 +111,16 @@ gcloud compute ssh instance-1 #if your instance is not called 'instance-1', be s
 #Be patient here, as this may take a moment to connect.
 {% endhighlight %}
 
+If the above command failed with an authentication error, it's because this is the first time you've run SDK and it isn't sure that you should have access to your google account from the terminal.  Take a moment to authenticate
+{% highlight bash %}
+gcloud auth login
+#this will open a browser window for you to select and sign-in to your google account
+#after doing this, return to your terminal window and you should be good to go
+#if this doesn't work, you may need to go though the gcloud initialization process by executing 'gcloud init'
+#either way, once you have authenticated your account you will need to reattempt connecting with 'gcloud compute ssh instance-1'
+{% endhighlight %}
+
+
 ## Launch an interactive session with Chiron
 Chiron gives you access to [QIIME](https://qiime2.org/) for processing marker gene sequence data, as well as the [BioBakery suite](https://bitbucket.org/biobakery/biobakery/wiki/browse/) of tools from [Curtis Huttenhower's lab](https://huttenhower.sph.harvard.edu/) for handling shotgun metagenomic sequencing data.  One of the first steps in the BioBakery workflow is using [MetaPhlan2](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html) to get species and strain level composition information from raw sequence files.  This is a logical place for us to start as well.
 
