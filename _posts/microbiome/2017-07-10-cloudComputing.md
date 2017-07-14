@@ -19,7 +19,6 @@ Case-in-point, I recently attended this [Microbiome Analysis in the Cloud](http:
 
 I also want to acknowledge [Joshua Orvis](https://github.com/jorvis), a bioinformatician at IGS and one of workshop instructors.  Without his one-on-one help and his development of Chiron, this tutorial wouldn't be possible.
 
-
 ## Why use the cloud?
 I'm not here to sell you on the idea of cloud computing.  In fact, maybe you should ignore all the buzz about 'the cloud'.  After all, you accrue charges as your cloud instance runs, so failure to shut down a instance could result in some hefty charges.  Some people cite that it's a nussiance to move all your data to the cloud to begin working, only to then have to pull your results off the cloud before you shut it down.  But the same data gymnastics come into play when you use any remote computing resource.  Similarly, folks will often cite the problem that all programs and dependencies needed to carry out your work will have to be installed by you before your cloud instance is useful.  The arrival of [Docker](https://www.docker.com/) (more on this later in the post) has largely made this a non-issue, in my opinion. 
 
@@ -37,7 +36,9 @@ I put together the video tutorial below to walk you through the follow steps:
 * Connecting an FTP client to the instance so you can easily transfer files back and forth.
 * tearing it all down when you're done
 
-I've also included the commands used in the video, below.  
+I've also included the commands used in the video, below the video.
+
+{% include _vimeoPlayer.html id=page.225004073 %}
 
 Once your gcloud instance is running, click on the 'ssh' button beside the instance and you will open a terminal window.  This fast and easy way to connect to your cloud instance is one nice feature of the way gcloud is setup. We'll now use this terminal to install Docker and Chiron.
 
@@ -133,19 +134,21 @@ chown 777 data
 
 
 ## Rinse and repeat
-To make sure you have mastered this part of the tutorial:
-* close your terminal, reopen, and make sure you can reconnect with 
+Go through the steps below to make sure have mastered this tutorial:
+
+close your terminal, reopen, and make sure you can reconnect to your instance with 
 {% highlight bash %}
 gcloud compute ssh instance-1
 {% endhighlight %}
 
-* relaunch the interactive
+relaunch the interactive metaphlan session
 {% highlight bash %}
 sudo ./Chiron/bin/phlan_interactive -l ~/data #always be sure to use the '-l ~/data'
 {% endhighlight %}
 
+Go back to the your google cloud account, select the instance you've been working with (checkbox to the left of the instance), and choose 'Delete' from the menu bar.  
 
-* Go back to the your google cloud account, select the instance you've been working with (checkbox to the left of the instance), and choose 'Delete' from the menu bar.  Make sure you can repeat the whole set-up again, *except* for the installation of the SDK -- this only needed to be done once.
+Make sure you can repeat the whole set-up again, *except* for the installation of the SDK -- this only needed to be done once.
 
 Once you're comfortable with the whole process, you're ready to move on to [part II of this tutorial]()!
 
