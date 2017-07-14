@@ -134,7 +134,6 @@ sudo chgrp danielbeiting data
 chown 777 data
 {% endhighlight %}
 
-
 ## Rinse and repeat
 Go through the steps below to make sure have mastered this tutorial:
 
