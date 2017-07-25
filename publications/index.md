@@ -16,14 +16,20 @@ comments: false
     <span class="pub-journal"><i>BioRxiv</i>. <b></b></span>
 </div>
 
+
+# 2017
+
+<div class="pub">
+    <h3><a href="" target="_new">T Regulatory Cells Maintain Plasma Cell Populations in the Bone Marrow.</a></h3>
+    <span class="pub-authors">Glatman Zaretsky A, Konradt C, Dépis F, Wing JB, Goenka R, Gomez Atria D, Silver JS, Cho S, Wolf AI, Quinn WJ, Engiles JB, Brown DC, <span class="pub-member-author">Beiting DP</span>, Erikson J, Allman D, Cancro MP, Sakaguchi S, Lu L, Benoist CO, Hunter CA </span>
+<span class="pub-journal"><i>Cell Reports</i>. <b>In Press</b></span>
+</div>
+
 <div class="pub">
     <h3><a href="http://biorxiv.org/content/early/2017/03/26/120766" target="_new">Replication Defective Viral Genomes Exploit A Cellular Pro-Survival Mechanism To Establish Viral Persistence.</a></h3>
     <span class="pub-authors">Jie Xu, Yan Sun, Yize Li, Gordon Ruthel, Susan R Weiss, Arjun Raj, <span class="pub-member-author">Daniel Beiting</span>, Carolina Lopez</span>
-<span class="pub-journal"><i>BioRxiv</i>. <b></b></span>
+<span class="pub-journal"><i>Nature Communications</i>. <b>in press; preprint on BioRxiv</b></span>
 </div>
-
-
-# 2017
 
 <div class="pub">
     <h3><a href="" target="_new">An oxidative central metabolism enables Salmonella to utilize microbiota-derived succinate.</a></h3>
@@ -34,13 +40,7 @@ comments: false
 <div class="pub">
     <h3><a href="" target="_new">Cutaneous leishmaniasis induces a transmissible dysbiotic skin microbiome that promotes increased skin inflammation.</a></h3>
        <span class="pub-authors">Gimblet C, Meisel JS, Loesche MA, Cole SD, Horwinski J, Novais FO, Misic AM, Bradley CW, <span class="pub-member-author">Beiting DP</span>, Rankin SC, Carvalho LP, Scott P, Grice EA</span>
-    <span class="pub-journal"><i>manuscript submitted, Sept 29</i>. <b></b></span>
-</div>
-
-<div class="pub">
-    <h3><a href="" target="_new">T Regulatory Cells Maintain Plasma Cell Populations in the Bone Marrow.</a></h3>
-    <span class="pub-authors">Glatman Zaretsky A, Konradt C, Dépis F, Wing JB, Goenka R, Gomez Atria D, Silver JS, Cho S, Wolf AI, Quinn WJ, Engiles JB, Brown DC, <span class="pub-member-author">Beiting DP</span>, Erikson J, Allman D, Cancro MP, Sakaguchi S, Lu L, Benoist CO, Hunter CA </span>
-<span class="pub-journal"><i>Cell Reports</i>. <b>In Press</b></span>
+    <span class="pub-journal"><i>manuscript submitted, Sept 29</i>. <b>July 12, 2017</b></span>
 </div>
 
 <div class="pub">
