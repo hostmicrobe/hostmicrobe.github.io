@@ -40,7 +40,7 @@ comments: false
 <div class="pub">
     <h3><a href="" target="_new">Cutaneous leishmaniasis induces a transmissible dysbiotic skin microbiome that promotes increased skin inflammation.</a></h3>
        <span class="pub-authors">Gimblet C, Meisel JS, Loesche MA, Cole SD, Horwinski J, Novais FO, Misic AM, Bradley CW, <span class="pub-member-author">Beiting DP</span>, Rankin SC, Carvalho LP, Scott P, Grice EA</span>
-    <span class="pub-journal"><i>manuscript submitted, Sept 29</i>. <b>July 12, 2017</b></span>
+    <span class="pub-journal"><i>manuscript submitted, Sept 29</i>. <b>July 12; 2017</b></span>
 </div>
 
 <div class="pub">

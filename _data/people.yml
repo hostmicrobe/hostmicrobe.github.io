@@ -32,13 +32,22 @@
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "I am a freshman studying biology at UPenn who is excited to learn more about research, microbiology, and bioinformatics while gaining lab experience.  My project in the lab is focused on understanding the mechanisms by which intestinal inflammation leads to dysbiosis and severe disease"
 
-- alias: Elaine
-  name: Elaine C. P. De Martinis
-  role: Visiting Professor
-  email: edemarti37@yahoo.com.br
-  avatar: elaine.jpg
+- alias: Shuai
+  name: Shuai Wang
+  role: Visiting Scholar
+  email: wshuai@upenn.edu
+  avatar: shuai.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "I am pharmacist and Ph.D. in Food Sciences and am currently a Visiting Faculty Researcher at UPenn supported by São Paulo Research Foundation, Brazil (BPE - FAPESP).  As an Associate Professor of Pharmaceutical Sciences at the University of São Paulo, Brazil, my main research activities are at the intersection of Microbial Ecology and Food Safety and Health"
+  bio: "My research employs genome sequencing and comparative genomic methods to explore the biology, evolution and host-parasite interface of some medically important parasites. My current study focuses on interactions between host intestinal microbiome and the parasite Toxoplasma gondii"
+
+- alias: Francislon
+  name: Francislon Silva Oliveira
+  role: Ph.D. student; Brazilian 'sandwich' program
+  email: francislon@gmail.com
+  twitter: francislon
+  avatar: francislon.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "Bioinformatics developer and passionate about science. My current research is focused on exploring the microbiome world through new data visualization analysis tools."
 
 - alias: Ying
   name: Ying Chen
