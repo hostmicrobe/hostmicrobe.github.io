@@ -9,13 +9,13 @@
 <div class="pub">
     <h3><a href="" target="_new">Involvement of Innate Immune System in Late Stages of Inherited Photoreceptor Degeneration.</a></h3>
        <span class="pub-authors">Sudharsan R, <span class="pub-member-author">Beiting DP</span>, Aguirre GD, Beltran, WA </span>
-    <span class="pub-journal"><i>submitted to EMBO, May 3</i>. <b></b></span>
+    <span class="pub-journal"><i>in press at Scientific Reports</i>. <b></b></span>
 </div>
 
 <div class="pub">
     <h3><a href="" target="_new">Mining the T. gondii transcriptome: Generalizable strategies for recognizing alternative splicing, stage-specific mRNA and lncRNA expression, and improving genome annotation</a></h3>
     <span class="pub-authors">Diaz-Miranda MA, Bernal A, <span class="pub-member-author">Beiting DP</span>, Dragomir I, Gregory BD, Xia D, Wastling J, Hehl AB, Fritz HM, Boothroyd JC, Brestelli J, Brunk B, and Roos DS</span>
-    <span class="pub-journal"><i>under review at Genome Biology, Dec 22</i>. <b></b></span>
+    <span class="pub-journal"><i>under review at BMC Genomics, Dec 22</i>. <b></b></span>
 </div>
 
 <div class="pub">
