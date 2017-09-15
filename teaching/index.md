@@ -23,7 +23,8 @@ image:
 * __Molecular Mechanisms of Infectious Disease (BIO 406)__ 
 
 
-# Workshops                                                                                                                     
+# Workshops
+* [Using metagenomics to study microbial communities]() - Co-organizer. 4th Annual UPenn Microbiome Symposium, Philadelphia, PA Nov, 2017
 * [Bioinformatic Analysis of Pathogen Gene Expression](http://toxogenomicsworkshop.github.io/) - Co-organizer. 13th International Conference on Toxoplasmosis, Gettysburg, PA June, 2015
 * First West African Regional Workshop on the Cell Biology of Protozoan Pathogens  - Co-organizer and Instructor - July 13-24th, 2009 Accra, Ghana
 * Penn Summer Science Academy (A competitive summer program for academically talented high school students) - Project Leader and Lecturer -  Univ. of Penn. 2009               
