@@ -2,7 +2,7 @@
 layout: post
 authors: [beiting]
 title: "Cloud computing for metagenomics - Part II"
-excerpt: "A step-by-step guide to setting up cloud computing resources and analyzing shotgun metagenomic data, all on your laptop."
+excerpt: "Running MetaPhlAn and GraPhlAn on your cloud instance"
 modified: 2017-09-19
 tags: [metagenomics]
 categories: [microbiome]
@@ -15,7 +15,7 @@ comments: true
 ## Getting started
 We spent [part I](http://hostmicrobe.org/microbiome/cloudComputing_part1/) of this series going over each step involved in setting up a Google Cloud Instance, installing [Docker](https://www.docker.com/) on this instance, and then installing a suite of dockerized metagenomics tools via [Chiron](https://github.com/IGS/Chiron).  If you haven't read part I, please *stop reading* and go back now.  
 
-In this post, we actually get to put all those painstaking steps from Part 1 to good use by employing [MetaPhlAn2]() to go from raw .fastq files to a table of microbial composition.  To really get the most from this tutorial, you'll need some 'real' data, and for that we'll turn an unfortunate series of events that unfolded in the summer of 2015.  UPenn's University Lab Animal Resources (ULAR) group, which oversees all veterinary care and support for research animals on campus, began to notice diarrhea in a few cages of immuno-compromised mice.  If you're not familiar with mouse models for research, there a many genetically engineered mice that lack various immune system components.  The particular mice that fell ill are what we would call NSG and NSGS mice, strains that are effectively devoid of nearly all aspects of the immune system.  Such mice are ideal recipients for xenografts (i.e. human tumor grafts) and critical for understanding cancer biology and therpeutics, but they also pose a real challenge in terms of infection control.  You can probably guess where this is going.  Despite the strictest precautions, what started out as a few cages of sick mice quickly became an outbreak of diarrheal disease, eventually decimating the entire suite.
+In this post, we actually get to put all those painstaking steps from Part 1 to good use by employing [MetaPhlAn2]() to go from raw .fastq files to a table of microbial composition.  To get the most from this tutorial, you'll need some 'real' data, and for that we'll turn an unfortunate series of events that unfolded in the summer of 2015.  UPenn's University Lab Animal Resources (ULAR) group, which oversees all veterinary care and support for research animals on campus, began to notice diarrhea in a few cages of immuno-compromised mice.  If you're not familiar with mouse models for research, there a many genetically engineered mice that lack various immune system components.  The particular mice that fell ill are what we would call NSG and NSGS mice, strains that are effectively devoid of nearly all aspects of the immune system.  Such mice are ideal recipients for xenografts (i.e. human tumor grafts) and critical for understanding cancer biology and therpeutics, but they also pose a real challenge in terms of infection control.  You can probably guess where this is going.  Despite the strictest precautions, what started out as a few cages of sick mice quickly became an outbreak of diarrheal disease, eventually decimating the entire suite.
 
 After extenisve molecular and culture-based diagnostics turned up negative, we were asked whether microbiome profiling might be able to identify putative organisms associated with the outbreak.  Given that the causative agent could be bacterial, viral or something else entirely, we opted to carry out 'shotgun' metagenomic profiling of stool samples obtained from affected mice and controls.  To start this tutorial, you'll want to download that data [here](https://www.dropbox.com/sh/kznl838218eozdk/AAA1DECGgb0SHBXLeEBjFsMEa?dl=0).  A few things to take note of:
 - there are 8 .fastq files total.  Download them all, and it doesn't matter where you put them on your computer
@@ -49,7 +49,7 @@ Now let's merge all 8 of the profile.txt output files to create a single analysi
 merge_metaphlan_tables.py *_profile.txt > merged_abundance_table.txt
 {% endhighlight %}
 
-Now you have a single file {% highlight bash %} merged_abundance_table.txt {% endhighlight %} which contains a breakdown of all the taxa present in all of your samples.
+Now you have a single file *merged_abundance_table.txt* which contains a breakdown of all the taxa present in all of your samples.
 
 
 ## visualize your result
