@@ -27,14 +27,14 @@ After extenisve molecular and culture-based diagnostics turned up negative, we w
 **The goal of this tutorial is to use cloud-based metagenomics to identify organisms associated with this devastating outbreak.** 
 
 ## Running MetaPhlAn2
-Back in Part I of this series, you launched an interactive MetaPhlAn2 session and used the -l option to create a folder called {% highlight bash %} data {% endhighlight %}.  You'll want to make sure to fire up this interactive session again
+Back in Part I of this series, you launched an interactive MetaPhlAn2 session and used the -l option to create a folder called *data*.  You'll want to make sure to fire up this interactive session again
 {% highlight bash %}
 sudo ./Chiron/bin/phlan_interactive -l ~/data
 #the -l option tells the interactive to create a new folder in our home directory called 'data', and sets this folder as the default from which data will be read and to which outputs will be saved 
 #This is where we'll put all our raw sequence data for analysis
 {% endhighlight %}
 
-Using FileZilla, transfer these files from your computer to the 'data' folder on your cloud instance.  If your confused about how to do this, you may want to go back and watch [my video](http://hostmicrobe.org/microbiome/cloudComputing_part1/#fire-up-your-cloud-computer) on how to connect use and FTP client to transfer files to the cloud
+Using FileZilla, transfer these files from your computer to the *data* folder on your cloud instance.  If your confused about how to do this, you may want to go back and watch [my video](http://hostmicrobe.org/microbiome/cloudComputing_part1/#fire-up-your-cloud-computer) on how to connect use and FTP client to transfer files to the cloud
 
 Now that you have everything in place, let's run MetaPhlAn2 on one sample using a single line of code
 {% highlight bash %}
@@ -52,7 +52,7 @@ merge_metaphlan_tables.py *_profile.txt > merged_abundance_table.txt
 Now you have a single file *merged_abundance_table.txt* which contains a breakdown of all the taxa present in all of your samples.
 
 
-## visualize your result
+## Visualizing your results
 Now you'll use [regular expressions]() to parse this file, and create a new file that only lists abundance for species
 {% highlight bash %}
 grep -E "(s__)|(^ID)" merged_abundance_table.txt | grep -v "t__" | sed 's/^.*s__//g' > merged_abundance_table_species.txt
@@ -71,7 +71,7 @@ graphlan_annotate.py --annot annot1.txt tree.txt tree1.xml
 graphlan.py tree1.xml tree1.png --dpi 150
 {% endhighlight %}
 
-Let's clean the taxonomy by removing taxon, "_noname", and "_unclassified"
+Let's clean the taxonomy by removing taxon, *_noname*, and *_unclassified*
 {% highlight bash %}
 grep -v "t__" merged_abundance_table.txt | sed 's/_noname//g' | sed 's/_unclassified//g' > merged_abundance_table_clean.txt
 {% endhighlight %}
@@ -123,6 +123,6 @@ graphlan_annotate.py --annot annot3.txt tree_clean2.xml tree_clean3.xml
 graphlan.py tree_clean3.xml tree_clean3.png --dpi 150
 {% endhighlight %}
 
-## Automate
+## Automate your workflow
 
 

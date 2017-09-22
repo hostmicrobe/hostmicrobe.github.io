@@ -2,7 +2,7 @@
 layout: post
 authors: [beiting]
 title: "Cloud computing for metagenomics - Part I"
-excerpt: "A step-by-step guide to setting up cloud computing resources and analyzing shotgun metagenomic data, all on your laptop."
+excerpt: "A step-by-step guide to setting up cloud computing resources and for analyzing metagenomic data."
 modified: 2017-07-14
 tags: [metagenomics]
 categories: [microbiome]
