@@ -160,5 +160,5 @@ Go back to the your google cloud account, select the instance you've been workin
 
 Make sure you can repeat the whole set-up again, *except* for the installation of the SDK -- this only needed to be done once.
 
-Once you're comfortable with the whole process, you're ready to move on to [part II of this tutorial](http://hostmicrobe.org/microbiome/2017-09-19-cloudComputing_part2.md/)!
+Once you're comfortable with the whole process, you're ready to move on to [part II of this tutorial](http://hostmicrobe.org/microbiome/cloudComputing_part2/)!
 
