@@ -67,7 +67,7 @@ You're now ready to use MetaPhlAn to create a heatmap of these species
 hclust2.py -i merged_abundance_table_species.txt -o abundance_heatmap_species.png --ftop 25 --f_dist_f braycurtis --s_dist_f braycurtis --cell_aspect_ratio 0.5 -l --flabel_size 6 --slabel_size 6 --max_flabel_len 100 --max_slabel_len 100 --minv 0.1 --dpi 300
 {% endhighlight %}
 
-![Alt text](http://hostmicrobe.github.io/images/abundance_heatmap_species.png "Optional title")
+![Alt text](http://hostmicrobe.github.io/images/abundance_heatmap_species.png)
 
 While heatmaps are a great way to visualize changes in the abundance of taxa across treatment groups, they don't preserve the taxonomic relationship between taxa.  For that, we'll use another tool from the Huttenhower lab, [GraPhlAn](https://huttenhower.sph.harvard.edu/graphlan)
 {% highlight bash %}
@@ -75,6 +75,8 @@ export2graphlan.py -i merged_abundance_table.txt -t tree.txt -a annot1.txt --ski
 graphlan_annotate.py --annot annot1.txt tree.txt tree1.xml
 graphlan.py tree1.xml tree1.png --dpi 150
 {% endhighlight %}
+
+![Alt text](http://hostmicrobe.github.io/images/tree1.png)
 
 Let's clean the taxonomy by removing taxon, *_noname*, and *_unclassified*
 {% highlight bash %}
@@ -89,12 +91,16 @@ graphlan_annotate.py --annot annot1.txt tree.txt tree_clean1.xml
 graphlan.py tree_clean1.xml tree_clean1.png --dpi 150
 {% endhighlight %}
 
+![Alt text](http://hostmicrobe.github.io/images/tree_clean1.png)
+
 redo the graphic again, this time with annotations
 {% highlight bash %}
 export2graphlan.py -i merged_abundance_table_clean.txt -t tree.txt -a annot2.txt --skip_rows 1 --most_abundant 50 --annotations 2,3,4,5,6 --external_annotations 7 --title "MetaPhlAn2 taxonomic results"
 graphlan_annotate.py --annot annot2.txt tree.txt tree_clean2.xml
 graphlan.py tree_clean2.xml tree_clean2.png --dpi 150
 {% endhighlight %}
+
+![Alt text](http://hostmicrobe.github.io/images/tree_clean2.png)
 
 redo the graphic again, this time with annotations
 {% highlight bash %}
@@ -127,6 +133,8 @@ IFS=$OLDIFS
 graphlan_annotate.py --annot annot3.txt tree_clean2.xml tree_clean3.xml
 graphlan.py tree_clean3.xml tree_clean3.png --dpi 150
 {% endhighlight %}
+
+![Alt text](http://hostmicrobe.github.io/images/tree_clean3.png)
 
 ## Automate your workflow
 
