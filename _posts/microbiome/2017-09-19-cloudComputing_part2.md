@@ -15,14 +15,15 @@ comments: true
 ## Getting started
 We spent [part I](http://hostmicrobe.org/microbiome/cloudComputing_part1/) of this series going over each step involved in setting up a Google Cloud Instance, installing [Docker](https://www.docker.com/) on this instance, and then installing a suite of dockerized metagenomics tools via [Chiron](https://github.com/IGS/Chiron).  If you haven't read part I, please *stop reading* and go back now.  
 
-In this post, we actually get to put all those painstaking steps from Part 1 to good use by employing [MetaPhlAn2]() to go from raw .fastq files to a table of microbial composition.  To get the most from this tutorial, you'll need some 'real' data, and for that we'll turn an unfortunate series of events that unfolded in the summer of 2015.  UPenn's University Lab Animal Resources (ULAR) group, which oversees all veterinary care and support for research animals on campus, began to notice diarrhea in a few cages of immuno-compromised mice.  If you're not familiar with mouse models for research, there a many genetically engineered mice that lack various immune system components.  The particular mice that fell ill are what we would call NSG and NSGS mice, strains that are effectively devoid of nearly all aspects of the immune system.  Such mice are ideal recipients for xenografts (i.e. human tumor grafts) and critical for understanding cancer biology and therpeutics, but they also pose a real challenge in terms of infection control.  You can probably guess where this is going.  Despite the strictest precautions, what started out as a few cages of sick mice quickly became an outbreak of diarrheal disease, eventually decimating the entire suite.
+In this post, we actually get to put all those painstaking steps from Part 1 to good use by employing [MetaPhlAn2](http://hostmicrobe.github.io/myPapers/metaphlan2.pdf) to go from raw .fastq files to a table of microbial composition.  To get the most from this tutorial, you'll need some 'real' data, and for that we'll turn an unfortunate series of events that unfolded in the summer of 2015.  UPenn's University Lab Animal Resources (ULAR) group, which oversees all veterinary care and support for research animals on campus, began to notice diarrhea in a few cages of immuno-compromised mice.  If you're not familiar with mouse models for research, there a many genetically engineered mice that lack various immune system components.  The particular mice that fell ill are what we would call NSG and NSGS mice, strains that are effectively devoid of nearly all aspects of the immune system.  Such mice are ideal recipients for xenografts (i.e. human tumor grafts) and critical for understanding cancer biology and therpeutics, but they also pose a real challenge in terms of infection control.  You can probably guess where this is going.  Despite the strictest precautions, what started out as a few cages of sick mice quickly became an outbreak of diarrheal disease, eventually decimating the entire suite.
 
 After extenisve molecular and culture-based diagnostics turned up negative, we were asked whether microbiome profiling might be able to identify putative organisms associated with the outbreak.  Given that the causative agent could be bacterial, viral or something else entirely, we opted to carry out 'shotgun' metagenomic profiling of stool samples obtained from affected mice and controls.  To start this tutorial, you'll want to download that data [here](https://www.dropbox.com/sh/kznl838218eozdk/AAA1DECGgb0SHBXLeEBjFsMEa?dl=0).  A few things to take note of:
-- there are 8 .fastq files total.  Download them all, and it doesn't matter where you put them on your computer
-- you'll need about 15Gb of space on your harddrive to store these files 
+- there are 6 .fastq files total.  Download them all, and it doesn't matter where you put them on your computer
+- Files have been subsampled to 1 million reads each using [seqtk](https://github.com/lh3/seqtk), so that this tutorial moves more quickly
+- you'll need about 2Gb of space on your harddrive to store these files 
 - each file contains sequence reads from the stool of 1 mouse.
 - each file is gzip'd (ends in .gz).  This is a compression format.  *Do not* unzip the files after you've downloaded them
-- There are 4 files from control mice and 4 from affected.  This will be obvious from the file names 
+- There are 3 files from control mice and 3 from affected.  This will be obvious from the file names 
 
 **The goal of this tutorial is to use cloud-based metagenomics to identify organisms associated with this devastating outbreak.** 
 
@@ -36,7 +37,9 @@ sudo ./Chiron/bin/phlan_interactive -l ~/data
 
 Using FileZilla, transfer these files from your computer to the *data* folder on your cloud instance.  If your confused about how to do this, you may want to go back and watch [my video](http://hostmicrobe.org/microbiome/cloudComputing_part1/#fire-up-your-cloud-computer) on how to connect use and FTP client to transfer files to the cloud
 
-Now that you have everything in place, let's run MetaPhlAn2 on one sample using a single line of code
+Now that you have everything in place, you need to naviagte the *output* folder using within the MetaPhlAn interactive by using `cd output`.  This is where all your files that were placed in the data folder will be available to you while your running an interactive program.
+
+let's run MetaPhlAn2 on one sample using a single line of code.
 {% highlight bash %}
 metaphlan2.py Control7_merged_trimmed.fastq.gz --input_type fastq --nproc 8 > Control7_profile.txt
 #the --nproc option lets us choose the number of processors we'd like to use for this job
@@ -44,7 +47,7 @@ metaphlan2.py Control7_merged_trimmed.fastq.gz --input_type fastq --nproc 8 > Co
 
 Once this is done running, take a look at the resulting output file that contains all the taxa identified in a sample  You can now modify the input and output to analyze each sample.  There's a more efficient way to do this, using something called a shell script to automate the analysis of all your .fastq files.  We'll come back to this idea at the end of the tutorial.
 
-Now let's merge all 8 of the profile.txt output files to create a single analysis output file
+Now let's merge all 6 of the profile.txt output files to create a single analysis output file
 {% highlight bash %}
 merge_metaphlan_tables.py *_profile.txt > merged_abundance_table.txt
 {% endhighlight %}
@@ -63,6 +66,8 @@ You're now ready to use MetaPhlAn to create a heatmap of these species
 {% highlight bash %}
 hclust2.py -i merged_abundance_table_species.txt -o abundance_heatmap_species.png --ftop 25 --f_dist_f braycurtis --s_dist_f braycurtis --cell_aspect_ratio 0.5 -l --flabel_size 6 --slabel_size 6 --max_flabel_len 100 --max_slabel_len 100 --minv 0.1 --dpi 300
 {% endhighlight %}
+
+![Alt text](http://hostmicrobe.github.io/images/abundance_heatmap_species.png "Optional title")
 
 While heatmaps are a great way to visualize changes in the abundance of taxa across treatment groups, they don't preserve the taxonomic relationship between taxa.  For that, we'll use another tool from the Huttenhower lab, [GraPhlAn](https://huttenhower.sph.harvard.edu/graphlan)
 {% highlight bash %}
