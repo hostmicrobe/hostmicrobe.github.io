@@ -102,7 +102,7 @@ graphlan.py tree_clean2.xml tree_clean2.png --dpi 150
 
 ![Alt text](http://hostmicrobe.github.io/images/tree_clean2.png)
 
-redo the graphic again, this time with annotations
+plot the graphic once more, this time spread out 360 degrees
 {% highlight bash %}
 echo -e "total_plotted_degrees\t330" > annot3.txt
 echo -e "start_rotation\t270" >> annot3.txt

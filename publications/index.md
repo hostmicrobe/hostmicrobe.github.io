@@ -32,15 +32,15 @@ comments: false
 </div>
 
 <div class="pub">
-    <h3><a href="http://biorxiv.org/content/early/2017/03/26/120766" target="_new">Replication Defective Viral Genomes Exploit A Cellular Pro-Survival Mechanism To Establish Viral Persistence.</a></h3>
+    <h3><a href="https://www.nature.com/articles/s41467-017-00909-6" target="_new">Replication Defective Viral Genomes Exploit A Cellular Pro-Survival Mechanism To Establish Viral Persistence.</a></h3>
     <span class="pub-authors">Jie Xu, Yan Sun, Yize Li, Gordon Ruthel, Susan R Weiss, Arjun Raj, <span class="pub-member-author">Daniel Beiting</span>, Carolina Lopez</span>
-<span class="pub-journal"><i>Nature Communications</i>. <b>in press; preprint on BioRxiv</b></span>
+<span class="pub-journal"><i>Nature Communications</i>. <b>Oct 6; 2017</b></span>
 </div>
 
 <div class="pub">
     <h3><a href="http://hostmicrobe.github.io/myPapers/Winter_Salmonella.pdf" target="_new">An oxidative central metabolism enables Salmonella to utilize microbiota-derived succinate.</a></h3>
        <span class="pub-authors">Spiga L, Winter MG, Furtado de Carvalho T, Zhu W, Hughes ER, Gillis CC, Chanin R, Behrendt CL, Kim J, Chessa D, Andrews-Polymenis H, <span class="pub-member-author">Beiting DP</span>, Santos RL, Hooper LV, Winter SE</span>
-    <span class="pub-journal"><i>Cell Host and Microbe</i>. <b>in press</b></span>
+    <span class="pub-journal"><i>Cell Host and Microbe</i>. <b>Sept 13; 2017</b></span>
 </div>
 
 <div class="pub">
