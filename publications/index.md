@@ -26,12 +26,6 @@ comments: false
 # 2017
 
 <div class="pub">
-    <h3><a href="" target="_new">T Regulatory Cells Maintain Plasma Cell Populations in the Bone Marrow.</a></h3>
-    <span class="pub-authors">Glatman Zaretsky A, Konradt C, Dépis F, Wing JB, Goenka R, Gomez Atria D, Silver JS, Cho S, Wolf AI, Quinn WJ, Engiles JB, Brown DC, <span class="pub-member-author">Beiting DP</span>, Erikson J, Allman D, Cancro MP, Sakaguchi S, Lu L, Benoist CO, Hunter CA </span>
-<span class="pub-journal"><i>Cell Reports</i>. <b>In Press</b></span>
-</div>
-
-<div class="pub">
     <h3><a href="https://www.nature.com/articles/s41467-017-00909-6" target="_new">Replication Defective Viral Genomes Exploit A Cellular Pro-Survival Mechanism To Establish Viral Persistence.</a></h3>
     <span class="pub-authors">Jie Xu, Yan Sun, Yize Li, Gordon Ruthel, Susan R Weiss, Arjun Raj, <span class="pub-member-author">Daniel Beiting</span>, Carolina Lopez</span>
 <span class="pub-journal"><i>Nature Communications</i>. <b>Oct 6; 2017</b></span>
@@ -53,6 +47,12 @@ comments: false
     <h3><a href="http://hostmicrobe.github.io/myPapers/Eldin_SciRep_2017.pdf" target="_new">Stress during pregnancy alters temporal and spatial dynamics of the maternal and offspring microbiome in a sex-specific manner</a></h3>
     <span class="pub-authors">Jašarević E, Howard CD, Misic AM, <span class="pub-member-author">Beiting DP</span>, and Bale TL</span>
     <span class="pub-journal"><i>Scientific Reports</i>. <b>Mar 7; 2017</b></span>
+</div>
+
+<div class="pub">
+    <h3><a href="http://www.cell.com/cell-reports/fulltext/S2211-1247(17)30137-7" target="_new">T Regulatory Cells Support Plasma Cell Populations in the Bone Marrow.</a></h3>
+    <span class="pub-authors">Glatman Zaretsky A, Konradt C, Dépis F, Wing JB, Goenka R, Gomez Atria D, Silver JS, Cho S, Wolf AI, Quinn WJ, Engiles JB, Brown DC, <span class="pub-member-author">Beiting DP</span>, Erikson J, Allman D, Cancro MP, Sakaguchi S, Lu L, Benoist CO, Hunter CA </span>
+<span class="pub-journal"><i>Cell Reports</i>. <b>Feb 21; 2017</b></span>
 </div>
 
 <div class="pub">
