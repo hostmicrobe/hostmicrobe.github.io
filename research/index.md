@@ -7,7 +7,7 @@ comments: false
 
 {% include _toc.html %}
 
-{:.notice} Detailed experimental procotols are available on our SOP page [here](https://CHMI-sops.github.io)
+### Detailed experimental procotols are available on our SOP page [here](https://CHMI-sops.github.io)
 
 ## Gene regulation in host defense
 
