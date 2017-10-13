@@ -7,6 +7,8 @@ comments: false
 
 {% include _toc.html %}
 
+{:.notice} Detailed experimental procotols are available on our SOP page [here](https://CHMI-sops.github.io)
+
 ## Gene regulation in host defense
 
 <div style="height: 200px; width: 160px; float: left; padding-right: 20px;">
