@@ -11,19 +11,18 @@ comments: false
 # Preprints
 
 <div class="pub">
-    <h3><a href="http://www.biorxiv.org/content/early/2017/08/16/176784" target="_new">MicrobiomeDB: a systems biology platform for integrating, mining and analyzing microbiome experiments</a></h3>
-    <span class="pub-authors">Francislon Silva de Oliveira, John Brestelli, Shon Cade, Jie Zheng, John Iodice, Steve Fisher, Cristina Aurrecoechea, Jessica C Kissinger, Brian P Brunk, Christian J Stoeckert Jr., Gabriel R Fernandes, David Roos, <span class="pub-member-author">Beiting DP</span></span>
-    <span class="pub-journal"><i>BioRxiv</i>. <b></b></span>
-</div>
-
-<div class="pub">
     <h3><a href="http://www.biorxiv.org/content/biorxiv/early/2017/06/27/156455" target="_new">Aging-associated dysbiosis increases susceptibility to enteric viral infection in Drosophila</a></h3>
     <span class="pub-authors">Christine Sansone, Johnathan Cohen, Beth Gold, Wehan Zhu, Ana M. Misic, <span class="pub-member-author">Beiting DP</span>, Sebastian E. Winter, Sara Cherry</span>
     <span class="pub-journal"><i>BioRxiv</i>. <b></b></span>
 </div>
 
-
 # 2017
+
+<div class="pub">
+    <h3><a href="http://www.biorxiv.org/content/early/2017/08/16/176784" target="_new">MicrobiomeDB: a systems biology platform for integrating, mining and analyzing microbiome experiments</a></h3>
+    <span class="pub-authors">Francislon Silva de Oliveira, John Brestelli, Shon Cade, Jie Zheng, John Iodice, Steve Fisher, Cristina Aurrecoechea, Jessica C Kissinger, Brian P Brunk, Christian J Stoeckert Jr., Gabriel R Fernandes, David Roos, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-journal"><i>BioRxiv</i>. <b>In press; Nucleic Acids Research</b></span>
+</div>
 
 <div class="pub">
     <h3><a href="https://www.nature.com/articles/s41467-017-00909-6" target="_new">Replication Defective Viral Genomes Exploit A Cellular Pro-Survival Mechanism To Establish Viral Persistence.</a></h3>
