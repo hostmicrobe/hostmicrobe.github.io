@@ -14,17 +14,19 @@ comments: true
 ## Before starting
 Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data -- which culminated in a two part blog post [here](http://hostmicrobe.org/microbiome/cloudComputing_part1/) and [here](http://hostmicrobe.org/microbiome/cloudComputing_part2/) -- [Kyle Bittinger](https://microbiome.research.chop.edu/our-team/kyle-bittinger.html) and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to team-up to put on a 1/2 day workshop that would combine these elements.  
 
+The material below is intended to walk you through this workshop, and provide others with a web-based lesson plan for how do this themselves.  
+
 To participate in this workshop, you'll only need a few things:
 * a laptop computer
 * an internet connection
 * a google account (free)
 * [a google cloud account](https://cloud.google.com) (free sign-up and $300 credit)
-* example data that you can [download here](). This dataset will be explained in more detail during the workshop, but is also described [here](http://hostmicrobe.org/microbiome/cloudComputing_part2/)
+* example data that you can [download here](https://www.dropbox.com/sh/dqo9gfawyrnan3r/AADBohOlcnlsyl2VKBtzTGF3a?dl=0). This dataset will be explained in more detail during the workshop, but is also described [here](http://hostmicrobe.org/microbiome/cloudComputing_part2/)
 
 
 ## Launch the Google Cloud instance 
 
-We'll begin the workshop with a demonstration of how to launch your first Google Cloud instance.  We'll then connect to this instance with the click-of-a-button via gcloud SSH.  Once we're connected, we will all be using exactly the same type of computer with the same operating system, regardless of your local machine and OS.
+We'll begin the workshop with a demonstration of how to launch your first Google Cloud instance.  We'll then connect to this instance via the gcloud SSH button.  Once connected, we're all using exactly the same type of computer with the same operating system, regardless of your local machine and OS.
 
 ## Installing the Sunbeam metagenomics pipeline
 
@@ -35,7 +37,7 @@ After launching, we need to install some system programs on the computer.  For t
 sudo apt-get install unzip xvfb xdotool libxrender1 libxi6
 ```
 
-We'll download the [Sunbeam software](https://github.com/eclarke/sunbeam) from GitHub, where it is distributed.
+We'll download the [Sunbeam software](https://github.com/eclarke/sunbeam) from GitHub, where it is distributed.  **Again, this is a new pipeline from Kyle's group, and he'll spend substantial time during the workshop talking about what is happening under the hood as we run Sunbeam.**  We'll also briefly discuss why this pipeline was created with [Snakemake](http://snakemake.readthedocs.io/en/stable/) and uses a [Conda environment](https://conda.io/docs/).
 
 ```bash
 wget https://github.com/eclarke/sunbeam/archive/master.zip
