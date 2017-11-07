@@ -2,7 +2,7 @@
 layout: post
 authors: [Beiting]
 title: "Cloud computing for metagenomics - 4hr workshop"
-excerpt: "This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Oct 8th, uses cloud compute resources and a Snakemake-based pipeline for analysis of shotgun metagenomic data"
+excerpt: "This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Nov 8th, uses cloud compute resources and a Snakemake-based pipeline called Sunbeam for analysis of shotgun metagenomic data"
 modified: 2017-11-06
 tags: [metagenomics]
 categories: [microbiome]
