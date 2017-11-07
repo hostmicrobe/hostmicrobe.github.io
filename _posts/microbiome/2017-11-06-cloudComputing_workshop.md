@@ -12,16 +12,16 @@ comments: true
 {% include _toc.html %}
 
 ## Before starting
-Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data -- which culminated in a two part blog post [here](http://hostmicrobe.org/microbiome/cloudComputing_part1/) and [here](http://hostmicrobe.org/microbiome/cloudComputing_part2/) -- [Kyle Bittinger](https://microbiome.research.chop.edu/our-team/kyle-bittinger.html) and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to team-up to put on a 1/2 day workshop that would combine these elements.  
+Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data -- which culminated in a two part blog post [here](http://hostmicrobe.org/microbiome/cloudComputing_part1/) and [here](http://hostmicrobe.org/microbiome/cloudComputing_part2/) -- [Kyle Bittinger](https://microbiome.research.chop.edu/our-team/kyle-bittinger.html) and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to join forces to host a 1/2 day workshop that would combine these elements.  
 
-The material below is intended to walk you through this workshop, and provide others with a web-based lesson plan for how do this themselves.  
+The material below is intended to walk you through this workshop, and provide a general web-based lesson plan for how one might conduct such a workshop.  
 
 To participate in this workshop, you'll only need a few things:
 * a laptop computer
 * an internet connection
 * a google account (free)
 * [a google cloud account](https://cloud.google.com) (free sign-up and $300 credit)
-* example data that you can [download here](https://www.dropbox.com/sh/dqo9gfawyrnan3r/AADBohOlcnlsyl2VKBtzTGF3a?dl=0). This dataset will be explained in more detail during the workshop, but is also described [here](http://hostmicrobe.org/microbiome/cloudComputing_part2/)
+* example data that you can [download here](https://upenn.box.com/shared/static/q7tje8tzs2y73ns46qvrjm6ehuz7j0sc.zip). This dataset will be explained in more detail during the workshop, but is also described [here](http://hostmicrobe.org/microbiome/cloudComputing_part2/)
 
 
 ## Launch the Google Cloud instance 
