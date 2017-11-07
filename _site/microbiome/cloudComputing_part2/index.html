@@ -1,0 +1,374 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Cloud computing for metagenomics - Part II &#8211; Home</title>
+<meta name="description" content="Running MetaPhlAn and GraPhlAn on your cloud instance">
+<meta name="keywords" content="metagenomics">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Cloud computing for metagenomics - Part II">
+<meta name="twitter:description" content="Running MetaPhlAn and GraPhlAn on your cloud instance">
+<meta name="twitter:site" content="@hostmicrobe">
+<meta name="twitter:creator" content="@hostmicrobe">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cloud computing for metagenomics - Part II">
+<meta property="og:description" content="Running MetaPhlAn and GraPhlAn on your cloud instance">
+<meta property="og:url" content="http://localhost:4000/microbiome/cloudComputing_part2/">
+<meta property="og:site_name" content="Home">
+
+<meta name="google-site-verification" content="x_a2aVtoLyANByc9VDBjyPm80IlGbNYUm4Vr1tSRhi0" />
+
+
+<link rel="canonical" href="http://localhost:4000/microbiome/cloudComputing_part2/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Home Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="x_a2aVtoLyANByc9VDBjyPm80IlGbNYUm4Vr1tSRhi0" />
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<a name="top"></a>
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000/">Home</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+				    <li><a href="http://localhost:4000/research/"  >Research</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/publications/"  >Publications</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/teaching/"  >Teaching</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/people/"  >People</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/press/"  >Press</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/posts/"  >Blog</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    <div>
+  <p><a href="http://www.vet.upenn.edu/CHMI"><img src="http://localhost:4000/images/CHMI_logo.png" style="border: none;" width="200"></a>
+  <p><a href="http://www.microbiomedb.org/"><img src="http://localhost:4000/images/MicrobiomeDB_logo.png" style="border: none;" width="200"></a>
+</div>
+
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1 ><a href="http://localhost:4000/microbiome/cloudComputing_part2/" rel="bookmark" title="Cloud computing for metagenomics - Part II">Cloud computing for metagenomics - Part II</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+
+    
+        
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+    <div id="articlecontent"><section id="table-of-contents" class="toc">
+  <header>
+    <h3><i class="fa fa-book"></i> Table of Contents</h3>
+  </header>
+<div id="drawer">
+<ul id="markdown-toc">
+  <li><a href="#getting-started" id="markdown-toc-getting-started">Getting started</a></li>
+  <li><a href="#running-metaphlan2" id="markdown-toc-running-metaphlan2">Running MetaPhlAn2</a></li>
+  <li><a href="#visualizing-your-results" id="markdown-toc-visualizing-your-results">Visualizing your results</a></li>
+  <li><a href="#automate-your-workflow" id="markdown-toc-automate-your-workflow">Automate your workflow</a></li>
+</ul>
+
+  </div>
+</section>
+<!-- /#table-of-contents -->
+
+<h2 id="getting-started">Getting started</h2>
+<p>We spent <a href="http://hostmicrobe.org/microbiome/cloudComputing_part1/">part I</a> of this series going over each step involved in setting up a Google Cloud Instance, installing <a href="https://www.docker.com/">Docker</a> on this instance, and then installing a suite of dockerized metagenomics tools via <a href="https://github.com/IGS/Chiron">Chiron</a>.  If you haven’t read part I, please <em>stop reading</em> and go back now.</p>
+
+<p>In this post, we actually get to put all those painstaking steps from Part 1 to good use by employing <a href="http://hostmicrobe.github.io/myPapers/metaphlan2.pdf">MetaPhlAn2</a> to go from raw .fastq files to a table of microbial composition.  To get the most from this tutorial, you’ll need some ‘real’ data, and for that we’ll turn an unfortunate series of events that unfolded in the summer of 2015.  UPenn’s University Lab Animal Resources (ULAR) group, which oversees all veterinary care and support for research animals on campus, began to notice diarrhea in a few cages of immuno-compromised mice.  If you’re not familiar with mouse models for research, there a many genetically engineered mice that lack various immune system components.  The particular mice that fell ill are what we would call NSG and NSGS mice, strains that are effectively devoid of nearly all aspects of the immune system.  Such mice are ideal recipients for xenografts (i.e. human tumor grafts) and critical for understanding cancer biology and therpeutics, but they also pose a real challenge in terms of infection control.  You can probably guess where this is going.  Despite the strictest precautions, what started out as a few cages of sick mice quickly became an outbreak of diarrheal disease, eventually decimating the entire suite.</p>
+
+<p>After extenisve molecular and culture-based diagnostics turned up negative, we were asked whether microbiome profiling might be able to identify putative organisms associated with the outbreak.  Given that the causative agent could be bacterial, viral or something else entirely, we opted to carry out ‘shotgun’ metagenomic profiling of stool samples obtained from affected mice and controls.  To start this tutorial, you’ll want to download that data <a href="https://www.dropbox.com/sh/kznl838218eozdk/AAA1DECGgb0SHBXLeEBjFsMEa?dl=0">here</a>.  A few things to take note of:</p>
+<ul>
+  <li>there are 6 .fastq files total.  Download them all, and it doesn’t matter where you put them on your computer</li>
+  <li>Files have been subsampled to 1 million reads each using <a href="https://github.com/lh3/seqtk">seqtk</a>, so that this tutorial moves more quickly</li>
+  <li>you’ll need about 2Gb of space on your harddrive to store these files</li>
+  <li>each file contains sequence reads from the stool of 1 mouse.</li>
+  <li>each file is gzip’d (ends in .gz).  This is a compression format.  <em>Do not</em> unzip the files after you’ve downloaded them</li>
+  <li>There are 3 files from control mice and 3 from affected.  This will be obvious from the file names</li>
+</ul>
+
+<p><strong>The goal of this tutorial is to use cloud-based metagenomics to identify organisms associated with this devastating outbreak.</strong></p>
+
+<h2 id="running-metaphlan2">Running MetaPhlAn2</h2>
+<p>Back in Part I of this series, you launched an interactive MetaPhlAn2 session and used the -l option to create a folder called <em>data</em>.  You’ll want to make sure to fire up this interactive session again</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo</span> ./Chiron/bin/phlan_interactive <span class="nt">-l</span> ~/data
+<span class="c">#the -l option tells the interactive to create a new folder in our home directory called 'data', and sets this folder as the default from which data will be read and to which outputs will be saved </span>
+<span class="c">#This is where we'll put all our raw sequence data for analysis</span></code></pre></figure>
+
+<p>Using FileZilla, transfer these files from your computer to the <em>data</em> folder on your cloud instance.  If your confused about how to do this, you may want to go back and watch <a href="http://hostmicrobe.org/microbiome/cloudComputing_part1/#fire-up-your-cloud-computer">my video</a> on how to connect use and FTP client to transfer files to the cloud</p>
+
+<p>Now that you have everything in place, you need to naviagte the <em>output</em> folder using within the MetaPhlAn interactive by using <code class="highlighter-rouge">cd output</code>.  This is where all your files that were placed in the data folder will be available to you while your running an interactive program.</p>
+
+<p>let’s run MetaPhlAn2 on one sample using a single line of code.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">metaphlan2.py Control7_merged_trimmed.fastq.gz <span class="nt">--input_type</span> fastq <span class="nt">--nproc</span> 8 <span class="o">&gt;</span> Control7_profile.txt
+<span class="c">#the --nproc option lets us choose the number of processors we'd like to use for this job</span></code></pre></figure>
+
+<p>Once this is done running, take a look at the resulting output file that contains all the taxa identified in a sample  You can now modify the input and output to analyze each sample.  There’s a more efficient way to do this, using something called a shell script to automate the analysis of all your .fastq files.  We’ll come back to this idea at the end of the tutorial.</p>
+
+<p>Now let’s merge all 6 of the profile.txt output files to create a single analysis output file</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">merge_metaphlan_tables.py <span class="k">*</span>_profile.txt <span class="o">&gt;</span> merged_abundance_table.txt</code></pre></figure>
+
+<p>Now you have a single file <em>merged_abundance_table.txt</em> which contains a breakdown of all the taxa present in all of your samples.</p>
+
+<h2 id="visualizing-your-results">Visualizing your results</h2>
+<p>Now you’ll use <a href="">regular expressions</a> to parse this file, and create a new file that only lists abundance for species</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">grep</span> <span class="nt">-E</span> <span class="s2">"(s__)|(^ID)"</span> merged_abundance_table.txt | <span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"t__"</span> | sed <span class="s1">'s/^.*s__//g'</span> <span class="o">&gt;</span> merged_abundance_table_species.txt</code></pre></figure>
+
+<p>You’re now ready to use MetaPhlAn to create a heatmap of these species</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">hclust2.py <span class="nt">-i</span> merged_abundance_table_species.txt <span class="nt">-o</span> abundance_heatmap_species.png <span class="nt">--ftop</span> 25 <span class="nt">--f_dist_f</span> braycurtis <span class="nt">--s_dist_f</span> braycurtis <span class="nt">--cell_aspect_ratio</span> 0.5 <span class="nt">-l</span> <span class="nt">--flabel_size</span> 6 <span class="nt">--slabel_size</span> 6 <span class="nt">--max_flabel_len</span> 100 <span class="nt">--max_slabel_len</span> 100 <span class="nt">--minv</span> 0.1 <span class="nt">--dpi</span> 300</code></pre></figure>
+
+<p><img src="http://hostmicrobe.github.io/images/abundance_heatmap_species.png" alt="Alt text" /></p>
+
+<p>While heatmaps are a great way to visualize changes in the abundance of taxa across treatment groups, they don’t preserve the taxonomic relationship between taxa.  For that, we’ll use another tool from the Huttenhower lab, <a href="https://huttenhower.sph.harvard.edu/graphlan">GraPhlAn</a></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">export2graphlan.py <span class="nt">-i</span> merged_abundance_table.txt <span class="nt">-t</span> tree.txt <span class="nt">-a</span> annot1.txt <span class="nt">--skip_rows</span> 1
+graphlan_annotate.py <span class="nt">--annot</span> annot1.txt tree.txt tree1.xml
+graphlan.py tree1.xml tree1.png <span class="nt">--dpi</span> 150</code></pre></figure>
+
+<p><img src="http://hostmicrobe.github.io/images/tree1.png" alt="Alt text" /></p>
+
+<p>Let’s clean the taxonomy by removing taxon, <em>_noname</em>, and <em>_unclassified</em></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"t__"</span> merged_abundance_table.txt | sed <span class="s1">'s/_noname//g'</span> | sed <span class="s1">'s/_unclassified//g'</span> <span class="o">&gt;</span> merged_abundance_table_clean.txt</code></pre></figure>
+
+<p>Now redo the graphic, this time with the clean taxonomy</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">export2graphlan.py <span class="nt">-i</span> merged_abundance_table_clean.txt <span class="nt">-t</span> tree.txt <span class="nt">-a</span> annot1.txt <span class="nt">--skip_rows</span> 1
+graphlan_annotate.py <span class="nt">--annot</span> annot1.txt tree.txt tree_clean1.xml
+graphlan.py tree_clean1.xml tree_clean1.png <span class="nt">--dpi</span> 150</code></pre></figure>
+
+<p><img src="http://hostmicrobe.github.io/images/tree_clean1.png" alt="Alt text" /></p>
+
+<p>redo the graphic again, this time with annotations</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">export2graphlan.py <span class="nt">-i</span> merged_abundance_table_clean.txt <span class="nt">-t</span> tree.txt <span class="nt">-a</span> annot2.txt <span class="nt">--skip_rows</span> 1 <span class="nt">--most_abundant</span> 50 <span class="nt">--annotations</span> 2,3,4,5,6 <span class="nt">--external_annotations</span> 7 <span class="nt">--title</span> <span class="s2">"MetaPhlAn2 taxonomic results"</span>
+graphlan_annotate.py <span class="nt">--annot</span> annot2.txt tree.txt tree_clean2.xml
+graphlan.py tree_clean2.xml tree_clean2.png <span class="nt">--dpi</span> 150</code></pre></figure>
+
+<p><img src="http://hostmicrobe.github.io/images/tree_clean2.png" alt="Alt text" /></p>
+
+<p>plot the graphic once more, this time spread out 360 degrees</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"total_plotted_degrees</span><span class="se">\t</span><span class="s2">330"</span> <span class="o">&gt;</span> annot3.txt
+<span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"start_rotation</span><span class="se">\t</span><span class="s2">270"</span> <span class="o">&gt;&gt;</span> annot3.txt
+<span class="nv">colors</span><span class="o">=(</span><span class="s1">'#0000FF'</span> <span class="s1">'#FFA500'</span> <span class="s1">'#888888'</span> <span class="s1">'#FF0000'</span> <span class="s1">'#006400'</span> <span class="s1">'#800080'</span><span class="o">)</span>
+<span class="nv">n</span><span class="o">=</span>1
+<span class="nv">OLDIFS</span><span class="o">=</span><span class="nv">$IFS</span>
+<span class="nv">IFS</span><span class="o">=</span><span class="s1">$'</span><span class="se">\n</span><span class="s1">'</span>
+
+<span class="k">for </span>i <span class="k">in</span> <span class="k">$(</span><span class="nb">ls</span> <span class="k">*</span>_profile.txt<span class="k">)</span><span class="p">;</span> <span class="k">do
+    </span><span class="nv">bs</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">i</span><span class="k">}</span> | cut <span class="nt">-f2</span> <span class="nt">-d</span><span class="s1">'-'</span> | rev | cut <span class="nt">-f2-</span> <span class="nt">-d</span><span class="s1">'_'</span> | tr <span class="s1">'_'</span> <span class="s1">' '</span> | rev<span class="sb">`</span>
+    <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"ring_label</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="k">${</span><span class="nv">bs</span><span class="k">}</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> annot3.txt
+    <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"ring_label_color</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="k">${</span><span class="nv">colors</span><span class="p">[n-1]</span><span class="k">}</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> annot3.txt
+    <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"ring_internal_separator_thickness</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="s2">0.25"</span> <span class="o">&gt;&gt;</span> annot3.txt
+
+    <span class="k">for </span>j <span class="k">in</span> <span class="k">$(</span><span class="nb">cat</span> <span class="k">${</span><span class="nv">i</span><span class="k">}</span> | <span class="nb">grep </span>s__ | <span class="nb">grep</span> <span class="nt">-v</span> t__<span class="k">)</span><span class="p">;</span> <span class="k">do
+        </span><span class="nv">l</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">j</span><span class="k">}</span> | cut <span class="nt">-f1</span> | rev | cut <span class="nt">-f1</span> <span class="nt">-d</span> <span class="s1">'|'</span> | rev | sed <span class="s1">'s/_noname//g'</span> | sed <span class="s1">'s/_unclassified//g'</span><span class="sb">`</span>
+        <span class="nv">h</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">j</span><span class="k">}</span> | cut <span class="nt">-f2</span><span class="sb">`</span>
+        <span class="nv">h</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="s2">"scale=4; </span><span class="k">${</span><span class="nv">h</span><span class="k">}</span><span class="s2">/100"</span> | bc<span class="sb">`</span>
+        <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"</span><span class="k">${</span><span class="nv">l</span><span class="k">}</span><span class="se">\t</span><span class="s2">ring_color</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="k">${</span><span class="nv">colors</span><span class="p">[n-1]</span><span class="k">}</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> annot3.txt
+        <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"</span><span class="k">${</span><span class="nv">l</span><span class="k">}</span><span class="se">\t</span><span class="s2">ring_alpha</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="s2">0</span><span class="k">${</span><span class="nv">h</span><span class="k">}</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> annot3.txt
+    <span class="k">done
+
+    </span><span class="nb">let </span><span class="nv">n</span><span class="o">=</span>n+1
+<span class="k">done
+
+</span><span class="nv">IFS</span><span class="o">=</span><span class="nv">$OLDIFS</span>
+
+graphlan_annotate.py <span class="nt">--annot</span> annot3.txt tree_clean2.xml tree_clean3.xml
+graphlan.py tree_clean3.xml tree_clean3.png <span class="nt">--dpi</span> 150</code></pre></figure>
+
+<p><img src="http://hostmicrobe.github.io/images/tree_clean3.png" alt="Alt text" /></p>
+
+<h2 id="automate-your-workflow">Automate your workflow</h2>
+
+</div> 
+      <hr style="margin-top: 100px;"/>
+      <footer role="contentinfo">
+        <div class="social-share">
+  <h4>Share on</h4>
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/microbiome/cloudComputing_part2/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/microbiome/cloudComputing_part2/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=http://localhost:4000/microbiome/cloudComputing_part2/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+    </li>
+  </ul>
+</div><!-- /.social-share -->
+        <p class="byline"><strong>Cloud computing for metagenomics - Part II</strong> was published on <time datetime="2017-09-19T00:00:00-04:00">September 19, 2017</time> and last modified on <time datetime="2017-09-19">September 19, 2017</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/microbiome/cloudComputing_workshop/" title="Cloud computing for metagenomics - 4hr workshop">Cloud computing for metagenomics - 4hr workshop</a></li>
+    
+      <li><a href="http://localhost:4000/microbiome/cloudComputing_part1/" title="Cloud computing for metagenomics - Part I">Cloud computing for metagenomics - Part I</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2017 Beiting. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>. The theme is derived from <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-hostmicrobe-org'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-420484-15', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+	
+
+
+</body>
+</html>

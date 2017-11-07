@@ -1,0 +1,407 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Cloud computing for metagenomics - 4hr workshop &#8211; Home</title>
+<meta name="description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Oct 8th, uses cloud compute resources and a Snakemake-based pipeline for analysis of shotgun metagenomic data">
+<meta name="keywords" content="metagenomics">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Cloud computing for metagenomics - 4hr workshop">
+<meta name="twitter:description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Oct 8th, uses cloud compute resources and a Snakemake-based pipeline for analysis of shotgun metagenomic data">
+<meta name="twitter:site" content="@hostmicrobe">
+<meta name="twitter:creator" content="@hostmicrobe">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cloud computing for metagenomics - 4hr workshop">
+<meta property="og:description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Oct 8th, uses cloud compute resources and a Snakemake-based pipeline for analysis of shotgun metagenomic data">
+<meta property="og:url" content="http://localhost:4000/microbiome/cloudComputing_workshop/">
+<meta property="og:site_name" content="Home">
+
+<meta name="google-site-verification" content="x_a2aVtoLyANByc9VDBjyPm80IlGbNYUm4Vr1tSRhi0" />
+
+
+<link rel="canonical" href="http://localhost:4000/microbiome/cloudComputing_workshop/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Home Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="x_a2aVtoLyANByc9VDBjyPm80IlGbNYUm4Vr1tSRhi0" />
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<a name="top"></a>
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000/">Home</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+				    <li><a href="http://localhost:4000/research/"  >Research</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/publications/"  >Publications</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/teaching/"  >Teaching</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/people/"  >People</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/press/"  >Press</a></li>
+				
+				    
+				    <li><a href="http://localhost:4000/posts/"  >Blog</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    <div>
+  <p><a href="http://www.vet.upenn.edu/CHMI"><img src="http://localhost:4000/images/CHMI_logo.png" style="border: none;" width="200"></a>
+  <p><a href="http://www.microbiomedb.org/"><img src="http://localhost:4000/images/MicrobiomeDB_logo.png" style="border: none;" width="200"></a>
+</div>
+
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1 ><a href="http://localhost:4000/microbiome/cloudComputing_workshop/" rel="bookmark" title="Cloud computing for metagenomics - 4hr workshop">Cloud computing for metagenomics - 4hr workshop</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+
+    
+        
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+    <div id="articlecontent"><section id="table-of-contents" class="toc">
+  <header>
+    <h3><i class="fa fa-book"></i> Table of Contents</h3>
+  </header>
+<div id="drawer">
+<ul id="markdown-toc">
+  <li><a href="#before-starting" id="markdown-toc-before-starting">Before starting</a></li>
+  <li><a href="#launch-the-google-cloud-instance" id="markdown-toc-launch-the-google-cloud-instance">Launch the Google Cloud instance</a></li>
+  <li><a href="#installing-the-sunbeam-metagenomics-pipeline" id="markdown-toc-installing-the-sunbeam-metagenomics-pipeline">Installing the Sunbeam metagenomics pipeline</a></li>
+  <li><a href="#test-drive" id="markdown-toc-test-drive">test drive</a></li>
+  <li><a href="#connect-to-glcoud-instance" id="markdown-toc-connect-to-glcoud-instance">connect to glcoud instance</a></li>
+  <li><a href="#transfer-data-to-glcoud" id="markdown-toc-transfer-data-to-glcoud">transfer data to glcoud</a></li>
+  <li><a href="#fetch-your-reference-files" id="markdown-toc-fetch-your-reference-files">fetch your reference files</a></li>
+  <li><a href="#run-sunbeam" id="markdown-toc-run-sunbeam">Run Sunbeam</a></li>
+  <li><a href="#interpreting-your-results" id="markdown-toc-interpreting-your-results">Interpreting your results</a></li>
+</ul>
+
+  </div>
+</section>
+<!-- /#table-of-contents -->
+
+<h2 id="before-starting">Before starting</h2>
+<p>Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data – which culminated in a two part blog post <a href="http://hostmicrobe.org/microbiome/cloudComputing_part1/">here</a> and <a href="http://hostmicrobe.org/microbiome/cloudComputing_part2/">here</a> – <a href="https://microbiome.research.chop.edu/our-team/kyle-bittinger.html">Kyle Bittinger</a> and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to team-up to put on a 1/2 day workshop that would combine these elements.</p>
+
+<p>To participate in this workshop, you’ll only need a few things:</p>
+<ul>
+  <li>a laptop computer</li>
+  <li>an internet connection</li>
+  <li>a google account (free)</li>
+  <li><a href="https://cloud.google.com">a google cloud account</a> (free sign-up and $300 credit)</li>
+  <li>example data that you can <a href="">download here</a>. This dataset will be explained in more detail during the workshop, but is also described <a href="http://hostmicrobe.org/microbiome/cloudComputing_part2/">here</a></li>
+</ul>
+
+<h2 id="launch-the-google-cloud-instance">Launch the Google Cloud instance</h2>
+
+<p>We’ll begin the workshop with a demonstration of how to launch your first Google Cloud instance.  We’ll then connect to this instance with the click-of-a-button via gcloud SSH.  Once we’re connected, we will all be using exactly the same type of computer with the same operating system, regardless of your local machine and OS.</p>
+
+<h2 id="installing-the-sunbeam-metagenomics-pipeline">Installing the Sunbeam metagenomics pipeline</h2>
+
+<p>After launching, we need to install some system programs on the computer.  For this, we’ll use the <code class="highlighter-rouge">apt-get</code> utility provided with the operating system.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get install unzip xvfb xdotool libxrender1 libxi6
+</code></pre></div></div>
+
+<p>We’ll download the <a href="https://github.com/eclarke/sunbeam">Sunbeam software</a> from GitHub, where it is distributed.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://github.com/eclarke/sunbeam/archive/master.zip
+</code></pre></div></div>
+
+<p>After the software is downloaded successfully, you’ll have a new file called <code class="highlighter-rouge">master.zip</code> in your home directory.  You can verify this with the <code class="highlighter-rouge">ls</code> command. Now that the file is downloaded, we’ll decompress
+the file with <code class="highlighter-rouge">unzip</code>.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>unzip master.zip
+</code></pre></div></div>
+
+<p>We move into the software directory, where the installation scripts are located.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>sunbeam-master
+</code></pre></div></div>
+
+<p>Now, we’re ready to actually install the Sunbeam analysis pipeline. Sunbeam provides a script for this purpose.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./install.sh
+./install_igv.sh
+</code></pre></div></div>
+
+<p>The pipeline uses a system called Conda to manage all the bioinformatics analysis programs. This system works by storing all the programs inside your home directory, so that we can use special versions of programs just for this pipeline. We’ll tell the computer where to find the Conda system.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"export PATH=</span><span class="nv">$HOME</span><span class="s2">/miniconda3/bin:</span><span class="se">\$</span><span class="s2">PATH"</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">source</span> ~/.bashrc
+</code></pre></div></div>
+
+<p>To actually use Sunbeam, we’ll “turn on” the bioinformatics software.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source </span>activate sunbeam
+</code></pre></div></div>
+
+<p>This is the command you’ll want to remember for future sessions.  Each time you log into your cloud instance, you’ll need to activate the pipeline with <code class="highlighter-rouge">source activate sunbeam</code>.  Upon activation, you should see that your command prompt begins with “(sunbeam)”.  Anytime you want to exit out of sunbeam, simply type <code class="highlighter-rouge">source deactivate sunbeam</code> and hit return.</p>
+
+<h2 id="test-drive">test drive</h2>
+
+<p>Now that our software is installed and activated, we’ll run the tests included with Sunbeam to make sure everything is OK.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash tests/test.sh
+</code></pre></div></div>
+
+<p>As the tests are running, you should see messages scrolling by on your screen. This is a preview of what you might see when the actual pipeline is running, so we’ll devote some time in our session to understanding the messages.</p>
+
+<p>Our next step is to download our data files and get moving with some real data analysis!</p>
+
+<h2 id="connect-to-glcoud-instance">connect to glcoud instance</h2>
+<p>Although the ssh terminal available right on your instance is very convenient, it does not establish a connection between our local computer and the cloud instance (which we must do in order to move files back and forth).  In order to do that, we’ll want to connect to our instance from the <a href="https://en.wikipedia.org/wiki/Terminal_(macOS)">terminal app</a> on our local computer.  Go ahead and launch your Terminal app.  Before we do anything else, let’s execute a command in the terminal that will allow us to see hidden files in our directory.  We need access to a few of these hidden files for the purposes of this tutorial.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>defaults write com.apple.finder AppleShowAllFiles <span class="nb">true</span>
+<span class="c">#then restart the finder to see these changes</span>
+killall Finder
+<span class="c">#after this tutorial you can hide these files again by replacing 'true' with 'false'</span>
+</code></pre></div></div>
+
+<p>Now install the google SDK.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl https://sdk.cloud.google.com | bash
+</code></pre></div></div>
+
+<p>I my experience, if you encounter any issues with this entire tutorial, it will be with getting the SDK installed and connecting to your instance. For example, you may notice that the installation fails with the following error</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ERROR: Failed to fetch component listing from server. Check your network settings and try again
+</code></pre></div></div>
+<p>This error has to do with the the IPv6 settings on your computer preventing you from being able to connect with a google server to download the SDK command line tools</p>
+
+<p>If you encounter this error, this fix is simple.  Begin by temporarily turning off IPv6 support for either Wi-Fi or Ethernet, depending on which one you are using to connect to the internet.  If you’re using a Wi-Fi connection, then you would turn-off with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>networksetup <span class="nt">-setv6off</span> Wi-Fi <span class="c">#if you're using ethernet, replace 'Wi-Fi' with 'Ethernet' in this line</span>
+</code></pre></div></div>
+
+<p>Now reattempt the installation as you did above</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl https://sdk.cloud.google.com | bash
+</code></pre></div></div>
+
+<p>Once you have Google Cloud SDK installed, <em>be sure to turn the IPv6 back on</em></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>networksetup <span class="nt">-setv6automatic</span> Wi-Fi
+</code></pre></div></div>
+
+<p>Now we’ll connect to the instance from within our Terminal.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcloud compute ssh instance-1 <span class="c">#if your instance is not called 'instance-1', be sure to modify this line accordingly</span>
+<span class="c">#Be patient here, as this may take a moment to connect.</span>
+</code></pre></div></div>
+
+<p>If the above command failed with an authentication error, it’s because this is the first time you’ve run SDK and it isn’t sure that you should have access to your google account from the terminal.  Take a moment to authenticate</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcloud auth login
+<span class="c">#this will open a browser window for you to select and sign-in to your google account</span>
+<span class="c">#after doing this, return to your terminal window and you should be good to go</span>
+<span class="c">#if this doesn't work, you may need to go though the gcloud initialization process by executing 'gcloud init'</span>
+<span class="c">#either way, once you have authenticated your account you will need to reattempt connecting with 'gcloud compute ssh instance-1'</span>
+</code></pre></div></div>
+
+<h2 id="transfer-data-to-glcoud">transfer data to glcoud</h2>
+
+<p>In this part of the workshop you’ll learn all the point-and-click steps to connect to your gcloud instance via SFTP using the <a href="https://filezilla-project.org/">FileZilla program</a>.</p>
+
+<p>It is important to keep our file system organized by project.  To do this, we’ll use FileZilla to create a new folder in your home directory called ‘deadmice’, which will be our project folder for today.  Open this folder (double click) and create a subfolder called ‘data_files’.  Your project folder can be named anything, but each project folder must have a ‘data_files’ subfolder where all raw data input files should be stored.</p>
+
+<p>With these folders in place, use FileZilla to drag-and-drop all the fastq files you downloaded for the workshop into the ‘data_files’ folder.</p>
+
+<h2 id="fetch-your-reference-files">fetch your reference files</h2>
+
+<p>We have bundled a number of commands for getting reference files into a shell script that you can download <a href="http://hostmicrobe.github.io/myPapers/download_refdata.sh">here</a>.  We’ll discuss the content of this file during the workshop.</p>
+
+<p>Use FileZilla to drag-and-drop this shell script into your home directory on gcloud.</p>
+
+<p>Now run the shell script</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~
+bash download_refdata.sh
+</code></pre></div></div>
+
+<h2 id="run-sunbeam">Run Sunbeam</h2>
+
+<p>Run sunbeam (this will take about 1hr to complete)</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/sunbeam-master
+snakemake <span class="nt">--configfile</span> deadmice-config.yml <span class="nt">--cores</span> 8
+</code></pre></div></div>
+
+<h2 id="interpreting-your-results">Interpreting your results</h2>
+
+<p>Running Sunbeam will produce a third subdirectory for the output files (“sunbeam_output”).</p>
+
+</div> 
+      <hr style="margin-top: 100px;"/>
+      <footer role="contentinfo">
+        <div class="social-share">
+  <h4>Share on</h4>
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/microbiome/cloudComputing_workshop/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/microbiome/cloudComputing_workshop/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=http://localhost:4000/microbiome/cloudComputing_workshop/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+    </li>
+  </ul>
+</div><!-- /.social-share -->
+        <p class="byline"><strong>Cloud computing for metagenomics - 4hr workshop</strong> was published on <time datetime="2017-11-06T00:00:00-05:00">November 06, 2017</time> and last modified on <time datetime="2017-11-06">November 06, 2017</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/microbiome/cloudComputing_part2/" title="Cloud computing for metagenomics - Part II">Cloud computing for metagenomics - Part II</a></li>
+    
+      <li><a href="http://localhost:4000/microbiome/cloudComputing_part1/" title="Cloud computing for metagenomics - Part I">Cloud computing for metagenomics - Part I</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2017 Beiting. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>. The theme is derived from <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-hostmicrobe-org'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-420484-15', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+	
+
+
+</body>
+</html>
