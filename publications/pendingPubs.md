@@ -1,9 +1,7 @@
-
-
 <div class="pub">
-    <h3><a href="" target="_new">Involvement of Innate Immune System in Late Stages of Inherited Photoreceptor Degeneration.</a></h3>
-       <span class="pub-authors">Sudharsan R, <span class="pub-member-author">Beiting DP</span>, Aguirre GD, Beltran, WA </span>
-    <span class="pub-journal"><i>in press at Scientific Reports</i>. <b></b></span>
+    <h3><a href="" target="_new">Commensal microbes induce serum IgA responses that protect against polymicrobial sepsis.</a></h3>
+       <span class="pub-authors">Wilmore JR, Gaudette BT, Gomez Atria D, Hashemi T, Jones DD, Gardner CA, Cole SD, Misic A, <span class="pub-member-author">Beiting DP</span>, Allman D</span>
+    <span class="pub-journal"><i>under review at Cell Host Microbe</i>. <b></b></span>
 </div>
 
 

@@ -19,6 +19,13 @@ comments: false
 # 2017
 
 <div class="pub">
+    <h3><a href="" target="_new">Involvement of Innate Immune System in Late Stages of Inherited Photoreceptor Degeneration.</a></h3>
+       <span class="pub-authors">Sudharsan R, <span class="pub-member-author">Beiting DP</span>, Aguirre GD, Beltran, WA </span>
+    <span class="pub-journal"><i>in press at Scientific Reports</i>. <b></b></span>
+</div>
+
+
+<div class="pub">
     <h3><a href="https://academic.oup.com/nar/article/doi/10.1093/nar/gkx1027/4584629?guestAccessKey=8193dea0-3af8-4177-a286-18cf5d37d6b9" target="_new">MicrobiomeDB: a systems biology platform for integrating, mining and analyzing microbiome experiments</a></h3>
     <span class="pub-authors">Francislon Silva de Oliveira, John Brestelli, Shon Cade, Jie Zheng, John Iodice, Steve Fisher, Cristina Aurrecoechea, Jessica C Kissinger, Brian P Brunk, Christian J Stoeckert Jr., Gabriel R Fernandes, David Roos, <span class="pub-member-author">Beiting DP</span></span>
     <span class="pub-journal"><i>Nucleic Acids Research</i>. <b>Nov 2; 2017</b></span>
