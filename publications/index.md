@@ -16,12 +16,32 @@ comments: false
     <span class="pub-journal"><i>BioRxiv</i>. <b></b></span>
 </div>
 
+# 2018
+
+<div class="pub">
+    <h3><a href="" target="_new">Culture-independent profiling of the stool microbiome identifies bacteria associated with diarrheal disease outbreak in an immunocompromised mouse colony.</a></h3>
+       <span class="pub-authors">Misic AM, Miedel EL, Brice AK, Cole S, Zhang GF, Dyer CD, Secreto A, Smith AL, Danet-Desnoyers G,<span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-journal"><i>under review at Comparative Medicine, May 12</i>. <b></b></span>
+</div>
+
+<div class="pub">
+    <h3><a href="" target="_new">CD8+ T cells lack local signals to produce IFN-γ in the skin during leishmania infection.</a></h3>
+       <span class="pub-authors">Novais FO, Wong AC, Villarea DO, <span class="pub-member-author">Beiting DP</span>, Scott P</span>
+    <span class="pub-journal"><i>accepted in principle at Journal of Immunology</i>. <b></b></span>
+</div>
+
+<div class="pub">
+    <h3><a href="" target="_new">Commensal microbes induce serum IgA responses that protect against polymicrobial sepsis.</a></h3>
+       <span class="pub-authors">Wilmore JR, Gaudette BT, Gomez Atria D, Hashemi T, Jones DD, Gardner CA, Cole SD, Misic A, <span class="pub-member-author">Beiting DP</span>, Allman D</span>
+    <span class="pub-journal"><i>accepted in principle at Cell Host Microbe</i>. <b></b></span>
+</div>
+
 # 2017
 
 <div class="pub">
     <h3><a href="https://www.nature.com/articles/s41598-017-18236-7" target="_new">Involvement of Innate Immune System in Late Stages of Inherited Photoreceptor Degeneration.</a></h3>
        <span class="pub-authors">Sudharsan R, <span class="pub-member-author">Beiting DP</span>, Aguirre GD, Beltran, WA </span>
-    <span class="pub-journal"><i>cientific Reports</i>. <b>Dec 20; 2017</b></span>
+    <span class="pub-journal"><i>Scientific Reports</i>. <b>Dec 20; 2017</b></span>
 </div>
 
 <div class="pub">

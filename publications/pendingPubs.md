@@ -1,35 +1,3 @@
-<div class="pub">
-    <h3><a href="" target="_new">CD8+ T cells lack local signals to produce IFN-γ in the skin during leishmania infection.</a></h3>
-       <span class="pub-authors">Novais FO, Wong AC, Villarea DO, <span class="pub-member-author">Beiting DP</span>, Scott P</span>
-    <span class="pub-journal"><i>accepted in principle at Journal of Immunology</i>. <b></b></span>
-</div>
-
-<div class="pub">
-    <h3><a href="" target="_new">Commensal microbes induce serum IgA responses that protect against polymicrobial sepsis.</a></h3>
-       <span class="pub-authors">Wilmore JR, Gaudette BT, Gomez Atria D, Hashemi T, Jones DD, Gardner CA, Cole SD, Misic A, <span class="pub-member-author">Beiting DP</span>, Allman D</span>
-    <span class="pub-journal"><i>accepted in principle at Cell Host Microbe</i>. <b></b></span>
-</div>
-
-<div class="pub">
-    <h3><a href="" target="_new">Culture-independent profiling of the stool microbiome identifies bacteria associated with diarrheal disease outbreak in an immunocompromised mouse colony.</a></h3>
-       <span class="pub-authors">Misic AM, Miedel EL, Brice AK, Cole S, Zhang GF, Dyer CD, Secreto A, Smith AL, Danet-Desnoyers G,<span class="pub-member-author">Beiting DP</span></span>
-    <span class="pub-journal"><i>Comparative Medicine, May 12</i>. <b></b></span>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="pub">
     <h3><a href="" target="_new">The maternal vaginal microbiome plays a causal role in programming offspring gut-brain development.</a></h3>
