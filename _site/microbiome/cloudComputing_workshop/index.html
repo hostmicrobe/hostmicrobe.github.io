@@ -6,13 +6,13 @@
 <head>
 <meta charset="utf-8">
 <title>Cloud computing for metagenomics - 4hr workshop &#8211; Home</title>
-<meta name="description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Oct 8th, uses cloud compute resources and a Snakemake-based pipeline for analysis of shotgun metagenomic data">
+<meta name="description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Nov 8th, uses cloud compute resources and a Snakemake-based pipeline called Sunbeam for analysis of shotgun metagenomic data">
 <meta name="keywords" content="metagenomics">
 
 
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="Cloud computing for metagenomics - 4hr workshop">
-<meta name="twitter:description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Oct 8th, uses cloud compute resources and a Snakemake-based pipeline for analysis of shotgun metagenomic data">
+<meta name="twitter:description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Nov 8th, uses cloud compute resources and a Snakemake-based pipeline called Sunbeam for analysis of shotgun metagenomic data">
 <meta name="twitter:site" content="@hostmicrobe">
 <meta name="twitter:creator" content="@hostmicrobe">
 
@@ -23,7 +23,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Cloud computing for metagenomics - 4hr workshop">
-<meta property="og:description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Oct 8th, uses cloud compute resources and a Snakemake-based pipeline for analysis of shotgun metagenomic data">
+<meta property="og:description" content="This workshop, led by Dan Beiting and Kyle Bittinger at UPenn on Nov 8th, uses cloud compute resources and a Snakemake-based pipeline called Sunbeam for analysis of shotgun metagenomic data">
 <meta property="og:url" content="http://localhost:4000/microbiome/cloudComputing_workshop/">
 <meta property="og:site_name" content="Home">
 
@@ -113,8 +113,10 @@
 <div id="main" role="main">
   <div class="article-author-side">
     <div>
-  <p><a href="http://www.vet.upenn.edu/CHMI"><img src="http://localhost:4000/images/CHMI_logo.png" style="border: none;" width="200"></a>
-  <p><a href="http://www.microbiomedb.org/"><img src="http://localhost:4000/images/MicrobiomeDB_logo.png" style="border: none;" width="200"></a>
+  <p><a href="http://www.vet.upenn.edu"><img src="http://localhost:4000/images/PennVet_Logo.png" style="border: none;" width="200"></a>
+  <p><a href="http://www.microbiomedb.org/"><img src="http://localhost:4000/images/microbiomeDB_logo.png" style="border: none;" width="200"></a>
+  <p><a href="http://www.diytranscriptomics.com/"><img src="http://localhost:4000/images/DIYtrans_logo.png" style="border: none;" width="200"></a>
+  <p><a href="http://chmi-sops.github.io/"><img src="http://localhost:4000/images/SOP_logo.png" style="border: none;" width="200"></a>
 </div>
 
   </div>
@@ -129,8 +131,6 @@
     
         
 
-    
-        
     
         
     
@@ -170,7 +170,9 @@
 <!-- /#table-of-contents -->
 
 <h2 id="before-starting">Before starting</h2>
-<p>Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data – which culminated in a two part blog post <a href="http://hostmicrobe.org/microbiome/cloudComputing_part1/">here</a> and <a href="http://hostmicrobe.org/microbiome/cloudComputing_part2/">here</a> – <a href="https://microbiome.research.chop.edu/our-team/kyle-bittinger.html">Kyle Bittinger</a> and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to team-up to put on a 1/2 day workshop that would combine these elements.</p>
+<p>Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data – which culminated in a two part blog post <a href="http://hostmicrobe.org/microbiome/cloudComputing_part1/">here</a> and <a href="http://hostmicrobe.org/microbiome/cloudComputing_part2/">here</a> – <a href="https://microbiome.research.chop.edu/our-team/kyle-bittinger.html">Kyle Bittinger</a> and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to join forces to host a 1/2 day workshop that would combine these elements.</p>
+
+<p>The material below is intended to walk you through this workshop, and provide a general web-based lesson plan for how one might conduct such a workshop.</p>
 
 <p>To participate in this workshop, you’ll only need a few things:</p>
 <ul>
@@ -178,12 +180,12 @@
   <li>an internet connection</li>
   <li>a google account (free)</li>
   <li><a href="https://cloud.google.com">a google cloud account</a> (free sign-up and $300 credit)</li>
-  <li>example data that you can <a href="">download here</a>. This dataset will be explained in more detail during the workshop, but is also described <a href="http://hostmicrobe.org/microbiome/cloudComputing_part2/">here</a></li>
+  <li>example data that you can <a href="https://upenn.box.com/shared/static/q7tje8tzs2y73ns46qvrjm6ehuz7j0sc.zip">download here</a>. This dataset will be explained in more detail during the workshop, but is also described <a href="http://hostmicrobe.org/microbiome/cloudComputing_part2/">here</a></li>
 </ul>
 
 <h2 id="launch-the-google-cloud-instance">Launch the Google Cloud instance</h2>
 
-<p>We’ll begin the workshop with a demonstration of how to launch your first Google Cloud instance.  We’ll then connect to this instance with the click-of-a-button via gcloud SSH.  Once we’re connected, we will all be using exactly the same type of computer with the same operating system, regardless of your local machine and OS.</p>
+<p>We’ll begin the workshop with a demonstration of how to launch your first Google Cloud instance.  We’ll then connect to this instance via the gcloud SSH button.  Once connected, we’re all using exactly the same type of computer with the same operating system, regardless of your local machine and OS.</p>
 
 <h2 id="installing-the-sunbeam-metagenomics-pipeline">Installing the Sunbeam metagenomics pipeline</h2>
 
@@ -192,7 +194,7 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get install unzip xvfb xdotool libxrender1 libxi6
 </code></pre></div></div>
 
-<p>We’ll download the <a href="https://github.com/eclarke/sunbeam">Sunbeam software</a> from GitHub, where it is distributed.</p>
+<p>We’ll download the <a href="https://github.com/eclarke/sunbeam">Sunbeam software</a> from GitHub, where it is distributed.  <strong>Again, this is a new pipeline from Kyle’s group, and he’ll spend substantial time during the workshop talking about what is happening under the hood as we run Sunbeam.</strong>  We’ll also briefly discuss why this pipeline was created with <a href="http://snakemake.readthedocs.io/en/stable/">Snakemake</a> and uses a <a href="https://conda.io/docs/">Conda environment</a>.</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://github.com/eclarke/sunbeam/archive/master.zip
 </code></pre></div></div>
@@ -353,7 +355,7 @@ snakemake <span class="nt">--configfile</span> deadmice-config.yml <span class="
   <footer>
     
 
-<span>&copy; 2017 Beiting. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>. The theme is derived from <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</span>
+<span>&copy; 2018 Beiting. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>. The theme is derived from <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</span>
 
   </footer>
 </div><!-- /.footer-wrap -->

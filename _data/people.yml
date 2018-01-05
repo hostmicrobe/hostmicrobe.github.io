@@ -11,27 +11,6 @@
   address: University of Pennsylvania, Rm 314 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "I am an immunologist using 'omics approaches to interrogate the host-pathogen interface."
 
-- alias: amisic
-  name: Ana M. Misic
-  role: Post-doctoral Scientist
-  email: a.misic@gmail.com
-  twitter: 
-  phone: +1-215-898-9911
-  fax: +1-215-746-2295
-  avatar: ana_bio.jpg
-  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "My research uses DNA sequencing technologies (Illumina, PacBio, Oxford Nanopore) to answer questions about bacteria that are important to human and animal health. My research interests include human and animal pathogens, antimicrobial resistance, and horizontal gene transfer. My favorite bacteria are Staphylococcus schleiferi and Pseudomonas aeruginosa."
-
-- alias: Ayah
-  name: Ayah El-Fahmawi
-  role: Undergraduate researcher
-  email: ayahe@sas.upenn.edu
-  phone: +1-215-898-9911
-  fax: +1-215-746-2295
-  avatar: ayah_bio.jpg
-  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "I am a freshman studying biology at UPenn who is excited to learn more about research, microbiology, and bioinformatics while gaining lab experience.  My project in the lab is focused on understanding the mechanisms by which intestinal inflammation leads to dysbiosis and severe disease"
-
 - alias: Shuai
   name: Shuai Wang
   role: Visiting Scholar
@@ -69,11 +48,11 @@
 
 - alias: Camila
   name: Camila Farias Amorim
-  role: Ph.D. student; Brazilian 'sandwich' program
+  role: Postdoctoral researcher
   email: camilafarias112@gmail.com
   phone: 215-594-9806
   twitter: 
   avatar: camila.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "I am nearing the end of my Ph.D in Biomedical Sciences and Immunology in Brazil. My interests center mainly around the study of the host immune response in individuals infected with the parasite, Leishmania sp"
+  bio: "My interests center mainly around using high-throughput sequencing to study the human immune response during cutaneous leishmaniasis."
 

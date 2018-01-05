@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2017-11-07T08:06:33-05:00</updated>
+<updated>2018-01-04T22:02:02-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Beiting</name>
@@ -48,7 +48,9 @@
 &lt;!-- /#table-of-contents --&gt;
 
 &lt;h2 id=&quot;before-starting&quot;&gt;Before starting&lt;/h2&gt;
-&lt;p&gt;Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data – which culminated in a two part blog post &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part1/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part2/&quot;&gt;here&lt;/a&gt; – &lt;a href=&quot;https://microbiome.research.chop.edu/our-team/kyle-bittinger.html&quot;&gt;Kyle Bittinger&lt;/a&gt; and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to team-up to put on a 1/2 day workshop that would combine these elements.&lt;/p&gt;
+&lt;p&gt;Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data – which culminated in a two part blog post &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part1/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part2/&quot;&gt;here&lt;/a&gt; – &lt;a href=&quot;https://microbiome.research.chop.edu/our-team/kyle-bittinger.html&quot;&gt;Kyle Bittinger&lt;/a&gt; and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to join forces to host a 1/2 day workshop that would combine these elements.&lt;/p&gt;
+
+&lt;p&gt;The material below is intended to walk you through this workshop, and provide a general web-based lesson plan for how one might conduct such a workshop.&lt;/p&gt;
 
 &lt;p&gt;To participate in this workshop, you’ll only need a few things:&lt;/p&gt;
 &lt;ul&gt;
@@ -56,12 +58,12 @@
   &lt;li&gt;an internet connection&lt;/li&gt;
   &lt;li&gt;a google account (free)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cloud.google.com&quot;&gt;a google cloud account&lt;/a&gt; (free sign-up and $300 credit)&lt;/li&gt;
-  &lt;li&gt;example data that you can &lt;a href=&quot;&quot;&gt;download here&lt;/a&gt;. This dataset will be explained in more detail during the workshop, but is also described &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part2/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;example data that you can &lt;a href=&quot;https://upenn.box.com/shared/static/q7tje8tzs2y73ns46qvrjm6ehuz7j0sc.zip&quot;&gt;download here&lt;/a&gt;. This dataset will be explained in more detail during the workshop, but is also described &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part2/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;launch-the-google-cloud-instance&quot;&gt;Launch the Google Cloud instance&lt;/h2&gt;
 
-&lt;p&gt;We’ll begin the workshop with a demonstration of how to launch your first Google Cloud instance.  We’ll then connect to this instance with the click-of-a-button via gcloud SSH.  Once we’re connected, we will all be using exactly the same type of computer with the same operating system, regardless of your local machine and OS.&lt;/p&gt;
+&lt;p&gt;We’ll begin the workshop with a demonstration of how to launch your first Google Cloud instance.  We’ll then connect to this instance via the gcloud SSH button.  Once connected, we’re all using exactly the same type of computer with the same operating system, regardless of your local machine and OS.&lt;/p&gt;
 
 &lt;h2 id=&quot;installing-the-sunbeam-metagenomics-pipeline&quot;&gt;Installing the Sunbeam metagenomics pipeline&lt;/h2&gt;
 
@@ -70,7 +72,7 @@
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install unzip xvfb xdotool libxrender1 libxi6
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;We’ll download the &lt;a href=&quot;https://github.com/eclarke/sunbeam&quot;&gt;Sunbeam software&lt;/a&gt; from GitHub, where it is distributed.&lt;/p&gt;
+&lt;p&gt;We’ll download the &lt;a href=&quot;https://github.com/eclarke/sunbeam&quot;&gt;Sunbeam software&lt;/a&gt; from GitHub, where it is distributed.  &lt;strong&gt;Again, this is a new pipeline from Kyle’s group, and he’ll spend substantial time during the workshop talking about what is happening under the hood as we run Sunbeam.&lt;/strong&gt;  We’ll also briefly discuss why this pipeline was created with &lt;a href=&quot;http://snakemake.readthedocs.io/en/stable/&quot;&gt;Snakemake&lt;/a&gt; and uses a &lt;a href=&quot;https://conda.io/docs/&quot;&gt;Conda environment&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://github.com/eclarke/sunbeam/archive/master.zip
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
