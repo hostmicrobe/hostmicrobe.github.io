@@ -25,15 +25,15 @@ comments: false
 </div>
 
 <div class="pub">
-    <h3><a href="" target="_new">CD8+ T cells lack local signals to produce IFN-γ in the skin during leishmania infection.</a></h3>
-       <span class="pub-authors">Novais FO, Wong AC, Villarea DO, <span class="pub-member-author">Beiting DP</span>, Scott P</span>
-    <span class="pub-journal"><i>accepted in principle at Journal of Immunology</i>. <b></b></span>
+    <h3><a href="http://www.cell.com/cell-host-microbe/fulltext/S1931-3128(18)30040-4" target="_new">Commensal microbes induce serum IgA responses that protect against polymicrobial sepsis.</a></h3>
+       <span class="pub-authors">Wilmore JR, Gaudette BT, Gomez Atria D, Hashemi T, Jones DD, Gardner CA, Cole SD, Misic A, <span class="pub-member-author">Beiting DP</span>, Allman D</span>
+    <span class="pub-journal"><i>Cell Host Microbe</i>. <b>Feb 22; 2018</b></span>
 </div>
 
 <div class="pub">
-    <h3><a href="" target="_new">Commensal microbes induce serum IgA responses that protect against polymicrobial sepsis.</a></h3>
-       <span class="pub-authors">Wilmore JR, Gaudette BT, Gomez Atria D, Hashemi T, Jones DD, Gardner CA, Cole SD, Misic A, <span class="pub-member-author">Beiting DP</span>, Allman D</span>
-    <span class="pub-journal"><i>accepted in principle at Cell Host Microbe</i>. <b></b></span>
+    <h3><a href="http://www.jimmunol.org/content/early/2018/01/23/jimmunol.1701597" target="_new">CD8+ T cells lack local signals to produce IFN-γ in the skin during leishmania infection.</a></h3>
+       <span class="pub-authors">Novais FO, Wong AC, Villarea DO, <span class="pub-member-author">Beiting DP</span>, Scott P</span>
+    <span class="pub-journal"><i>Journal of Immunology</i>. <b>Jan 24: 2018</b></span>
 </div>
 
 # 2017
