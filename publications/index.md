@@ -21,7 +21,7 @@ comments: false
 <div class="pub">
     <h3><a href="" target="_new">Culture-independent profiling of the stool microbiome identifies bacteria associated with diarrheal disease outbreak in an immunocompromised mouse colony.</a></h3>
        <span class="pub-authors">Misic AM, Miedel EL, Brice AK, Cole S, Zhang GF, Dyer CD, Secreto A, Smith AL, Danet-Desnoyers G,<span class="pub-member-author">Beiting DP</span></span>
-    <span class="pub-journal"><i>under review at Comparative Medicine, May 12</i>. <b></b></span>
+    <span class="pub-journal"><i>in press at Comparative Medicine</i>. <b>March; 2018</b></span>
 </div>
 
 <div class="pub">
@@ -33,7 +33,7 @@ comments: false
 <div class="pub">
     <h3><a href="http://www.jimmunol.org/content/early/2018/01/23/jimmunol.1701597" target="_new">CD8+ T cells lack local signals to produce IFN-γ in the skin during leishmania infection.</a></h3>
        <span class="pub-authors">Novais FO, Wong AC, Villarea DO, <span class="pub-member-author">Beiting DP</span>, Scott P</span>
-    <span class="pub-journal"><i>Journal of Immunology</i>. <b>Jan 24: 2018</b></span>
+    <span class="pub-journal"><i>Journal of Immunology</i>. <b>Jan 24; 2018</b></span>
 </div>
 
 # 2017
@@ -108,7 +108,7 @@ comments: false
 
 <div class="pub">
     <h3><a href="http://hostmicrobe.github.io/myPapers/StaphDOXP.pdf" target="_new">Divergent isoprenoid biosynthesis pathways in Staphylococcus species constitute a drug target for treating infections in companion animals.</a></h3>
-    <span class="pub-authors"><span class="pub-member-author">Misic A</span>, Cain C, Morris DO, Rankin S, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-authors">Misic A, Cain C, Morris DO, Rankin S, <span class="pub-member-author">Beiting DP</span></span>
     <span class="pub-journal"><i>mSphere</i>. <b>Sept 28; 2016</b></span>
 </div>
 
@@ -156,13 +156,13 @@ image selected as [PLOS Pathogens feature image](http://hostmicrobe.github.io/my
 
 <div class="pub">
     <h3><a href="http://hostmicrobe.github.io/myPapers/staph_household.pdf" target="_new">Genome sequencing reveals clonal dynamics of methicillin-resistant Staphylococcus aureus in the same household in the context of clinical disease in a person and a dog</a></h3>
-    <span class="pub-authors">Davis MF, <span class="pub-member-author">Misic AM</span>, Morris DO, Moss JT, Tolomeo P, <span class="pub-member-author">Beiting DP</span>, Nachamkin I, Lautenbach E, Rankin SC</span>
+    <span class="pub-authors">Davis MF, Misic AM, Morris DO, Moss JT, Tolomeo P, <span class="pub-member-author">Beiting DP</span>, Nachamkin I, Lautenbach E, Rankin SC</span>
     <span class="pub-journal"><i>Veterinary Microbiology</i>. <b>Nov 18;180(3-4):304-7</b></span>
 </div>
 
 <div class="pub">
     <h3><a href="http://hostmicrobe.github.io/myPapers/StaphGenomeAnnounce.pdf" target="_new">Complete genome sequence and methylome of Staphylococcus schleiferi, an important cause of skin and ear infections in veterinary medicine.</a></h3>
-    <span class="pub-authors"><span class="pub-member-author">Misic A</span>, Cain C, Morris DO, Rankin S, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-authors">Misic A, Cain C, Morris DO, Rankin S, <span class="pub-member-author">Beiting DP</span></span>
     <span class="pub-journal"><i>Genome Announcements</i>. <b>Sep 10;3(5)</b></span>
 </div>
 
@@ -251,7 +251,7 @@ also see symposis titled _[Tuning up STAT1](http://hostmicrobe.github.io/myPaper
 
 <div class="pub">
     <h3><a href="http://hostmicrobe.github.io/myPapers/systemsBio_parasites.pdf">A systems biological view of intracellular pathogens.</a></h3>
-    <span class="pub-authors"><span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-authors"><span class="pub-member-author">Beiting DP, and DS Roos</span></span>
     <span class="pub-journal"><i>Immunological Reviews</i>. <b>Mar;240(1):117-28</b></span>
 </div>
 
