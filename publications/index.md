@@ -25,6 +25,12 @@ comments: false
 </div>
 
 <div class="pub">
+    <h3><a href="" target="_new">The maternal vaginal microbiome partially mediates the effects of prenatal stress on offspring gut and hypothalamus.</a></h3>
+       <span class="pub-authors">Jasarevic E, Howard CD, Morrison KE, Misic AM, Weinkopff T, Scott P, Hunter CA, <span class="pub-member-author">Beiting DP</span>, and Bale TL</span>
+    <span class="pub-journal"><i>in press at Nature Neuroscience </i>. <b>May; 2018</b></span>
+</div>
+
+<div class="pub">
     <h3><a href="http://www.cell.com/cell-host-microbe/fulltext/S1931-3128(18)30040-4" target="_new">Commensal microbes induce serum IgA responses that protect against polymicrobial sepsis.</a></h3>
        <span class="pub-authors">Wilmore JR, Gaudette BT, Gomez Atria D, Hashemi T, Jones DD, Gardner CA, Cole SD, Misic A, <span class="pub-member-author">Beiting DP</span>, Allman D</span>
     <span class="pub-journal"><i>Cell Host Microbe</i>. <b>Feb 22; 2018</b></span>
