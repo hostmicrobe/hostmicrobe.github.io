@@ -52,13 +52,13 @@ comments: false
 
 <div class="pub">
     <h3><a href="https://academic.oup.com/nar/article/doi/10.1093/nar/gkx1027/4584629?guestAccessKey=8193dea0-3af8-4177-a286-18cf5d37d6b9" target="_new">MicrobiomeDB: a systems biology platform for integrating, mining and analyzing microbiome experiments</a></h3>
-    <span class="pub-authors">Francislon Silva de Oliveira, John Brestelli, Shon Cade, Jie Zheng, John Iodice, Steve Fisher, Cristina Aurrecoechea, Jessica C Kissinger, Brian P Brunk, Christian J Stoeckert Jr., Gabriel R Fernandes, David Roos, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-authors">Oliveira F, Brestelli J, Cade S, Zheng J, Iodice J, Fisher S, Aurrecoechea C, Kissinger JC, Brunk BP, Stoeckert Jr., CJ, Fernandes GR, Roos DS, <span class="pub-member-author">Beiting DP</span></span>
     <span class="pub-journal"><i>Nucleic Acids Research</i>. <b>Nov 2; 2017</b></span>
 </div>
 
 <div class="pub">
     <h3><a href="https://www.nature.com/articles/s41467-017-00909-6" target="_new">Replication Defective Viral Genomes Exploit A Cellular Pro-Survival Mechanism To Establish Viral Persistence.</a></h3>
-    <span class="pub-authors">Jie Xu, Yan Sun, Yize Li, Gordon Ruthel, Susan R Weiss, Arjun Raj, <span class="pub-member-author">Daniel Beiting</span>, Carolina Lopez</span>
+    <span class="pub-authors">Xu J, Sun Y, Li Y, Ruthel G, Weiss SR, Raj A, <span class="pub-member-author">Beiting DP</span>, Lopez C</span>
 <span class="pub-journal"><i>Nature Communications</i>. <b>Oct 6; 2017</b></span>
 </div>
 
@@ -76,7 +76,7 @@ comments: false
 
 <div class="pub">
     <h3><a href="http://hostmicrobe.github.io/myPapers/Eldin_SciRep_2017.pdf" target="_new">Stress during pregnancy alters temporal and spatial dynamics of the maternal and offspring microbiome in a sex-specific manner</a></h3>
-    <span class="pub-authors">Jašarević E, Howard CD, Misic AM, <span class="pub-member-author">Beiting DP</span>, and Bale TL</span>
+    <span class="pub-authors">Jasarevic E, Howard CD, Misic AM, <span class="pub-member-author">Beiting DP</span>, and Bale TL</span>
     <span class="pub-journal"><i>Scientific Reports</i>. <b>Mar 7; 2017</b></span>
 </div>
 
