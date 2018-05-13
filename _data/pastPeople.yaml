@@ -33,3 +33,20 @@
   avatar: ayah_bio.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "I am a freshman studying biology at UPenn who is excited to learn more about research, microbiology, and bioinformatics while gaining lab experience.  My project in the lab is focused on understanding the mechanisms by which intestinal inflammation leads to dysbiosis and severe disease"
+
+- alias: Ying
+  name: Ying Chen
+  role: Lab Volunteer
+  email: ying8@upenn.edu
+  avatar: YingChen.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "My research interests include using high-throughput sequencing technologies and computational tools to tackle a broad range of questions for the lab and CHMI collaborators."
+
+- alias: Francislon
+  name: Francislon Silva Oliveira
+  role: Ph.D. student; Brazilian 'sandwich' program
+  email: francislon@gmail.com
+  twitter: francislon
+  avatar: francislon.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "Bioinformatics developer and passionate about science. My current research is focused on exploring the microbiome world through new data visualization analysis tools."

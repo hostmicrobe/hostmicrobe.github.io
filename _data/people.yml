@@ -19,23 +19,6 @@
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "My research employs genome sequencing and comparative genomic methods to explore the biology, evolution and host-parasite interface of some medically important parasites. My current study focuses on interactions between host intestinal microbiome and the parasite Toxoplasma gondii"
 
-- alias: Ying
-  name: Ying Chen
-  role: Lab Volunteer
-  email: ying8@upenn.edu
-  avatar: YingChen.jpg
-  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "My research interests include using high-throughput sequencing technologies and computational tools to tackle a broad range of questions for the lab and CHMI collaborators."
-
-- alias: Francislon
-  name: Francislon Silva Oliveira
-  role: Ph.D. student; Brazilian 'sandwich' program
-  email: francislon@gmail.com
-  twitter: francislon
-  avatar: francislon.jpg
-  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "Bioinformatics developer and passionate about science. My current research is focused on exploring the microbiome world through new data visualization analysis tools."
-
 - alias: Megan
   name: Megan Sullivan
   role: Research Specialist
