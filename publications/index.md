@@ -313,9 +313,9 @@ also see symposis titled _[Tuning up STAT1](http://hostmicrobe.github.io/myPaper
 ## 2012 and earlier
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.ppat.1003504" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1003504" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1371/journal.ppat.1003504">The cytokines interleukin 27 and interferon-γ promote distinct Treg cell populations required to limit infection-induced pathology.</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.immuni.2012.06.014" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.immuni.2012.06.014" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.immuni.2012.06.014">The cytokines interleukin 27 and interferon-γ promote distinct Treg cell populations required to limit infection-induced pathology.</a></h3>
     <span class="pub-authors">Hall, AO, <span class="pub-member-author">Beiting DP</span>, C Tato, B John, G Oldenhove, CG Lombana, GH Pritchard, JS Silver, N Bouladoux, JS Stumhofer, TH Harris, J Grainger, EDT Wojno, S Wagage, DS Roos, P Scott, L A Turka, S Cherry, SL Reiner, D Cua, Y Belkaid, MM Elloso, and CA Hunter</span>
     <span class="pub-journal"><i>Immunity</i>. <b>Sep 21;37(3):511-23</b></span>
 </div>
