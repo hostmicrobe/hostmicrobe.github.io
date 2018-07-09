@@ -22,8 +22,8 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41593-018-0182-5" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1038/s41593-018-0182-5" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41593-018-0182-5" target="_new">The maternal vaginal microbiome partially mediates the effects of prenatal stress on offspring gut and hypothalamus.</a></h3>
-    <span class="pub-authors">Jasarevic E, Howard CD, Morrison KE, Misic AM, Weinkopff T, Scott P, Hunter CA, <span class="pub-member-author">Beiting DP</span>, Allman D</span>
-    <span class="pub-journal"><i>Cell Host Microbe</i>. <b>Feb 22; 2018</b></span>
+    <span class="pub-authors">Jasarevic E, Howard CD, Morrison KE, Misic AM, Weinkopff T, Scott P, Hunter CA, <span class="pub-member-author">Beiting DP</span>, Bale TL</span>
+    <span class="pub-journal"><i>Nature Neuroscience</i>. <b>July 9; 2018</b></span>
 </div>
 
 <div class="pub">
