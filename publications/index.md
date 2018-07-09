@@ -19,22 +19,6 @@ comments: false
 ## 2018
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41593-018-0182-5" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="10.1038/s41593-018-0182-5" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1038/s41593-018-0182-5" target="_new">The maternal vaginal microbiome partially mediates the effects of prenatal stress on offspring gut and hypothalamus.</a></h3>
-       <span class="pub-authors">Jasarevic E, Howard CD, Morrison KE, Misic AM, Weinkopff T, Scott P, Hunter CA, <span class="pub-member-author">Beiting DP</span>, and Bale TL</span>
-    <span class=“pub-journal”><i>Nature Neuroscience</i>. <b>July 9; 2018</b></span>
-</div>
-
-<div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.30802/AALAS-CM-17-000084" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="10.30802/AALAS-CM-17-000084" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.30802/AALAS-CM-17-000084" target="_new">Culture-independent profiling of the stool microbiome to identify microbial species associated with a diarrheal outbreak in an immunocompromised mouse colony.</a></h3>
-       <span class=“pub-authors”>Misic AM, Miedel EL, Brice AK, Cole S, Zhang GF, Dyer CD, Secreto A, Smith AL, Danet-Desnoyers G,<span class=“pub-member-author”>Beiting DP</span></span>
-    <span class=“pub-journal”><i>Comparative Medicine</i>. <b>June 13; 2018</b></span>
-</div>
-
-<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.chom.2018.01.005" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1016/j.chom.2018.01.005" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.chom.2018.01.005" target="_new">Commensal microbes induce serum IgA responses that protect against polymicrobial sepsis.</a></h3>
