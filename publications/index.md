@@ -22,6 +22,15 @@ comments: false
 ## 2018
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1089/scd.2018.0081" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1089/scd.2018.0081" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1089/scd.2018.0081" target="_new">Sex-specific gene expression differences are evident in human embryonic stem cells and during in vitro differentiation of human placental progenitor cells,</a></h3>
+    <span class="pub-authors">Syrett C, Sierra I, Berry C, <span class="pub-member-author">Beiting DP</span>, Anguera M</span>
+    <span class="pub-journal"><i>Stem Cells and Development</i>. <b>July 11; 2018</b></span>
+</div>
+
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41593-018-0182-5" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1038/s41593-018-0182-5" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41593-018-0182-5" target="_new">The maternal vaginal microbiome partially mediates the effects of prenatal stress on offspring gut and hypothalamus.</a></h3>
