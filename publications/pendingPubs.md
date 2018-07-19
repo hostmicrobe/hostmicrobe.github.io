@@ -14,11 +14,6 @@
 
 In progress
 
-<div class="pub">
-    <h3><a href="" target="_new">Sex-specific gene expression differences in human pluripotent stem cells and in vitro derived trophoblast progenitors.</a></h3>
-    <span class="pub-authors">Syrett C, Wang J, <span class="pub-member-author">Beiting DP</span>, Anguera M</span>
-    <span class="pub-journal"><i>under review at Developmental Dynamics</i>. <b></b></span>
-</div>
 
 <div class="pub">
     <h3><a href="" target="_new">Type I Interferon Regulates Parasite Control and Immune Pathogenesis in The Central Nervous System during Toxoplasma Infection.</a></h3>
