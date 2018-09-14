@@ -39,3 +39,22 @@
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "My interests center mainly around using high-throughput sequencing to study the human immune response during cutaneous leishmaniasis."
 
+- alias: Ayah
+  name: Ayah El-Fahmawi
+  role: Undergraduate researcher
+  email: ayahe@sas.upenn.edu
+  phone: +1-215-898-9911
+  fax: +1-215-746-2295
+  avatar: ayah_bio.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "I am a senior studying biology at UPenn and I've been working to elucidate the mechanisms by which intestinal inflammation leads to dysbiosis and severe disease"
+
+- alias: Alex
+  name: Alex Berry
+  role: Postdoctoral researcher
+  email: berrya@sas.upenn.edu
+  phone: 
+  twitter: 
+  avatar: 
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "I'm interested in applying population genetics to microbiome data."
