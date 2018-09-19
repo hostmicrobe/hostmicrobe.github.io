@@ -24,6 +24,7 @@ image:
 
 
 # Workshops
+* [Big Data Genomics - A Practical Workshop on Sequence Analysis in Parasitology]() - Instructor. Parasitology Pre-meeting Course for the 67th ASTMH Annual meeting. New Orleans LA; Oct 28th, 2018
 * [Bioinformatics for Eukaryotic Pathogens](http://workshop.eupathdb.org/bop) - Co-organizer. Biology of Parasitism course. Woods Hole, MA; July 14-15, 2018
 * [Cloud computing for metagenomics](http://hostmicrobe.org/microbiome/cloudComputing_workshop/) - Co-organizer. 4th Annual UPenn Microbiome Symposium, Philadelphia, PA; Nov, 2017
 * [Bioinformatic Analysis of Pathogen Gene Expression](http://toxogenomicsworkshop.github.io/) - Co-organizer. 13th International Conference on Toxoplasmosis, Gettysburg, PA; June, 2015
