@@ -30,6 +30,14 @@ comments: false
 </div>
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Glycolysis is important for optimal asexual growth and formation of mature tissue cysts by Toxoplasma gondii</a></h3>
+    <span class="pub-authors">Shukla A, Olszewski KL, Llinás M, Rommereim LM, Fox BA, Bzik DJ, Xia D, Wastling J, <span class="pub-member-author">Beiting D</span>, Roos DS, Shanmugam D</span>
+    <span class="pub-journal"><i>International journal for parasitology</i>. <b>Aug 31; 2018</b></span>
+</div>
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1089/scd.2018.0081" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1089/scd.2018.0081" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1089/scd.2018.0081" target="_new">Sex-specific gene expression differences are evident in human embryonic stem cells and during in vitro differentiation of human placental progenitor cells</a></h3>
