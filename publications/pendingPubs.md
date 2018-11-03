@@ -1,6 +1,6 @@
 <div class="pub">
-    <h3><a href="" target="_new">OHMI: the Community-based Ontology of Host-Microbiome Interactions (HMI) to Support Standardized HMI Representation and Analysis</a></h3>
-    <span class="pub-authors">He Y, Wang H, Yu H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Putman T, Smith B, Alekseyenko AV, Obeid JS</span>
+    <h3><a href="" target="_new">Development of the community-based Ontology of Host-Microbiome Interactions (OHMI) and its application on study of the interaction between microbiomes and rheumatic diseases</a></h3>
+    <span class="pub-authors">Wang H, He Y, Yu H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Putman T, Smith B, Alekseyenko AV, Obeid JS</span>
     <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b></b></span>
 </div>
 
@@ -14,6 +14,12 @@
     <h3><a href="" target="_new">CD8 T cells induce cytotoxicity in an NKG2D-dependent manner in human cutaneous leishmaniasis</a></h3>
     <span class="pub-authors">Novais FO, Campos TM, Saldanha MG, Arruda SM, Carvalho LP, <span class="pub-member-author">Beiting DP</span>, Carvalho EM, and Scott P</span>
     <span class="pub-journal"><i>submitted to JID; Brief Definitive Reports</i>. <b></b></span>
+</div>
+
+<div class="pub">
+    <h3><a href="" target="_new">Fibroblast activation protein confers resistance to obesity by restraining adipogenic differentiation and regulating matrix-mediated mTOR signaling</a></h3>
+    <span class="pub-authors">Blomberg R, <span class="pub-member-author">Beiting DP</span>, Puré E</span>
+    <span class="pub-journal"><i>submitted to JCI</i>. <b></b></span>
 </div>
 
 
