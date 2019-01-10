@@ -78,6 +78,14 @@ comments: false
     <span class="pub-journal"><i>Journal of Immunology</i>. <b>Jan 24; 2018</b></span>
 </div>
 
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/nar/gkx1027" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkx1027" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1093/nar/gkx1027" target="_new">MicrobiomeDB: a systems biology platform for integrating, mining and analyzing microbiome experiments</a></h3>
+    <span class="pub-authors">Oliveira F, Brestelli J, Cade S, Zheng J, Iodice J, Fisher S, Aurrecoechea C, Kissinger JC, Brunk BP, Stoeckert Jr., CJ, Fernandes GR, Roos DS, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-journal"><i>Nucleic Acids Research</i>. <b>Jan 4; 2018</b></span>
+</div>
+
 ## 2017
 
 <div class="pub">
@@ -86,14 +94,6 @@ comments: false
     <h3><a href="https://www.nature.com/articles/s41598-017-18236-7" target="_new">Involvement of Innate Immune System in Late Stages of Inherited Photoreceptor Degeneration.</a></h3>
        <span class="pub-authors">Sudharsan R, <span class="pub-member-author">Beiting DP</span>, Aguirre GD, Beltran, WA </span>
     <span class="pub-journal"><i>Scientific Reports</i>. <b>Dec 20; 2017</b></span>
-</div>
-
-<div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/nar/gkx1027" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkx1027" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1093/nar/gkx1027" target="_new">MicrobiomeDB: a systems biology platform for integrating, mining and analyzing microbiome experiments</a></h3>
-    <span class="pub-authors">Oliveira F, Brestelli J, Cade S, Zheng J, Iodice J, Fisher S, Aurrecoechea C, Kissinger JC, Brunk BP, Stoeckert Jr., CJ, Fernandes GR, Roos DS, <span class="pub-member-author">Beiting DP</span></span>
-    <span class="pub-journal"><i>Nucleic Acids Research</i>. <b>Nov 2; 2017</b></span>
 </div>
 
 <div class="pub">
