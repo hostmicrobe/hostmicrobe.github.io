@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 modified: 2014-07-31T13:23:02.362000-04:00
-excerpt: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
+excerpt: ""
 image:
   feature: Rscript.png
 ---
@@ -11,7 +11,7 @@ image:
 
 # Courses and Lectures
 
-* [Transcriptomics using the R programming language](http://transcriptomicsworkshop.github.io/) - 32hrs, run 2x/year
+* [Transcriptomics using the R programming language](http://DIYtranscriptomics.com/) - 32hrs, run 2x/year
 * __First Year Seminar (CAMB 605)__
 * __Topics in Molecular Medicine (CAMB 542)__
 * __Contemporary Topics in Parasitology Research (CAMB 696)__
@@ -24,7 +24,7 @@ image:
 
 
 # Workshops
-* [Big Data Genomics - A Practical Workshop on Sequence Analysis in Parasitology]() - Instructor. Parasitology Pre-meeting Course for the 67th ASTMH Annual meeting. New Orleans LA; Oct 28th, 2018
+* [Big Data Genomics - A Practical Workshop on Sequence Analysis in Parasitology](http://hostmicrobe.org/images/ParasitologyAgendaFinal.pdf) - Instructor. Parasitology Pre-meeting Course for the 67th ASTMH Annual meeting. New Orleans LA; Oct 28th, 2018
 * [Bioinformatics for Eukaryotic Pathogens](http://workshop.eupathdb.org/bop) - Co-organizer. Biology of Parasitism course. Woods Hole, MA; July 14-15, 2018
 * [Cloud computing for metagenomics](http://hostmicrobe.org/microbiome/cloudComputing_workshop/) - Co-organizer. 4th Annual UPenn Microbiome Symposium, Philadelphia, PA; Nov, 2017
 * [Bioinformatic Analysis of Pathogen Gene Expression](http://toxogenomicsworkshop.github.io/) - Co-organizer. 13th International Conference on Toxoplasmosis, Gettysburg, PA; June, 2015

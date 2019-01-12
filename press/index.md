@@ -7,6 +7,10 @@ comments: false
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ujA679RgKbw" frameborder="0" allowfullscreen></iframe>
 
+* [Data From Largest Global Diarrheal Disease Study Available to Scientists on Public Sites](https://bit.ly/2CspdxH) - A press release from the Univ. of Maryland highlighting the release of public data, including microbiome data on microbiomeDB.org, from the Global Enteric Multicenter study (GEMS). 
+
+* [Penn Vet launches new platform to accelerate microbiome research](https://bit.ly/2ChZQwZ) - Press release announcing our new web-based platform that empowers researchers to explore, analyze and visualize large microbiome studies in the public domain.
+
 * [Can Clincial Trials in Dogs and Cats Help People?](http://www.sciencemag.org/news/2016/08/can-clinical-trials-dogs-and-cats-help-people). Our canine IBD microbiome trial was one of several discussed in a recent article in Science. - Aug, 2016
 
 * [Philadelphia Inquirer Q&A](http://www.philly.com/philly/news/science/20151025_About_the_world_within_us.html) article on the microbiome	- Oct, 2015
