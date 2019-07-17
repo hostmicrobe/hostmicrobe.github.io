@@ -19,20 +19,61 @@ comments: false
     <span class="pub-journal"><i>BioRxiv</i>. <b></b></span>
 </div>
 
+## 2019
+
+<div class="pub">
+    <h3><a href="" target="_new">Diet-induced remission in chronic enteropathy is associated with altered microbial community structure and synthesis of secondary bile acids</a></h3>
+    <span class="pub-authors">Wang S, Martins R, Sullivan MC, Friedman ES, Misic AM, El-Fahmawi A, De Martinis ECP, O’Brien K, Chen Y, Bradley C, Zhang G, Berry ASF, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-journal"><i>submitted</i>. <b></b></span>
+</div>
+
+<div class="pub">
+    <h3><a href="" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
+    <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
+    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>submitted</b></span>
+</div>
+
+<div class="pub">
+    <h3><a href="" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
+    <span class="pub-authors">Amorim CF, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
+    <span class="pub-journal"><i>Science Translational Medicine</i>. <b>in press</b></span>
+</div>
+
+<div class="pub">
+    <h3><a href="" target="_new">Lifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
+    <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, Sullivan MC, Pinkston B, Striepen B</span>
+    <span class="pub-journal"><i>Nature Microbiology</i>. <b>in press</b></span>
+</div>
+
+<div class="pub">
+    <h3><a href="" target="_new">Fibroblast activation protein restrains adipogenic differentiation and regulats matrix-mediated mTOR signaling</a></h3>
+    <span class="pub-authors">Puré E, <span class="pub-member-author">Beiting DP</span>, Blomberg R, </span>
+    <span class="pub-journal"><i>Matrix Biology</i>. <b>in press</b></span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1128/mBio.00935-19" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/mBio.00935-19" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/mBio.00935-19" target="_new">Infection-Induced Intestinal Dysbiosis Is Mediated by Macrophage Activation and Nitrate Production</a></h3>
+    <span class="pub-authors">Wang S, El-Fahmawi A, Christian DA, Fang Q, Radaelli E, Chen L, Sullivan MC, Misic AM, Ellringer JA, Zhu XQ, Winter SE, Hunter CA, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-journal"><i>MBio</i>. <b>May 28; 2019</b></span>
+</div>
+
+
 ## 2018
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Alarmin S100A11 initiates a chemokine response to the human pathogen Toxoplasma gondii</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41590-018-0250-8" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41590-018-0250-8" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s41590-018-0250-8" target="_new">Alarmin S100A11 initiates a chemokine response to the human pathogen Toxoplasma gondii</a></h3>
     <span class="pub-authors">Safronova A, Araujo A, Camanzo ET, Moon TJ, Elliott MR, <span class="pub-member-author">Beiting DP</span>, Yarovinsky F</span>
-    <span class="pub-journal"><i>accepted at Nature Immunology</i>. <b></b></span>
+    <span class="pub-journal"><i>Nature Immunology</i>. <b>Nov 19; 2018</b></span>
 </div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Glycolysis is important for optimal asexual growth and formation of mature tissue cysts by Toxoplasma gondii</a></h3>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.ijpara.2018.05.013" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.ijpara.2018.05.013" target="_new">Glycolysis is important for optimal asexual growth and formation of mature tissue cysts by Toxoplasma gondii</a></h3>
     <span class="pub-authors">Shukla A, Olszewski KL, Llinás M, Rommereim LM, Fox BA, Bzik DJ, Xia D, Wastling J, <span class="pub-member-author">Beiting D</span>, Roos DS, Shanmugam D</span>
     <span class="pub-journal"><i>International journal for parasitology</i>. <b>Aug 31; 2018</b></span>
 </div>

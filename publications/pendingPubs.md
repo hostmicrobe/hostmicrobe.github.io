@@ -1,8 +1,4 @@
-<div class="pub">
-    <h3><a href="" target="_new">Development of the community-based Ontology of Host-Microbiome Interactions (OHMI) and its application on study of the interaction between microbiomes and rheumatic diseases</a></h3>
-    <span class="pub-authors">Wang H, He Y, Yu H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Putman T, Smith B, Alekseyenko AV, Obeid JS</span>
-    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b></b></span>
-</div>
+
 
 <div class="pub">
     <h3><a href="" target="_new">IL-27 and TCR stimulation promote T cell expression of multiple inhibitory receptors</a></h3>
@@ -16,11 +12,7 @@
     <span class="pub-journal"><i>submitted to JID; Brief Definitive Reports</i>. <b></b></span>
 </div>
 
-<div class="pub">
-    <h3><a href="" target="_new">Fibroblast activation protein confers resistance to obesity by restraining adipogenic differentiation and regulating matrix-mediated mTOR signaling</a></h3>
-    <span class="pub-authors">Blomberg R, <span class="pub-member-author">Beiting DP</span>, Puré E</span>
-    <span class="pub-journal"><i>submitted to JCI</i>. <b></b></span>
-</div>
+
 
 
 Unlikely to happen
