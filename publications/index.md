@@ -28,7 +28,7 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41564-019-0539-x" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1038/s41564-019-0539-x" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1038/s41564-019-0539-x" target="_new">ifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
+    <h3><a href="https://doi.org/10.1038/s41564-019-0539-x" target="_new">Lifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
     <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, Sullivan MC, Pinkston B, Striepen B</span>
     <span class="pub-journal"><i>Nature Microbiology</i>. <b>Sept 02; 2019</b></span>
 </div>
