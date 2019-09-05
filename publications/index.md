@@ -11,26 +11,12 @@ comments: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-## Preprints
-
-<div class="pub">
-    <h3><a href="http://www.biorxiv.org/content/biorxiv/early/2017/06/27/156455" target="_new">Aging-associated dysbiosis increases susceptibility to enteric viral infection in Drosophila</a></h3>
-    <span class="pub-authors">Christine Sansone, Johnathan Cohen, Beth Gold, Wehan Zhu, Ana M. Misic, <span class="pub-member-author">Beiting DP</span>, Sebastian E. Winter, Sara Cherry</span>
-    <span class="pub-journal"><i>BioRxiv</i>. <b></b></span>
-</div>
-
 ## 2019
-
-<div class="pub">
-    <h3><a href="" target="_new">Diet-induced remission in chronic enteropathy is associated with altered microbial community structure and synthesis of secondary bile acids</a></h3>
-    <span class="pub-authors">Wang S, Martins R, Sullivan MC, Friedman ES, Misic AM, El-Fahmawi A, De Martinis ECP, O’Brien K, Chen Y, Bradley C, Zhang G, Berry ASF, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP</span></span>
-    <span class="pub-journal"><i>submitted</i>. <b></b></span>
-</div>
 
 <div class="pub">
     <h3><a href="" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
-    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>submitted</b></span>
+    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>in press</b></span>
 </div>
 
 <div class="pub">
@@ -40,15 +26,35 @@ comments: false
 </div>
 
 <div class="pub">
-    <h3><a href="" target="_new">Lifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41564-019-0539-x" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41564-019-0539-x" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s41564-019-0539-x" target="_new">ifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
     <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, Sullivan MC, Pinkston B, Striepen B</span>
-    <span class="pub-journal"><i>Nature Microbiology</i>. <b>in press</b></span>
+    <span class="pub-journal"><i>Nature Microbiology</i>. <b>Sept 02; 2019</b></span>
 </div>
 
 <div class="pub">
-    <h3><a href="" target="_new">Fibroblast activation protein restrains adipogenic differentiation and regulats matrix-mediated mTOR signaling</a></h3>
-    <span class="pub-authors">Puré E, <span class="pub-member-author">Beiting DP</span>, Blomberg R, </span>
-    <span class="pub-journal"><i>Matrix Biology</i>. <b>in press</b></span>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s40168-019-0740-4" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-019-0740-4" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s40168-019-0740-4" target="_new">Diet-induced remission in chronic enteropathy is associated with altered microbial community structure and synthesis of secondary bile acids</a></h3>
+    <span class="pub-authors">Wang S, Martins R, Sullivan MC, Friedman ES, Misic AM, El-Fahmawi A, De Martinis ECP, O’Brien K, Chen Y, Bradley C, Zhang G, Berry ASF, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-journal"><i>Microbiome</i>. <b>Aug 31; 2019</b></span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0215497" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0215497" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.pone.0215497" target="_new">Gut microbiota features associated with Clostridioides difficile colonization in puppies</a></h3>
+    <span class="pub-authors">Berry ASF, Kelly BJ, Barnhart D, Kelly DJ, <span class="pub-member-author">Beiting DP</span>, Baldassano RN, Redding LE</span>
+    <span class="pub-journal"><i>PLOS One</i>. <b>Aug 30; 2019</b></span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.matbio.2019.07.007" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.matbio.2019.07.007" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.matbio.2019.07.007" target="_new">Fibroblast activation protein restrains adipogenic differentiation and regulats matrix-mediated mTOR signaling</a></h3>
+    <span class="pub-authors">Puré E, <span class="pub-member-author">Beiting DP</span>, Wabitsch M, Blomberg R, </span>
+    <span class="pub-journal"><i>Matrix Biology</i>. <b>July 17; 2019</b></span>
 </div>
 
 <div class="pub">
@@ -57,6 +63,14 @@ comments: false
     <h3><a href="https://doi.org/10.1128/mBio.00935-19" target="_new">Infection-Induced Intestinal Dysbiosis Is Mediated by Macrophage Activation and Nitrate Production</a></h3>
     <span class="pub-authors">Wang S, El-Fahmawi A, Christian DA, Fang Q, Radaelli E, Chen L, Sullivan MC, Misic AM, Ellringer JA, Zhu XQ, Winter SE, Hunter CA, <span class="pub-member-author">Beiting DP</span></span>
     <span class="pub-journal"><i>MBio</i>. <b>May 28; 2019</b></span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.4049/immunohorizons.1800083" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.4049/immunohorizons.1800083" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.4049/immunohorizons.1800083" target="_new">IL-27 and TCR Stimulation Promote T Cell Expression of Multiple Inhibitory Receptors</a></h3>
+    <span class="pub-authors">DeLong JH, O’Hara Hall A, Rausch M, Moodley D, Perry J, Park J, Phan AT, <span class="pub-member-author">Beiting DP</span>, Kedl RM, Hill JA, Hunter CA</span>
+    <span class="pub-journal"><i>ImmunoHorizons</i>. <b>Jan 01; 2019</b></span>
 </div>
 
 

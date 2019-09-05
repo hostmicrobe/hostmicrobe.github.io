@@ -1,11 +1,4 @@
 
-
-<div class="pub">
-    <h3><a href="" target="_new">IL-27 and TCR stimulation promote T cell expression of multiple inhibitory receptors</a></h3>
-    <span class="pub-authors">DeLong JH, Hall AO, Rausch M, Moodley D, Perry J, Park J, Phan AT, <span class="pub-member-author">Beiting DP</span>, Elloso M, Kedl R, Hill J, Hunter CA</span>
-    <span class="pub-journal"><i>Journal of Immunology</i>. <b></b></span>
-</div>
-
 <div class="pub">
     <h3><a href="" target="_new">CD8 T cells induce cytotoxicity in an NKG2D-dependent manner in human cutaneous leishmaniasis</a></h3>
     <span class="pub-authors">Novais FO, Campos TM, Saldanha MG, Arruda SM, Carvalho LP, <span class="pub-member-author">Beiting DP</span>, Carvalho EM, and Scott P</span>
