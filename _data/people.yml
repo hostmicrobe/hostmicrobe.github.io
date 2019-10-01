@@ -19,13 +19,13 @@
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "My research employs genome sequencing and comparative genomic methods to explore the biology, evolution and host-parasite interface of some medically important parasites. My current study focuses on interactions between host intestinal microbiome and the parasite Toxoplasma gondii"
 
-- alias: Megan
-  name: Megan Sullivan
+- alias: Elise
+  name: Elise Krespan
   role: Research Specialist
-  email: mcsull@vet.upenn.edu
+  email: ekrespan@vet.upenn.edu
   phone: +1-215-898-9911
   twitter: 
-  avatar: megan.jpg
+  avatar: elise.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "In addition to general lab management, I work with investigators to plan, develop and manage high-throughput sequencing projects, ranging from transcriptome studies, single-cell seq, 16S rRNA profiling and shotgun metagenomics."
 
@@ -39,16 +39,6 @@
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "My interests center mainly around using high-throughput sequencing to study the human immune response during cutaneous leishmaniasis."
 
-- alias: Ayah
-  name: Ayah El-Fahmawi
-  role: Undergraduate researcher
-  email: ayahe@sas.upenn.edu
-  phone: +1-215-898-9911
-  fax: +1-215-746-2295
-  avatar: ayah_bio.jpg
-  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "I am a senior studying biology at UPenn and I've been working to elucidate the mechanisms by which intestinal inflammation leads to dysbiosis and severe disease"
-
 - alias: Alex
   name: Alex Berry
   role: Postdoctoral researcher
@@ -58,3 +48,23 @@
   avatar: alex.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "I am interested in using population genetic and phylogenetic approaches to understand how parasites affect the microbiome."
+
+- alias: Jake
+  name: Jake Leiby
+  role: Rotating graduate student (GCB)
+  email: jleiby@pennmedicine.upenn.edu
+  phone: 
+  twitter: 
+  avatar: jake.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio:
+
+- alias: Amanda
+  name: Amanda Finck
+  role: Rotating graduate student (IGG)
+  email: finckam@pennmedicine.upenn.edu
+  phone: 
+  twitter: 
+  avatar: amanda.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio:
