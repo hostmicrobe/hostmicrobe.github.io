@@ -1,13 +1,12 @@
 - alias: Dan
   name: Daniel Beiting
-  role: Assistant Professor; Technical Director
+  role: Assistant Professor of Pathobiology
   twitter: hostmicrobe
   github: dpbisme
   web: hostmicrobe.org
-  avatar: headshot.jpg
+  avatar: dan2.jpg
   email: danielbeiting@gmail.com
   phone: +1-215-898-9247
-  fax: +1-215-746-2295
   address: University of Pennsylvania, Rm 314 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "I am an immunologist using 'omics approaches to interrogate the host-pathogen interface."
 
@@ -33,7 +32,7 @@
   name: Camila Farias Amorim
   role: Postdoctoral researcher
   email: camilafarias112@gmail.com
-  phone: 215-594-9806
+  phone: 215-898-0526
   twitter: 
   avatar: camila.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
@@ -44,7 +43,7 @@
   role: Postdoctoral researcher
   email: berrya@sas.upenn.edu
   phone: 
-  twitter: 
+  twitter: alex_berry14
   avatar: alex.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "I am interested in using population genetic and phylogenetic approaches to understand how parasites affect the microbiome."
@@ -54,7 +53,7 @@
   role: Rotating graduate student (GCB)
   email: jleiby@pennmedicine.upenn.edu
   phone: 
-  twitter: 
+  twitter: LeibyJacob
   avatar: jake.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio:
@@ -64,7 +63,7 @@
   role: Rotating graduate student (IGG)
   email: finckam@pennmedicine.upenn.edu
   phone: 
-  twitter: 
+  twitter: FinckAmanda
   avatar: amanda.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio:
