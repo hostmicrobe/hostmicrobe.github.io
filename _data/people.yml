@@ -10,14 +10,6 @@
   address: University of Pennsylvania, Rm 314 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "I am an immunologist using 'omics approaches to interrogate the host-pathogen interface."
 
-- alias: Shuai
-  name: Shuai Wang
-  role: Visiting Scholar
-  email: wshuai@upenn.edu
-  avatar: shuai.jpg
-  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "My research employs genome sequencing and comparative genomic methods to explore the biology, evolution and host-parasite interface of some medically important parasites. My current study focuses on interactions between host intestinal microbiome and the parasite Toxoplasma gondii"
-
 - alias: Elise
   name: Elise Krespan
   role: Research Specialist
@@ -26,7 +18,7 @@
   twitter: 
   avatar: elise.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio: "In addition to general lab management, I work with investigators to plan, develop and manage high-throughput sequencing projects, ranging from transcriptome studies, single-cell seq, 16S rRNA profiling and shotgun metagenomics."
+  bio: "In addition to general lab management, I work with investigators to plan, develop and manage high-throughput sequencing projects, ranging from transcriptome studies, single-cell seq, 16S rRNA profiling and shotgun metagenomics. I'm also interested in interdisciplinary science that incorporates elements of design."
 
 - alias: Camila
   name: Camila Farias Amorim
@@ -56,7 +48,7 @@
   twitter: LeibyJacob
   avatar: jake.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
-  bio:
+  bio: "I am interested in microbial genomics, infectious disease, and whole genome sequencing."
 
 - alias: Amanda
   name: Amanda Finck
@@ -67,3 +59,13 @@
   avatar: amanda.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio:
+
+- alias: Wojtek
+  name: Wojtek Bazant
+  role: Bioinformatics application developer
+  email: wojciech.bazant@gmail.com
+  phone: 
+  twitter: 
+  avatar: wojtek.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "I design and build tools for database-driven interrogation of large scale microbiome datasets."

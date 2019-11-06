@@ -14,6 +14,12 @@ comments: false
 ## 2019
 
 <div class="pub">
+    <h3><a href="" target="_new">The parasite kinase ROP16 is a key virulence factor that acts in cis and trans and mediates suppression of T cell responses</a></h3>
+    <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, Wang S, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>
+    <span class="pub-journal"><i>Journal of Experimental Medicine</i>. <b>in press</b></span>
+</div>
+
+<div class="pub">
     <h3><a href="" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
     <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>in press</b></span>
