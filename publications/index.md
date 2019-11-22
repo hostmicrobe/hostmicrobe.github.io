@@ -26,9 +26,11 @@ comments: false
 </div>
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1126/scitranslmed.aax4204" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
     <span class="pub-authors">Amorim CF, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
-    <span class="pub-journal"><i>Science Translational Medicine</i>. <b>in press</b></span>
+    <span class="pub-journal"><i>Science Translational Medicine</i>. <b>Nov 20; 2019</b></span>
 </div>
 
 <div class="pub">
