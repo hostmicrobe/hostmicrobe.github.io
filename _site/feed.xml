@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2018-07-18T21:58:19-04:00</updated>
+<updated>2019-11-22T16:37:34-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Beiting</name>
@@ -17,7 +17,7 @@
   <title type="html"><![CDATA[Cloud computing for metagenomics - 4hr workshop]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/microbiome/cloudComputing_workshop/" />
   <id>http://localhost:4000/microbiome/cloudComputing_workshop</id>
-  <updated>2017-11-06T00:00:00-00:00</updated>
+  <updated>2018-11-05T00:00:00-00:00</updated>
   <published>2017-11-06T00:00:00-05:00</published>
   
   <author>
@@ -33,14 +33,13 @@
 &lt;div id=&quot;drawer&quot;&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#before-starting&quot; id=&quot;markdown-toc-before-starting&quot;&gt;Before starting&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#launch-the-google-cloud-instance&quot; id=&quot;markdown-toc-launch-the-google-cloud-instance&quot;&gt;Launch the Google Cloud instance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#installing-the-sunbeam-metagenomics-pipeline&quot; id=&quot;markdown-toc-installing-the-sunbeam-metagenomics-pipeline&quot;&gt;Installing the Sunbeam metagenomics pipeline&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#test-drive&quot; id=&quot;markdown-toc-test-drive&quot;&gt;test drive&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#connect-to-glcoud-instance&quot; id=&quot;markdown-toc-connect-to-glcoud-instance&quot;&gt;connect to glcoud instance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#transfer-data-to-glcoud&quot; id=&quot;markdown-toc-transfer-data-to-glcoud&quot;&gt;transfer data to glcoud&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#fetch-your-reference-files&quot; id=&quot;markdown-toc-fetch-your-reference-files&quot;&gt;fetch your reference files&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#run-sunbeam&quot; id=&quot;markdown-toc-run-sunbeam&quot;&gt;Run Sunbeam&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#interpreting-your-results&quot; id=&quot;markdown-toc-interpreting-your-results&quot;&gt;Interpreting your results&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#set-up-cloud-computer&quot; id=&quot;markdown-toc-set-up-cloud-computer&quot;&gt;Set-up cloud computer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#install-sunbeam&quot; id=&quot;markdown-toc-install-sunbeam&quot;&gt;Install Sunbeam&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#get-data&quot; id=&quot;markdown-toc-get-data&quot;&gt;Get data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#initialize-project&quot; id=&quot;markdown-toc-initialize-project&quot;&gt;Initialize project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#download-reference-data&quot; id=&quot;markdown-toc-download-reference-data&quot;&gt;Download reference data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#run-the-pipeline&quot; id=&quot;markdown-toc-run-the-pipeline&quot;&gt;Run the pipeline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#generate-a-report&quot; id=&quot;markdown-toc-generate-a-report&quot;&gt;Generate a report&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;/div&gt;
@@ -48,7 +47,7 @@
 &lt;!-- /#table-of-contents --&gt;
 
 &lt;h2 id=&quot;before-starting&quot;&gt;Before starting&lt;/h2&gt;
-&lt;p&gt;Around the time my lab was starting to experiment with using Dockerized tools and cloud compute resources for analzying metagenomic data – which culminated in a two part blog post &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part1/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part2/&quot;&gt;here&lt;/a&gt; – &lt;a href=&quot;https://microbiome.research.chop.edu/our-team/kyle-bittinger.html&quot;&gt;Kyle Bittinger&lt;/a&gt; and his group at the PennCHOP Microbiome Center were finishing up their work developing a Snakemake-based pipeline for metagenomics.  With our annual microbiome symposium quickly approaching, Kyle and I decided to join forces to host a 1/2 day workshop that would combine these elements.&lt;/p&gt;
+&lt;p&gt;In this workshop we’ll use the Google Cloud to analyze raw metagenomic sequence data to identify the microbial composition of stool from heathly humans compared to Crohn’s disease patients.  In addition to generating this microbial census, you’ll also assemble sequences into contigs, which can then be used to infer functional potential.  To accomplish these tasks we’ll use &lt;a href=&quot;https://www.biorxiv.org/content/early/2018/05/18/326363&quot;&gt;Sunbeam&lt;/a&gt;, a snake-make based metagenomics pipeline developed by &lt;a href=&quot;https://microbiome.research.chop.edu/our-team/kyle-bittinger.html&quot;&gt;Kyle Bittinger&lt;/a&gt; and his group at the PennCHOP Microbiome Center.&lt;/p&gt;
 
 &lt;p&gt;The material below is intended to walk you through this workshop, and provide a general web-based lesson plan for how one might conduct such a workshop.&lt;/p&gt;
 
@@ -57,141 +56,180 @@
   &lt;li&gt;a laptop computer&lt;/li&gt;
   &lt;li&gt;an internet connection&lt;/li&gt;
   &lt;li&gt;a google account (free)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com&quot;&gt;a google cloud account&lt;/a&gt; (free sign-up and $300 credit)&lt;/li&gt;
-  &lt;li&gt;example data that you can &lt;a href=&quot;https://upenn.box.com/shared/static/q7tje8tzs2y73ns46qvrjm6ehuz7j0sc.zip&quot;&gt;download here&lt;/a&gt;. This dataset will be explained in more detail during the workshop, but is also described &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part2/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com&quot;&gt;a google cloud account&lt;/a&gt; (free sign-up comes with a $300 credit!)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;launch-the-google-cloud-instance&quot;&gt;Launch the Google Cloud instance&lt;/h2&gt;
+&lt;h2 id=&quot;set-up-cloud-computer&quot;&gt;Set-up cloud computer&lt;/h2&gt;
 
-&lt;p&gt;We’ll begin the workshop with a demonstration of how to launch your first Google Cloud instance.  We’ll then connect to this instance via the gcloud SSH button.  Once connected, we’re all using exactly the same type of computer with the same operating system, regardless of your local machine and OS.&lt;/p&gt;
+&lt;p&gt;We’ll begin the workshop with a demonstration of how to launch your first Google Cloud instance to build your cloud computer to have the following specs:&lt;/p&gt;
 
-&lt;h2 id=&quot;installing-the-sunbeam-metagenomics-pipeline&quot;&gt;Installing the Sunbeam metagenomics pipeline&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;8 cores&lt;/li&gt;
+  &lt;li&gt;50Gb of RAM&lt;/li&gt;
+  &lt;li&gt;100Gb solid state harddrive&lt;/li&gt;
+  &lt;li&gt;Running Linux 18.04 LTS operating system&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;After launching, we need to install some system programs on the computer.  For this, we’ll use the &lt;code class=&quot;highlighter-rouge&quot;&gt;apt-get&lt;/code&gt; utility provided with the operating system.&lt;/p&gt;
+&lt;p&gt;Once you have finalized this instance, you have effectively rented a computer from Google, and we are all using exactly the same type of computer with the same operating system and compute resources.  In the case of the computer we set-up above, you will be charged 36 cents per hour, or about $260/month.  The more powerful the computer, the more you will be charged in rent, regardless of whether or not you actually use these resources.  &lt;strong&gt;If you fail to delete your instance after the workshop, your credit card will be charged after ~1 month (when the $300 credit will have been spent).&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install unzip xvfb xdotool libxrender1 libxi6
+&lt;h2 id=&quot;install-sunbeam&quot;&gt;Install Sunbeam&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Connect to your cloud computer using the ‘ssh’ button next to the instance.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/eclarke/sunbeam&quot;&gt;Download Sunbeam&lt;/a&gt; from github using the code below&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
+git clone -b stable https://github.com/sunbeam-labs/sunbeam sunbeam-stable
+ls
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;Install Sunbeam&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd sunbeam-stable
+bash install.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In order to start using Sunbeam, we need to close our ssh terminal and reopen it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Since Sunbeam was installed as a Conda environment, we have to enter this environment to start using the software&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;source activate sunbeam
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a command you’ll want to remember for future sessions.  Each time you log into your cloud instance, you’ll need to activate the pipeline with &lt;code class=&quot;highlighter-rouge&quot;&gt;source activate sunbeam&lt;/code&gt;.  Upon activation, you should see that your command prompt begins with “(sunbeam)”.  Anytime you want to exit out of sunbeam, simply type &lt;code class=&quot;highlighter-rouge&quot;&gt;source deactivate sunbeam&lt;/code&gt; and hit return.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;let’s install some additional software in our environment. SRA tools will allow us to easily retrieve raw data from NCBI’s &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/sra&quot;&gt;Sequence Read Archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;conda install -c bioconda sra-tools
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;For this workshop, we’ll use data from a &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4633303/&quot;&gt;recent metagenomics study&lt;/a&gt; in Crohn’s disease.  This was a large study, but for the purpose of the workshop we’ll only fetch data from 7 patients.  Note: contaminating human reads have already been removed from these files.  Let’s download these data to our cloud computer using the &lt;code class=&quot;highlighter-rouge&quot;&gt;fasterq-dump&lt;/code&gt; function from the SRA tools software.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
+mkdir workshop-data
+cd workshop-data
+fasterq-dump SRR2145310
+fasterq-dump SRR2145329
+fasterq-dump SRR2145381
+fasterq-dump SRR2145353
+fasterq-dump SRR2145354
+fasterq-dump SRR2145492
+fasterq-dump SRR2145498
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;initialize-project&quot;&gt;Initialize project&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
+mkdir workshop-project
+sunbeam init workshop-project --data_fp workshop-data
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use your nano text editor to explore the samples file and configuration file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;download-reference-data&quot;&gt;Download reference data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We need two reference databases to run our analysis: a database of host DNA
+sequence to remove, and a database of bacterial DNA to match against.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We’ll get the human genome data from UCSC.  Filtering against the entire human
+genome takes too long, so we’ll only filter against chromosome 1.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
+mkdir human
+cd human
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg38/chromosomes/chr1.fa.gz
+gunzip chr1.fa.gz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sunbeam requires that the host DNA sequence files end in “.fasta”, so it can
+find them automatically.  Let’s use the &lt;code class=&quot;highlighter-rouge&quot;&gt;mv&lt;/code&gt; command to rename this file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;mv chr1.fa chr1.fasta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The database of bacterial genomes comes pre-built from the homepage of our
+taxonomic assignment software, Kraken.  We’ll download that using the &lt;code class=&quot;highlighter-rouge&quot;&gt;wget&lt;/code&gt; program.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
+wget https://ccb.jhu.edu/software/kraken/dl/minikraken_20171101_4GB_dustmasked.tgz
+tar xvzf minikraken_20171101_4GB_dustmasked.tgz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now that we have reference databases, we need to add them to our configuration
+file.  We’ll use &lt;code class=&quot;highlighter-rouge&quot;&gt;nano&lt;/code&gt; to open and modify this file directly in our termial&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
+nano workshop-project/sunbeam_config.yml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The configuration values are below.  You’ll need to navigate to the right spot
+in your configuration file, and substitute the directory name “kylebittinger”
+with your google username.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;host_fp: &quot;/home/kylebittinger/human&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;We’ll download the &lt;a href=&quot;https://github.com/eclarke/sunbeam&quot;&gt;Sunbeam software&lt;/a&gt; from GitHub, where it is distributed.  &lt;strong&gt;Again, this is a new pipeline from Kyle’s group, and he’ll spend substantial time during the workshop talking about what is happening under the hood as we run Sunbeam.&lt;/strong&gt;  We’ll also briefly discuss why this pipeline was created with &lt;a href=&quot;http://snakemake.readthedocs.io/en/stable/&quot;&gt;Snakemake&lt;/a&gt; and uses a &lt;a href=&quot;https://conda.io/docs/&quot;&gt;Conda environment&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://github.com/eclarke/sunbeam/archive/master.zip
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kraken_db_fp: &quot;/home/kylebittinger/minikraken_20171101_4GB_dustmasked&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;After the software is downloaded successfully, you’ll have a new file called &lt;code class=&quot;highlighter-rouge&quot;&gt;master.zip&lt;/code&gt; in your home directory.  You can verify this with the &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; command. Now that the file is downloaded, we’ll decompress
-the file with &lt;code class=&quot;highlighter-rouge&quot;&gt;unzip&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;run-the-pipeline&quot;&gt;Run the pipeline&lt;/h2&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;unzip master.zip
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;We are ready to actually run the pipeline.  All the information about how
+to run the pipeline is in our configuration file, so we’ll provide that to
+Sunbeam (&lt;code class=&quot;highlighter-rouge&quot;&gt;--configfile&lt;/code&gt; argument).  We’ll also let Sunbeam know how many CPU
+cores we’d like to use (&lt;code class=&quot;highlighter-rouge&quot;&gt;--jobs&lt;/code&gt; argument).&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;We move into the software directory, where the installation scripts are located.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
+sunbeam run --configfile workshop-project/sunbeam_config.yml --jobs 7
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;sunbeam-master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;generate-a-report&quot;&gt;Generate a report&lt;/h2&gt;
 
-&lt;p&gt;Now, we’re ready to actually install the Sunbeam analysis pipeline. Sunbeam provides a script for this purpose.&lt;/p&gt;
+&lt;p&gt;To look at some of our results, we’ll install a Sunbeam extension and generate
+a report.&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./install.sh
-./install_igv.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~/sunbeam-stable/extensions
+git clone https://github.com/sunbeam-labs/sbx_report
+conda install --file sbx_report/requirements.txt
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The pipeline uses a system called Conda to manage all the bioinformatics analysis programs. This system works by storing all the programs inside your home directory, so that we can use special versions of programs just for this pipeline. We’ll tell the computer where to find the Conda system.&lt;/p&gt;
+&lt;p&gt;This is going to install the R programming language on our remote computer,
+which will take a bit of time.  When the installation is complete,&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;export PATH=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/miniconda3/bin:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;PATH&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc
-&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; ~/.bashrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To actually use Sunbeam, we’ll “turn on” the bioinformatics software.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;source &lt;/span&gt;activate sunbeam
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This is the command you’ll want to remember for future sessions.  Each time you log into your cloud instance, you’ll need to activate the pipeline with &lt;code class=&quot;highlighter-rouge&quot;&gt;source activate sunbeam&lt;/code&gt;.  Upon activation, you should see that your command prompt begins with “(sunbeam)”.  Anytime you want to exit out of sunbeam, simply type &lt;code class=&quot;highlighter-rouge&quot;&gt;source deactivate sunbeam&lt;/code&gt; and hit return.&lt;/p&gt;
-
-&lt;h2 id=&quot;test-drive&quot;&gt;test drive&lt;/h2&gt;
-
-&lt;p&gt;Now that our software is installed and activated, we’ll run the tests included with Sunbeam to make sure everything is OK.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash tests/test.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;As the tests are running, you should see messages scrolling by on your screen. This is a preview of what you might see when the actual pipeline is running, so we’ll devote some time in our session to understanding the messages.&lt;/p&gt;
-
-&lt;p&gt;Our next step is to download our data files and get moving with some real data analysis!&lt;/p&gt;
-
-&lt;h2 id=&quot;connect-to-glcoud-instance&quot;&gt;connect to glcoud instance&lt;/h2&gt;
-&lt;p&gt;Although the ssh terminal available right on your instance is very convenient, it does not establish a connection between our local computer and the cloud instance (which we must do in order to move files back and forth).  In order to do that, we’ll want to connect to our instance from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Terminal_(macOS)&quot;&gt;terminal app&lt;/a&gt; on our local computer.  Go ahead and launch your Terminal app.  Before we do anything else, let’s execute a command in the terminal that will allow us to see hidden files in our directory.  We need access to a few of these hidden files for the purposes of this tutorial.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;defaults write com.apple.finder AppleShowAllFiles &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#then restart the finder to see these changes&lt;/span&gt;
-killall Finder
-&lt;span class=&quot;c&quot;&gt;#after this tutorial you can hide these files again by replacing 'true' with 'false'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Now install the google SDK.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl https://sdk.cloud.google.com | bash
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;I my experience, if you encounter any issues with this entire tutorial, it will be with getting the SDK installed and connecting to your instance. For example, you may notice that the installation fails with the following error&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ERROR: Failed to fetch component listing from server. Check your network settings and try again
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This error has to do with the the IPv6 settings on your computer preventing you from being able to connect with a google server to download the SDK command line tools&lt;/p&gt;
-
-&lt;p&gt;If you encounter this error, this fix is simple.  Begin by temporarily turning off IPv6 support for either Wi-Fi or Ethernet, depending on which one you are using to connect to the internet.  If you’re using a Wi-Fi connection, then you would turn-off with:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;networksetup &lt;span class=&quot;nt&quot;&gt;-setv6off&lt;/span&gt; Wi-Fi &lt;span class=&quot;c&quot;&gt;#if you're using ethernet, replace 'Wi-Fi' with 'Ethernet' in this line&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Now reattempt the installation as you did above&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl https://sdk.cloud.google.com | bash
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Once you have Google Cloud SDK installed, &lt;em&gt;be sure to turn the IPv6 back on&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;networksetup &lt;span class=&quot;nt&quot;&gt;-setv6automatic&lt;/span&gt; Wi-Fi
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Now we’ll connect to the instance from within our Terminal.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gcloud compute ssh instance-1 &lt;span class=&quot;c&quot;&gt;#if your instance is not called 'instance-1', be sure to modify this line accordingly&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#Be patient here, as this may take a moment to connect.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If the above command failed with an authentication error, it’s because this is the first time you’ve run SDK and it isn’t sure that you should have access to your google account from the terminal.  Take a moment to authenticate&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gcloud auth login
-&lt;span class=&quot;c&quot;&gt;#this will open a browser window for you to select and sign-in to your google account&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#after doing this, return to your terminal window and you should be good to go&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#if this doesn't work, you may need to go though the gcloud initialization process by executing 'gcloud init'&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#either way, once you have authenticated your account you will need to reattempt connecting with 'gcloud compute ssh instance-1'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;transfer-data-to-glcoud&quot;&gt;transfer data to glcoud&lt;/h2&gt;
-
-&lt;p&gt;In this part of the workshop you’ll learn all the point-and-click steps to connect to your gcloud instance via SFTP using the &lt;a href=&quot;https://filezilla-project.org/&quot;&gt;FileZilla program&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is important to keep our file system organized by project.  To do this, we’ll use FileZilla to create a new folder in your home directory called ‘deadmice’, which will be our project folder for today.  Open this folder (double click) and create a subfolder called ‘data_files’.  Your project folder can be named anything, but each project folder must have a ‘data_files’ subfolder where all raw data input files should be stored.&lt;/p&gt;
-
-&lt;p&gt;With these folders in place, use FileZilla to drag-and-drop all the fastq files you downloaded for the workshop into the ‘data_files’ folder.&lt;/p&gt;
-
-&lt;h2 id=&quot;fetch-your-reference-files&quot;&gt;fetch your reference files&lt;/h2&gt;
-
-&lt;p&gt;We have bundled a number of commands for getting reference files into a shell script that you can download &lt;a href=&quot;http://hostmicrobe.github.io/myPapers/download_refdata.sh&quot;&gt;here&lt;/a&gt;.  We’ll discuss the content of this file during the workshop.&lt;/p&gt;
-
-&lt;p&gt;Use FileZilla to drag-and-drop this shell script into your home directory on gcloud.&lt;/p&gt;
-
-&lt;p&gt;Now run the shell script&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~
-bash download_refdata.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;run-sunbeam&quot;&gt;Run Sunbeam&lt;/h2&gt;
-
-&lt;p&gt;Run sunbeam (this will take about 1hr to complete)&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/sunbeam-master
-snakemake &lt;span class=&quot;nt&quot;&gt;--configfile&lt;/span&gt; deadmice-config.yml &lt;span class=&quot;nt&quot;&gt;--cores&lt;/span&gt; 8
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;interpreting-your-results&quot;&gt;Interpreting your results&lt;/h2&gt;
-
-&lt;p&gt;Running Sunbeam will produce a third subdirectory for the output files (“sunbeam_output”).&lt;/p&gt;
-
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
+sunbeam run --configfile workshop-project/sunbeam_config.yml final_report
+&lt;/code&gt;&lt;/pre&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/microbiome/cloudComputing_workshop/&quot;&gt;Cloud computing for metagenomics - 4hr workshop&lt;/a&gt; was originally published by Beiting at &lt;a href=&quot;http://localhost:4000&quot;&gt;Home&lt;/a&gt; on November 06, 2017.&lt;/p&gt;
   </content>

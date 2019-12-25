@@ -6,8 +6,6 @@
 </div>
 
 
-
-
 Unlikely to happen
 <div class="pub">
     <h3><a href="" target="_new">Mining the T. gondii transcriptome: Generalizable strategies for recognizing alternative splicing, stage-specific mRNA and lncRNA expression, and improving genome annotation</a></h3>

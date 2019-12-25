@@ -11,15 +11,37 @@ comments: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
+
+## 2020
+
+<div class="pub_float">
+    <h3><a href="" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
+    <span class="pub-authors">Zhu W, Winter MG, Spiga L, Hughes ER, Chanin R, Mulgaonkar A, Pennington J, Maas M, Behrendt CL, Kim J, Sun X, <span class="pub-member-author">Beiting DP</span>, Hooper LV, Winter S</span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href=""><img src="" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    </div>
+    </div>
+    <span class="pub-journal"><i>Cell Host Microbe</i>. <b>Manuscript accepted</b></span>
+</div>
+
 ## 2019
 
-<div class="pub">
+<div class="pub_float">
     <h3><a href="" target="_new">The parasite kinase ROP16 is a key virulence factor that acts in cis and trans and mediates suppression of T cell responses</a></h3>
-    <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, Wang S, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>
+    <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, <span class="pub-member-author">Wang S</span>, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href=""><img src="" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- Identified key inflammatory genes whose expression in the skin is associated with treatment failure in cutaneous leishmaniasis.</span><br><span style="display: inline-block; padding-bottom: 5px;">-  Covered by <a href="https://medicalxpress.com/news/2019-11-treatment-outcome-leishmaniasis.html" target="_blank">MedicalExpress News</a></span><br><span style="display: inline-block; padding-bottom: 5px;">-  All code and sofware and code are bundled in a <a href="https://codeocean.com/capsule/6534016/tree/v1" target="_blank">code capsule on CodeOcean</a></span>
+    </div>
+    </div>
     <span class="pub-journal"><i>Journal of Experimental Medicine</i>. <b>in press</b></span>
 </div>
 
-<div class="pub">
+<div class="pub_float">
     <h3><a href="" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
     <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>in press</b></span>
@@ -28,16 +50,25 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1126/scitranslmed.aax4204" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
-    <span class="pub-authors">Amorim CF, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
+    <h3><a href="10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
+    <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/leishCover.png"><img src="../images/leishCover.png" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- Identified key inflammatory genes whose expression in the skin is associated with treatment failure in cutaneous leishmaniasis.</span><br><span style="display: inline-block; padding-bottom: 5px;">-  Covered by <a href="https://medicalxpress.com/news/2019-11-treatment-outcome-leishmaniasis.html" target="_blank">MedicalExpress News</a></span><br><span style="display: inline-block; padding-bottom: 5px;">-  All code and sofware and code are bundled in a <a href="https://codeocean.com/capsule/6534016/tree/v1" target="_blank">code capsule on CodeOcean</a></span>
+    </div>
+    </div>
     <span class="pub-journal"><i>Science Translational Medicine</i>. <b>Nov 20; 2019</b></span>
 </div>
+
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41564-019-0539-x" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1038/s41564-019-0539-x" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41564-019-0539-x" target="_new">Lifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
-    <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, Sullivan MC, Pinkston B, Striepen B</span>
+    <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, <span class="pub-member-author">Sullivan MC</span>, Pinkston B, Striepen B</span>
     <span class="pub-journal"><i>Nature Microbiology</i>. <b>Sept 02; 2019</b></span>
 </div>
 
@@ -45,7 +76,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s40168-019-0740-4" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-019-0740-4" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-019-0740-4" target="_new">Diet-induced remission in chronic enteropathy is associated with altered microbial community structure and synthesis of secondary bile acids</a></h3>
-    <span class="pub-authors">Wang S, Martins R, Sullivan MC, Friedman ES, Misic AM, El-Fahmawi A, De Martinis ECP, O’Brien K, Chen Y, Bradley C, Zhang G, Berry ASF, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-authors"><span class="pub-member-author">Wang S</span>, Martins R, <span class="pub-member-author">Sullivan MC</span>, Friedman ES, <span class="pub-member-author">Misic AM</span>, <span class="pub-member-author">El-Fahmawi A</span>, <span class="pub-member-author">De Martinis ECP</span>, <span class="pub-member-author">O’Brien K</span>, <span class="pub-member-author">Chen Y</span>, Bradley C, <span class="pub-member-author">Zhang G</span>, <span class="pub-member-author">Berry ASF</span>, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP</span></span>
     <span class="pub-journal"><i>Microbiome</i>. <b>Aug 31; 2019</b></span>
 </div>
 
@@ -53,7 +84,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0215497" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0215497" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pone.0215497" target="_new">Gut microbiota features associated with Clostridioides difficile colonization in puppies</a></h3>
-    <span class="pub-authors">Berry ASF, Kelly BJ, Barnhart D, Kelly DJ, <span class="pub-member-author">Beiting DP</span>, Baldassano RN, Redding LE</span>
+    <span class="pub-authors"><span class="pub-member-author">Berry ASF</span>, Kelly BJ, Barnhart D, Kelly DJ, <span class="pub-member-author">Beiting DP</span>, Baldassano RN, Redding LE</span>
     <span class="pub-journal"><i>PLOS One</i>. <b>Aug 30; 2019</b></span>
 </div>
 
@@ -69,7 +100,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1128/mBio.00935-19" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1128/mBio.00935-19" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mBio.00935-19" target="_new">Infection-Induced Intestinal Dysbiosis Is Mediated by Macrophage Activation and Nitrate Production</a></h3>
-    <span class="pub-authors">Wang S, El-Fahmawi A, Christian DA, Fang Q, Radaelli E, Chen L, Sullivan MC, Misic AM, Ellringer JA, Zhu XQ, Winter SE, Hunter CA, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-authors"><span class="pub-member-author">Wang S</span>, <span class="pub-member-author">El-Fahmawi A</span>, Christian DA, Fang Q, Radaelli E, Chen L, <span class="pub-member-author">Sullivan MC</span>, <span class="pub-member-author">Misic AM</span>, Ellringer JA, Zhu XQ, Winter SE, Hunter CA, <span class="pub-member-author">Beiting DP</span></span>
     <span class="pub-journal"><i>MBio</i>. <b>May 28; 2019</b></span>
 </div>
 
