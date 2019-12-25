@@ -14,7 +14,7 @@ comments: false
 
 ## 2020
 
-<div class="pub_float">
+<div class="pub">
     <h3><a href="" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
     <span class="pub-authors">Zhu W, Winter MG, Spiga L, Hughes ER, Chanin R, Mulgaonkar A, Pennington J, Maas M, Behrendt CL, Kim J, Sun X, <span class="pub-member-author">Beiting DP</span>, Hooper LV, Winter S</span>
     <div class="pub-info">
@@ -27,7 +27,7 @@ comments: false
 
 ## 2019
 
-<div class="pub_float">
+<div class="pub">
     <h3><a href="" target="_new">The parasite kinase ROP16 is a key virulence factor that acts in cis and trans and mediates suppression of T cell responses</a></h3>
     <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, <span class="pub-member-author">Wang S</span>, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>
     <div class="pub-info">
@@ -41,7 +41,7 @@ comments: false
     <span class="pub-journal"><i>Journal of Experimental Medicine</i>. <b>in press</b></span>
 </div>
 
-<div class="pub_float">
+<div class="pub">
     <h3><a href="" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
     <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>in press</b></span>
