@@ -142,10 +142,6 @@
     
         
     
-        
-    
-        
-    
 
 
     
@@ -229,7 +225,7 @@ bash install.sh
 
 <pre><code class="language-{bash}">source activate sunbeam
 </code></pre>
-<p>This is a command you’ll want to remember for future sessions.  Each time you log into your cloud instance, you’ll need to activate the pipeline with <code class="highlighter-rouge">source activate sunbeam</code>.  Upon activation, you should see that your command prompt begins with “(sunbeam)”.  Anytime you want to exit out of sunbeam, simply type <code class="highlighter-rouge">source deactivate sunbeam</code> and hit return.</p>
+<p>This is a command you’ll want to remember for future sessions.  Each time you log into your cloud instance, you’ll need to activate the pipeline with <code class="language-plaintext highlighter-rouge">source activate sunbeam</code>.  Upon activation, you should see that your command prompt begins with “(sunbeam)”.  Anytime you want to exit out of sunbeam, simply type <code class="language-plaintext highlighter-rouge">source deactivate sunbeam</code> and hit return.</p>
 
 <h2 id="get-data">Get data</h2>
 
@@ -240,7 +236,7 @@ bash install.sh
 <pre><code class="language-{bash}">conda install -c bioconda sra-tools
 </code></pre>
 <ul>
-  <li>For this workshop, we’ll use data from a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4633303/">recent metagenomics study</a> in Crohn’s disease.  This was a large study, but for the purpose of the workshop we’ll only fetch data from 7 patients.  Note: contaminating human reads have already been removed from these files.  Let’s download these data to our cloud computer using the <code class="highlighter-rouge">fasterq-dump</code> function from the SRA tools software.</li>
+  <li>For this workshop, we’ll use data from a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4633303/">recent metagenomics study</a> in Crohn’s disease.  This was a large study, but for the purpose of the workshop we’ll only fetch data from 7 patients.  Note: contaminating human reads have already been removed from these files.  Let’s download these data to our cloud computer using the <code class="language-plaintext highlighter-rouge">fasterq-dump</code> function from the SRA tools software.</li>
 </ul>
 
 <pre><code class="language-{bash}">cd ~
@@ -288,7 +284,7 @@ gunzip chr1.fa.gz
 
 <ul>
   <li>Sunbeam requires that the host DNA sequence files end in “.fasta”, so it can
-find them automatically.  Let’s use the <code class="highlighter-rouge">mv</code> command to rename this file.</li>
+find them automatically.  Let’s use the <code class="language-plaintext highlighter-rouge">mv</code> command to rename this file.</li>
 </ul>
 
 <pre><code class="language-{bash}">mv chr1.fa chr1.fasta
@@ -296,7 +292,7 @@ find them automatically.  Let’s use the <code class="highlighter-rouge">mv</co
 
 <ul>
   <li>The database of bacterial genomes comes pre-built from the homepage of our
-taxonomic assignment software, Kraken.  We’ll download that using the <code class="highlighter-rouge">wget</code> program.</li>
+taxonomic assignment software, Kraken.  We’ll download that using the <code class="language-plaintext highlighter-rouge">wget</code> program.</li>
 </ul>
 
 <pre><code class="language-{bash}">cd ~
@@ -306,7 +302,7 @@ tar xvzf minikraken_20171101_4GB_dustmasked.tgz
 
 <ul>
   <li>Now that we have reference databases, we need to add them to our configuration
-file.  We’ll use <code class="highlighter-rouge">nano</code> to open and modify this file directly in our termial</li>
+file.  We’ll use <code class="language-plaintext highlighter-rouge">nano</code> to open and modify this file directly in our termial</li>
 </ul>
 
 <pre><code class="language-{bash}">cd ~
@@ -319,10 +315,10 @@ in your configuration file, and substitute the directory name “kylebittinger�
 with your google username.</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>host_fp: "/home/kylebittinger/human"
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>host_fp: "/home/kylebittinger/human"
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kraken_db_fp: "/home/kylebittinger/minikraken_20171101_4GB_dustmasked"
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kraken_db_fp: "/home/kylebittinger/minikraken_20171101_4GB_dustmasked"
 </code></pre></div></div>
 
 <h2 id="run-the-pipeline">Run the pipeline</h2>
@@ -330,8 +326,8 @@ with your google username.</li>
 <ul>
   <li>We are ready to actually run the pipeline.  All the information about how
 to run the pipeline is in our configuration file, so we’ll provide that to
-Sunbeam (<code class="highlighter-rouge">--configfile</code> argument).  We’ll also let Sunbeam know how many CPU
-cores we’d like to use (<code class="highlighter-rouge">--jobs</code> argument).</li>
+Sunbeam (<code class="language-plaintext highlighter-rouge">--configfile</code> argument).  We’ll also let Sunbeam know how many CPU
+cores we’d like to use (<code class="language-plaintext highlighter-rouge">--jobs</code> argument).</li>
 </ul>
 
 <pre><code class="language-{bash}">cd ~

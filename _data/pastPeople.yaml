@@ -49,3 +49,23 @@
   avatar: francislon.jpg
   address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
   bio: "Bioinformatics developer and passionate about science. My current research is focused on exploring the microbiome world through new data visualization analysis tools."
+
+- alias: Jake
+  name: Jake Leiby
+  role: Rotating graduate student (GCB)
+  email: jleiby@pennmedicine.upenn.edu
+  phone: 
+  twitter: LeibyJacob
+  avatar: jake.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: "I am interested in microbial genomics, infectious disease, and whole genome sequencing."
+
+- alias: Amanda
+  name: Amanda Finck
+  role: Rotating graduate student (IGG)
+  email: finckam@pennmedicine.upenn.edu
+  phone: 
+  twitter: FinckAmanda
+  avatar: amanda.jpg
+  address: University of Pennsylvania, Rm 380 Hill Pavilion, School of Veterinary Medicine, 380 S. University Ave., Philadelphia, PA 19104-4539 USA
+  bio: I am studying infection-induced gut dysbiosis using RNA-sequencing in order to discover novel interactions between the microbiome and host immune signaling. My broader interests include leveraging both single cell and bulk ‘omics approaches to better understand the immune system.

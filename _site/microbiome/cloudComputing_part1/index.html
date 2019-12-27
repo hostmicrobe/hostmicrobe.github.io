@@ -142,10 +142,6 @@
     
         
     
-        
-    
-        
-    
 
 
     
@@ -204,16 +200,16 @@
 
 <p>Install Docker</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get install docker.io</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get <span class="nb">install </span>docker.io</code></pre></figure>
 
 <p>Install some dependencies that we’ll need for Chiron</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-key adv <span class="nt">--keyserver</span> keyserver.ubuntu.com <span class="nt">--recv-keys</span> 40976EAF437D05B5
 <span class="nb">sudo </span>apt-key adv <span class="nt">--keyserver</span> keyserver.ubuntu.com <span class="nt">--recv-keys</span> F76221572C52609D
 <span class="nb">sudo </span>apt-get update
-<span class="nb">sudo </span>apt install <span class="nt">-y</span> python3 python3-pip python-pip
-<span class="nb">sudo </span>pip3 install pyyaml requests
-<span class="nb">sudo </span>pip install pyyaml cwlref-runner</code></pre></figure>
+<span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> python3 python3-pip python-pip
+<span class="nb">sudo </span>pip3 <span class="nb">install </span>pyyaml requests
+<span class="nb">sudo </span>pip <span class="nb">install </span>pyyaml cwlref-runner</code></pre></figure>
 
 <p>Install <a href="https://github.com/IGS/Chiron">Chiron</a></p>
 
@@ -282,11 +278,11 @@ killall Finder
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#check permissions on all files and folders in the directory</span>
 <span class="nb">ls</span> <span class="nt">-l</span> 
 <span class="c">#make yourself owner of the 'data' folder</span>
-<span class="nb">sudo </span>chown danielbeiting data <span class="c">#replace 'danielbeiting' with your username</span>
+<span class="nb">sudo chown </span>danielbeiting data <span class="c">#replace 'danielbeiting' with your username</span>
 <span class="c">#set yourself as the group for the 'data' folder</span>
-<span class="nb">sudo </span>chgrp danielbeiting data
+<span class="nb">sudo chgrp </span>danielbeiting data
 <span class="c">#give yourself read/write/execute permission for the 'data' folder</span>
-chmod 777 data</code></pre></figure>
+<span class="nb">chmod </span>777 data</code></pre></figure>
 
 <h2 id="rinse-and-repeat">Rinse and repeat</h2>
 <p>Go through the steps below to make sure have mastered this tutorial:</p>

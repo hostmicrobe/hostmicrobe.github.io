@@ -142,10 +142,6 @@
     
         
     
-        
-    
-        
-    
 
 
     
@@ -192,7 +188,7 @@
 
 <p>Using FileZilla, transfer these files from your computer to the <em>data</em> folder on your cloud instance.  If your confused about how to do this, you may want to go back and watch <a href="http://hostmicrobe.org/microbiome/cloudComputing_part1/#fire-up-your-cloud-computer">my video</a> on how to connect use and FTP client to transfer files to the cloud</p>
 
-<p>Now that you have everything in place, you need to naviagte the <em>output</em> folder using within the MetaPhlAn interactive by using <code class="highlighter-rouge">cd output</code>.  This is where all your files that were placed in the data folder will be available to you while your running an interactive program.</p>
+<p>Now that you have everything in place, you need to naviagte the <em>output</em> folder using within the MetaPhlAn interactive by using <code class="language-plaintext highlighter-rouge">cd output</code>.  This is where all your files that were placed in the data folder will be available to you while your running an interactive program.</p>
 
 <p>let’s run MetaPhlAn2 on one sample using a single line of code.</p>
 
@@ -210,7 +206,7 @@
 <h2 id="visualizing-your-results">Visualizing your results</h2>
 <p>Now you’ll use <a href="">regular expressions</a> to parse this file, and create a new file that only lists abundance for species</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">grep</span> <span class="nt">-E</span> <span class="s2">"(s__)|(^ID)"</span> merged_abundance_table.txt | <span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"t__"</span> | sed <span class="s1">'s/^.*s__//g'</span> <span class="o">&gt;</span> merged_abundance_table_species.txt</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">grep</span> <span class="nt">-E</span> <span class="s2">"(s__)|(^ID)"</span> merged_abundance_table.txt | <span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"t__"</span> | <span class="nb">sed</span> <span class="s1">'s/^.*s__//g'</span> <span class="o">&gt;</span> merged_abundance_table_species.txt</code></pre></figure>
 
 <p>You’re now ready to use MetaPhlAn to create a heatmap of these species</p>
 
@@ -228,7 +224,7 @@ graphlan.py tree1.xml tree1.png <span class="nt">--dpi</span> 150</code></pre></
 
 <p>Let’s clean the taxonomy by removing taxon, <em>_noname</em>, and <em>_unclassified</em></p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"t__"</span> merged_abundance_table.txt | sed <span class="s1">'s/_noname//g'</span> | sed <span class="s1">'s/_unclassified//g'</span> <span class="o">&gt;</span> merged_abundance_table_clean.txt</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"t__"</span> merged_abundance_table.txt | <span class="nb">sed</span> <span class="s1">'s/_noname//g'</span> | <span class="nb">sed</span> <span class="s1">'s/_unclassified//g'</span> <span class="o">&gt;</span> merged_abundance_table_clean.txt</code></pre></figure>
 
 <p>Now redo the graphic, this time with the clean taxonomy</p>
 
@@ -255,15 +251,15 @@ graphlan.py tree_clean2.xml tree_clean2.png <span class="nt">--dpi</span> 150</c
 <span class="nv">OLDIFS</span><span class="o">=</span><span class="nv">$IFS</span>
 <span class="nv">IFS</span><span class="o">=</span><span class="s1">$'</span><span class="se">\n</span><span class="s1">'</span>
 
-<span class="k">for </span>i <span class="k">in</span> <span class="k">$(</span><span class="nb">ls</span> <span class="k">*</span>_profile.txt<span class="k">)</span><span class="p">;</span> <span class="k">do
-    </span><span class="nv">bs</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">i</span><span class="k">}</span> | cut <span class="nt">-f2</span> <span class="nt">-d</span><span class="s1">'-'</span> | rev | cut <span class="nt">-f2-</span> <span class="nt">-d</span><span class="s1">'_'</span> | tr <span class="s1">'_'</span> <span class="s1">' '</span> | rev<span class="sb">`</span>
+<span class="k">for </span>i <span class="k">in</span> <span class="si">$(</span><span class="nb">ls</span> <span class="k">*</span>_profile.txt<span class="si">)</span><span class="p">;</span> <span class="k">do
+    </span><span class="nv">bs</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">i</span><span class="k">}</span> | <span class="nb">cut</span> <span class="nt">-f2</span> <span class="nt">-d</span><span class="s1">'-'</span> | rev | <span class="nb">cut</span> <span class="nt">-f2-</span> <span class="nt">-d</span><span class="s1">'_'</span> | <span class="nb">tr</span> <span class="s1">'_'</span> <span class="s1">' '</span> | rev<span class="sb">`</span>
     <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"ring_label</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="k">${</span><span class="nv">bs</span><span class="k">}</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> annot3.txt
     <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"ring_label_color</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="k">${</span><span class="nv">colors</span><span class="p">[n-1]</span><span class="k">}</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> annot3.txt
     <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"ring_internal_separator_thickness</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="s2">0.25"</span> <span class="o">&gt;&gt;</span> annot3.txt
 
-    <span class="k">for </span>j <span class="k">in</span> <span class="k">$(</span><span class="nb">cat</span> <span class="k">${</span><span class="nv">i</span><span class="k">}</span> | <span class="nb">grep </span>s__ | <span class="nb">grep</span> <span class="nt">-v</span> t__<span class="k">)</span><span class="p">;</span> <span class="k">do
-        </span><span class="nv">l</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">j</span><span class="k">}</span> | cut <span class="nt">-f1</span> | rev | cut <span class="nt">-f1</span> <span class="nt">-d</span> <span class="s1">'|'</span> | rev | sed <span class="s1">'s/_noname//g'</span> | sed <span class="s1">'s/_unclassified//g'</span><span class="sb">`</span>
-        <span class="nv">h</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">j</span><span class="k">}</span> | cut <span class="nt">-f2</span><span class="sb">`</span>
+    <span class="k">for </span>j <span class="k">in</span> <span class="si">$(</span><span class="nb">cat</span> <span class="k">${</span><span class="nv">i</span><span class="k">}</span> | <span class="nb">grep </span>s__ | <span class="nb">grep</span> <span class="nt">-v</span> t__<span class="si">)</span><span class="p">;</span> <span class="k">do
+        </span><span class="nv">l</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">j</span><span class="k">}</span> | <span class="nb">cut</span> <span class="nt">-f1</span> | rev | <span class="nb">cut</span> <span class="nt">-f1</span> <span class="nt">-d</span> <span class="s1">'|'</span> | rev | <span class="nb">sed</span> <span class="s1">'s/_noname//g'</span> | <span class="nb">sed</span> <span class="s1">'s/_unclassified//g'</span><span class="sb">`</span>
+        <span class="nv">h</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="k">${</span><span class="nv">j</span><span class="k">}</span> | <span class="nb">cut</span> <span class="nt">-f2</span><span class="sb">`</span>
         <span class="nv">h</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="s2">"scale=4; </span><span class="k">${</span><span class="nv">h</span><span class="k">}</span><span class="s2">/100"</span> | bc<span class="sb">`</span>
         <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"</span><span class="k">${</span><span class="nv">l</span><span class="k">}</span><span class="se">\t</span><span class="s2">ring_color</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="k">${</span><span class="nv">colors</span><span class="p">[n-1]</span><span class="k">}</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> annot3.txt
         <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"</span><span class="k">${</span><span class="nv">l</span><span class="k">}</span><span class="se">\t</span><span class="s2">ring_alpha</span><span class="se">\t</span><span class="k">${</span><span class="nv">n</span><span class="k">}</span><span class="se">\t</span><span class="s2">0</span><span class="k">${</span><span class="nv">h</span><span class="k">}</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> annot3.txt

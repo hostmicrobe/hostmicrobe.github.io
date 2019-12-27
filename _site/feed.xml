@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2019-11-22T16:37:34-05:00</updated>
+<updated>2019-12-27T10:59:38-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Beiting</name>
@@ -105,7 +105,7 @@ bash install.sh
 
 &lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;source activate sunbeam
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This is a command you’ll want to remember for future sessions.  Each time you log into your cloud instance, you’ll need to activate the pipeline with &lt;code class=&quot;highlighter-rouge&quot;&gt;source activate sunbeam&lt;/code&gt;.  Upon activation, you should see that your command prompt begins with “(sunbeam)”.  Anytime you want to exit out of sunbeam, simply type &lt;code class=&quot;highlighter-rouge&quot;&gt;source deactivate sunbeam&lt;/code&gt; and hit return.&lt;/p&gt;
+&lt;p&gt;This is a command you’ll want to remember for future sessions.  Each time you log into your cloud instance, you’ll need to activate the pipeline with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;source activate sunbeam&lt;/code&gt;.  Upon activation, you should see that your command prompt begins with “(sunbeam)”.  Anytime you want to exit out of sunbeam, simply type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;source deactivate sunbeam&lt;/code&gt; and hit return.&lt;/p&gt;
 
 &lt;h2 id=&quot;get-data&quot;&gt;Get data&lt;/h2&gt;
 
@@ -116,7 +116,7 @@ bash install.sh
 &lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;conda install -c bioconda sra-tools
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
-  &lt;li&gt;For this workshop, we’ll use data from a &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4633303/&quot;&gt;recent metagenomics study&lt;/a&gt; in Crohn’s disease.  This was a large study, but for the purpose of the workshop we’ll only fetch data from 7 patients.  Note: contaminating human reads have already been removed from these files.  Let’s download these data to our cloud computer using the &lt;code class=&quot;highlighter-rouge&quot;&gt;fasterq-dump&lt;/code&gt; function from the SRA tools software.&lt;/li&gt;
+  &lt;li&gt;For this workshop, we’ll use data from a &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4633303/&quot;&gt;recent metagenomics study&lt;/a&gt; in Crohn’s disease.  This was a large study, but for the purpose of the workshop we’ll only fetch data from 7 patients.  Note: contaminating human reads have already been removed from these files.  Let’s download these data to our cloud computer using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fasterq-dump&lt;/code&gt; function from the SRA tools software.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
@@ -164,7 +164,7 @@ gunzip chr1.fa.gz
 
 &lt;ul&gt;
   &lt;li&gt;Sunbeam requires that the host DNA sequence files end in “.fasta”, so it can
-find them automatically.  Let’s use the &lt;code class=&quot;highlighter-rouge&quot;&gt;mv&lt;/code&gt; command to rename this file.&lt;/li&gt;
+find them automatically.  Let’s use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mv&lt;/code&gt; command to rename this file.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;mv chr1.fa chr1.fasta
@@ -172,7 +172,7 @@ find them automatically.  Let’s use the &lt;code class=&quot;highlighter-rouge
 
 &lt;ul&gt;
   &lt;li&gt;The database of bacterial genomes comes pre-built from the homepage of our
-taxonomic assignment software, Kraken.  We’ll download that using the &lt;code class=&quot;highlighter-rouge&quot;&gt;wget&lt;/code&gt; program.&lt;/li&gt;
+taxonomic assignment software, Kraken.  We’ll download that using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt; program.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
@@ -182,7 +182,7 @@ tar xvzf minikraken_20171101_4GB_dustmasked.tgz
 
 &lt;ul&gt;
   &lt;li&gt;Now that we have reference databases, we need to add them to our configuration
-file.  We’ll use &lt;code class=&quot;highlighter-rouge&quot;&gt;nano&lt;/code&gt; to open and modify this file directly in our termial&lt;/li&gt;
+file.  We’ll use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nano&lt;/code&gt; to open and modify this file directly in our termial&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
@@ -195,10 +195,10 @@ in your configuration file, and substitute the directory name “kylebittinger�
 with your google username.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;host_fp: &quot;/home/kylebittinger/human&quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;host_fp: &quot;/home/kylebittinger/human&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kraken_db_fp: &quot;/home/kylebittinger/minikraken_20171101_4GB_dustmasked&quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kraken_db_fp: &quot;/home/kylebittinger/minikraken_20171101_4GB_dustmasked&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;run-the-pipeline&quot;&gt;Run the pipeline&lt;/h2&gt;
@@ -206,8 +206,8 @@ with your google username.&lt;/li&gt;
 &lt;ul&gt;
   &lt;li&gt;We are ready to actually run the pipeline.  All the information about how
 to run the pipeline is in our configuration file, so we’ll provide that to
-Sunbeam (&lt;code class=&quot;highlighter-rouge&quot;&gt;--configfile&lt;/code&gt; argument).  We’ll also let Sunbeam know how many CPU
-cores we’d like to use (&lt;code class=&quot;highlighter-rouge&quot;&gt;--jobs&lt;/code&gt; argument).&lt;/li&gt;
+Sunbeam (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--configfile&lt;/code&gt; argument).  We’ll also let Sunbeam know how many CPU
+cores we’d like to use (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--jobs&lt;/code&gt; argument).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;cd ~
@@ -291,7 +291,7 @@ sunbeam run --configfile workshop-project/sunbeam_config.yml final_report
 
 &lt;p&gt;Using FileZilla, transfer these files from your computer to the &lt;em&gt;data&lt;/em&gt; folder on your cloud instance.  If your confused about how to do this, you may want to go back and watch &lt;a href=&quot;http://hostmicrobe.org/microbiome/cloudComputing_part1/#fire-up-your-cloud-computer&quot;&gt;my video&lt;/a&gt; on how to connect use and FTP client to transfer files to the cloud&lt;/p&gt;
 
-&lt;p&gt;Now that you have everything in place, you need to naviagte the &lt;em&gt;output&lt;/em&gt; folder using within the MetaPhlAn interactive by using &lt;code class=&quot;highlighter-rouge&quot;&gt;cd output&lt;/code&gt;.  This is where all your files that were placed in the data folder will be available to you while your running an interactive program.&lt;/p&gt;
+&lt;p&gt;Now that you have everything in place, you need to naviagte the &lt;em&gt;output&lt;/em&gt; folder using within the MetaPhlAn interactive by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd output&lt;/code&gt;.  This is where all your files that were placed in the data folder will be available to you while your running an interactive program.&lt;/p&gt;
 
 &lt;p&gt;let’s run MetaPhlAn2 on one sample using a single line of code.&lt;/p&gt;
 
@@ -309,7 +309,7 @@ sunbeam run --configfile workshop-project/sunbeam_config.yml final_report
 &lt;h2 id=&quot;visualizing-your-results&quot;&gt;Visualizing your results&lt;/h2&gt;
 &lt;p&gt;Now you’ll use &lt;a href=&quot;&quot;&gt;regular expressions&lt;/a&gt; to parse this file, and create a new file that only lists abundance for species&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-E&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;(s__)|(^ID)&quot;&lt;/span&gt; merged_abundance_table.txt | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;t__&quot;&lt;/span&gt; | sed &lt;span class=&quot;s1&quot;&gt;'s/^.*s__//g'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; merged_abundance_table_species.txt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-E&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;(s__)|(^ID)&quot;&lt;/span&gt; merged_abundance_table.txt | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;t__&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'s/^.*s__//g'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; merged_abundance_table_species.txt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;You’re now ready to use MetaPhlAn to create a heatmap of these species&lt;/p&gt;
 
@@ -327,7 +327,7 @@ graphlan.py tree1.xml tree1.png &lt;span class=&quot;nt&quot;&gt;--dpi&lt;/span&
 
 &lt;p&gt;Let’s clean the taxonomy by removing taxon, &lt;em&gt;_noname&lt;/em&gt;, and &lt;em&gt;_unclassified&lt;/em&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;t__&quot;&lt;/span&gt; merged_abundance_table.txt | sed &lt;span class=&quot;s1&quot;&gt;'s/_noname//g'&lt;/span&gt; | sed &lt;span class=&quot;s1&quot;&gt;'s/_unclassified//g'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; merged_abundance_table_clean.txt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;t__&quot;&lt;/span&gt; merged_abundance_table.txt | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'s/_noname//g'&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'s/_unclassified//g'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; merged_abundance_table_clean.txt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now redo the graphic, this time with the clean taxonomy&lt;/p&gt;
 
@@ -354,15 +354,15 @@ graphlan.py tree_clean2.xml tree_clean2.png &lt;span class=&quot;nt&quot;&gt;--d
 &lt;span class=&quot;nv&quot;&gt;OLDIFS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$IFS&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;IFS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;$'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;
 
-&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;_profile.txt&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do
-    &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;bs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; | cut &lt;span class=&quot;nt&quot;&gt;-f2&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'-'&lt;/span&gt; | rev | cut &lt;span class=&quot;nt&quot;&gt;-f2-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'_'&lt;/span&gt; | tr &lt;span class=&quot;s1&quot;&gt;'_'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;' '&lt;/span&gt; | rev&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;_profile.txt&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do
+    &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;bs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f2&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'-'&lt;/span&gt; | rev | &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f2-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'_'&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;tr&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'_'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;' '&lt;/span&gt; | rev&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
     &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ring_label&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;bs&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; annot3.txt
     &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ring_label_color&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;colors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[n-1]&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; annot3.txt
     &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ring_internal_separator_thickness&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;0.25&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; annot3.txt
 
-    &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;j &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;s__ | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; t__&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do
-        &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; | cut &lt;span class=&quot;nt&quot;&gt;-f1&lt;/span&gt; | rev | cut &lt;span class=&quot;nt&quot;&gt;-f1&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'|'&lt;/span&gt; | rev | sed &lt;span class=&quot;s1&quot;&gt;'s/_noname//g'&lt;/span&gt; | sed &lt;span class=&quot;s1&quot;&gt;'s/_unclassified//g'&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
-        &lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; | cut &lt;span class=&quot;nt&quot;&gt;-f2&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;j &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;s__ | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; t__&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do
+        &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f1&lt;/span&gt; | rev | &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f1&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'|'&lt;/span&gt; | rev | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'s/_noname//g'&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'s/_unclassified//g'&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f2&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
         &lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scale=4; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/100&quot;&lt;/span&gt; | bc&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
         &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ring_color&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;colors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[n-1]&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; annot3.txt
         &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ring_alpha&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; annot3.txt
@@ -453,16 +453,16 @@ graphlan.py tree_clean3.xml tree_clean3.png &lt;span class=&quot;nt&quot;&gt;--d
 
 &lt;p&gt;Install Docker&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install docker.io&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;docker.io&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Install some dependencies that we’ll need for Chiron&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key adv &lt;span class=&quot;nt&quot;&gt;--keyserver&lt;/span&gt; keyserver.ubuntu.com &lt;span class=&quot;nt&quot;&gt;--recv-keys&lt;/span&gt; 40976EAF437D05B5
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key adv &lt;span class=&quot;nt&quot;&gt;--keyserver&lt;/span&gt; keyserver.ubuntu.com &lt;span class=&quot;nt&quot;&gt;--recv-keys&lt;/span&gt; F76221572C52609D
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt install &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; python3 python3-pip python-pip
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;pip3 install pyyaml requests
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;pip install pyyaml cwlref-runner&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; python3 python3-pip python-pip
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;pip3 &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;pyyaml requests
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;pyyaml cwlref-runner&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Install &lt;a href=&quot;https://github.com/IGS/Chiron&quot;&gt;Chiron&lt;/a&gt;&lt;/p&gt;
 
@@ -531,11 +531,11 @@ killall Finder
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#check permissions on all files and folders in the directory&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 
 &lt;span class=&quot;c&quot;&gt;#make yourself owner of the 'data' folder&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;chown danielbeiting data &lt;span class=&quot;c&quot;&gt;#replace 'danielbeiting' with your username&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo chown &lt;/span&gt;danielbeiting data &lt;span class=&quot;c&quot;&gt;#replace 'danielbeiting' with your username&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;#set yourself as the group for the 'data' folder&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;chgrp danielbeiting data
+&lt;span class=&quot;nb&quot;&gt;sudo chgrp &lt;/span&gt;danielbeiting data
 &lt;span class=&quot;c&quot;&gt;#give yourself read/write/execute permission for the 'data' folder&lt;/span&gt;
-chmod 777 data&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nb&quot;&gt;chmod &lt;/span&gt;777 data&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;rinse-and-repeat&quot;&gt;Rinse and repeat&lt;/h2&gt;
 &lt;p&gt;Go through the steps below to make sure have mastered this tutorial:&lt;/p&gt;
