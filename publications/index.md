@@ -25,6 +25,12 @@ comments: false
     <span class="pub-journal"><i>Cell Host Microbe</i>. <b>Manuscript accepted</b></span>
 </div>
 
+<div class="pub">
+    <h3><a href="" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
+    <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
+    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>in press</b></span>
+</div>
+
 ## 2019
 
 <div class="pub">
@@ -35,22 +41,16 @@ comments: false
     <a href=""><img src="" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
     </div>
     <div class="pub-highlights">
-    <span style="display: inline-block; padding-bottom: 5px;">- Identified key inflammatory genes whose expression in the skin is associated with treatment failure in cutaneous leishmaniasis.</span><br><span style="display: inline-block; padding-bottom: 5px;">-  Covered by <a href="https://medicalxpress.com/news/2019-11-treatment-outcome-leishmaniasis.html" target="_blank">MedicalExpress News</a></span><br><span style="display: inline-block; padding-bottom: 5px;">-  All code and sofware and code are bundled in a <a href="https://codeocean.com/capsule/6534016/tree/v1" target="_blank">code capsule on CodeOcean</a></span>
+    <span style="display: inline-block; padding-bottom: 5px;"></span><br><span style="display: inline-block; padding-bottom: 5px;"></span><br><span style="display: inline-block; padding-bottom: 5px;"></span>
     </div>
     </div>
     <span class="pub-journal"><i>Journal of Experimental Medicine</i>. <b>in press</b></span>
 </div>
 
 <div class="pub">
-    <h3><a href="" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
-    <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
-    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>in press</b></span>
-</div>
-
-<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1126/scitranslmed.aax4204" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
+    <h3><a href="https://doi.org/10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
     <div class="pub-info">
     <div class="pub-featured-image">
