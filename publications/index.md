@@ -17,34 +17,36 @@ comments: false
 <div class="pub">
     <h3><a href="" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
     <span class="pub-authors">Zhu W, Winter MG, Spiga L, Hughes ER, Chanin R, Mulgaonkar A, Pennington J, Maas M, Behrendt CL, Kim J, Sun X, <span class="pub-member-author">Beiting DP</span>, Hooper LV, Winter S</span>
-    <div class="pub-info">
-    <div class="pub-featured-image">
-    <a href=""><img src="" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
-    </div>
-    </div>
     <span class="pub-journal"><i>Cell Host Microbe</i>. <b>Manuscript accepted</b></span>
 </div>
 
 <div class="pub">
-    <h3><a href="" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
-    <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
-    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>in press</b></span>
+    <h3><a href="" target="_new">The parasite kinase ROP16 is a key virulence factor that acts in cis and trans and mediates suppression of T cell responses</a></h3>
+    <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, <span class="pub-member-author">Wang S</span>, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>
+    <span class="pub-journal"><i>Journal of Experimental Medicine</i>. <b>in press</b></span>
 </div>
+
+
 
 ## 2019
 
+
 <div class="pub">
-    <h3><a href="" target="_new">The parasite kinase ROP16 is a key virulence factor that acts in cis and trans and mediates suppression of T cell responses</a></h3>
-    <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, <span class="pub-member-author">Wang S</span>, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s13326-019-0217-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s13326-019-0217-1" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s13326-019-0217-1" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
+    <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
     <div class="pub-info">
     <div class="pub-featured-image">
-    <a href=""><img src="" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    <a href="../images/OHMI.png"><img src="../images/OHMI.png" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
     </div>
     <div class="pub-highlights">
-    <span style="display: inline-block; padding-bottom: 5px;"></span><br><span style="display: inline-block; padding-bottom: 5px;"></span><br><span style="display: inline-block; padding-bottom: 5px;"></span>
+    <span style="display: inline-block; padding-bottom: 5px;">- Introduces a structured language for describing interactions between microbes and their hosts.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  You can access the OHMI ontology on <a href="http://www.obofoundry.org/ontology/ohmi.html" target="_blank">the OBO Foundry</a>, or on <a href="https://github.com/OHMI-ontology/OHMI" target="_blank">Github</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  OHMI is actively being updated and currently contains <a href="http://www.ontobee.org/ontostat/OHMI" target="_blank">1244 terms</a>, including 1025 classes and 128 object properties</span><br>
     </div>
     </div>
-    <span class="pub-journal"><i>Journal of Experimental Medicine</i>. <b>in press</b></span>
+    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>Dec 30; 2019</b></span>
 </div>
 
 <div class="pub">
@@ -54,10 +56,14 @@ comments: false
     <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
     <div class="pub-info">
     <div class="pub-featured-image">
-    <a href="../images/leishCover.png"><img src="../images/leishCover.png" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    <a href="../images/leishCover.png"><img src="../images/leishCover.png" style="max-width: 100px; max-height: 200px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
     </div>
     <div class="pub-highlights">
-    <span style="display: inline-block; padding-bottom: 5px;">- Identified key inflammatory genes whose expression in the skin is associated with treatment failure in cutaneous leishmaniasis.</span><br><span style="display: inline-block; padding-bottom: 5px;">-  Covered by <a href="https://medicalxpress.com/news/2019-11-treatment-outcome-leishmaniasis.html" target="_blank">MedicalExpress News</a></span><br><span style="display: inline-block; padding-bottom: 5px;">-  All code and sofware and code are bundled in a <a href="https://codeocean.com/capsule/6534016/tree/v1" target="_blank">code capsule on CodeOcean</a></span>
+    <span style="display: inline-block; padding-bottom: 5px;">- We used a 'dual-transcriptome' approach to simultaneously measure host and parasite transcripts from the same skin samples of patients with cutaneous leishmaniasis.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- First study of this disease to incorporate clinical metadata from patients, and used a simple variability analysis to identify biomarkers of treatment outcome.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- We're now using these biomarkers to develop rapid diagnostic assays that could be used in Brazil for identifying patients at risk for failing convential therapy for this disease.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  Covered by <a href="https://penntoday.upenn.edu/news/predicting-treatment-outcome-leishmaniasis" target="_blank">PennToday News</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  All code and figures are reproduced in this <a href="http://hostmicrobe.github.io/myPapers/camila_markdown.pdf" target="_blank">Rmarkdown document</a>, and fully reproducilbe workflow is available as a <a href="https://codeocean.com/capsule/6534016/" target="_blank">code capsule on CodeOcean</a></span>
     </div>
     </div>
     <span class="pub-journal"><i>Science Translational Medicine</i>. <b>Nov 20; 2019</b></span>
@@ -69,6 +75,17 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="10.1038/s41564-019-0539-x" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41564-019-0539-x" target="_new">Lifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
     <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, <span class="pub-member-author">Sullivan MC</span>, Pinkston B, Striepen B</span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/crypto.png"><img src="../images/crypto.png" style="max-width: 100px; max-height: 80px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- Impressive work by the Striepen lab to create transgenic parasites that would allow isolation of specific developmental stages for evaluation by RNAseq.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- We used low-input RNAseq methods to sequence infected cells sorted based on these reporter parasites.  A major challenge in this study was that only 0.5-3% of sequence reads were from parasites, while the rest was from the host cell.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- Despite these challenges, we were able to define the transcriptome of this important pathogen and identify stage and sex specific gene expression programs.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  All code and figures are reproduced in this <a href="http://hostmicrobe.github.io/myPapers/striepen_NatMicro_markdown.pdf" target="_blank">Rmarkdown document</a>, and fully reproducilbe workflow is available as a <a href="https://codeocean.com/capsule/8887900/" target="_blank">code capsule on CodeOcean</a></span>
+    </div>
+    </div>
     <span class="pub-journal"><i>Nature Microbiology</i>. <b>Sept 02; 2019</b></span>
 </div>
 
@@ -77,6 +94,17 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-019-0740-4" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-019-0740-4" target="_new">Diet-induced remission in chronic enteropathy is associated with altered microbial community structure and synthesis of secondary bile acids</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Wang S</span>, Martins R, <span class="pub-member-author">Sullivan MC</span>, Friedman ES, <span class="pub-member-author">Misic AM</span>, <span class="pub-member-author">El-Fahmawi A</span>, <span class="pub-member-author">De Martinis ECP</span>, <span class="pub-member-author">O’Brien K</span>, <span class="pub-member-author">Chen Y</span>, Bradley C, <span class="pub-member-author">Zhang G</span>, <span class="pub-member-author">Berry ASF</span>, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP</span></span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/entice.png"><img src="../images/entice.png" style="max-width: 100px; max-height: 200px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(0%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- The culmination of a 5yr clinical trial recruiting client-owned dogs that spontaneous developed an IBD-like disease.  We combined longitudinal monitoring of the fecal microbiome and metabolome in dogs receiving different treatment modalities.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- We idenified Clostridium hiranonis, a known producer of secondary bile acids, as a key organism associated with diet-induced remission, and we showed that this organism reduced GI disease in a mouse model of colitis.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  The canine clinical trial leading to this work was part of <a href="http://www.sciencemag.org/news/2016/08/can-clinical-trials-dogs-and-cats-help-people" target="_blank">this piece in Science</a>, and was more recently covered by <a href="https://penntoday.upenn.edu/news/diet-microbiome-connection-inflammatory-bowel-disease" target="_blank">PennToday News</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  A fully reproducilbe workflow, complete with all software and code, is availabe as a <a href="https://codeocean.com/capsule/2300652/" target="_blank">code capsule on CodeOcean</a></span><br>
+    </div>
+    </div>
     <span class="pub-journal"><i>Microbiome</i>. <b>Aug 31; 2019</b></span>
 </div>
 
@@ -100,9 +128,20 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1128/mBio.00935-19" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1128/mBio.00935-19" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mBio.00935-19" target="_new">Infection-Induced Intestinal Dysbiosis Is Mediated by Macrophage Activation and Nitrate Production</a></h3>
-    <span class="pub-authors"><span class="pub-member-author">Wang S</span>, <span class="pub-member-author">El-Fahmawi A</span>, Christian DA, Fang Q, Radaelli E, Chen L, <span class="pub-member-author">Sullivan MC</span>, <span class="pub-member-author">Misic AM</span>, Ellringer JA, Zhu XQ, Winter SE, Hunter CA, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-authors"><span class="pub-member-author">Wang S</span>, <span class="pub-member-author">El-Fahmawi A</span>, Christian DA, Fang Q, Radaelli E, Chen L, <span class="pub-member-author">Sullivan MC</span>, <span class="pub-member-author">Misic AM</span>, Ellringer JA, Zhu XQ, Winter SE, Hunter CA*, <span class="pub-member-author">Beiting DP*</span> (asterisk denotes co-corresponding authors)</span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/ToxoDysbiosis.png"><img src="../images/ToxoDysbiosis.png" style="max-width: 100px; max-height: 200px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(0%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- Oral infection with Toxoplasma gondii leads to a profound dysbiosis in the small intestine of C57BL6 mice, ultimately leading to sepsis and death within two weeks of infection.  Working together with Chris Hunter's lab and Sebastian Winter's lab, we investigated the immune and microbial basis for this phenomenon.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- This study also shows that this dysbiosis is driven by STAT1 activation in myeloid cells -> iNOS activation -> nitric oxide production -> nitrates -> expansion of gammaproteobacteria.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- Highlights that the potent Th1 effector mechanisms that are characteristic of protozoan parasite infections can dramatically alter the gut microbiome.</span><br>
+    </div>
+    </div>
     <span class="pub-journal"><i>MBio</i>. <b>May 28; 2019</b></span>
 </div>
+
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.4049/immunohorizons.1800083" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -153,6 +192,16 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="10.30802/AALAS-CM-17-000084" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.30802/AALAS-CM-17-000084" target="_new">Culture-independent profiling of the stool microbiome to identify microbial species associated with a diarrheal outbreak in an immunocompromised mouse colony.</a></h3>
     <span class="pub-authors">Misic AM, Miedel EL, Brice AK, Cole S, Zhang GF, Dyer CD, Secreto A, Smith AL, Danet-Desnoyers G, <span class="pub-member-author">Beiting DP</span></span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/ULAR.png"><img src="../images/ULAR.png" style="max-width: 100px; max-height: 200px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(0%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- This case study was a collaboration with the University Lab Animal Resources (ULAR) at Penn.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- The goal was to see if microbiome profiling methods could shed some light on potential causes of a devastating diarrheal disease outbreak that occured in a colony of NSG mice.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- We also used this opportunity to test the ability of <a href="https://www.cosmosid.com/" target="_blank">cosmosID</a> to rapidly and accurately identify potential causes of an outbreak.</span><br>
+    </div>
+    </div>
     <span class="pub-journal"><i>Comparative Medicine</i>. <b>June 13; 2018</b></span>
 </div>
 
@@ -176,7 +225,18 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/nar/gkx1027" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkx1027" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1093/nar/gkx1027" target="_new">MicrobiomeDB: a systems biology platform for integrating, mining and analyzing microbiome experiments</a></h3>
-    <span class="pub-authors">Oliveira F, Brestelli J, Cade S, Zheng J, Iodice J, Fisher S, Aurrecoechea C, Kissinger JC, Brunk BP, Stoeckert Jr., CJ, Fernandes GR, Roos DS, <span class="pub-member-author">Beiting DP</span></span>
+    <span class="pub-authors">Oliveira F, Brestelli J, Cade S, Zheng J, Iodice J, Fisher S, Aurrecoechea C, Kissinger JC, Brunk BP, Stoeckert Jr., CJ, Fernandes GR, Roos DS*, <span class="pub-member-author">Beiting DP*</span> (asterisk denotes co-corresponding authors)</span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/microbiomedb.png"><img src="../images/microbiomedb.png" style="max-width: 100px; max-height: 200px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- We teamed up with David Roos' group and leveraged their fantastic web toolkit currently used for mining eukaryotic pathogen genomes, to interrogate 16S rRNA microbiome datasets in the public domain.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- This is the first microbiome database resource to combine curated and harmonized sample metadata with data visualization tools.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  This database is freely available at <a href="http://www.microbiomeDB.org" target="_blank">microbiomeDB.org</a> and currently contains data for nearly 20,000 samples. Covered by <a href="https://www.vet.upenn.edu/about/press-room/press-releases/article/penn-vet-launches-new-platform-to-accelerate-microbiome-research" target="_blank">PennToday News</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  <a href="https://vimeo.com/showcase/5598563" target="_blank">Video tutorials</a>, <a href="https://github.com/VEuPathDB/MicrobiomeWebsite" target="_blank">Github site for microbiomeDB</a>, <a href="https://github.com/VEuPathDB/MicrobiomeWebsite/tree/master/View/lib/R/shiny/apps" target="_blank">R scripts for our data viz apps</a>, <a href="https://github.com/VEuPathDB/MicrobiomeWorkflow" target="_blank">our data loading workflow</a>, <a href="https://github.com/VEuPathDB/ApiCommonMetadataRepository/tree/master/ISA/metadata/MBSTDY0020" target="_blank">metadata text files for each study</a></span><br>
+    </div>
+    </div>
     <span class="pub-journal"><i>Nucleic Acids Research</i>. <b>Jan 4; 2018</b></span>
 </div>
 
@@ -219,6 +279,17 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="10.1038/srep44182" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/srep44182" target="_new">Stress during pregnancy alters temporal and spatial dynamics of the maternal and offspring microbiome in a sex-specific manner</a></h3>
     <span class="pub-authors">Jasarevic E, Howard CD, Misic AM, <span class="pub-member-author">Beiting DP</span>, and Bale TL</span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/eldin2.png"><img src="../images/eldin2.png" style="max-width: 100px; max-height: 200px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- </span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- </span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- </span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- </span><br>
+    </div>
+    </div>
     <span class="pub-journal"><i>Scientific Reports</i>. <b>Mar 7; 2017</b></span>
 </div>
 
@@ -269,10 +340,19 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="10.1128/mSphere.00258-16" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mSphere.00258-16" target="_new">Divergent isoprenoid biosynthesis pathways in Staphylococcus species constitute a drug target for treating infections in companion animals.</a></h3>
     <span class="pub-authors">Misic A, Cain C, Morris DO, Rankin S, <span class="pub-member-author">Beiting DP</span></span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/schleiferi.png"><img src="../images/schleiferi.png" style="max-width: 100px; max-height: 200x; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- This was a great collaboration with the Clinical Microbiology and Dermatology labs at PennVet, with the goal of using genome sequencing and comparative genomics to understand canine Staphylococcus infections.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- We used PacBio sequencing to generate a closed genome for Staphylococcus schleiferi, and compared this sequencing with publicly available sequences from Staph species isolated from humans and animals.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- Suprisingly, we found that S. schleiferi – and most other Staph species associated with infections in vet med – use the non-mevalonate pathway for isoprenoid biosynthesis, while S. aureus and other Staph species associated with infections of humans and non-human primates use the mevalonate pathway.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- This surprising finidng not only raises the possibility of targeting the non-mevalonate pathway for treating Staph infections in vet med, but also highlights that isoprenoid biosynthesis pathway usage could play a role in host range determination for Staph</span><br>
+    </div>
+    </div>
     <span class="pub-journal"><i>mSphere</i>. <b>Sept 28; 2016</b></span>
 </div>
-
-image selected as [MSphere featured image](http://hostmicrobe.github.io/myPapers/mSphereCover.png)
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pntd.0004992" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
