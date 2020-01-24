@@ -8,7 +8,7 @@
 
 Unlikely to happen
 <div class="pub">
-    <h3><a href="" target="_new">Mining the T. gondii transcriptome: Generalizable strategies for recognizing alternative splicing, stage-specific mRNA and lncRNA expression, and improving genome annotation</a></h3>
+    <h3><a href="" target="_new">Min the T. gondii transcriptome: Generalizable strategies for recognizing alternative splicing, stage-specific mRNA and lncRNA expression, and improving genome annotation</a></h3>
     <span class="pub-authors">Diaz-Miranda MA, Bernal A, <span class="pub-member-author">Beiting DP</span>, Dragomir I, Gregory BD, Xia D, Wastling J, Hehl AB, Fritz HM, Boothroyd JC, Brestelli J, Brunk B, and Roos DS</span>
     <span class="pub-journal"><i>under review at BMC Genomics, Dec 22</i>. <b></b></span>
 </div>
