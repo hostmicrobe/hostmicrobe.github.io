@@ -1,59 +1,27 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include _head.html %}
-</head>
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-<body class="page">
+layout: base
+---
 
-{% include _browser-upgrade.html %}
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
 
-{% include _navigation.html %}
-
-{% if page.image.feature %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image.feature contains 'http' %}
-      "{{ page.image.feature }}"
-    {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
-    {% endif %}
-  alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-  </div><!-- /.image-wrap -->
-{% endif %}
-
-<div id="main" role="main">
-  <div class="article-author-side">
-    {% include _left-panel.html %}
-  </div>
-  <article class="page">
-    <h1>{{ page.title }}</h1>
-    <div class="article-wrap">
-     <div id="articlecontent">{{ content }}</div> 
-      {% if page.share != false %}
-        <hr />
-        {% include _social-share.html %}
-      {% endif %}
-    </div><!-- /.article-wrap -->
-    {% if site.owner.disqus-shortname and page.comments == true %}
-      <section id="disqus_thread"></section><!-- /#disqus_thread -->
-    {% endif %}
-  </article>
-</div><!-- /#index -->
-
-<div class="footer-wrap">
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
-
-{% include _scripts.html %}          
-
-</body>
-</html>
+  {{ content }}
+</article>
