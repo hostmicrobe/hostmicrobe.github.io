@@ -2,8 +2,8 @@
 layout: project
 title: 'PennVet OneHealth Interview.'
 date: 1 Feb 2015
-image: /assets/img/projects/onehealth.jpg
-screenshot: /assets/img/projects/onehealth.jpg
+image: /assets/img/projects/onehealth.png
+screenshot: /assets/img/projects/onehealth.png
 links:
 caption: A video on 'one-health' produced by PennVet. Discusses some of our work in this area.
 description: >
