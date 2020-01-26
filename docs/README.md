@@ -1,40 +1,20 @@
----
-title: Documentation
-description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-hide_description: true
-permalink: /docs/
----
+# Beiting Lab Website 
 
-Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
-Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/hydecorp/hydejack/issues) on GitHub.
+This is the website for my research group at School of Veterinary Medicine at the University of Pennsylvania.
 
-**NOTE**: While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
-{:.message}
+Our group makes up the Center for Host-Microbial Interactions at PennVet and, allowing us to work closely with veterinarians and veterinary researchers on interdisciplinary research projects related to microbiology and infectious diseases.
 
-Buyers of the PRO version can jump straight to [installation for PRO buyers](install.md#pro-version),
-or [upgrades for PRO buyers](upgrade.md#pro-version).
+This website was created using GitHub and the static site generator, [Jekyll](https://jekyllrb.com/).  I used the HydeJack template from @hydecorp for this one, and have previously used the @mmistakes template.  Both are great, but are build with blogs in mind, so they take a bit of tweaking to showcase research projects and papers.  I sprung for the pro (paid) version of HydeHack template, specifically because of the 'portfolio' feature, which I thought made for a nice way to highlight our research and press/media coverage.  
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
-{:.related-posts.faded}
+In the process of making lab websites with GitHub and Jekyll, I learned a lot (read, copying large portions of) many great Jekyll-based lab websites.  Here are some great one's you might want to check out:
 
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
-{:.related-posts.faded}
+Murat Eran's lab (@meren) - merenlab.org
+Milan Allen's lab (@mpa139) - allenlab.org
+Konrad Kording's lab (@kordinglab) - kordinglab.com
+Trevor Bedford's lab (@trvrb) - bedfordlab.io
+Allan Drummond's lab (@dallandrummond) - drummondlab.org
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
-{:.related-posts.faded}
+Copyright Daniel Beiting. Code released under the MIT License.
 
 [install]: install.md
 [upgrade]: upgrade.md
