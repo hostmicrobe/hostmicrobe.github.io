@@ -10,10 +10,10 @@ links:
 caption: Faculty at the School of Veterinary Medicine target neglected tropical diseases with advanced science, cross-disciplinary collaborations, and work in the lab and the field.
 description: >
   The health post in Corte de Pedra, Bahia, Brazil, which treats about 1500 patients a year for the negelected tropical disease, cutaneous leishmaniasis.
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
 
 Most people don’t die from tropical diseases like hookworm, schistosomiasis, or even malaria. But these understudied diseases, often caused by parasites, rob people of health in sometimes insidious ways.

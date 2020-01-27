@@ -10,10 +10,10 @@ links:
 caption: Announcing our annual microbiome symposium jointly hosted with PennVet, PennMed and CHOP
 description: >
   Announcing an annual joint microbiome symposium with PennVet, PennMed and CHOP
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
 
 They live on our skin, in our guts, in our bathtubs, and in the soil. They can keep us healthy, and they can kill us. We know a lot about them, but we’ve only scratched the surface.

@@ -10,10 +10,10 @@ links:
 caption: The 5 year anniversary of CHMI.
 description: >
   Article looking back on our accomplishments as we celebrate our 5yr anniversary as a lab.
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
 
 To probe questions in veterinary health and disease, genomic technology has become a leading tool. But these high-tech and sometimes costly approaches can prove intimidating to researchers, who may not know which technology platform best suits their purposes—and their budget—or how to extract meaningful conclusions from the massive quantities of data they generate.

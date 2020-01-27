@@ -10,10 +10,10 @@ links:
 caption: A nice feature of our canine IBD study.
 description: >
   Dogs with a Crohn’s-like disease fed a special diet were found to have characteristic changes in their gut microbiomes, paralleling changes seen in children with Crohn’s.
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
 
 Much remains mysterious about the factors influencing human inflammatory bowel disease (IBD), but one aspect that has emerged as a key contributor is the gut microbiome, the collection of microorganisms dwelling in the intestines. 

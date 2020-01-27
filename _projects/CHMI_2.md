@@ -10,10 +10,10 @@ links:
 caption: A feature on our efforts to support PennVet research through pilot grants
 description: >
   A feature on our efforts to support research through pilot grants
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
 
 When you look in the mirror, your gaze takes in a human form. Yet the human body is comprised of 10 times more microbial cells than human ones. These single-celled organisms inhabit our skin, mucous membranes, and gut, and while they can often promote health, they can also lead to disease.

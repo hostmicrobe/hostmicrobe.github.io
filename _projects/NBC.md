@@ -8,10 +8,10 @@ links:
 caption: Live TV interview on NBC10 during the height of the 2014 Ebola outbreak. 7 minutes on air with 54,000 viewers. 
 description: >
   Live TV interview on NBC10 during the height of the 2014 Ebola outbreak. 7 minutes on air with 54,000 viewers. 
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
   
 

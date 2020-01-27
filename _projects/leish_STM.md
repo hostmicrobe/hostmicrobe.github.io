@@ -10,10 +10,10 @@ links:
 caption: Nice write-up of our collaborative work on leishmaniasis.
 description: >
   Antiomony (pictured above) is the drug of choice for treating cutaneous leishmaniasis, but as many as 50-60% of patients fail this chemotherapy.  We set out to discover why.
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
 
 For patients with cutaneous leishmaniasis, a skin infection transmitted by a sand fly that can lead to painful and disfiguring ulcers, treatment can be grueling. The first-line therapy offered to many requires daily infusions of the metalloid pentavalent antimony for three weeks, and half of patients don’t respond to just one round of therapy. Some fail two or even three courses. And the side effects of therapy can range from mere irritation to far more serious conditions.

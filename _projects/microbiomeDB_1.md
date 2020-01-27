@@ -10,10 +10,10 @@ links:
 caption: An article talking about the debut of our MicrobiomeDB project.
 description: >
   An article talking about the debut of our MicrobiomeDB project.
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
 
 Studies of the microbiome—the array of bacteria, fungi, viruses, and other microorganisms living in or on a given individual or environment—generate a lot of data. An investigation of the skin microbiome of people with eczema, for example, would include not only the identities of the microbes present, but also a vast amount of metadata, or data about the data, such as the sex, age, weight, and disease status of the individuals under study. Analysis tools that integrate metadata have the potential to reveal connections between the microbiome and clinical outcomes.

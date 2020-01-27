@@ -10,10 +10,10 @@ links:
 caption: Science article that makes a shout out to our canine IBD study.
 description: >
   Paisley (pictured above) was one of the dogs in our study that helped us understand how diet influences the microbiome to promote remission in inflammatory bowel disease (IBD).
-accent_color: '#4fb1ba'
-accent_image:
-  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
-  overlay:    true
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+#   overlay:    true
 ---
 
 Frankie, a 15-year-old brown dachshund with a gray muzzle and tired eyes, rests on a pillow and pink blanket on an exam table at the University of Pennsylvania School of Veterinary Medicine (Penn Vet). A catheter draws blood from her neck into a gray machine the size of a minifridge, which clicks and whirls as it returns clear fluid to her body through another tube. The dog is strapped down by a red leash, but the restraint hardly seems necessary; she looks like she could fall asleep at any moment. At least until veterinary internist J.D. Foster sticks a thermometer in her butt.
