@@ -13,9 +13,11 @@ comments: false
 ## 2020
 
 <div class="pub">
-    <h3><a href="/papers/2002-06-06-feder-hsp70-evolvability.md" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.chom.2020.01.010" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
     <span class="pub-authors">Zhu W, Winter MG, Spiga L, Hughes ER, Chanin R, Mulgaonkar A, Pennington J, Maas M, Behrendt CL, Kim J, Sun X, <span class="pub-member-author">Beiting DP</span>, Hooper LV, Winter S</span>
-    <span class="pub-journal"><i>Cell Host Microbe</i>. Manuscript accepted</span>
+    <span class="pub-journal"><i>Cell Host Microbe</i>. Feb 18 2020</span>
 </div>
 
 <div class="pub">
