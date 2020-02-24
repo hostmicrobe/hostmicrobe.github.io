@@ -9,6 +9,15 @@ comments: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
+## Preprints
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2020.01.13.905604" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2020.01.13.905604" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1101/2020.01.13.905604" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
+    <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan M, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP</span>
+    <span class="pub-journal"><i>BioRxiv</i>. Jan 14 2020</span>
+</div>
 
 ## 2020
 
