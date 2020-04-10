@@ -22,11 +22,19 @@ comments: false
 ## 2020
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Activation of p38α stress-activated protein kinase drives the formation of the pre-metastatic niche in the lungs</a></h3>
+    <span class="pub-authors">Gui J, Zahedi F, Ortiz A, Cho C, Katlinski KV, Alicea-Torres K, Li J, Todd L, Zhang H, Beiting DP, Sander C, Kirkwood JM, Snow BE, Wakeham AC, Mak TW, Diehl JA, Koumenis C, Ryeom SW, Stanger BZ, Puré E, Gabrilovich DI,Fuchs SY</span>
+    <span class="pub-journal"><i>Nature Cancer</i>. <b>In Press</b></span>
+</div>
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.chom.2020.01.010" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
     <span class="pub-authors">Zhu W, Winter MG, Spiga L, Hughes ER, Chanin R, Mulgaonkar A, Pennington J, Maas M, Behrendt CL, Kim J, Sun X, <span class="pub-member-author">Beiting DP</span>, Hooper LV, Winter S</span>
-    <span class="pub-journal"><i>Cell Host Microbe</i>. Feb 18 2020</span>
+    <span class="pub-journal"><i>Cell Host Microbe</i>. <b>Feb 18 2020</b></span>
 </div>
 
 <div class="pub">
@@ -34,7 +42,7 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1084/jem.20181757" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1084/jem.20181757" target="_new">The parasite kinase ROP16 is a key virulence factor that acts in cis and trans and mediates suppression of T cell responses</a></h3>
     <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, <span class="pub-member-author">Wang S</span>, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>.
-    <span class="pub-journal"><i>Journal of Experimental Medicine</i>. Jan 20 2020</span>
+    <span class="pub-journal"><i>Journal of Experimental Medicine</i>. <b>Jan 20 2020</b></span>
 </div>
 
 
