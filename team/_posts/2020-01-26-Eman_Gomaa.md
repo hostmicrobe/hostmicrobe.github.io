@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: member
 title: Eman Gomaa
 position: Undergraduate researcher
-#image: /assets/img/team/eman_gomaa.jpg
+image: /assets/img/team/eman_gomaa.jpg
 email: egomaa@mail.usciences.edu
 alumni: true
 ---
