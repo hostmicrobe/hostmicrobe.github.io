@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Olivia Pilling
-position: Rotation student (MVP)
+position: PhD Student
 image: /assets/img/team/olivia_pilling.jpg
 email: opilling@pennmedicine.upenn.edu
 ---
