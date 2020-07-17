@@ -4,6 +4,7 @@ title: Eman Gomaa
 position: Undergraduate researcher
 image: /assets/img/team/eman_gomaa.jpg
 email: egomaa@mail.usciences.edu
+alumni: true
 ---
 
-Eman is senior at the University of the Sciences Philadelphia (USP), and is spending the Spring semester working in the lab on an independent study project.  Eman is new to bench research and is getting acquainted with fundamental techniques in molecular microbiology.  
+Eman spent time in the lab when she was a senior at the University of the Sciences Philadelphia (USP), and spent the Spring semester of 2020 working in the lab on an independent study project.  Eman was new to bench research and spent her time getting acquainted with fundamental techniques in molecular microbiology.  Unfortunately, this work was cut short by the COVID19 pandemic, and Eman was accepted into a Postbac program at WashU.
