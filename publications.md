@@ -14,17 +14,18 @@ comments: false
 ## 2020
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2020.01.13.905604" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2020.01.13.905604" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1101/2020.01.13.905604" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
     <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan M, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP</span>
     <span class="pub-journal"><i>mSphere</i>. In press</span>
 </div>
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Activation of p38α stress-activated protein kinase drives the formation of the pre-metastatic niche in the lungs</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-020-0064-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s43018-020-0064-0" 
+data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s43018-020-0064-0" target="_new">Activation of p38α stress-activated protein kinase drives the formation of the pre-metastatic niche in the lungs</a></h3>
     <span class="pub-authors">Gui J, Zahedi F, Ortiz A, Cho C, Katlinski KV, Alicea-Torres K, Li J, Todd L, Zhang H, Beiting DP, Sander C, Kirkwood JM, Snow BE, Wakeham AC, Mak TW, Diehl JA, Koumenis C, Ryeom SW, Stanger BZ, Puré E, Gabrilovich DI,Fuchs SY</span>
     <span class="pub-journal"><i>Nature Cancer</i>. <b>In Press</b></span>
 </div>
