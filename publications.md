@@ -19,8 +19,8 @@ comments: false
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
     <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan M, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP</span>
     <span class="pub-journal"><i>mSphere</i>. Aug 05 2020.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://penntoday.upenn.edu/news/predicting-treatment-outcome-leishmaniasis" target="_blank">PDF</a></span><br>
-    <span style="display: inline-block; padding-bottom: 5px;">Covered by <a href="https://penntoday.upenn.edu/news/predicting-treatment-outcome-leishmaniasis" target="_blank">PennToday News</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">Reproducible <a href="https://codeocean.com/capsule/8447002/tree" target="_blank">Code Ocean Capsule</a></span><br>
 </div>
 
 <div class="pub">
