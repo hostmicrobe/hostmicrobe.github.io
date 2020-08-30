@@ -17,10 +17,10 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
-    <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan M, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP</span>
-    <span class="pub-journal"><i><b>mSphere</b></i>. Aug 05 2020.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a></span>.
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8447002/tree" target="_blank">Code</a></span><br>
+    <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan M, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP.</span>
+    <span class="pub-journal"><i><b> mSphere</b></i>. Aug 05 2020.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8447002/tree" target="_blank"> Code</a></span><br>
 </div>
 
 <div class="pub">
@@ -60,7 +60,7 @@ data-style="small_circle" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1186/s13326-019-0217-1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s13326-019-0217-1" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
-    <span class="pub-journal"><i><b>Journal of Biomedical Semantics</b></i>. Dec 30; 2019</span>
+    <span class="pub-journal"><i><b>Journal of Biomedical Semantics</b></i>. Dec 30 2019</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Obeid_BiomedSemantics_2019.pdf" target="_blank">PDF</a></span>.
 </div>
 
@@ -69,7 +69,7 @@ data-style="small_circle" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
-    <span class="pub-journal"><i><b>Science Translational Medicine</b></i>. Nov 20; 2019/span>
+    <span class="pub-journal"><i><b>Science Translational Medicine</b></i>. Nov 20; 2019</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Amorim_STM_2019.pdf" target="_blank">PDF</a></span>.
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/6534016/tree" target="_blank">Code</a></span><br>
 </div>
