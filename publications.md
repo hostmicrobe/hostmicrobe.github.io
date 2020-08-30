@@ -18,9 +18,9 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
     <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan M, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP</span>
-    <span class="pub-journal"><i>mSphere</i>. Aug 05 2020.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a></span><br>
-    <span style="display: inline-block; padding-bottom: 5px;">Reproducible <a href="https://codeocean.com/capsule/8447002/tree" target="_blank">Code Ocean Capsule</a></span><br>
+    <span class="pub-journal"><i><b>mSphere</b></i>. Aug 05 2020.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a></span>.
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8447002/tree" target="_blank">Code</a></span><br>
 </div>
 
 <div class="pub">
@@ -29,7 +29,8 @@ comments: false
 data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s43018-020-0064-0" target="_new">Activation of p38α stress-activated protein kinase drives the formation of the pre-metastatic niche in the lungs</a></h3>
     <span class="pub-authors">Gui J, Zahedi F, Ortiz A, Cho C, Katlinski KV, Alicea-Torres K, Li J, Todd L, Zhang H, Beiting DP, Sander C, Kirkwood JM, Snow BE, Wakeham AC, Mak TW, Diehl JA, Koumenis C, Ryeom SW, Stanger BZ, Puré E, Gabrilovich DI, Fuchs SY</span>
-    <span class="pub-journal"><i>Nature Cancer</i>. <b>May 25 2020</b></span>
+    <span class="pub-journal"><i><b>Nature Cancer</b></i>. May 25 2020</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_NatureCancer_2020.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -37,7 +38,8 @@ data-style="small_circle" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.chom.2020.01.010" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
     <span class="pub-authors">Zhu W, Winter MG, Spiga L, Hughes ER, Chanin R, Mulgaonkar A, Pennington J, Maas M, Behrendt CL, Kim J, Sun X, <span class="pub-member-author">Beiting DP</span>, Hooper LV, Winter S</span>
-    <span class="pub-journal"><i>Cell Host Microbe</i>. <b>Feb 18 2020</b></span>
+    <span class="pub-journal"><i><b>Cell Host Microbe</b></i>. Feb 18 2020</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Winter_CHM_2020.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -45,7 +47,8 @@ data-style="small_circle" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1084/jem.20181757" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1084/jem.20181757" target="_new">The parasite kinase ROP16 is a key virulence factor that acts in cis and trans and mediates suppression of T cell responses</a></h3>
     <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, <span class="pub-member-author">Wang S</span>, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>.
-    <span class="pub-journal"><i>Journal of Experimental Medicine</i>. <b>Jan 20 2020</b></span>
+    <span class="pub-journal"><i><b>Journal of Experimental Medicine</b></i>. Jan 20 2020</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Hunter_JEM_2020.pdf" target="_blank">PDF</a></span>.
 </div>
 
 
@@ -57,7 +60,8 @@ data-style="small_circle" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1186/s13326-019-0217-1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s13326-019-0217-1" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS</span>
-    <span class="pub-journal"><i>Journal of Biomedical Semantics</i>. <b>Dec 30; 2019</b></span>
+    <span class="pub-journal"><i><b>Journal of Biomedical Semantics</b></i>. Dec 30; 2019</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Obeid_BiomedSemantics_2019.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -65,7 +69,9 @@ data-style="small_circle" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
-    <span class="pub-journal"><i>Science Translational Medicine</i>. <b>Nov 20; 2019</b></span>
+    <span class="pub-journal"><i><b>Science Translational Medicine</b></i>. Nov 20; 2019/span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Amorim_STM_2019.pdf" target="_blank">PDF</a></span>.
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/6534016/tree" target="_blank">Code</a></span><br>
 </div>
 
 
