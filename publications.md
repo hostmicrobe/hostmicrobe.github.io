@@ -14,12 +14,31 @@ comments: false
 ## 2020
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1126/scitranslmed.aax4204" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
+    <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P* (asterisk denotes co-corresponding authors)</span>
+    <div class="pub-info">
+    <div class="pub-featured-image">
+    <a href="../images/leishCover.png"><img src="../images/leishCover.png" style="max-width: 100px; max-height: 200px; width: auto; border: none; height: auto; margin: 0 auto; display: block; transform: translateY(15%);"/></a>
+    </div>
+    <div class="pub-highlights">
+    <span style="display: inline-block; padding-bottom: 5px;">- We used a 'dual-transcriptome' approach to simultaneously measure host and parasite transcripts from the same skin samples of patients with cutaneous leishmaniasis.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- First study of this disease to incorporate clinical metadata from patients, and used a simple variability analysis to identify biomarkers of treatment outcome.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">- We're now using these biomarkers to develop rapid diagnostic assays that could be used in Brazil for identifying patients at risk for failing convential therapy for this disease.</span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  Covered by <a href="https://penntoday.upenn.edu/news/predicting-treatment-outcome-leishmaniasis" target="_blank">PennToday News</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;">-  All code and figures are reproduced in this <a href="http://hostmicrobe.github.io/myPapers/camila_markdown.pdf" target="_blank">Rmarkdown document</a>, and fully reproducible workflow is available as a <a href="https://codeocean.com/capsule/6534016/" target="_blank">code capsule on CodeOcean</a></span>
+    </div>
+    </div>
+    <span class="pub-journal"><i>Science Translational Medicine</i>. <b>Nov 20; 2019</b></span>
+</div>
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
     <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan M, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP</span>
     <span class="pub-journal"><i>mSphere</i>. Aug 05 2020.</span>
-    <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">PDF</a></h3>
 </div>
 
 <div class="pub">
