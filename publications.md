@@ -129,7 +129,7 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/immunohorizons.1800083" target="_new">IL-27 and TCR Stimulation Promote T Cell Expression of Multiple Inhibitory Receptors</a></h3>
     <span class="pub-authors">DeLong JH, O’Hara Hall A, Rausch M, Moodley D, Perry J, Park J, Phan AT, <span class="pub-member-author">Beiting DP</span>, Kedl RM, Hill JA, Hunter CA. </span>
     <span class="pub-journal"><i><b>ImmunoHorizons</b></i>. Jan 01; 2019. </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Hunter_ImmunoHorizons_2019.pdf target="_blank">PDF</a></span>.
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Hunter_ImmunoHorizons_2019.pdf" target="_blank">PDF</a></span>.
 </div>
 
 
