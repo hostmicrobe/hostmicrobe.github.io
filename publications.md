@@ -81,7 +81,7 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41564-019-0539-x" target="_new">Lifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
      <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, <span class="pub-member-author">Sullivan MC</span>, Pinkston B, Striepen B</span>
     <span class="pub-journal"><i><b>Nature Microbiology</b></i>. Sept 02; 2019</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Amorim_STM_2019.pdf" target="_blank">PDF</a></span>.
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Striepen_NatureMicro_2019.pdf" target="_blank">PDF</a></span>.
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8887900/tree" target="_blank">Code</a></span><br>
 </div>
 
@@ -99,7 +99,7 @@ data-style="small_circle" style="float: right;"></div>
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0215497" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0215497" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pone.0215497" target="_new">Gut microbiota features associated with Clostridioides difficile colonization in puppies</a></h3>
-    <span class="pub-authors"><span class="pub-member-author">Berry ASF</span>, Kelly BJ, Barnhart D, Kelly DJ, <span class="pub-member-author">Beiting DP</span>, Baldassano RN, Redding LE</span>
+    <span class="pub-authors"><span class="pub-member-author">Berry ASF</span>, Kelly BJ, Barnhart D, Kelly DJ, <span class="pub-member-author">Beiting DP</span>, Baldassano RN, Redding LE. </span>
     <span class="pub-journal"><i><b>PLOS One</b></i>. Aug 30; 2019. </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Redding_CanineCdiff_2019.pdf" target="_blank">PDF</a></span>.
 </div>
@@ -108,16 +108,18 @@ data-style="small_circle" style="float: right;"></div>
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.matbio.2019.07.007" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1016/j.matbio.2019.07.007" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.matbio.2019.07.007" target="_new">Fibroblast activation protein restrains adipogenic differentiation and regulats matrix-mediated mTOR signaling</a></h3>
-    <span class="pub-authors">Puré E, <span class="pub-member-author">Beiting DP</span>, Wabitsch M, Blomberg R, </span>
-    <span class="pub-journal"><i>Matrix Biology</i>. <b>July 17; 2019</b></span>
+    <span class="pub-authors">Blomberg R, <span class="pub-member-author">Beiting DP</span>, Wabitsch M, Puré E. </span>
+    <span class="pub-journal"><i><b>Matrix Biology</b></i>. July 17; 2019. </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Pure_MatrixBio_2019.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1128/mBio.00935-19" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1128/mBio.00935-19" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mBio.00935-19" target="_new">Infection-Induced Intestinal Dysbiosis Is Mediated by Macrophage Activation and Nitrate Production</a></h3>
-    <span class="pub-authors"><span class="pub-member-author">Wang S</span>, <span class="pub-member-author">El-Fahmawi A</span>, Christian DA, Fang Q, Radaelli E, Chen L, <span class="pub-member-author">Sullivan MC</span>, <span class="pub-member-author">Misic AM</span>, Ellringer JA, Zhu XQ, Winter SE, Hunter CA*, <span class="pub-member-author">Beiting DP*</span> (asterisk denotes co-corresponding authors)</span>
-    <span class="pub-journal"><i>MBio</i>. <b>May 28; 2019</b></span>
+    <span class="pub-authors"><span class="pub-member-author">Wang S</span>, <span class="pub-member-author">El-Fahmawi A</span>, Christian DA, Fang Q, Radaelli E, Chen L, <span class="pub-member-author">Sullivan MC</span>, <span class="pub-member-author">Misic AM</span>, Ellringer JA, Zhu XQ, Winter SE, Hunter CA*, <span class="pub-member-author">Beiting DP*</span>. </span>
+    <span class="pub-journal"><i><b>MBio</b></i>. May 28; 2019. </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wang_Mbio_Toxo_2019.pdf" target="_blank">PDF</a></span>.
 </div>
 
 
@@ -125,8 +127,9 @@ data-style="small_circle" style="float: right;"></div>
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.4049/immunohorizons.1800083" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.4049/immunohorizons.1800083" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/immunohorizons.1800083" target="_new">IL-27 and TCR Stimulation Promote T Cell Expression of Multiple Inhibitory Receptors</a></h3>
-    <span class="pub-authors">DeLong JH, O’Hara Hall A, Rausch M, Moodley D, Perry J, Park J, Phan AT, <span class="pub-member-author">Beiting DP</span>, Kedl RM, Hill JA, Hunter CA</span>
-    <span class="pub-journal"><i>ImmunoHorizons</i>. <b>Jan 01; 2019</b></span>
+    <span class="pub-authors">DeLong JH, O’Hara Hall A, Rausch M, Moodley D, Perry J, Park J, Phan AT, <span class="pub-member-author">Beiting DP</span>, Kedl RM, Hill JA, Hunter CA. </span>
+    <span class="pub-journal"><i><b>ImmunoHorizons</b></i>. Jan 01; 2019. </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Hunter_ImmunoHorizons_2019.pdf target="_blank">PDF</a></span>.
 </div>
 
 
