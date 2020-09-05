@@ -19,7 +19,7 @@ comments: false
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
     <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan M, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP.</span>
     <span class="pub-journal"><i><b> mSphere</b></i>. Aug 05 2020.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8447002/tree" target="_blank"> Code</a></span><br>
 </div>
 
@@ -140,23 +140,26 @@ data-style="small_circle" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1038/s41590-018-0250-8" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41590-018-0250-8" target="_new">Alarmin S100A11 initiates a chemokine response to the human pathogen Toxoplasma gondii</a></h3>
     <span class="pub-authors">Safronova A, Araujo A, Camanzo ET, Moon TJ, Elliott MR, <span class="pub-member-author">Beiting DP</span>, Yarovinsky F</span>
-    <span class="pub-journal"><i>Nature Immunology</i>. <b>Nov 19; 2018</b></span>
+    <span class="pub-journal"><i><b>Nature Immunology</b></i>. Nov 19; 2018. </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Hunter_ImmunoHorizons_2019.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1016/j.ijpara.2018.05.013" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.ijpara.2018.05.013" target="_new">Glycolysis is important for optimal asexual growth and formation of mature tissue cysts by Toxoplasma gondii</a></h3>
-    <span class="pub-authors">Shukla A, Olszewski KL, Llinás M, Rommereim LM, Fox BA, Bzik DJ, Xia D, Wastling J, <span class="pub-member-author">Beiting D</span>, Roos DS, Shanmugam D</span>
-    <span class="pub-journal"><i>International journal for parasitology</i>. <b>Aug 31; 2018</b></span>
+    <span class="pub-authors">Shukla A, Olszewski KL, Llinás M, Rommereim LM, Fox BA, Bzik DJ, Xia D, Wastling J, <span class="pub-member-author">Beiting D</span>, Roos DS, Shanmugam D. </span>
+    <span class="pub-journal"><i><b>International journal for parasitology</b></i>. Aug 31; 2018. </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Shanmugam_IJP_2018.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1089/scd.2018.0081" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1089/scd.2018.0081" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1089/scd.2018.0081" target="_new">Sex-specific gene expression differences are evident in human embryonic stem cells and during in vitro differentiation of human placental progenitor cells</a></h3>
-    <span class="pub-authors">Syrett C, Sierra I, Berry C, <span class="pub-member-author">Beiting DP</span>, Anguera M</span>
-    <span class="pub-journal"><i>Stem Cells and Development</i>. <b>July 11; 2018</b></span>
+    <span class="pub-authors">Syrett C, Sierra I, Berry C, <span class="pub-member-author">Beiting DP</span>, Anguera M. </span>
+    <span class="pub-journal"><i><b>Stem Cells and Development</b></i>. July 11; 2018</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Syrett_StemCell&Dev_2018.pdf" target="_blank">PDF</a></span>.
 </div>
 
 
