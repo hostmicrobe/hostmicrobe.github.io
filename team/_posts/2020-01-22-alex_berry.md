@@ -3,7 +3,6 @@ layout: post
 title: Alex Berry
 position: Postdoc
 scholar: hcBF4HkAAAAJ
-image: /assets/img/team/alex_berry.jpg
 email: berrya@sas.upenn.edu
 twitter: alex_berry14
 alumni: true
