@@ -69,7 +69,7 @@ data-style="small_circle" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P*. </span>
-    <span class="pub-journal"><i><b>Science Translational Medicine</b></i>. Nov 20; 2019</span>
+    <span class="pub-journal"><i><b>Science Translational Medicine</b></i>. Nov 20; 2019. </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Amorim_STM_2019.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/6534016/tree" target="_blank">Code</a></span><br>
 </div>
@@ -91,7 +91,7 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-019-0740-4" target="_new">Diet-induced remission in chronic enteropathy is associated with altered microbial community structure and synthesis of secondary bile acids</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Wang S</span>, Martins R, <span class="pub-member-author">Sullivan MC</span>, Friedman ES, <span class="pub-member-author">Misic AM</span>, <span class="pub-member-author">El-Fahmawi A</span>, <span class="pub-member-author">De Martinis ECP</span>, <span class="pub-member-author">O’Brien K</span>, <span class="pub-member-author">Chen Y</span>, Bradley C, <span class="pub-member-author">Zhang G</span>, <span class="pub-member-author">Berry ASF</span>, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP.</span></span>
     <span class="pub-journal"><i><b>Microbiome</b></i>. Aug 31; 2019. </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wang_CanineIBD_2019.pdf" target="_blank">PDF</a> | </span>.
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wang_CanineIBD_2019.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/2300652/tree" target="_blank">Code</a></span><br>
 </div>
 
