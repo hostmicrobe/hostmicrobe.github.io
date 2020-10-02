@@ -2,7 +2,7 @@
 layout: post
 title: Olivia Pilling
 position: PhD Student
-image: /assets/img/team/olivia_pilling.jpg
+image: /assets/img/team/olivia_pilling2.jpg
 email: opilling@pennmedicine.upenn.edu
 ---
 
