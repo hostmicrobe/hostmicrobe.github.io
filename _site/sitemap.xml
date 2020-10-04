@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/blog/hyde/</loc>
-<lastmod>2020-10-04T08:20:08-04:00</lastmod>
+<lastmod>2020-10-04T08:20:16-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/hydejack/</loc>
-<lastmod>2020-10-04T08:20:08-04:00</lastmod>
+<lastmod>2020-10-04T08:20:16-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/team/2016-07-22-grace_zhang/</loc>
@@ -154,19 +154,19 @@
 </url>
 <url>
 <loc>http://localhost:4000/research/BioinformaticsEducation/</loc>
-<lastmod>2020-10-04T08:20:08-04:00</lastmod>
+<lastmod>2020-10-04T08:20:16-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/EntericDiseases/</loc>
-<lastmod>2020-10-04T08:20:08-04:00</lastmod>
+<lastmod>2020-10-04T08:20:16-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/hostResponse/</loc>
-<lastmod>2020-10-04T08:20:08-04:00</lastmod>
+<lastmod>2020-10-04T08:20:16-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/microbiomeDB/</loc>
-<lastmod>2020-10-04T08:20:08-04:00</lastmod>
+<lastmod>2020-10-04T08:20:16-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/docs/advanced/</loc>
