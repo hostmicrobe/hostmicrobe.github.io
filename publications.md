@@ -291,6 +291,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mBio.01881-16" target="_new">STAT1 signaling in astrocytes is essential for control of Toxoplasma gondii in the central nervous system.</a></h3>
     <span class="pub-authors">Hidano S, Randall LM, Dawson L, Dietrich HK, Konradt C, Klover PJ, John B, Harris TH, Fang Q, Turek B, Kobayashi T, Hennighausen L, <span class="pub-member-author">Beiting DP</span>, Koshy A, Hunter CA.</span>
     <span class="pub-journal"><i><b>MBio</b></i>. Nov 8; 2016.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Shinya_astrocytesSTAT1_2016.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -299,6 +301,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1005910" target="_new">Activity of uncleaved caspase-8 controls anti-bacterial immune defense and TLR-induced cytokine production independent of cell death.</a></h3>
     <span class="pub-authors">Philip NH, DeLaney A, Santos-Marerro M, Grier J, Sun Y, Wynosky-Dolfi M, Peterson L, Zwack EE, Hu B, Olson TM, Rongvaux A, Pope SD, Lopez CB, Oberst A, <span class="pub-member-author">Beiting DP</span>, Henao-Mejia J, Brodsky IE.</span>
     <span class="pub-journal"><i><b>PLOS Pathogens</b></i>. Oct 13; 2016.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Brodsky_caspase8_2016.PDF" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -307,7 +311,7 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mSphere.00258-16" target="_new">Divergent isoprenoid biosynthesis pathways in Staphylococcus species constitute a drug target for treating infections in companion animals.</a></h3>
     <span class="pub-authors">Misic A, Cain C, Morris DO, Rankin S, <span class="pub-member-author">Beiting DP.</span></span>
     <span class="pub-journal"><i><b>mSphere</b></i>. Sept 28; 2016.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/schleiferi_msphere_2016.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/mSphereCover.png" target="_blank"> Cover</a></span><br>
 </div>
 
@@ -317,6 +321,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pntd.0004992" target="_new">Meta-transcriptome profiling of the human-Leishmania braziliensis cutaneous lesion.</a></h3>
     <span class="pub-authors">Christensen S, Dillon LAL, Carvalho LP, Passos S, Novais F, Hughitt K, <span class="pub-member-author">Beiting DP</span>, Carvalho EM, Scott P, El-Sayed NM and Mosser DM. </span>
     <span class="pub-journal"><i><b>PLOS Neglected Tropical Diseases</b></i>. Sept 15; 2016.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Mosser_PLOSntd_2016.PDF" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -325,6 +331,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/jimmunol.1600522" target="_new">Cutting Edge: IL-4, IL-21, and IFN-g Interact to Govern TBET and CD11c Expression in TLR-Activated B Cells.</a></h3>
     <span class="pub-authors">Naradikian MS, Myles A, <span class="pub-member-author">Beiting DP</span>, Roberts KJ, Dawson L, Herati RS, Bengsch B, Linderman SL, Stelekati E, Spolski R, Wherry EJ, Hunter C, Hensley SE, Leonard WJ, Cancro MP.</span>
     <span class="pub-journal"><i><b>Cutting Edge: Journal of Immunology</b></i>. July 18; 2016.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Cancro_JI_2016.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -333,6 +341,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.celrep.2016.03.006" target="_new">Suppression of type I interferon signaling overcomes the oncogene-induced senescence and mediates melanoma development and progression.</a></h3>
     <span class="pub-authors">Katlinskaya YV, Katlinski KV, Yu Q, Ortiz A, <span class="pub-member-author">Beiting DP</span>, Brice A, Davar D, Sanders C, Kirkwood JM, Rui H, Xu X, Koumenis C, Diehl JA, Fuchs SY.</span>
     <span class="pub-journal"><i><b>Cell Reports</b></i>. April 5; 2016.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_CellReports_2016.PDF" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -341,6 +351,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1074/jbc.M115.713008" target="_new">T Cell Receptor-Induced NF-kB signaling and transcriptional activation are regulated by STIM1- and Orai1-mediated calcium entry.</a></h3>
     <span class="pub-authors">Liu X, Berry CT, Ruthel G, Madara JJ, MacGillivray K, Gray CM, Madge LA, McCorkell KA, <span class="pub-member-author">Beiting DP</span>, Hershberg U, May MJ and Freedman BD.</span>
     <span class="pub-journal"><i><b>J Biol Chem</b></i>. Jan 29; 2016.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Freedman_JBC_2016.pdf target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -349,6 +361,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/MCB.00988-15" target="_new">Type I Interferons Control Proliferation and Function of Intestinal Epithelium.</a></h3>
     <span class="pub-authors">Katlinskaya YV, Katlinski KV, Lasri A, Li N, <span class="pub-member-author">Beiting DP</span>, Durham AC, Yang T, Pikarsky E, lengner CJ, Johnson BF, Ben-Neriah Y, Fuchs SY.</span>
     <span class="pub-journal"><i><b>Mol Cell Biol</b></i>. Jan 25; 2016.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_MolCellBio_2016.pdf" target="_blank">PDF</a></span>.
 </div>
 
 ## 2015
@@ -359,7 +373,7 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1005347" target="_new">IL-4 dependent, eosinophil-mediated support of nematode growth occurs in the context of an innate response to tissue injury.</a></h3>
     <span class="pub-authors">Huang L, <span class="pub-member-author">Beiting DP</span>, Gebreselassie NG, Gagliardo LF, Ruyechan MC, lee NA, lee JJ, Appleton JA.</span>
     <span class="pub-journal"><i><b>PLOS Pathogens</b></i>. Dec 31; 2015.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Appleton_PLOSpath_2015.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/PLOSPath_cover.png" target="_blank"> Cover</a></span><br>
 </div>
 
@@ -369,6 +383,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.vetmic.2015.09.007" target="_new">Genome sequencing reveals clonal dynamics of methicillin-resistant Staphylococcus aureus in the same household in the context of clinical disease in a person and a dog</a></h3>
     <span class="pub-authors">Davis MF, Misic AM, Morris DO, Moss JT, Tolomeo P, <span class="pub-member-author">Beiting DP</span>, Nachamkin I, Lautenbach E, Rankin SC.</span>
     <span class="pub-journal"><i><b>Veterinary Microbiology</b></i>. Nov 18; 2015.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Rankin_VetMicro_2015.pdf" target="_blank">PDF</a></span>.
 </div>
 
 
@@ -378,6 +394,8 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/genomeA.01011-15" target="_new">Complete genome sequence and methylome of Staphylococcus schleiferi, an important cause of skin and ear infections in veterinary medicine.</a></h3>
     <span class="pub-authors">Misic A, Cain C, Morris DO, Rankin S, <span class="pub-member-author">Beiting DP.</span></span>
     <span class="pub-journal"><i><b>Genome Announcements</b></i>. Sept 10; 2015.</span>
+    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/schleiferi_genomeAnnounce_2015.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -386,7 +404,7 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1084/jem.20142101" target="_new">Skin Resident Memory CD4+ T Cells Enhance Protection Against leishmania major Infection.</a></h3>
     <span class="pub-authors">Glennie ND, Yeramilli VA, <span class="pub-member-author">Beiting DP</span>, Volk SW, Weaver CT, Scott P.</span>
     <span class="pub-journal"><i><b>Journal of Experimental Medicine</b></i>. July 27; 2015.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Nelson_JEM_2015.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io//pubs/Leish_news_JEM_2015.pdf" target="_blank"> Synopsis</a></span><br>
 </div>
 
@@ -396,7 +414,7 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pbio.1002200" target="_new">The Orphan Nuclear Receptor TLX is an Enhancer of STAT1-mediated Transcription and Immunity to Toxoplasma gondii.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, Hidano S, Baggs JE, Geskes JM, Wherry EJ, Fang Q, Hunter CA, Roos DS, Cherry S.</span>
     <span class="pub-journal"><i><b>PLOS Biology</b></i>. Jul 21; 2015.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/TLX_PLOSbio_2015.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io//pubs/tuningSTAT1.pdf" target="_blank"> Synopsis</a></span><br>
 </div>
 
