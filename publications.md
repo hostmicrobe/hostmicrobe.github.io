@@ -11,6 +11,28 @@ comments: false
 
 
 
+## Preprints
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" target="_new">Remodeling of the maternal gut microbiome during pregnancy is shaped by parity</a></h3>
+    <span class="pub-authors">Berry ASF, Pierdon MK, Misic AM, Sullivan MC, O’Brien K, Chen Y, Baldassano RN, Parsons RN, Beiting DP.</span>
+    <span class="pub-journal"><i><b> BioRxiv</b></i>. Dec 05 2020.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8021926/tree" target="_blank"> Code</a></span><br>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.medrxiv.org/content/10.1101/2020.12.03.20240978v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://www.medrxiv.org/content/10.1101/2020.12.03.20240978v1" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://www.medrxiv.org/content/10.1101/2020.12.03.20240978v1" target="_new">Localized skin inflammation during cutaneous leishmaniasis drives a chronic, systemic IFN-γ signature</a></h3>
+    <span class="pub-authors">Amorim CF, Novais FO, Nguyen BT, Nascimento MT, Lago J, Lago AS, Carvalho LP, Beiting DP*, Scott P*.</span>
+    <span class="pub-journal"><i><b> MedRxiv</b></i>. Dec 04 2020.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+
 ## 2020
 
 <div class="pub">
