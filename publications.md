@@ -36,6 +36,16 @@ comments: false
 ## 2020
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.mdpi.com/2073-4425/12/1/58" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://www.mdpi.com/2073-4425/12/1/58" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://www.mdpi.com/2073-4425/12/1/58" target="_new">Mutations Affecting HVO_1357 or HVO_2248 Cause Hypermotility in Haloferax volcanii, Suggesting Roles in Motility Regulation</a></h3>
+    <span class="pub-authors">Collins M, Afolayan S, Igiraneza AB, Schiller H, Krespan E, Beiting DP, Dyall-Smith M, Pfeiffer F and Pohlschroder Ms.</span>
+    <span class="pub-journal"><i><b> Genes</b></i>. Dec 31 2020.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/genes_2020.pdf" target="_blank">PDF</a> </span>
+</div>
+
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
