@@ -14,6 +14,24 @@ comments: false
 ## Preprints
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2021.03.19.436207" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2021.03.19.436207" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1101/2021.03.19.436207" target="_new">The Card19 locus of murine chromosome 13 regulates terminal cell lysis downstream of caspase activation and Gasdermin-D cleavage</a></h3>
+    <span class="pub-authors">Bjanes E, Garcia Sillas R, Matsuda R, Demarco B, Fettrelet T, DeLaney AA, Rodriguez Lopez EM, Grubaugh D, Wynosky-Dolfi MA, Philip NH, Krespan E, Tovar D, Joannas L, Beiting DP, Henao-Mejia J, Schaefer BC, Chen KW, Broz P, Brodsky IE.</span>
+    <span class="pub-journal"><i><b> BioRxiv</b></i>. March 20 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2021.03.13.435244" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2021.03.13.435244" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1101/2021.03.13.435244" target="_new">Crosstalk between enterocytes and innate lymphoid cell drives early IFN-γ-mediated control of Cryptosporidium</a></h3>
+    <span class="pub-authors">Gullicksrud J, Sateriale A, Englies J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Striepen B, Hunter CA.</span>
+    <span class="pub-journal"><i><b> BioRxiv</b></i>. March 14 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" target="_new">Remodeling of the maternal gut microbiome during pregnancy is shaped by parity</a></h3>
@@ -23,15 +41,26 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8021926/tree" target="_blank"> Code</a></span><br>
 </div>
 
+
+## 2021
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Regulation of the intercellular biomolecule transfer-driven tumor angiogenesis, growth, and responses to anti-cancer therapies</a></h3>
+    <span class="pub-authors">Lu Z, Ortiz A, Verginadis I, Peck AR, Zahedi F, Cho C, Yu P, DeRita RM, Sun Y, Yaspan A, Krespan E, Beiting DP, Radaelli E, Ryeom S, Diehl JA, Rui H, Koumenis C, Fuchs SY</span>
+    <span class="pub-journal"><i><b> Journal of Clinical Investigation</b></i>. Accepted.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> </span>
+</div>
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.medrxiv.org/content/10.1101/2020.12.03.20240978v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://www.medrxiv.org/content/10.1101/2020.12.03.20240978v1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://www.medrxiv.org/content/10.1101/2020.12.03.20240978v1" target="_new">Localized skin inflammation during cutaneous leishmaniasis drives a chronic, systemic IFN-γ signature</a></h3>
     <span class="pub-authors">Amorim CF, Novais FO, Nguyen BT, Nascimento MT, Lago J, Lago AS, Carvalho LP, Beiting DP*, Scott P*.</span>
-    <span class="pub-journal"><i><b> MedRxiv</b></i>. Dec 04 2020.</span>
+    <span class="pub-journal"><i><b> PLOS Neglected Tropical Diseases</b></i>. Accepted.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
-
 
 ## 2020
 
