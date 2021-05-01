@@ -59,7 +59,7 @@ comments: false
     <h3><a href="https://doi.org/10.1371/journal.pntd.0009321" target="_new">Localized skin inflammation during cutaneous leishmaniasis drives a chronic, systemic IFN-γ signature</a></h3>
     <span class="pub-authors">Amorim CF, Novais FO, Nguyen BT, Nascimento MT, Lago J, Lago AS, Carvalho LP, Beiting DP*, Scott P*.</span>
     <span class="pub-journal"><i><b> PLOS Neglected Tropical Diseases</b></i>. April 1 2021.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Camila_blood_PLOSNTD.pdf" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Camila_blood_PLOSNTD.pdf" target="_blank">PDF</a> </span>
 </div>
 
 ## 2020
