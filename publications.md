@@ -31,26 +31,26 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+
+## 2021
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" target="_new">Remodeling of the maternal gut microbiome during pregnancy is shaped by parity</a></h3>
     <span class="pub-authors">Berry ASF, Pierdon MK, Misic AM, Sullivan MC, O’Brien K, Chen Y, Baldassano RN, Parsons RN, Beiting DP.</span>
-    <span class="pub-journal"><i><b> BioRxiv</b></i>. Dec 05 2020.</span>
+    <span class="pub-journal"><i><b> Microbiome</b></i>. Accepted.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8021926/tree" target="_blank"> Code</a></span><br>
 </div>
 
-
-## 2021
-
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Regulation of the intercellular biomolecule transfer-driven tumor angiogenesis, growth, and responses to anti-cancer therapies</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1172/JCI144225" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1172/JCI144225" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1172/JCI144225" target="_new">Regulation of the intercellular biomolecule transfer-driven tumor angiogenesis, growth, and responses to anti-cancer therapies</a></h3>
     <span class="pub-authors">Lu Z, Ortiz A, Verginadis I, Peck AR, Zahedi F, Cho C, Yu P, DeRita RM, Sun Y, Yaspan A, Krespan E, Beiting DP, Radaelli E, Ryeom S, Diehl JA, Rui H, Koumenis C, Fuchs SY</span>
     <span class="pub-journal"><i><b> Journal of Clinical Investigation</b></i>. Accepted.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="ttp://hostmicrobe.github.io/pubs/Fuchs_JCI_2021.pdf" target="_blank">PDF</a> </span>
 </div>
 
 <div class="pub">
