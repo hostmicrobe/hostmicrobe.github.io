@@ -48,7 +48,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1172/JCI144225" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1172/JCI144225" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1172/JCI144225" target="_new">Regulation of the intercellular biomolecule transfer-driven tumor angiogenesis, growth, and responses to anti-cancer therapies</a></h3>
-    <span class="pub-authors">Lu Z, Ortiz A, Verginadis I, Peck AR, Zahedi F, Cho C, Yu P, DeRita RM, Sun Y, Yaspan A, Krespan E, Beiting DP, Radaelli E, Ryeom S, Diehl JA, Rui H, Koumenis C, Fuchs SY</span>
+    <span class="pub-authors">Lu Z, Ortiz A, Verginadis I, Peck AR, Zahedi F, Cho C, Yu P, DeRita RM, Sun Y, Yaspan A, Krespan E, Beiting DP, Radaelli E, Ryeom S, Diehl JA, Rui H, Koumenis C, Fuchs SY.</span>
     <span class="pub-journal"><i><b> Journal of Clinical Investigation</b></i>. May 17 2021.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="ttp://hostmicrobe.github.io/pubs/Fuchs_JCI_2021.pdf" target="_blank">PDF</a> </span>
 </div>
