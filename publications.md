@@ -41,7 +41,8 @@ comments: false
     <span class="pub-authors">Berry ASF, Pierdon MK, Misic AM, Sullivan MC, O’Brien K, Chen Y, Baldassano RN, Parsons RN, Beiting DP.</span>
     <span class="pub-journal"><i><b> Microbiome</b></i>. Accepted.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8021926/tree" target="_blank"> Code</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8021926/tree" target="_blank"> Code</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://vimeo.com/565435665" target="_blank"> Video abstract</a></span><br>
 </div>
 
 <div class="pub">
