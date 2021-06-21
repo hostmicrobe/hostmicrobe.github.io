@@ -35,6 +35,15 @@ comments: false
 ## 2021
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">An open-source toolkit to expand bioinformatics training for infectious diseases</a></h3>
+    <span class="pub-authors">Berry ASF*, Amorim CF*, Berry CL, Syrett CM, English ED, Beiting DP.</span>
+    <span class="pub-journal"><i><b> mBioo</b></i>. Accepted.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://www.biorxiv.org/content/10.1101/2020.12.04.412205v1" target="_new">Remodeling of the maternal gut microbiome during pregnancy is shaped by parity</a></h3>
