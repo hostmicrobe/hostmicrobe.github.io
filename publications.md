@@ -39,8 +39,8 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">An open-source toolkit to expand bioinformatics training for infectious diseases</a></h3>
     <span class="pub-authors">Berry ASF*, Amorim CF*, Berry CL, Syrett CM, English ED, Beiting DP.</span>
-    <span class="pub-journal"><i><b> mBioo</b></i>. Accepted.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b> mBio</b></i>. Accepted.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a></span>
 </div>
 
 <div class="pub">
