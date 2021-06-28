@@ -62,7 +62,7 @@ menu:
   # - title:             MicrobiomeDB
   #   url:               https://microbiomedb.org/
   - title:             Protocols and Services
-    url:               https://bit.ly/hostmicrobe_protocols
+    url:               https://protocols.hostmicrobe.org/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
