@@ -35,12 +35,12 @@ comments: false
 ## 2021
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">An open-source toolkit to expand bioinformatics training for infectious diseases</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mBio.01214-21" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mBio.01214-21" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/mBio.01214-21" target="_new">An open-source toolkit to expand bioinformatics training for infectious diseases</a></h3>
     <span class="pub-authors">Berry ASF*, Amorim CF*, Berry CL, Syrett CM, English ED, Beiting DP.</span>
-    <span class="pub-journal"><i><b> mBio</b></i>. Accepted.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a></span>
+    <span class="pub-journal"><i><b> mBio</b></i>. July 6 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/DIY_mBio_2021.pdf" target="_blank">PDF</a></span>
 </div>
 
 <div class="pub">
