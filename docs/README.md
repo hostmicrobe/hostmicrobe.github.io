@@ -11,7 +11,7 @@ In the process of making lab websites with GitHub and Jekyll, I learned a lot (r
 * Murat Eran's lab (@meren) - merenlab.org
 * Milan Allen's lab (@mpa139) - allenlab.org
 * Konrad Kording's lab (@kordinglab) - kordinglab.com
-* Trevor Bedford's lab (@trvrb) - bedfordlab.io
+* Trevor Bedford's lab (@trvrb) - https://bedford.io/
 * Allan Drummond's lab (@dallandrummond) - drummondlab.org
 
 Copyright Daniel Beiting. Code released under the MIT License.
