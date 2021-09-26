@@ -2,7 +2,7 @@
 layout: post
 title: Qianxuan She
 position: Rotation Student (MVP)
-semail: qianxuan@pennmedicine.upenn.edu
+email: qianxuan@pennmedicine.upenn.edu
 alumni: true
 ---
 

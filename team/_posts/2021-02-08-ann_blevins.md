@@ -2,7 +2,7 @@
 layout: post
 title: Ann Blevins
 position: Data Scientist / Senior Application Developer
-semail: annsize@vet.upenn.edu
+email: annsize@vet.upenn.edu
 image: /assets/img/team/ann_blevins.png
 ---
 

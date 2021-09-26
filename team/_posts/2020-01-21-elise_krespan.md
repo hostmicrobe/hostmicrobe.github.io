@@ -2,11 +2,7 @@
 layout: post
 title: Elise Krespan
 position: Research Specialist
-email: ekrespan@upenn.edu
-handle: 
-github: 
-scholar: 
-image: /assets/img/team/elise_krespan2.jpg
+alumni: true
 ---
 
-Elise completed a dual Master's degree in Biology and Design at Drexel University, and is interested in interdisciplinary science that incorporates elements of design.  She joined us in July 2019 and is the primary person working with collaborators to plan, develop and manage high-throughput sequencing projects, ranging from transcriptome studies, single-cell seq, 16S rRNA profiling and shotgun metagenomics.
+Elise was our lab manager and sequencing guru from 2019-2021, and she played a vital role in helping the lab survive and continue to operate during the worst of the COVID19 pandemic.  She left the lab to pursue a PhD in Biology at the University of Syracuse.  
