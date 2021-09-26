@@ -14,15 +14,6 @@ comments: false
 ## Preprints
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2021.03.19.436207" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2021.03.19.436207" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1101/2021.03.19.436207" target="_new">The Card19 locus of murine chromosome 13 regulates terminal cell lysis downstream of caspase activation and Gasdermin-D cleavage</a></h3>
-    <span class="pub-authors">Bjanes E, Garcia Sillas R, Matsuda R, Demarco B, Fettrelet T, DeLaney AA, Rodriguez Lopez EM, Grubaugh D, Wynosky-Dolfi MA, Philip NH, Krespan E, Tovar D, Joannas L, Beiting DP, Henao-Mejia J, Schaefer BC, Chen KW, Broz P, Brodsky IE.</span>
-    <span class="pub-journal"><i><b> BioRxiv</b></i>. March 20 2021.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
-</div>
-
-<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2021.03.13.435244" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2021.03.13.435244" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1101/2021.03.13.435244" target="_new">Crosstalk between enterocytes and innate lymphoid cell drives early IFN-γ-mediated control of Cryptosporidium</a></h3>
@@ -33,6 +24,15 @@ comments: false
 
 
 ## 2021
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2021.03.19.436207" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2021.03.19.436207" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1101/2021.03.19.436207" target="_new">The Card19 locus of murine chromosome 13 regulates terminal cell lysis downstream of caspase activation and Gasdermin-D cleavage</a></h3>
+    <span class="pub-authors">Bjanes E, Garcia Sillas R, Matsuda R, Demarco B, Fettrelet T, DeLaney AA, Rodriguez Lopez EM, Grubaugh D, Wynosky-Dolfi MA, Philip NH, Krespan E, Tovar D, Joannas L, Beiting DP, Henao-Mejia J, Schaefer BC, Chen KW, Broz P, Brodsky IE.</span>
+    <span class="pub-journal"><i><b> in press at PLOS Pathogens</b></i>. March 20 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mBio.01214-21" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
