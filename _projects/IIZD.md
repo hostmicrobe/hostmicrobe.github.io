@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Insitute for Infectious and Zoonotic Diseases (IIZD)'
+title: 'Institute for Infectious and Zoonotic Diseases (IIZD)'
 date: 26 Oct 2021
 image: /assets/img/projects/iizd.jpeg
 screenshot: /assets/img/projects/iizd.jpeg
