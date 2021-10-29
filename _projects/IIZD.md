@@ -3,7 +3,7 @@ layout: project
 title: 'Insitute for Infectious and Zoonotic Diseases (IIZD)'
 date: 26 Oct 2021
 image: /assets/img/projects/SiriusLogo.jpg
-screenshot: /assets/img/projects/SiriusLogo.jpg
+screenshot: /assets/img/projects/iizd.jpeg
 links:
   - title: Source
     url: https://penntoday.upenn.edu/news/hub-zoonotic-disease-research
