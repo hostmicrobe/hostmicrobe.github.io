@@ -16,8 +16,8 @@ description: >
 #   overlay:    true
 ---
 
-<iframe src="https://player.vimeo.com/video/631999030?h=809f0064b2&title=0&byline=0&portrait=0" width="640" height="268" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p>Check out our this great 'sizzle' reel for a sense of what inspires us at IIZD</p>
+<iframe src="https://player.vimeo.com/video/631999030?h=809f0064b2&title=0&byline=0&portrait=0" width="853" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><b>Check out our great 'sizzle reel' for a sense of what inspires us at IIZD</b></p>
   
 More than three-quarters of emerging infectious diseases that affect humans come from animals. Numerous scientists are confident that SARS-CoV-2 is among them, likely originating in bats. For many adults alive today, COVID-19 is not the first brush with a dangerous zoonotic disease, one that can move from animals into people. Just in the last two decades, outbreaks of Ebola, Zika, swine flu, avian flu, West Nile virus—and others—have occurred around the world, while other established infections, such as malaria and dengue, continue be a global concern.
 
