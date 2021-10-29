@@ -2,7 +2,7 @@
 layout: project
 title: 'Insitute for Infectious and Zoonotic Diseases (IIZD)'
 date: 26 Oct 2021
-image: /assets/img/projects/SiriusLogo.jpg
+image: /assets/img/projects/iizd.jpeg
 screenshot: /assets/img/projects/iizd.jpeg
 links:
   - title: Source
@@ -19,6 +19,10 @@ description: >
 <iframe src="https://player.vimeo.com/video/631999030?h=809f0064b2&title=0&byline=0&portrait=0" width="853" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><b>Check out our great 'sizzle reel' for a sense of what inspires us at IIZD</b></p>
   
+---------------------------------------------
+
+# Why this?  Why here?  Why now?
+
 More than three-quarters of emerging infectious diseases that affect humans come from animals. Numerous scientists are confident that SARS-CoV-2 is among them, likely originating in bats. For many adults alive today, COVID-19 is not the first brush with a dangerous zoonotic disease, one that can move from animals into people. Just in the last two decades, outbreaks of Ebola, Zika, swine flu, avian flu, West Nile virus—and others—have occurred around the world, while other established infections, such as malaria and dengue, continue be a global concern.
 
 While COVID-19 understandably continues to command much of the world’s attention, scientists, veterinarians, physicians, and others are working to prepare for future threats. Penn’s School of Veterinary Medicine is launching the Institute for Infectious and Zoonotic Diseases to address precisely these types of animal- and human-health challenges by bringing together world-class expertise in infectious diseases, immunology, agriculture, and molecular diagnostics.
@@ -30,7 +34,7 @@ By fostering strong partnerships within Penn and beyond—most notably with the 
 
 “Because it’s not a matter of whether there will be another outbreak of one of these diseases,” Hunter says, “it’s when, where, and at what scale.”
 
-## Building on strengths
+# Building on strengths
 
 Far from starting from scratch, Penn Vet has a track record of success in research, technology-building and training when it comes to immunology and infectious diseases. “Even prior to the pandemic, there were a lot of conversations about how we had something really unique at the vet school,” says Dan Beiting, assistant professor of pathobiology. “But everyone was in their lab doing their own thing. There were no program project grants, no initiatives that linked together these different labs into something larger.”
 
@@ -45,7 +49,7 @@ Beiting sees great possibility in increasing the use of single-cell genomics to 
 
 And the tools that he and others at the vet and medical schools have been using to study microbiome communities—including shotgun metagenomics, which can capture genomic sequences of all microbes in one sample—could find powerful application in diagnostics. “Potential culprits, such as viruses, bacteria, fungi, and parasites can be identified without prior knowledge of what’s in a bit of stool, or a blood or tissue sample,” Beiting says.
 
-## Pursuing new questions
+# Pursuing new questions
 
 Such new opportunities in diagnostics as well as surveillance play to existing strengths at Penn Vet. At New Bolton Center in Kennett Square for example, home to part of the Pennsylvania Animal Diagnostic Laboratory System (PADLS) and a base for disease surveillance for the state’s livestock producers, the Institute will channel new support and energy aimed at bolstering these capabilities, while fostering new connections between diagnosticians and basic science researchers. 
 
@@ -68,7 +72,7 @@ In one project, the Penn Vet Working Dog Center’s Cynthia Otto and colleagues 
 
 “The goal is intervention, whether we’re looking at an infectious disease or a contaminant or how they interact,” says Murphy. “If we can identify some of these issues, it gives us a chance to intervene.” 
 
-## The wildlife factor
+# The wildlife factor
 
 Whether the infection is CWD or COVID-19, one can’t study zoonotic diseases without factoring in the role of wildlife. While most people associate the Northeastern U.S. with a high population of humans rather than wild animals, the close proximity of metropolitan areas, agriculture landscapes, international ports, as well as natural lands can make the region a hotspot of zoonotic disease.
 
@@ -83,7 +87,7 @@ In another potentially fruitful project just getting off the ground, pulmonologi
 
 “The Institute is helping us put together these kinds of cross-school collaborations and promote the type of interdisciplinary work that’s necessary to address challenging disease issues,” says Ellis.
 
-## Local solutions, global capacity
+# Local solutions, global capacity
 
 Recognizing that infectious diseases are a global issue requiring creative and far-ranging collaborations, the Institute is supporting training and outreach efforts that extend from Philadelphia to Africa and South America to build capacity and expertise in immunology and infectious disease research for the next generation of scientists and veterinarians.
 
@@ -102,7 +106,7 @@ Herbert’s future outreach plans include partnerships with Historically Black C
 
 “What local to global means to me is exposing a wide array of students to the opportunities that exist that they may not otherwise know about,” Herbert says.
 
-## Results that make a difference
+# Results that make a difference
 
 As the Institute gets off the ground and gains momentum, new funding will provide seed grants for infectious disease researchers, support graduate education, and enable additional trainees into labs to work on zoonotic disease.
 
