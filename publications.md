@@ -11,10 +11,6 @@ comments: false
 
 
 
-## Preprints
-
-
-
 ## 2021
 
 <div class="pub">
@@ -23,7 +19,7 @@ comments: false
     <h3><a href="https://doi.org/10.1038/s41385-021-00468-6" target="_new">Crosstalk between enterocytes and innate lymphoid cell drives early IFN-γ-mediated control of Cryptosporidium</a></h3>
     <span class="pub-authors">Gullicksrud J, Sateriale A, Englies J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Striepen B, Hunter CA.</span>
     <span class="pub-journal"><i><b> Mucosal Immunology</b></i>. Nov 8 2021.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="ttp://hostmicrobe.github.io/pubs/crypto_enterocyteImmunity_2021.pdf" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/crypto_enterocyteImmunity_2021.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 
