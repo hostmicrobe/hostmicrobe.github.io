@@ -13,17 +13,19 @@ comments: false
 
 ## Preprints
 
-<div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2021.03.13.435244" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2021.03.13.435244" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1101/2021.03.13.435244" target="_new">Crosstalk between enterocytes and innate lymphoid cell drives early IFN-γ-mediated control of Cryptosporidium</a></h3>
-    <span class="pub-authors">Gullicksrud J, Sateriale A, Englies J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Striepen B, Hunter CA.</span>
-    <span class="pub-journal"><i><b> BioRxiv</b></i>. March 14 2021.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
-</div>
 
 
 ## 2021
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41385-021-00468-6" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s41385-021-00468-6" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s41385-021-00468-6" target="_new">Crosstalk between enterocytes and innate lymphoid cell drives early IFN-γ-mediated control of Cryptosporidium</a></h3>
+    <span class="pub-authors">Gullicksrud J, Sateriale A, Englies J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Striepen B, Hunter CA.</span>
+    <span class="pub-journal"><i><b> Mucosal Immunology</b></i>. Nov 8 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="ttp://hostmicrobe.github.io/pubs/crypto_enterocyteImmunity_2021.pdf" target="_blank">PDF</a> | </span>
+</div>
+
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2021.03.19.436207" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
