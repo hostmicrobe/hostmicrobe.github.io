@@ -2,8 +2,8 @@
 layout: project
 title: 'Into the wild: Scientists strive to stop animal diseases from igniting the next pandemic'
 date: 04 Jan 2022
-image: /assets/img/projects/EcoHealth.jpeg
-screenshot: /assets/img/projects/EcoHealth.jpeg
+image: /assets/img/projects/EcoHealth.jpg
+screenshot: /assets/img/projects/EcoHealth.jpg
 links:
   - title: Source
     url: https://www.aamc.org/news-insights/wild-scientists-strive-stop-animal-diseases-igniting-next-pandemic
