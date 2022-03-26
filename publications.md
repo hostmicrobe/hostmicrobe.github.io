@@ -26,9 +26,9 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1009967" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1009967" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1009967" target="_new">The Card19 locus of murine chromosome 13 regulates terminal cell lysis downstream of caspase activation and Gasdermin-D cleavage</a></h3>
-    <span class="pub-authors">Bjanes E, Garcia Sillas R, Matsuda R, Demarco B, Fettrelet T, DeLaney AA, Rodriguez Lopez EM, Grubaugh D, Wynosky-Dolfi MA, Philip NH, Krespan E, Tovar D, Joannas L, Beiting DP, Henao-Mejia J, Schaefer BC, Chen KW, Broz P, Brodsky IE.</span>
+    <span class="pub-authors">Bjanes E, Garcia Sillas R, Matsuda R, Demarco B, Fettrelet T, DeLaney AA, Kronfeld OS, Lee BL, Rodriguez Lopez EM, Grubaugh D, Wynosky-Dolfi MA, Philip NH, Krespan E, Tovar D, Joannas L, Beiting DP, Henao-Mejia J, Schaefer BC, Chen KW, Broz P, Brodsky IE.</span>
     <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. October 14 2021.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Brodsky_PPath_2021.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
@@ -44,7 +44,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-021-01089-8" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-021-01089-8" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-021-01089-8" target="_new">Remodeling of the maternal gut microbiome during pregnancy is shaped by parity</a></h3>
-    <span class="pub-authors">Berry ASF, Pierdon MK, Misic AM, Sullivan MC, O’Brien K, Chen Y, Baldassano RN, Parsons RN, Beiting DP.</span>
+    <span class="pub-authors">Berry ASF, Pierdon MK, Misic AM, Sullivan MC, O’Brien K, Chen Y, Murray SJ, Ramharack LA, Baldassano RN, Parsons RN, Beiting DP.</span>
     <span class="pub-journal"><i><b> Microbiome</b></i>. June 27 2021.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_PigPregnancy_Microbiome_2021.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8021926/tree" target="_blank"> Code</a> | </span>
@@ -263,7 +263,7 @@ data-style="small_circle" style="float: right;"></div>
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.4049/jimmunol.1701597" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.4049/jimmunol.1701597" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/jimmunol.1701597" target="_new">CD8+ T cells lack local signals to produce IFN-γ in the skin during leishmania infection.</a></h3>
-       <span class="pub-authors">Novais FO, Wong AC, Villarea DO, <span class="pub-member-author">Beiting DP</span>, Scott P.</span>
+       <span class="pub-authors">Novais FO, Wong AC, Villareal DO, <span class="pub-member-author">Beiting DP</span>, Scott P.</span>
     <span class="pub-journal"><i><b>Journal of Immunology</b></i>. Jan 24; 2018.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Novais_JI_2018.pdf" target="_blank">PDF</a></span>.
 </div>
