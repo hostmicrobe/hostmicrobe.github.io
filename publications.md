@@ -9,6 +9,61 @@ comments: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
+## 2022
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Chronic Hypoxemia Induces Mitochondrial Respiratory Complex Gene Expression in the Fetal Sheep Brain</a></h3>
+    <span class="pub-authors">Moon JK, Lawrence KM, Hunt ML, Davey MG, Flake AW, Licht DJ, Chen JM, Kilbaugh TJ, Gaynor JW, Beiting DP</span>
+    <span class="pub-journal"><i><b> The Journal of Thoracic and Cardiovascular Surgery (JCTVS) Open </b></i>. In Press.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Targeting PARP11 to avert immunosuppression and improve CAR T therapy in solid tumors</a></h3>
+    <span class="pub-authors">Zhang H, Yu P, Tomar VS, Chen X, Atherton MJ, Lu Z, Zhang HG, Li H, Ortiz A, Gui J, Leu NA, Yan F, Blanco A, Meyer-Ficca ML, Meyer RG, Beiting DP, Li J, Nunez-Cruz S, O'Connor RS, Johnson lR, Minn AJ, George SS, Koumenis C, Diehl jA, Milone MC, Zheng H, Fuchs SY</span>
+    <span class="pub-journal"><i><b> Nature Cancer</b></i>. In Press.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://www.biorxiv.org/content/10.1101/2022.03.09.483664v1" target="_new">Improved eukaryotic detection compatible with large-scale automated analysis of metagenomes</a></h3>
+    <span class="pub-authors">Whelan EC, Yang F, Avarbock MR, Sullivan MC, Beiting DP, Brinster RL.</span>
+    <span class="pub-journal"><i><b> BioRxiv</b></i>. Preprint.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://www.wiley.com/en-us/Yamada%27s+Textbook+of+Gastroenterology%2C+3+Volume+Set%2C+7th+Edition-p-9781119600169" target="_new">Chapter 121. Parasitic diseases: protozoa</a></h3>
+    <span class="pub-authors">Beiting DP and John AO.</span>
+    <span class="pub-journal"><i><b> Book Chapter: Yamada's Textbook of Gastroenterology, 3 Volume Set, 7th Edition</b></i>. April 2022</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://www.wiley.com/en-us/Yamada%27s+Textbook+of+Gastroenterology%2C+3+Volume+Set%2C+7th+Edition-p-9781119600169" target="_blank">Publisher's website</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Re-establishment of spermatogenesis after more than 20 years of cryopreservation of rat spermatogonial stem cells reveals an important impact in differentiation capacity</a></h3>
+    <span class="pub-authors">Whelan EC, Yang F, Avarbock MR, Sullivan MC, Beiting DP, Brinster RL.</span>
+    <span class="pub-journal"><i><b> PLOS Biology</b></i>. In Press.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">A genetic screen identifies a protective type III interferon response to Cryptosporidium that requires TLR3 dependent recognition</a></h3>
+    <span class="pub-authors">Gullicksrud J, Sateriale A, Englies J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Hunter CA, Striepen B.</span>
+    <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. In Press.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
 
 
 ## 2021
@@ -93,7 +148,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-020-0064-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s43018-020-0064-0" 
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s43018-020-0064-0"
 data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s43018-020-0064-0" target="_new">Activation of p38α stress-activated protein kinase drives the formation of the pre-metastatic niche in the lungs</a></h3>
     <span class="pub-authors">Gui J, Zahedi F, Ortiz A, Cho C, Katlinski KV, Alicea-Torres K, Li J, Todd L, Zhang H, Beiting DP, Sander C, Kirkwood JM, Snow BE, Wakeham AC, Mak TW, Diehl JA, Koumenis C, Ryeom SW, Stanger BZ, Puré E, Gabrilovich DI, Fuchs SY.</span>
