@@ -14,6 +14,15 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Impact of secondary TCR engagement on the heterogeneity of pathogen-specific CD8+ T cell response during acute and chronic toxoplasmosis</a></h3>
+    <span class="pub-authors">Shallberg LA, Phan AT, Christian DA, Perry JA, Haskins BE, Beiting DP, Harris TH, Koshi AA, Hunter CA</span>
+    <span class="pub-journal"><i><b> PLOS Pathogens </b></i>. In Press.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">Chronic Hypoxemia Induces Mitochondrial Respiratory Complex Gene Expression in the Fetal Sheep Brain</a></h3>
     <span class="pub-authors">Moon JK, Lawrence KM, Hunt ML, Davey MG, Flake AW, Licht DJ, Chen JM, Kilbaugh TJ, Gaynor JW, Beiting DP</span>
     <span class="pub-journal"><i><b> The Journal of Thoracic and Cardiovascular Surgery (JCTVS) Open </b></i>. In Press.</span>
@@ -41,6 +50,15 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">A genetic screen identifies a protective type III interferon response to Cryptosporidium that requires TLR3 dependent recognition</a></h3>
+    <span class="pub-authors">Gullicksrud J, Sateriale A, Englies J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Hunter CA, Striepen B.</span>
+    <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. In Press.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://www.wiley.com/en-us/Yamada%27s+Textbook+of+Gastroenterology%2C+3+Volume+Set%2C+7th+Edition-p-9781119600169" target="_new">Chapter 121. Parasitic diseases: protozoa</a></h3>
     <span class="pub-authors">Beiting DP and John AO.</span>
     <span class="pub-journal"><i><b> Book Chapter: Yamada's Textbook of Gastroenterology, 3 Volume Set, 7th Edition</b></i>. April 2022</span>
@@ -48,21 +66,12 @@ comments: false
 </div>
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Re-establishment of spermatogenesis after more than 20 years of cryopreservation of rat spermatogonial stem cells reveals an important impact in differentiation capacity</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pbio.3001618" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pbio.3001618" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.pbio.3001618" target="_new">Re-establishment of spermatogenesis after more than 20 years of cryopreservation of rat spermatogonial stem cells reveals an important impact in differentiation capacity</a></h3>
     <span class="pub-authors">Whelan EC, Yang F, Avarbock MR, Sullivan MC, Beiting DP, Brinster RL.</span>
-    <span class="pub-journal"><i><b> PLOS Biology</b></i>. In Press.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
-</div>
-
-<div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">A genetic screen identifies a protective type III interferon response to Cryptosporidium that requires TLR3 dependent recognition</a></h3>
-    <span class="pub-authors">Gullicksrud J, Sateriale A, Englies J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Hunter CA, Striepen B.</span>
-    <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. In Press.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b> PLOS Biology</b></i>. May 10 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Eoin_freeze_PLOSbio_2022.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 
