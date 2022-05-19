@@ -3,7 +3,6 @@ layout: post
 title: Alyssa Gonzalez
 position: Master's student
 email: alyg@sas.upenn.edu
-image: /assets/img/team/alyssa_gonzalez2.jpg
 alumni: true
 ---
 
