@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Francislon Silva
-position: hD student
+position: PhD student
 alumni: true
 ---
 

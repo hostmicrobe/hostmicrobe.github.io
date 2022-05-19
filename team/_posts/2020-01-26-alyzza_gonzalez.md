@@ -4,6 +4,7 @@ title: Alyssa Gonzalez
 position: Master's student
 email: alyg@sas.upenn.edu
 image: /assets/img/team/alyssa_gonzalez2.jpg
+alumni: true
 ---
 
-Alyssa is Senior undergraduate at UPenn who is simultaneous pursuing her Master's degree through the Biology Department.  She is completing her master's research project in the lab, where she has been developing 3-Dimensional tissue culture models for studying how secondary bile acids impact immunity and barrier function.  Alyssa is interested in pursing a PhD after graduation.
+Alyssa spent her Junior and Senior years as an undergraduate researcher working in the lab.  During this time, Alyssa simultaneous completed her Master's degree in Biology, working to develop 3-Dimensional tissue culture models for studying how secondary bile acids impact immunity and barrier function.  After graduating with her Bachelor's and Master's degrees in 2022 from UPenn, Alyssa started her PhD studies in Microbiology and Immunology at Columbia University.
