@@ -16,16 +16,35 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://www.biorxiv.org/content/10.1101/2022.03.09.483664v2" target="_new">Improved eukaryotic detection compatible with large-scale automated analysis of metagenomes</a></h3>
     <span class="pub-authors">Bazant W, Blevins AS, Crouch K*, Beiting DP*.</span>
-    <span class="pub-journal"><i><b> BioRxiv</b></i>. Preprint.</span>
+    <span class="pub-journal"><i><b>  BioRxiv</b></i>. Preprint.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Impact of secondary TCR engagement on the heterogeneity of pathogen-specific CD8+ T cell response during acute and chronic toxoplasmosis</a></h3>
-    <span class="pub-authors">Shallberg LA, Phan AT, Christian DA, Perry JA, Haskins BE, Beiting DP, Harris TH, Koshi AA, Hunter CA</span>
-    <span class="pub-journal"><i><b> PLOS Pathogens </b></i>. In Press.</span>
+    <h3><a href="" target="_new">Protection of the regulatory T cells from fragility in the tumor microenvironment</a></h3>
+    <span class="pub-authors">Zhang H, Tomar V, Li J, Basavaraja R, Yan F, Gui J, McBrearty N, Costich TL, Beiting DP, Blanco M, Conejo-Garcia J, Saggu G, Berger A, Nefedova Y, Gabrilovich D, and Fuchs SY.</span>
+    <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. Under review.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">ATF3 and CH25H regulate effector trogocytosis and anti-tumor activities of endogenous and immunotherapeutic cytotoxic T lymphocytes</a></h3>
+    <span class="pub-authors">Lu Z, McBrearty N, Chen J, Tomar VS, Zhang H, De Rosa G, Tan A, Weljie AM, Beiting DP, Miao Z, George SS, Berger A, Saggu G, Diehl JA, Koumenis C, and Fuchs SY.</span>
+    <span class="pub-journal"><i><b>  Cell Metabolism</b></i>. Accepted.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1010296" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1010296" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.ppat.1010296" target="_new">Impact of secondary TCR engagement on the heterogeneity of pathogen-specific CD8+ T cell response during acute and chronic toxoplasmosis</a></h3>
+    <span class="pub-authors">Shallberg LA, Phan AT, Christian DA, Perry JA, Haskins BE, Beiting DP, Harris TH, Koshi AA, Hunter CA.</span>
+    <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. June 21 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
@@ -33,8 +52,8 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-022-00383-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s43018-022-00383-0" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s43018-022-00383-0" target="_new">Targeting PARP11 to avert immunosuppression and improve CAR T therapy in solid tumors</a></h3>
-    <span class="pub-authors">Zhang H, Yu P, Tomar VS, Chen X, Atherton MJ, Lu Z, Zhang HG, Li H, Ortiz A, Gui J, Leu NA, Yan F, Blanco A, Meyer-Ficca ML, Meyer RG, Beiting DP, Li J, Nunez-Cruz S, O'Connor RS, Johnson lR, Minn AJ, George SS, Koumenis C, Diehl jA, Milone MC, Zheng H, Fuchs SY</span>
-    <span class="pub-journal"><i><b> Nature Cancer</b></i>. May 30 2022.</span>
+    <span class="pub-authors">Zhang H, Yu P, Tomar VS, Chen X, Atherton MJ, Lu Z, Zhang HG, Li H, Ortiz A, Gui J, Leu NA, Yan F, Blanco A, Meyer-Ficca ML, Meyer RG, Beiting DP, Li J, Nunez-Cruz S, O'Connor RS, Johnson lR, Minn AJ, George SS, Koumenis C, Diehl jA, Milone MC, Zheng H, Fuchs SY.</span>
+    <span class="pub-journal"><i><b>  Nature Cancer</b></i>. May 30 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
@@ -479,7 +498,7 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1074/jbc.M115.713008" target="_new">T Cell Receptor-Induced NF-kB signaling and transcriptional activation are regulated by STIM1- and Orai1-mediated calcium entry.</a></h3>
     <span class="pub-authors">Liu X, Berry CT, Ruthel G, Madara JJ, MacGillivray K, Gray CM, Madge LA, McCorkell KA, <span class="pub-member-author">Beiting DP</span>, Hershberg U, May MJ and Freedman BD.</span>
     <span class="pub-journal"><i><b>J Biol Chem</b></i>. Jan 29; 2016.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Freedman_JBC_2016.pdf target="_blank">PDF</a></span>.
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Freedman_JBC_2016.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
