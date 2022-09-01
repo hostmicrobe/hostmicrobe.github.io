@@ -20,6 +20,7 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
@@ -39,6 +40,7 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1010296" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1010296" data-style="small_circle" style="float: right;"></div>
@@ -48,6 +50,7 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-022-00383-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s43018-022-00383-0" data-style="small_circle" style="float: right;"></div>
@@ -56,6 +59,7 @@ comments: false
     <span class="pub-journal"><i><b>  Nature Cancer</b></i>. May 30 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
+
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1010003" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -76,6 +80,7 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pbio.3001618" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pbio.3001618" data-style="small_circle" style="float: right;"></div>
@@ -84,6 +89,7 @@ comments: false
     <span class="pub-journal"><i><b> PLOS Biology</b></i>. May 10 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Eoin_freeze_PLOSbio_2022.pdf" target="_blank">PDF</a> | </span>
 </div>
+
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -106,6 +112,7 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/crypto_enterocyteImmunity_2021.pdf" target="_blank">PDF</a> | </span>
 </div>
 
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1009967" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1009967" data-style="small_circle" style="float: right;"></div>
@@ -114,6 +121,7 @@ comments: false
     <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. October 14 2021.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Brodsky_PPath_2021.pdf" target="_blank">PDF</a> | </span>
 </div>
+
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mBio.01214-21" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -124,6 +132,7 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/DIY_mBio_2021.pdf" target="_blank">PDF</a></span>
 </div>
 
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-021-01089-8" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-021-01089-8" data-style="small_circle" style="float: right;"></div>
@@ -131,13 +140,11 @@ comments: false
     <span class="pub-authors">Berry ASF, Pierdon MK, Misic AM, Sullivan MC, O’Brien K, Chen Y, Murray SJ, Ramharack LA, Baldassano RN, Parsons RN, Beiting DP.</span>
     <span class="pub-journal"><i><b> Microbiome</b></i>. June 27 2021.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_PigPregnancy_Microbiome_2021.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8021926/tree" target="_blank"> Code</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://vimeo.com/565435665" target="_blank"> Video abstract</a></span><br>
 </div>
 
 [![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8021926/tree)
 
-------------------------
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1172/JCI144225" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -175,9 +182,11 @@ comments: false
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
     <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan MC, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP.</span>
     <span class="pub-journal"><i><b> mSphere</b></i>. Aug 05 2020.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8447002/tree" target="_blank"> Code</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a><br>
 </div>
+
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8447002/tree/v2)
+
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-020-0064-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -227,9 +236,10 @@ data-style="small_circle" style="float: right;"></div>
     <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P*. </span>
     <span class="pub-journal"><i><b>Science Translational Medicine</b></i>. Nov 20; 2019.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Amorim_STM_2019.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/6534016/tree" target="_blank">Code</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/leishCover.png" target="_blank">Cover</a></span><br>
 </div>
+
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/6534016/tree/v1)
 
 
 <div class="pub">
@@ -238,9 +248,10 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41564-019-0539-x" target="_new">Lifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
      <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, <span class="pub-member-author">Sullivan MC</span>, Pinkston B, Striepen B.</span>
     <span class="pub-journal"><i><b>Nature Microbiology</b></i>. Sept 02; 2019. </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Striepen_NatureMicro_2019.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8887900/tree" target="_blank">Code</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Striepen_NatureMicro_2019.pdf" target="_blank">PDF</a> | </span><br>
 </div>
+
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8887900/tree/v1)
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s40168-019-0740-4" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -248,9 +259,10 @@ data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-019-0740-4" target="_new">Diet-induced remission in chronic enteropathy is associated with altered microbial community structure and synthesis of secondary bile acids</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Wang S</span>, Martins R, <span class="pub-member-author">Sullivan MC</span>, Friedman ES, <span class="pub-member-author">Misic AM</span>, <span class="pub-member-author">El-Fahmawi A</span>, <span class="pub-member-author">De Martinis ECP</span>, <span class="pub-member-author">O’Brien K</span>, <span class="pub-member-author">Chen Y</span>, Bradley C, <span class="pub-member-author">Zhang G</span>, <span class="pub-member-author">Berry ASF</span>, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP.</span></span>
     <span class="pub-journal"><i><b>Microbiome</b></i>. Aug 31; 2019. </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wang_CanineIBD_2019.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/2300652/tree" target="_blank">Code</a></span><br>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wang_CanineIBD_2019.pdf" target="_blank">PDF</a> | </span><br>
 </div>
+
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/2300652/tree/v1)
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0215497" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
