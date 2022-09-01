@@ -132,6 +132,7 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/DIY_mBio_2021.pdf" target="_blank">PDF</a></span>
 </div>
 
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/1031026/tree)
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-021-01089-8" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -185,7 +186,7 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a><br>
 </div>
 
-[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8447002/tree/v2)
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8447002/tree)
 
 
 <div class="pub">
@@ -239,7 +240,7 @@ data-style="small_circle" style="float: right;"></div>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/leishCover.png" target="_blank">Cover</a></span><br>
 </div>
 
-[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/6534016/tree/v1)
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/6534016/tree)
 
 
 <div class="pub">
@@ -251,7 +252,7 @@ data-style="small_circle" style="float: right;"></div>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Striepen_NatureMicro_2019.pdf" target="_blank">PDF</a> | </span><br>
 </div>
 
-[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8887900/tree/v1)
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8887900/tree)
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s40168-019-0740-4" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -262,7 +263,7 @@ data-style="small_circle" style="float: right;"></div>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wang_CanineIBD_2019.pdf" target="_blank">PDF</a> | </span><br>
 </div>
 
-[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/2300652/tree/v1)
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/2300652/tree)
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0215497" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
