@@ -25,7 +25,7 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">Protection of the regulatory T cells from fragility in the tumor microenvironment</a></h3>
     <span class="pub-authors">Zhang H, Tomar V, Li J, Basavaraja R, Yan F, Gui J, McBrearty N, Costich TL, Beiting DP, Blanco M, Conejo-Garcia J, Saggu G, Berger A, Nefedova Y, Gabrilovich D, and Fuchs SY.</span>
-    <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. Under review.</span>
+    <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. In Press.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
@@ -134,6 +134,10 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8021926/tree" target="_blank"> Code</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://vimeo.com/565435665" target="_blank"> Video abstract</a></span><br>
 </div>
+
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8021926/tree)
+
+------------------------
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1172/JCI144225" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
