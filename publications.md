@@ -129,7 +129,7 @@ comments: false
     <h3><a href="https://doi.org/10.1128/mBio.01214-21" target="_new">An open-source toolkit to expand bioinformatics training in infectious diseases</a></h3>
     <span class="pub-authors">Berry ASF*, Amorim CF*, Berry CL, Syrett CM, English ED, Beiting DP.</span>
     <span class="pub-journal"><i><b> mBio</b></i>. July 6 2021.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/DIY_mBio_2021.pdf" target="_blank">PDF</a></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/DIY_mBio_2021.pdf" target="_blank">PDF</a></span><br>
 </div>
 
 [![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/1031026/tree)
@@ -183,7 +183,7 @@ comments: false
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
     <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan MC, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP.</span>
     <span class="pub-journal"><i><b> mSphere</b></i>. Aug 05 2020.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a><br>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a></span><br>
 </div>
 
 [![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/8447002/tree)
