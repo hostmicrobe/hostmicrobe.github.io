@@ -14,6 +14,16 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1101/2022.09.06.22279552" target="_new">Selective whole-genome amplification reveals population genetics of Leishmania braziliensis directly from patient skin biopsies</a></h3>
+    <span class="pub-authors">Pilling OA, Grace CA, Reis-Cunha JL, Berry ASF, Mitchell MW, Yu JA, Malekshahi C, Krespan E, Go CK, Lombana C, Song YS, Amorim CF, Lago AS, Carvalho LP, Carvalho EM, Brisson D, Scott P, Jeffares DC, Beiting DP.</span>
+    <span class="pub-journal"><i><b>  MedRxiv</b></i>. Preprint.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://www.biorxiv.org/content/10.1101/2022.03.09.483664v2" target="_new">Improved eukaryotic detection compatible with large-scale automated analysis of metagenomes</a></h3>
     <span class="pub-authors">Bazant W, Blevins AS, Crouch K*, Beiting DP*.</span>
     <span class="pub-journal"><i><b>  BioRxiv</b></i>. Preprint.</span>
