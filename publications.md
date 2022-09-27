@@ -44,11 +44,11 @@ comments: false
 
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">ATF3 and CH25H regulate effector trogocytosis and anti-tumor activities of endogenous and immunotherapeutic cytotoxic T lymphocytes</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.cmet.2022.08.007" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.cmet.2022.08.007" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.cmet.2022.08.007" target="_new">ATF3 and CH25H regulate effector trogocytosis and anti-tumor activities of endogenous and immunotherapeutic cytotoxic T lymphocytes</a></h3>
     <span class="pub-authors">Lu Z, McBrearty N, Chen J, Tomar VS, Zhang H, De Rosa G, Tan A, Weljie AM, Beiting DP, Miao Z, George SS, Berger A, Saggu G, Diehl JA, Koumenis C, and Fuchs SY.</span>
-    <span class="pub-journal"><i><b>  Cell Metabolism</b></i>. Accepted.</span>
+    <span class="pub-journal"><i><b>  Cell Metabolism</b></i>. Sept 6 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
