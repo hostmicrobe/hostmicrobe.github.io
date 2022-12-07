@@ -32,6 +32,14 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-022-01385-x" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s40168-022-01385-x" target="_new">Gut microbiome of helminth-infected indigenous Malaysians is context dependent</a></h3>
+    <span class="pub-authors">Tee MZ, Er YX, Easton AV, Yap NJ, Lee IL, Devlin J, Chen Z, Ng KS, Subramanian P, Angelova A, Oyesola O, Sargsian S, Ngui R, Beiting DP, Boey CCM, Chua KH, Cadwell K, Lim YAL, Loke P, Lee SC </span>
+    <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. Microbiome.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Malaysia_helminth.pdf" target="_blank">PDF</a> | </span>
+</div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
