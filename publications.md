@@ -9,7 +9,7 @@ comments: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-## 2022
+# Preprints
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -32,22 +32,24 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+## 2022
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-022-01385-x" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-022-01385-x" target="_new">Gut microbiome of helminth-infected indigenous Malaysians is context dependent</a></h3>
     <span class="pub-authors">Tee MZ, Er YX, Easton AV, Yap NJ, Lee IL, Devlin J, Chen Z, Ng KS, Subramanian P, Angelova A, Oyesola O, Sargsian S, Ngui R, Beiting DP, Boey CCM, Chua KH, Cadwell K, Lim YAL, Loke P, Lee SC </span>
-    <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. Microbiome.</span>
+    <span class="pub-journal"><i><b>  Microbiome</b></i>. Dec 7 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Malaysia_helminth.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Protection of the regulatory T cells from fragility in the tumor microenvironment</a></h3>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1158/2326-6066.CIR-22-0295" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1158/2326-6066.CIR-22-0295" target="_new">Protection of the regulatory T cells from fragility in the tumor microenvironment</a></h3>
     <span class="pub-authors">Zhang H, Tomar V, Li J, Basavaraja R, Yan F, Gui J, McBrearty N, Costich TL, Beiting DP, Blanco M, Conejo-Garcia J, Saggu G, Berger A, Nefedova Y, Gabrilovich D, and Fuchs SY.</span>
-    <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. In Press.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. Dec 2 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_Tregs_tumor_2022.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 
@@ -57,7 +59,7 @@ comments: false
     <h3><a href="https://doi.org/10.1016/j.cmet.2022.08.007" target="_new">ATF3 and CH25H regulate effector trogocytosis and anti-tumor activities of endogenous and immunotherapeutic cytotoxic T lymphocytes</a></h3>
     <span class="pub-authors">Lu Z, McBrearty N, Chen J, Tomar VS, Zhang H, De Rosa G, Tan A, Weljie AM, Beiting DP, Miao Z, George SS, Berger A, Saggu G, Diehl JA, Koumenis C, and Fuchs SY.</span>
     <span class="pub-journal"><i><b>  Cell Metabolism</b></i>. Sept 6 2022.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_trogocytosis_2022.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 
@@ -67,7 +69,7 @@ comments: false
     <h3><a href="https://doi.org/10.1371/journal.ppat.1010296" target="_new">Impact of secondary TCR engagement on the heterogeneity of pathogen-specific CD8+ T cell response during acute and chronic toxoplasmosis</a></h3>
     <span class="pub-authors">Shallberg LA, Phan AT, Christian DA, Perry JA, Haskins BE, Beiting DP, Harris TH, Koshi AA, Hunter CA.</span>
     <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. June 21 2022.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/PPath_Shallberg_2022.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 
@@ -77,7 +79,7 @@ comments: false
     <h3><a href="https://doi.org/10.1038/s43018-022-00383-0" target="_new">Targeting PARP11 to avert immunosuppression and improve CAR T therapy in solid tumors</a></h3>
     <span class="pub-authors">Zhang H, Yu P, Tomar VS, Chen X, Atherton MJ, Lu Z, Zhang HG, Li H, Ortiz A, Gui J, Leu NA, Yan F, Blanco A, Meyer-Ficca ML, Meyer RG, Beiting DP, Li J, Nunez-Cruz S, O'Connor RS, Johnson lR, Minn AJ, George SS, Koumenis C, Diehl jA, Milone MC, Zheng H, Fuchs SY.</span>
     <span class="pub-journal"><i><b>  Nature Cancer</b></i>. May 30 2022.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_NatureCancer_CAR-T_2022" target="_blank">PDF</a> | </span>
 </div>
 
 
@@ -87,7 +89,7 @@ comments: false
     <h3><a href="https://doi.org/10.1371/journal.ppat.1010003" target="_new">A genetic screen identifies a protective type III interferon response to Cryptosporidium that requires TLR3 dependent recognition</a></h3>
     <span class="pub-authors">Gibson AR, Sateriale A, Dumaine JE, Englies JB, Pardy RD, Gullicksrud JA, O'Dea K, Doench JG, Beiting DP, Hunter CA, Striepen B.</span>
     <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. May 18 2022.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/PPath_CryptoScreen_2022.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 
@@ -96,8 +98,8 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.xjon.2022.04.040" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.xjon.2022.04.040" target="_new">Chronic Hypoxemia Induces Mitochondrial Respiratory Complex Gene Expression in the Fetal Sheep Brain</a></h3>
     <span class="pub-authors">Moon JK, Lawrence KM, Hunt ML, Davey MG, Flake AW, Licht DJ, Chen JM, Kilbaugh TJ, Gaynor JW, Beiting DP</span>
-    <span class="pub-journal"><i><b> The Journal of Thoracic and Cardiovascular Surgery (JCTVS) Open </b></i>. May 5 2022.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b> The Journal of Thoracic and Cardiovascular Surgery (JCTVS) Open </b></i>. June 22 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Lamb_EXTEND_brainHypoxia.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 
