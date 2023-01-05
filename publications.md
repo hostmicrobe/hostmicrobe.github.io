@@ -55,7 +55,7 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.molcel.2022.08.030" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.molcel.2022.08.030" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1016/j.molcel.2022.08.030" target="_new">The lncRNA ALPHA specifically targets chikungunya virus to control infection/a></h3>
+    <h3><a href="https://doi.org/10.1016/j.molcel.2022.08.030" target="_new">The lncRNA ALPHA specifically targets chikungunya virus to control infection/a></a></h3>
     <span class="pub-authors">Basavappa MG, Ferretti M, Dittmar M, Stoute J, Sullivan MC, Whig K, Shen H, Liu KF, Schultz DC, Beiting DP, Lynch KW, Henao-Mejia J, Cherry S.</span>
     <span class="pub-journal"><i><b>  Molecular Cell</b></i>. Oct 6 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/lncRNA_alpha_CherryLab.pdf" target="_blank">PDF</a> | </span>
