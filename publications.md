@@ -32,6 +32,28 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+## 2023
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Inflammatory monocytes promote granuloma control of Yersinia infection
+</a></h3>
+    <span class="pub-authors">Sorobetea D*, Matsuda R*, Peterson ST, Grayczyk JP, Rao I, Krespan E, Lanza M, Assenmacher CA, Mack M,Beiting DP, Radaelli E, Brodsky IE. </span>
+    <span class="pub-journal"><i><b>  Nature Microbiology</b></i>. In press.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Genetic ablation of a female specific Apetala 2 transcription factor blocks oocyst shedding in Cryptosporidium parvum</a></h3>
+    <span class="pub-authors">Tandel J, Walzer K, Byerly J, Pinkson B, Beiting DP, Striepen B. </span>
+    <span class="pub-journal"><i><b>  MBio</b></i>. Dec 7 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
 ## 2022
 
 <div class="pub">
