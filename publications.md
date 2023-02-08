@@ -14,6 +14,16 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1101/2023.02.02.23285247" target="_new">The skin microbiome enhances disease through IL-1β and delays healing in cutaneous leishmaniasis patients</a></h3>
+    <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA.</span>
+    <span class="pub-journal"><i><b>  MedRxiv</b></i>. Preprint.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1101/2022.09.06.22279552" target="_new">Selective whole-genome amplification reveals population genetics of Leishmania braziliensis directly from patient skin biopsies</a></h3>
     <span class="pub-authors">Pilling OA, Grace CA, Reis-Cunha JL, Berry ASF, Mitchell MW, Yu JA, Malekshahi C, Krespan E, Go CK, Lombana C, Song YS, Amorim CF, Lago AS, Carvalho LP, Carvalho EM, Brisson D, Scott P, Jeffares DC, Beiting DP.</span>
     <span class="pub-journal"><i><b>  MedRxiv</b></i>. Preprint.</span>
