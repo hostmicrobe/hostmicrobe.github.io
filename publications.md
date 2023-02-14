@@ -56,12 +56,12 @@ comments: false
 
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mbio.03261-22" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mbio.03261-22" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">Genetic ablation of a female specific Apetala 2 transcription factor blocks oocyst shedding in Cryptosporidium parvum</a></h3>
     <span class="pub-authors">Tandel J, Walzer K, Byerly J, Pinkson B, Beiting DP, Striepen B. </span>
-    <span class="pub-journal"><i><b>  MBio</b></i>. Dec 7 2022.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b>  MBio</b></i>. Feb 14 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/tandel_mbio_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 ## 2022
