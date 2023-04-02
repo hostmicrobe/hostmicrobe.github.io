@@ -38,7 +38,7 @@ comments: false
     <h3><a href="https://doi.org/10.1371/journal.ppat.1011230" target="_new">Selective whole-genome amplification reveals population genetics of Leishmania braziliensis directly from patient skin biopsies</a></h3>
     <span class="pub-authors">Pilling OA, Grace CA, Reis-Cunha JL, Berry ASF, Mitchell MW, Yu JA, Malekshahi C, Krespan E, Go CK, Lombana C, Song YS, Amorim CF, Lago AS, Carvalho LP, Carvalho EM, Brisson D, Scott P, Jeffares DC, Beiting DP.</span>
     <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. March 20 2023.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Pilling_ppath_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 [![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/0499289/tree)
