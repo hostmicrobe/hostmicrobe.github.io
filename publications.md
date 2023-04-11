@@ -24,12 +24,12 @@ comments: false
 ## 2023
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://www.biorxiv.org/content/10.1101/2022.03.09.483664v2" target="_new">Improved eukaryotic detection compatible with large-scale automated analysis of metagenomes</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-023-01505-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-023-01505-1" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s40168-023-01505-1" target="_new">Improved eukaryotic detection compatible with large-scale automated analysis of metagenomes</a></h3>
     <span class="pub-authors">Bazant W, Blevins AS, Crouch K*, Beiting DP*.</span>
-    <span class="pub-journal"><i><b>  Microbiome</b></i>. In press.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b>  Microbiome</b></i>. April 10 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wojtek_CORRAL_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
