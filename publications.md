@@ -32,6 +32,9 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wojtek_CORRAL_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
 
+<div class="github-card" data-github="wbazant/CORRAL" data-width="400" data-height="" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1011230" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1011230" data-style="small_circle" style="float: right;"></div>
