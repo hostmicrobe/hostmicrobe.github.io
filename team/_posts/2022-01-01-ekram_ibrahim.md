@@ -6,4 +6,4 @@ email: ekrami@sas.upenn.edu
 alumni: true
 ---
 
-Ekram joined the lab in early 2022 as an undergraduate Health and Societies major (premed) and has been working on a project that uses metagenomics and longitudinal sampling to identify sources of early colonizers of the infant gut.
+Ekram joined the lab in early 2022 as an undergraduate Health and Societies major (premed) and worked on a project that uses metagenomics and longitudinal sampling to identify sources of early colonizers of the infant gut.
