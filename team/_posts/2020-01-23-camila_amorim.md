@@ -6,7 +6,6 @@ twitter: amorim_cfa
 email: amorimc@vet.upenn.edu
 github:
 scholar:
-image: /assets/img/team/camila_amorim.jpg
 alumni: true
 ---
 

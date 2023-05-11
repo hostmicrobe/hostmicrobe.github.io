@@ -3,7 +3,6 @@ layout: post
 title: Leah Soderman
 position: Veterinary Resident Researcher
 email: leahsod@vet.upenn.edu
-image: /assets/img/team/leah_soderman2.jpg
 alumni: true
 ---
 
