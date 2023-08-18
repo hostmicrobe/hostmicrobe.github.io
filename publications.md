@@ -14,7 +14,7 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1101/2023.02.02.23285247" target="_new">The skin microbiome enhances disease through IL-1β and delays healing in cutaneous leishmaniasis patients</a></h3>
+    <h3><a href="https://doi.org/10.1101/2023.02.02.23285247" target="_new">Multi-omic profiling of cutaneous leishmaniasis infections reveals microbiota-driven mechanisms underlying disease severity</a></h3>
     <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA.</span>
     <span class="pub-journal"><i><b>  MedRxiv</b></i>. Preprint.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
