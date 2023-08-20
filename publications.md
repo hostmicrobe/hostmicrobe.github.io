@@ -24,6 +24,15 @@ comments: false
 ## 2023
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">NKG2D promotes CD8 T cell-mediated cytotoxicity and is associated with treatment failure in human cutaneous leishmaniasis</a></h3>
+    <span class="pub-authors">Sacramento LA, Amorim CF, Campos TM, Saldanha SA, Carvalho LP, Beiting DP, Carvalho EM, Novais FO, Scott P.</span>
+    <span class="pub-journal"><i><b>  PLOS Neglected Tropical Diseases</b></i>. In Press.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-023-01505-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-023-01505-1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-023-01505-1" target="_new">Improved eukaryotic detection compatible with large-scale automated analysis of metagenomes</a></h3>
