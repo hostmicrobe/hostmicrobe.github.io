@@ -9,26 +9,33 @@ comments: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-## Preprints
-
-<div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1101/2023.02.02.23285247" target="_new">Multi-omic profiling of cutaneous leishmaniasis infections reveals microbiota-driven mechanisms underlying disease severity</a></h3>
-    <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA.</span>
-    <span class="pub-journal"><i><b>  MedRxiv</b></i>. Preprint.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
-</div>
-
 
 ## 2023
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">NKG2D promotes CD8 T cell-mediated cytotoxicity and is associated with treatment failure in human cutaneous leishmaniasis</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/scitranslmed.adh1469" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1126/scitranslmed.adh1469" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1126/scitranslmed.adh1469" target="_new">Multiomic profiling of cutaneous leishmaniasis infections reveals microbiota-driven mechanisms underlying disease severity</a></h3>
+    <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA.</span>
+    <span class="pub-journal"><i><b>  Science Translational Medicine</b></i>. Oct 18 2023</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s42523-023-00268-2" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s42523-023-00268-2" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s42523-023-00268-2" target="_new">Immune-mediated hematological disease in dogs is associated with alterations of the fecal microbiota: a pilot study</a></h3>
+    <span class="pub-authors">Liu P-Y, Xia D, McGonigle K, Carroll AB, Chiango J, Scavello H, Martins R, Mehta S, Krespan E, Lunde E, LeVine D, Fellman CL, Goggs R, Beiting DP* and Garden OA*.</span>
+    <span class="pub-journal"><i><b>  Animal Microbiome</b></i>. Sept 29 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pntd.0011552" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pntd.0011552" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.pntd.0011552" target="_new">NKG2D promotes CD8 T cell-mediated cytotoxicity and is associated with treatment failure in human cutaneous leishmaniasis</a></h3>
     <span class="pub-authors">Sacramento LA, Amorim CF, Campos TM, Saldanha SA, Carvalho LP, Beiting DP, Carvalho EM, Novais FO, Scott P.</span>
-    <span class="pub-journal"><i><b>  PLOS Neglected Tropical Diseases</b></i>. In Press.</span>
+    <span class="pub-journal"><i><b>  PLOS Neglected Tropical Diseases</b></i>. Aug 21 2023.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
