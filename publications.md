@@ -18,7 +18,7 @@ comments: false
     <h3><a href="https://doi.org/10.1126/scitranslmed.adh1469" target="_new">Multiomic profiling of cutaneous leishmaniasis infections reveals microbiota-driven mechanisms underlying disease severity</a></h3>
     <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA.</span>
     <span class="pub-journal"><i><b>  Science Translational Medicine</b></i>. Oct 18 2023</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/camila_STM_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
@@ -27,7 +27,7 @@ comments: false
     <h3><a href="https://doi.org/10.1186/s42523-023-00268-2" target="_new">Immune-mediated hematological disease in dogs is associated with alterations of the fecal microbiota: a pilot study</a></h3>
     <span class="pub-authors">Liu P-Y, Xia D, McGonigle K, Carroll AB, Chiango J, Scavello H, Martins R, Mehta S, Krespan E, Lunde E, LeVine D, Fellman CL, Goggs R, Beiting DP* and Garden OA*.</span>
     <span class="pub-journal"><i><b>  Animal Microbiome</b></i>. Sept 29 2023.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Po-Yu_AnimalMicrobiome_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
@@ -36,7 +36,7 @@ comments: false
     <h3><a href="https://doi.org/10.1371/journal.pntd.0011552" target="_new">NKG2D promotes CD8 T cell-mediated cytotoxicity and is associated with treatment failure in human cutaneous leishmaniasis</a></h3>
     <span class="pub-authors">Sacramento LA, Amorim CF, Campos TM, Saldanha SA, Carvalho LP, Beiting DP, Carvalho EM, Novais FO, Scott P.</span>
     <span class="pub-journal"><i><b>  PLOS Neglected Tropical Diseases</b></i>. Aug 21 2023.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Lais_PNTD_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
@@ -75,7 +75,7 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mbio.03261-22" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mbio.03261-22" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Genetic ablation of a female specific Apetala 2 transcription factor blocks oocyst shedding in Cryptosporidium parvum</a></h3>
+    <h3><a href="https://doi.org/10.1128/mbio.03261-22" target="_new">Genetic ablation of a female specific Apetala 2 transcription factor blocks oocyst shedding in Cryptosporidium parvum</a></h3>
     <span class="pub-authors">Tandel J, Walzer K, Byerly J, Pinkson B, Beiting DP, Striepen B. </span>
     <span class="pub-journal"><i><b>  MBio</b></i>. Feb 14 2023.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/tandel_mbio_2023.pdf" target="_blank">PDF</a> | </span>
@@ -84,16 +84,16 @@ comments: false
 ## 2022
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-022-01385-x" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-022-01385-x" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-022-01385-x" target="_new">Gut microbiome of helminth-infected indigenous Malaysians is context dependent</a></h3>
-    <span class="pub-authors">Tee MZ, Er YX, Easton AV, Yap NJ, Lee IL, Devlin J, Chen Z, Ng KS, Subramanian P, Angelova A, Oyesola O, Sargsian S, Ngui R, Beiting DP, Boey CCM, Chua KH, Cadwell K, Lim YAL, Loke P, Lee SC </span>
+    <span class="pub-authors">Tee MZ, Er YX, Easton AV, Yap NJ, Lee IL, Devlin J, Chen Z, Ng KS, Subramanian P, Angelova A, Oyesola O, Sargsian S, Ngui R, Beiting DP, Boey CCM, Chua KH, Cadwell K, Lim YAL, Loke P, Lee SC. </span>
     <span class="pub-journal"><i><b>  Microbiome</b></i>. Dec 7 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Malaysia_helminth.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1158/2326-6066.CIR-22-0295" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1158/2326-6066.CIR-22-0295" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1158/2326-6066.CIR-22-0295" target="_new">Protection of the regulatory T cells from fragility in the tumor microenvironment</a></h3>
     <span class="pub-authors">Zhang H, Tomar V, Li J, Basavaraja R, Yan F, Gui J, McBrearty N, Costich TL, Beiting DP, Blanco M, Conejo-Garcia J, Saggu G, Berger A, Nefedova Y, Gabrilovich D, and Fuchs SY.</span>
@@ -304,8 +304,8 @@ data-style="small_circle" style="float: right;"></div>
 
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s13326-019-0217-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="10.1186/s13326-019-0217-1" data-style="small_circle" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s13326-019-0217-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s13326-019-0217-1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s13326-019-0217-1" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS.</span>
     <span class="pub-journal"><i><b>Journal of Biomedical Semantics</b></i>. Dec 30 2019.</span>
@@ -313,8 +313,8 @@ data-style="small_circle" style="float: right;"></div>
 </div>
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1126/scitranslmed.aax4204" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/scitranslmed.aax4204" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P*. </span>
     <span class="pub-journal"><i><b>Science Translational Medicine</b></i>. Nov 20; 2019.</span>
