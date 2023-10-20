@@ -3,7 +3,6 @@ layout: post
 title: Erin DeNardo
 position: Veterinary student
 email: denardo@vet.upenn.edu
-image: /assets/img/team/erin_denardo.jpg
 alumni: true
 ---
 
