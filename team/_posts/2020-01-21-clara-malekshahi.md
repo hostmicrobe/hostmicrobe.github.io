@@ -2,7 +2,6 @@
 layout: post
 title: Clara Malekshahi
 position: Research Specialist
-image: /assets/img/team/clara_malekshahi2.jpg
 email: claramal@vet.upenn.edu
 alumni: true
 ---
