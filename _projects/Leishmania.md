@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'Uncovering the role of skin microbiome and immune response in cutaneous leishmaniasis'
-date: 06 Sept 2023
+date: 24 Sept 2023
 image: /assets/img/projects/grouppic.jpg
 screenshot: /assets/img/projects/grouppic.jpg
 links:
