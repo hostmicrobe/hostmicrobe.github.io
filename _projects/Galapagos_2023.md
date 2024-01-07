@@ -2,8 +2,8 @@
 layout: project
 title: 'Social ecology and community work in the Galápagos'
 date: 06 Sept 2023
-image: /assets/img/projects/SiriusLogo.jpg
-screenshot: /assets/img/projects/SiriusLogo.jpg
+image: /assets/img/projects/galapagos_2022.jpg
+screenshot: /assets/img/projects/galapagos_2022.jpg
 links:
   - title: Source
     url: https://penntoday.upenn.edu/news/social-ecology-and-community-work-galapagos?utm_source=Penn+Today+-+Newsletters&utm_campaign=e58a025845-9%2F6%2F23%3A+Gal%C3%A1pagos+summer&utm_medium=email&utm_term=0_-a88f34f16b-%5BLIST_EMAIL_ID%5D
