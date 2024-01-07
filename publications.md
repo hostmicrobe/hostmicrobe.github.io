@@ -34,7 +34,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pntd.0011552" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pntd.0011552" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pntd.0011552" target="_new">NKG2D promotes CD8 T cell-mediated cytotoxicity and is associated with treatment failure in human cutaneous leishmaniasis</a></h3>
-    <span class="pub-authors">Sacramento LA, Amorim CF, Campos TM, Saldanha SA, Carvalho LP, Beiting DP, Carvalho EM, Novais FO, Scott P.</span>
+    <span class="pub-authors">Sacramento LA, Amorim CF, Campos TM, Saldanha M, Arruda S, Carvalho LP, Beiting DP, Carvalho EM, Novais FO, Scott P.</span>
     <span class="pub-journal"><i><b>  PLOS Neglected Tropical Diseases</b></i>. Aug 21 2023.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Lais_PNTD_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
@@ -144,7 +144,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1010003" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1010003" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1010003" target="_new">A genetic screen identifies a protective type III interferon response to Cryptosporidium that requires TLR3 dependent recognition</a></h3>
-    <span class="pub-authors">Gibson AR, Sateriale A, Dumaine JE, Englies JB, Pardy RD, Gullicksrud JA, O'Dea K, Doench JG, Beiting DP, Hunter CA, Striepen B.</span>
+    <span class="pub-authors">Gibson AR, Sateriale A, Dumaine JE, Engiles JB, Pardy RD, Gullicksrud JA, O'Dea K, Doench JG, Beiting DP, Hunter CA, Striepen B.</span>
     <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. May 18 2022.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/PPath_CryptoScreen_2022.pdf" target="_blank">PDF</a> | </span>
 </div>
@@ -186,7 +186,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41385-021-00468-6" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s41385-021-00468-6" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41385-021-00468-6" target="_new">Crosstalk between enterocytes and innate lymphoid cells drives early IFN-γ-mediated control of Cryptosporidium</a></h3>
-    <span class="pub-authors">Gullicksrud J, Sateriale A, Englies J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Striepen B, Hunter CA.</span>
+    <span class="pub-authors">Gullicksrud J, Sateriale A, Engiles J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Striepen B, Hunter CA.</span>
     <span class="pub-journal"><i><b> Mucosal Immunology</b></i>. Nov 8 2021.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/crypto_enterocyteImmunity_2021.pdf" target="_blank">PDF</a> | </span>
 </div>

@@ -3,7 +3,6 @@ layout: post
 title: Shelby Monnin
 position: Veterinary student
 email: smonnin@vet.upenn.edu
-image: /assets/img/team/shelby_monnin.jpg
 alumni: true
 ---
 
