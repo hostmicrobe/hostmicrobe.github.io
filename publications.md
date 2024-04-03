@@ -14,7 +14,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/scitranslmed.adh1469" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1126/scitranslmed.adh1469" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.adh1469" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/scitranslmed.adh1469" target="_new">Multiomic profiling of cutaneous leishmaniasis infections reveals microbiota-driven mechanisms underlying disease severity</a></h3>
     <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA.</span>
     <span class="pub-journal"><i><b>  Science Translational Medicine</b></i>. Oct 18 2023</span>
@@ -23,7 +23,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s42523-023-00268-2" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s42523-023-00268-2" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s42523-023-00268-2" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s42523-023-00268-2" target="_new">Immune-mediated hematological disease in dogs is associated with alterations of the fecal microbiota: a pilot study</a></h3>
     <span class="pub-authors">Liu P-Y, Xia D, McGonigle K, Carroll AB, Chiango J, Scavello H, Martins R, Mehta S, Krespan E, Lunde E, LeVine D, Fellman CL, Goggs R, Beiting DP* and Garden OA*.</span>
     <span class="pub-journal"><i><b>  Animal Microbiome</b></i>. Sept 29 2023.</span>
@@ -32,7 +32,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pntd.0011552" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pntd.0011552" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pntd.0011552" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pntd.0011552" target="_new">NKG2D promotes CD8 T cell-mediated cytotoxicity and is associated with treatment failure in human cutaneous leishmaniasis</a></h3>
     <span class="pub-authors">Sacramento LA, Amorim CF, Campos TM, Saldanha M, Arruda S, Carvalho LP, Beiting DP, Carvalho EM, Novais FO, Scott P.</span>
     <span class="pub-journal"><i><b>  PLOS Neglected Tropical Diseases</b></i>. Aug 21 2023.</span>
@@ -41,7 +41,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-023-01505-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-023-01505-1" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-023-01505-1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-023-01505-1" target="_new">Improved eukaryotic detection compatible with large-scale automated analysis of metagenomes</a></h3>
     <span class="pub-authors">Bazant W, Blevins AS, Crouch K*, Beiting DP*.</span>
     <span class="pub-journal"><i><b>  Microbiome</b></i>. April 10 2023.</span>
@@ -51,7 +51,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1011230" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1011230" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1011230" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1011230" target="_new">Selective whole-genome amplification reveals population genetics of Leishmania braziliensis directly from patient skin biopsies</a></h3>
     <span class="pub-authors">Pilling OA, Grace CA, Reis-Cunha JL, Berry ASF, Mitchell MW, Yu JA, Malekshahi C, Krespan E, Go CK, Lombana C, Song YS, Amorim CF, Lago AS, Carvalho LP, Carvalho EM, Brisson D, Scott P, Jeffares DC, Beiting DP.</span>
     <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. March 20 2023.</span>
@@ -63,7 +63,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41564-023-01338-6" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s41564-023-01338-6" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41564-023-01338-6" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41564-023-01338-6" target="_new">Inflammatory monocytes promote granuloma control of Yersinia infection
 </a></h3>
     <span class="pub-authors">Sorobetea D*, Matsuda R*, Peterson ST, Grayczyk JP, Rao I, Krespan E, Lanza M, Assenmacher CA, Mack M, Beiting DP, Radaelli E, Brodsky IE. </span>
@@ -74,7 +74,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mbio.03261-22" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mbio.03261-22" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/mbio.03261-22" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mbio.03261-22" target="_new">Genetic ablation of a female specific Apetala 2 transcription factor blocks oocyst shedding in Cryptosporidium parvum</a></h3>
     <span class="pub-authors">Tandel J, Walzer K, Byerly J, Pinkson B, Beiting DP, Striepen B. </span>
     <span class="pub-journal"><i><b>  MBio</b></i>. Feb 14 2023.</span>
@@ -85,7 +85,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-022-01385-x" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-022-01385-x" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-022-01385-x" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-022-01385-x" target="_new">Gut microbiome of helminth-infected indigenous Malaysians is context dependent</a></h3>
     <span class="pub-authors">Tee MZ, Er YX, Easton AV, Yap NJ, Lee IL, Devlin J, Chen Z, Ng KS, Subramanian P, Angelova A, Oyesola O, Sargsian S, Ngui R, Beiting DP, Boey CCM, Chua KH, Cadwell K, Lim YAL, Loke P, Lee SC. </span>
     <span class="pub-journal"><i><b>  Microbiome</b></i>. Dec 7 2022.</span>
@@ -94,7 +94,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1158/2326-6066.CIR-22-0295" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1158/2326-6066.CIR-22-0295" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1158/2326-6066.CIR-22-0295" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1158/2326-6066.CIR-22-0295" target="_new">Protection of the regulatory T cells from fragility in the tumor microenvironment</a></h3>
     <span class="pub-authors">Zhang H, Tomar V, Li J, Basavaraja R, Yan F, Gui J, McBrearty N, Costich TL, Beiting DP, Blanco M, Conejo-Garcia J, Saggu G, Berger A, Nefedova Y, Gabrilovich D, and Fuchs SY.</span>
     <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. Dec 2 2022.</span>
@@ -103,7 +103,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.molcel.2022.08.030" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.molcel.2022.08.030" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.molcel.2022.08.030" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.molcel.2022.08.030" target="_new">The lncRNA ALPHA specifically targets chikungunya virus to control infection</a></h3>
     <span class="pub-authors">Basavappa MG, Ferretti M, Dittmar M, Stoute J, Sullivan MC, Whig K, Shen H, Liu KF, Schultz DC, Beiting DP, Lynch KW, Henao-Mejia J, Cherry S.</span>
     <span class="pub-journal"><i><b>  Molecular Cell</b></i>. Oct 6 2022.</span>
@@ -112,7 +112,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.cmet.2022.08.007" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.cmet.2022.08.007" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.cmet.2022.08.007" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.cmet.2022.08.007" target="_new">ATF3 and CH25H regulate effector trogocytosis and anti-tumor activities of endogenous and immunotherapeutic cytotoxic T lymphocytes</a></h3>
     <span class="pub-authors">Lu Z, McBrearty N, Chen J, Tomar VS, Zhang H, De Rosa G, Tan A, Weljie AM, Beiting DP, Miao Z, George SS, Berger A, Saggu G, Diehl JA, Koumenis C, and Fuchs SY.</span>
     <span class="pub-journal"><i><b>  Cell Metabolism</b></i>. Sept 6 2022.</span>
@@ -122,7 +122,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1010296" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1010296" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1010296" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1010296" target="_new">Impact of secondary TCR engagement on the heterogeneity of pathogen-specific CD8+ T cell response during acute and chronic toxoplasmosis</a></h3>
     <span class="pub-authors">Shallberg LA, Phan AT, Christian DA, Perry JA, Haskins BE, Beiting DP, Harris TH, Koshi AA, Hunter CA.</span>
     <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. June 21 2022.</span>
@@ -132,7 +132,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-022-00383-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s43018-022-00383-0" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s43018-022-00383-0" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s43018-022-00383-0" target="_new">Targeting PARP11 to avert immunosuppression and improve CAR T therapy in solid tumors</a></h3>
     <span class="pub-authors">Zhang H, Yu P, Tomar VS, Chen X, Atherton MJ, Lu Z, Zhang HG, Li H, Ortiz A, Gui J, Leu NA, Yan F, Blanco A, Meyer-Ficca ML, Meyer RG, Beiting DP, Li J, Nunez-Cruz S, O'Connor RS, Johnson lR, Minn AJ, George SS, Koumenis C, Diehl jA, Milone MC, Zheng H, Fuchs SY.</span>
     <span class="pub-journal"><i><b>  Nature Cancer</b></i>. May 30 2022.</span>
@@ -142,7 +142,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1010003" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1010003" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1010003" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1010003" target="_new">A genetic screen identifies a protective type III interferon response to Cryptosporidium that requires TLR3 dependent recognition</a></h3>
     <span class="pub-authors">Gibson AR, Sateriale A, Dumaine JE, Engiles JB, Pardy RD, Gullicksrud JA, O'Dea K, Doench JG, Beiting DP, Hunter CA, Striepen B.</span>
     <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. May 18 2022.</span>
@@ -152,7 +152,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.xjon.2022.04.040" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.xjon.2022.04.040" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.xjon.2022.04.040" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.xjon.2022.04.040" target="_new">Chronic Hypoxemia Induces Mitochondrial Respiratory Complex Gene Expression in the Fetal Sheep Brain</a></h3>
     <span class="pub-authors">Moon JK, Lawrence KM, Hunt ML, Davey MG, Flake AW, Licht DJ, Chen JM, Kilbaugh TJ, Gaynor JW, Beiting DP</span>
     <span class="pub-journal"><i><b> The Journal of Thoracic and Cardiovascular Surgery (JCTVS) Open </b></i>. June 22 2022.</span>
@@ -162,7 +162,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pbio.3001618" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pbio.3001618" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.3001618" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pbio.3001618" target="_new">Re-establishment of spermatogenesis after more than 20 years of cryopreservation of rat spermatogonial stem cells reveals an important impact in differentiation capacity</a></h3>
     <span class="pub-authors">Whelan EC, Yang F, Avarbock MR, Sullivan MC, Beiting DP, Brinster RL.</span>
     <span class="pub-journal"><i><b> PLOS Biology</b></i>. May 10 2022.</span>
@@ -184,7 +184,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41385-021-00468-6" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s41385-021-00468-6" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41385-021-00468-6" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41385-021-00468-6" target="_new">Crosstalk between enterocytes and innate lymphoid cells drives early IFN-γ-mediated control of Cryptosporidium</a></h3>
     <span class="pub-authors">Gullicksrud J, Sateriale A, Engiles J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Striepen B, Hunter CA.</span>
     <span class="pub-journal"><i><b> Mucosal Immunology</b></i>. Nov 8 2021.</span>
@@ -194,7 +194,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1009967" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1009967" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1009967" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1009967" target="_new">The Card19 locus of murine chromosome 13 regulates terminal cell lysis downstream of caspase activation and Gasdermin-D cleavage</a></h3>
     <span class="pub-authors">Bjanes E, Garcia Sillas R, Matsuda R, Demarco B, Fettrelet T, DeLaney AA, Kronfeld OS, Lee BL, Rodriguez Lopez EM, Grubaugh D, Wynosky-Dolfi MA, Philip NH, Krespan E, Tovar D, Joannas L, Beiting DP, Henao-Mejia J, Schaefer BC, Chen KW, Broz P, Brodsky IE.</span>
     <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. October 14 2021.</span>
@@ -204,7 +204,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mBio.01214-21" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mBio.01214-21" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/mBio.01214-21" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mBio.01214-21" target="_new">An open-source toolkit to expand bioinformatics training in infectious diseases</a></h3>
     <span class="pub-authors">Berry ASF*, Amorim CF*, Berry CL, Syrett CM, English ED, Beiting DP.</span>
     <span class="pub-journal"><i><b> mBio</b></i>. July 6 2021.</span>
@@ -218,7 +218,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-021-01089-8" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s40168-021-01089-8" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-021-01089-8" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s40168-021-01089-8" target="_new">Remodeling of the maternal gut microbiome during pregnancy is shaped by parity</a></h3>
     <span class="pub-authors">Berry ASF, Pierdon MK, Misic AM, Sullivan MC, O’Brien K, Chen Y, Murray SJ, Ramharack LA, Baldassano RN, Parsons RN, Beiting DP.</span>
     <span class="pub-journal"><i><b> Microbiome</b></i>. June 27 2021.</span>
@@ -231,7 +231,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1172/JCI144225" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1172/JCI144225" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1172/JCI144225" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1172/JCI144225" target="_new">Regulation of the intercellular biomolecule transfer-driven tumor angiogenesis, growth, and responses to anti-cancer therapies</a></h3>
     <span class="pub-authors">Lu Z, Ortiz A, Verginadis I, Peck AR, Zahedi F, Cho C, Yu P, DeRita RM, Sun Y, Yaspan A, Krespan E, Beiting DP, Radaelli E, Ryeom S, Diehl JA, Rui H, Koumenis C, Fuchs SY.</span>
     <span class="pub-journal"><i><b> Journal of Clinical Investigation</b></i>. May 17 2021.</span>
@@ -240,7 +240,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pntd.0009321.20240978v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pntd.0009321" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pntd.0009321" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pntd.0009321" target="_new">Localized skin inflammation during cutaneous leishmaniasis drives a chronic, systemic IFN-γ signature</a></h3>
     <span class="pub-authors">Amorim CF, Novais FO, Nguyen BT, Nascimento MT, Lago J, Lago AS, Carvalho LP, Beiting DP*, Scott P*.</span>
     <span class="pub-journal"><i><b> PLOS Neglected Tropical Diseases</b></i>. April 1 2021.</span>
@@ -251,7 +251,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.mdpi.com/2073-4425/12/1/58" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://www.mdpi.com/2073-4425/12/1/58" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.3390/genes12010058" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://www.mdpi.com/2073-4425/12/1/58" target="_new">Mutations Affecting HVO_1357 or HVO_2248 Cause Hypermotility in Haloferax volcanii, Suggesting Roles in Motility Regulation</a></h3>
     <span class="pub-authors">Collins M, Afolayan S, Igiraneza AB, Schiller H, Krespan E, Beiting DP, Dyall-Smith M, Pfeiffer F, Pohlschroder M.</span>
     <span class="pub-journal"><i><b> Genes</b></i>. Dec 31 2020.</span>
@@ -261,7 +261,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
     <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan MC, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP.</span>
     <span class="pub-journal"><i><b> mSphere</b></i>. Aug 05 2020.</span>
@@ -273,7 +273,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-020-0064-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s43018-020-0064-0"
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s43018-020-0064-0"
 data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s43018-020-0064-0" target="_new">Activation of p38α stress-activated protein kinase drives the formation of the pre-metastatic niche in the lungs</a></h3>
     <span class="pub-authors">Gui J, Zahedi F, Ortiz A, Cho C, Katlinski KV, Alicea-Torres K, Li J, Todd L, Zhang H, Beiting DP, Sander C, Kirkwood JM, Snow BE, Wakeham AC, Mak TW, Diehl JA, Koumenis C, Ryeom SW, Stanger BZ, Puré E, Gabrilovich DI, Fuchs SY.</span>
@@ -283,7 +283,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.chom.2020.01.010" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.chom.2020.01.010" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
     <span class="pub-authors">Zhu W, Winter MG, Spiga L, Hughes ER, Chanin R, Mulgaonkar A, Pennington J, Maas M, Behrendt CL, Kim J, Sun X, <span class="pub-member-author">Beiting DP</span>, Hooper LV, Winter S.</span>
     <span class="pub-journal"><i><b>Cell Host Microbe</b></i>. Feb 18 2020.</span>
@@ -292,7 +292,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1084/jem.20181757" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1084/jem.20181757" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1084/jem.20181757" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1084/jem.20181757" target="_new">The Toxoplasma gondii virulence factor ROP16 acts in cis and trans, and suppresses T cell responses</a></h3>
     <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, <span class="pub-member-author">Wang S</span>, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>.
     <span class="pub-journal"><i><b>Journal of Experimental Medicine</b></i>. Jan 20 2020.</span>
@@ -305,7 +305,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s13326-019-0217-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1186/s13326-019-0217-1" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s13326-019-0217-1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s13326-019-0217-1" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS.</span>
     <span class="pub-journal"><i><b>Journal of Biomedical Semantics</b></i>. Dec 30 2019.</span>
