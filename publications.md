@@ -10,6 +10,46 @@ comments: false
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 
+## 2024
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Single-cell multiomic comparison of mouse and rat spermatogenesis reveal gene regulatory networks conserved for over 20 million years.</a></h3>
+    <span class="pub-authors">Whelan EC, Swain J, Sussman J, Smith D, Yang F, Rotolo A, Malekshahi C, Avarbock M, Radaelli E, Beiting DP, Brinster B.</span>
+    <span class="pub-journal"><i><b>  Submitted</b></i>. April 2 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Turning the needle into the haystack: culture-independent amplification of complex microbial genomes directly from their native environment.</a></h3>
+    <span class="pub-authors">Pilling OA, Beiting DP.</span>
+    <span class="pub-journal"><i><b>  Submitted</b></i>. April 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41586-024-07466-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s41586-024-07466-1" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Transcriptional control of the Cryptosporidium lifecycle.</a></h3>
+    <span class="pub-authors">Walzer K, Tandel J, Byerly J, Daniels A, Gullicksrud J, Whelan E, Carro S, Krespan K, Beiting DP, Striepen B.</span>
+    <span class="pub-journal"><i><b>  Nature</b></i>. May 29 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1012211" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1012211" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">CCR5 promotes the migration of pathological CD8+ T cells to the leishmanial lesions.</a></h3>
+    <span class="pub-authors">Sacramento LA, Amorim CF, Lombana CG, Beiting DP, Novais FO, Carvalho LP, Carvalho EM, Scott P.</span>
+    <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. May 6 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+
+
 ## 2023
 
 <div class="pub">
