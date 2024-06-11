@@ -32,7 +32,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41586-024-07466-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s41586-024-07466-1" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41586-024-07466-1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s41586-024-07466-1" target="_new">Transcriptional control of the Cryptosporidium lifecycle.</a></h3>
     <span class="pub-authors">Walzer K, Tandel J, Byerly J, Daniels A, Gullicksrud J, Whelan E, Carro S, Krespan K, Beiting DP, Striepen B.</span>
     <span class="pub-journal"><i><b>  Nature</b></i>. May 29 2024</span>
@@ -41,7 +41,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1012211" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1012211" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1012211" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1012211" target="_new">CCR5 promotes the migration of pathological CD8+ T cells to the leishmanial lesions.</a></h3>
     <span class="pub-authors">Sacramento LA, Amorim CF, Lombana CG, Beiting DP, Novais FO, Carvalho LP, Carvalho EM, Scott P.</span>
     <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. May 6 2024</span>
