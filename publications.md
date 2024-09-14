@@ -15,15 +15,6 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Single-cell multiomic comparison of mouse and rat spermatogenesis reveal gene regulatory networks conserved for over 20 million years.</a></h3>
-    <span class="pub-authors">Whelan EC, Swain J, Sussman J, Smith D, Yang F, Rotolo A, Malekshahi C, Avarbock M, Radaelli E, Beiting DP, Brinster B. </span>
-    <span class="pub-journal"><i><b>  Submitted</b></i>. April 2 2024</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
-</div>
-
-<div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">NF-kB Signaling is Required for X-Chromosome Inactivation Maintenance Following T Cell Activation.</a></h3>
     <span class="pub-authors">Forsyth KS, Toothacre NE, Jiwrajka N, Driscoll AM, Shallberg LA, Cunningham-Rundles C. Barmettler S, Farmer J, Verbsky J, Routes J, Beiting DP, Romberg N, May MJ, Anguera MC. </span>
     <span class="pub-journal"><i><b>  Science Immunology</b></i>. In Press</span>
