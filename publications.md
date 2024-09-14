@@ -16,7 +16,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">Single-cell multiomic comparison of mouse and rat spermatogenesis reveal gene regulatory networks conserved for over 20 million years.</a></h3>
-    <span class="pub-authors">Whelan EC, Swain J, Sussman J, Smith D, Yang F, Rotolo A, Malekshahi C, Avarbock M, Radaelli E, Beiting DP, Brinster B.</span>
+    <span class="pub-authors">Whelan EC, Swain J, Sussman J, Smith D, Yang F, Rotolo A, Malekshahi C, Avarbock M, Radaelli E, Beiting DP, Brinster B. </span>
     <span class="pub-journal"><i><b>  Submitted</b></i>. April 2 2024</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
@@ -25,7 +25,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">NF-kB Signaling is Required for X-Chromosome Inactivation Maintenance Following T Cell Activation.</a></h3>
-    <span class="pub-authors">Forsyth KS, Toothacre NE, Jiwrajka N, Driscoll AM, Shallberg LA, Cunningham-Rundles C. Barmettler S, Farmer J, Verbsky J, Routes J, Beiting DP, Romberg N, May MJ, Anguera MC</span>
+    <span class="pub-authors">Forsyth KS, Toothacre NE, Jiwrajka N, Driscoll AM, Shallberg LA, Cunningham-Rundles C. Barmettler S, Farmer J, Verbsky J, Routes J, Beiting DP, Romberg N, May MJ, Anguera MC. </span>
     <span class="pub-journal"><i><b>  Science Immunology</b></i>. In Press</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
@@ -34,8 +34,8 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1012418" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1012418" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1012418" target="_new">Turning the needle into the haystack: culture-independent amplification of complex microbial genomes directly from their native environment.</a></h3>
-    <span class="pub-authors">Pilling OA, Beiting DP.</span>
-    <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. Sept 12 2024</span>
+    <span class="pub-authors">Pilling OA, Sundararaman SA, Brisson D, Beiting DP. </span>
+    <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. Sept 12 2024</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/SWGA_PPATH_2024.pdf" target="_blank">PDF</a> | </span>
 </div>
 
@@ -83,7 +83,7 @@ comments: false
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/scitranslmed.adh1469" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.adh1469" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/scitranslmed.adh1469" target="_new">Multiomic profiling of cutaneous leishmaniasis infections reveals microbiota-driven mechanisms underlying disease severity</a></h3>
-    <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA.</span>
+    <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA. </span>
     <span class="pub-journal"><i><b>  Science Translational Medicine</b></i>. Oct 18 2023</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/camila_STM_2023.pdf" target="_blank">PDF</a> | </span>
 </div>
