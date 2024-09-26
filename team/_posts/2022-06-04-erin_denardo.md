@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Erin DeNardo
-position: Veterinary student
+position: Dual degree VMD/PhD student
 email: denardo@vet.upenn.edu
 alumni: true
 ---
 
-Erin is an veterinary student at UPenn (Class of '26).  Prior to coming to PennVet, Erin worked as a consultant/analyst doing extensive market research for pharmaceutical and medical technology products.  She also completed her Master's degree at Yale University in Molecular, Cellular and Developmental Biology, where she used computational methods to study bacterial cell growth.  Erin has used a variety command-line and statistical tools for her work, including R, Matlab, Python, SQL, and Stata.  She currently works part-time in the lab and has focused her computational skills on optimizing and running a Nextflow workflow for analysis of shotgun metagenomic data from our piglet gut microbiome project.
+Erin is a dual PhD/VMD student at UPenn.  Prior to coming to PennVet, Erin worked as a consultant/analyst doing extensive market research for pharmaceutical and medical technology products.  She also completed her Master's degree at Yale University in Molecular, Cellular and Developmental Biology, where she used computational methods to study bacterial cell growth.  Erin has used a variety command-line and statistical tools for her work, including R, Matlab, Python, SQL, and Stata.  Erin will be pursuing her PhD work at Penn jointly between the labs of Phil Scott and Elizabeth Grice.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Theresa Astmann
-position: Veterinary student
+position: Dual degree VMD/PhD student
 email: tastmann@vet.upenn.edu
 alumni: true
 ---
