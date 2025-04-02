@@ -10,15 +10,27 @@ comments: false
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 
-## 2025
+## Preprints
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Single-cell multiomic comparison of mouse and rat spermatogenesis reveal gene regulatory networks conserved for over 20 million years.</a></h3>
+    <h3><a href="" target="_new">Defining neuronal responses to the neurotropic parasite Toxoplasma gondii.</a></h3>
+    <span class="pub-authors">Johnson HJ, Kochanowsky JA, Chandrasekaran S, Hunter CA, Beiting DP*, and Koshy AA*. </span>
+    <span class="pub-journal"><i><b>  Biorxiv</b></i>. Preprint</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1101/2025.03.31.645603" target="_blank">PDF</a> | </span>
+</div>
+
+
+## 2025
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.stemcr.2025.102449" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.stemcr.2025.102449" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.stemcr.2025.102449" target="_new">Single-cell multiomic comparison of mouse and rat spermatogenesis reveal gene regulatory networks conserved for over 20 million years.</a></h3>
     <span class="pub-authors">Whelan EC, Swain JJ, Sussman JH, Smith D, Yang F, Rotolo A, Avarbock MR, Malekshahi C, Radaelli E, Beiting DP, and Brinster RL. </span>
-    <span class="pub-journal"><i><b>  Stem Cell Reports</b></i>. Accepted for publication</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b>  Stem Cell Reports</b></i>. March 4 2025</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Eoin_StemCellReports_2025.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 
@@ -66,7 +78,7 @@ comments: false
     <h3><a href="https://doi.org/10.1038/s41586-024-07466-1" target="_new">Transcriptional control of the Cryptosporidium lifecycle.</a></h3>
     <span class="pub-authors">Walzer K, Tandel J, Byerly J, Daniels A, Gullicksrud J, Whelan E, Carro S, Krespan K, Beiting DP, Striepen B.</span>
     <span class="pub-journal"><i><b>  Nature</b></i>. May 29 2024</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Walzer_Nature_2024.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
