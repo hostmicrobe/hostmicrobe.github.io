@@ -10,19 +10,28 @@ comments: false
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 
+
 ## Preprints
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Defining neuronal responses to the neurotropic parasite Toxoplasma gondii.</a></h3>
-    <span class="pub-authors">Johnson HJ, Kochanowsky JA, Chandrasekaran S, Hunter CA, Beiting DP*, and Koshy AA*. </span>
-    <span class="pub-journal"><i><b>  Biorxiv</b></i>. Preprint</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1101/2025.03.31.645603" target="_blank">PDF</a> | </span>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.biorxiv.org/content/10.1101/2025.05.20.655157v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://www.biorxiv.org/content/10.1101/2025.05.20.655157v1" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Genetic crosses reveal genomic loci responsible for virulence and persistence in Cryptosporidium parvum infection.</a></h3>
+    <span class="pub-authors">Shaw S, Li X, Buenconsejo G, Zhou TH, Cohen A, Yasur-Landau D, Xiao R, Beiting DP, Anderson TJC, Striepen B. </span>
+    <span class="pub-journal"><i><b>  </b></i>. Submitted.  Cell Host Microbe</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://www.biorxiv.org/content/10.1101/2025.05.20.655157v1" target="_blank">PDF</a> | </span>
 </div>
 
-
 ## 2025
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/msphere.00216-25" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/msphere.00216-25" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/msphere.00216-25" target="_new">Defining neuronal responses to the neurotropic parasite Toxoplasma gondii.</a></h3>
+    <span class="pub-authors">Johnson HJ, Kochanowsky JA, Chandrasekaran S, Hunter CA, Beiting DP*, and Koshy AA*. </span>
+    <span class="pub-journal"><i><b>  mSphere</b></i>. May 30 2025</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Johnson_msphere_2025.pdf" target="_blank">PDF</a> | </span>
+</div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.stemcr.2025.102449" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
