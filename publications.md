@@ -810,7 +810,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1093/infdis/jiu013" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1093/infdis/jiu013" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1093/infdis/jiu013" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1093/infdis/jiu013" target="_new">Human Classical Monocytes Control the Intracellular Stage of leishmania braziliensis by Reactive Oxygen Species.</a></h3>
     <span class="pub-authors">Novais FO, Nguyen BT, <span class="pub-member-author">Beiting DP</span>, Carvalho LP, Glennie ND, Passos S, Carvalho EM, Scott P.</span>
     <span class="pub-journal"><i><b>Journal of Infectious Diseases</b></i>. Apr 15; 2014.</span>
@@ -896,7 +896,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.vetpar.2008.10.051" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.vetpar.2008.10.051" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.vetpar.2008.10.051" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.vetpar.2008.10.051">Immunity to Trichinella spiralis muscle infection.</a></h3>
     <span class="pub-authors">Fabre MV*, <span class="pub-member-author">Beiting DP*</span>, SK Bliss, and JA Appleton.</span>
     <span class="pub-journal"><i><b>Veterinary Parasitology</b></i>. Feb 23; 2009.</span>
@@ -905,7 +905,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.4049/jimmunol.178.12.7974" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.4049/jimmunol.178.12.7974" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.4049/jimmunol.178.12.7974" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/jimmunol.178.12.7974">IL-10 regulates movement of intestinally derived CD4+ T cells to the liver.</a></h3>
     <span class="pub-authors">Bliss SK, SP Bliss, <span class="pub-member-author">Beiting DP</span>, A Alcaraz, and JA Appleton.</span>
     <span class="pub-journal"><i><b>The Journal of Immunology</b></i>. Jun 15; 2007.</span>
@@ -914,7 +914,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.4049/jimmunol.178.2.1039" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.4049/jimmunol.178.2.1039" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.4049/jimmunol.178.2.1039" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/jimmunol.178.2.1039">Coordinated control of immunity to muscle stage Trichinella spiralis by IL-10, regulatory T cells, and TGF-beta.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, LF Gagliardo, M Hesse, SK Bliss, D Meskill, and JA Appleton.</span>
     <span class="pub-journal"><i><b>The Journal of Immunology</b></i>. Jan 15; 2007.</span>
@@ -923,7 +923,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/IAI.74.3.1941-1943.2006" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/IAI.74.3.1941-1943.2006" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/IAI.74.3.1941-1943.2006" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/IAI.74.3.1941-1943.2006">Synthesis of syndecan-1 by skeletal muscle cells is an early response to infection with Trichinella spiralis but is not essential for nurse cell development.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, PW Park, and JA Appleton.</span>
     <span class="pub-journal"><i><b>Infection and Immunity</b></i>. Feb 22; 2006.</span>
@@ -932,7 +932,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/IAI.72.6.3129-3137.2004" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/IAI.72.6.3129-3137.2004" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/IAI.72.6.3129-3137.2004" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/IAI.72.6.3129-3137.2004">Interleukin-10 limits local and body cavity inflammation during infection with muscle-stage Trichinella spiralis.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, SK Bliss, DH Schlafer, VL Roberts, and JA Appleton.</span>
     <span class="pub-journal"><i><b>Infection and Immunity</b></i>. May 20; 2004.</span>
@@ -941,7 +941,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/S0166-6851(02)00094-4" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/S0166-6851(02)00094-4" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/S0166-6851(02)00094-4" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/S0166-6851(02)00094-4">A putative serine protease among the excretory-secretory glycoproteins of L1 Trichinella spiralis.</a></h3>
     <span class="pub-authors">Romaris F, S North, LF Gagliardo, B Butcher, K Ghosh, <span class="pub-member-author">Beiting DP</span>, M Panico, P Arasu, A Dell, HR Morris, JA Appleton.</span>
     <span class="pub-journal"><i><b>Mol Biochem Parasitol</b></i>. April 25; 2002.</span>
