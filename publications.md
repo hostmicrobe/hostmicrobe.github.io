@@ -15,7 +15,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.biorxiv.org/content/10.1101/2025.05.20.655157v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://www.biorxiv.org/content/10.1101/2025.05.20.655157v1" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">Genetic crosses reveal genomic loci responsible for virulence and persistence in Cryptosporidium parvum infection.</a></h3>
     <span class="pub-authors">Shaw S, Li X, Buenconsejo G, Zhou TH, Cohen A, Yasur-Landau D, Xiao R, Beiting DP, Anderson TJC, Striepen B. </span>
     <span class="pub-journal"><i><b>  </b></i>. Submitted.  Cell Host Microbe</span>
@@ -26,7 +26,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/msphere.00216-25" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/msphere.00216-25" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/msphere.00216-25" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/msphere.00216-25" target="_new">Defining neuronal responses to the neurotropic parasite Toxoplasma gondii.</a></h3>
     <span class="pub-authors">Johnson HJ, Kochanowsky JA, Chandrasekaran S, Hunter CA, Beiting DP*, and Koshy AA*. </span>
     <span class="pub-journal"><i><b>  mSphere</b></i>. May 30 2025</span>
@@ -35,7 +35,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.stemcr.2025.102449" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.stemcr.2025.102449" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.stemcr.2025.102449" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.stemcr.2025.102449" target="_new">Single-cell multiomic comparison of mouse and rat spermatogenesis reveal gene regulatory networks conserved for over 20 million years.</a></h3>
     <span class="pub-authors">Whelan EC, Swain JJ, Sussman JH, Smith D, Yang F, Rotolo A, Avarbock MR, Malekshahi C, Radaelli E, Beiting DP, and Brinster RL. </span>
     <span class="pub-journal"><i><b>  Stem Cell Reports</b></i>. March 4 2025</span>
@@ -47,7 +47,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/sciimmunol.ado0398" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1126/sciimmunol.ado0398" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1126/sciimmunol.ado0398" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/sciimmunol.ado0398" target="_new">Maintenance of X chromosome inactivation after T cell activation requires NF-κB signaling.</a></h3>
     <span class="pub-authors">Forsyth KS, Toothacre NE, Jiwrajka N, Driscoll AM, Shallberg LA, Cunningham-Rundles C, Barmettler S, Farmer J, Verbsky J, Routes J, Beiting DP, Romberg N, May MJ, and Anguera MC. </span>
     <span class="pub-journal"><i><b>  Science Immunology</b></i>. Oct 4 2024</span>
@@ -56,7 +56,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1012418" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.ppat.1012418" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1012418" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1012418" target="_new">Turning the needle into the haystack: culture-independent amplification of complex microbial genomes directly from their native environment.</a></h3>
     <span class="pub-authors">Pilling OA, Sundararaman SA, Brisson D, Beiting DP. </span>
     <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. Sept 12 2024</span>
@@ -65,7 +65,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/scitranslmed.adn0904" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1126/scitranslmed.adn0904" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.adn0904" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/scitranslmed.adn0904" target="_new">Modified C-type natriuretic peptide normalizes tumor vasculature, reinvigorates anti-tumor immunity, and improves solid tumor therapies.</a></h3>
     <span class="pub-authors">Lu Z, Verginadis I, Kumazoe M, Castillo GM, Yao Y, Guerra RE, Bicher S, You M, McClung G, Qiu R, Xiao Z, Miao Z, George SS, Beiting DP, Nojiri T, Tanaka Y, Fujimura Y, Onda H, Hatakeyama Y, Nishimoto-Ashfield A, Bykova K, Guo W, Fan Y, Buynov NM, Diehl JA, Stanger BZ, Tachibana H, Gade TP, Puré E, Koumenis C, Bolotin EM, Fuchs SY</span>
     <span class="pub-journal"><i><b>  Science Translational Medicine</b></i>. Aug 21 2024</span>
@@ -74,7 +74,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.xcrm.2024.101649" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.xcrm.2024.101649" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.xcrm.2024.101649" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.xcrm.2024.101649" target="_new">PARP11 inhibition inactivates tumor-infiltrating regulatory T cells and improves the efficacy of immunotherapies.</a></h3>
     <span class="pub-authors">Basavaraja R, Zhang H, Holczbauer Agnes, Lu Z, Radaelli Enrico, Assenmacher CA, George SS, Nallamalla VC, Beiting DP, Meyer-Ficca ML, Meyer RG, Guo W, Fan Y, Modzelewski AJ, Spiegelman VS, Cohen MS, and Fuchs SY</span>
     <span class="pub-journal"><i><b>  Cell Reports Medicine</b></i>. July 16 2024</span>
