@@ -801,7 +801,7 @@ data-style="small_circle" style="float: right;"></div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pone.0088398" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pone.0088398" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0088398" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pone.0088398" target="_new">Differential Induction of TLR3-dependent Innate Immune Signaling by Closely Related Parasite Species.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, Peixoto L, Akopyants NS, Beverley SM, Wherry EJ, Christian DA, Hunter CA, Brodsky IE, Roos DS.</span>
     <span class="pub-journal"><i><b>PLOS One</b></i>. Feb 5; 2014.</span>
