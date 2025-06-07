@@ -947,3 +947,12 @@ data-style="small_circle" style="float: right;"></div>
     <span class="pub-journal"><i><b>Mol Biochem Parasitol</b></i>. April 25; 2002.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Romaris_MBP_2002.pdf" target="_blank">PDF</a></span>.
 </div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1119/1.880158" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1119/1.880158" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1119/1.880158">What does a pine cone tell us about humidity?</a></h3>
+    <span class="pub-authors">Silva L, <span class="pub-member-author">Beiting DP</span>.</span>
+    <span class="pub-journal"><i><b>Physics Teacher</b></i>. April 25; 2002.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a></span>.
+</div>
