@@ -16,7 +16,7 @@ description: >
 #   overlay:    true
 ---
 
-Despite their small size, ticks are among the most dangerous animals encountered in the wild due to their ability to transmit zoonotic infections to humans, domestic animals, and wildlife. In the United States, nine tick species carry pathogenic viruses, bacteria, and parasites, with the blacklegged deer tick (Ixodes scapularis) being the primary vector of infection. Lyme disease, the most prevalent tickborne disease in the US, has been on the rise over the past two decades, with rates quadrupling in endemic areas of the Northeast, Mid-Atlantic, and the Upper Midwest. Pennsylvania faces a disproportionate burden, with over 60,000 lab-confirmed canine cases and more than 11,000 human cases reported in 2024.
+Despite their small size, ticks are among the most dangerous animals encountered in the wild due to their ability to transmit zoonotic infections to humans, domestic animals, and wildlife. In the United States, nine tick species carry pathogenic viruses, bacteria, and parasites, with the blacklegged deer tick (*Ixodes scapularis*) being the primary vector of infection. Lyme disease, the most prevalent tickborne disease in the US, has been on the rise over the past two decades, with rates quadrupling in endemic areas of the Northeast, Mid-Atlantic, and the Upper Midwest. Pennsylvania faces a disproportionate burden, with over 60,000 lab-confirmed canine cases and more than 11,000 human cases reported in 2024.
 
 # Tracking Ticks to Protect Pennsylvanians from Hidden Outdoor Threats
 
