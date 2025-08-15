@@ -27,7 +27,7 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1093/jambio/lxaf186" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1093/jambio/lxaf186" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1093/jambio/lxaf186" target="_new">Analysis of the survival capacity and transcriptional response of *Salmonella enterica* serovar Infantis under stress conditions of clinical and food safety relevance.</a></h3>
+    <h3><a href="https://doi.org/10.1093/jambio/lxaf186" target="_new">Analysis of the survival capacity and transcriptional response of Salmonella enterica serovar Infantis under stress conditions of clinical and food safety relevance.</a></h3>
     <span class="pub-authors">Pinheiro Vilela F, dos Prazeres Rodrigues D, Beiting DP*, Pfrimer Falcão J*. </span>
     <span class="pub-journal"><i><b>  Journal of Applied Microbiology</b></i>. August 2025</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Felipe_AppliedMicro_2025.pdf" target="_blank">PDF</a> | </span>
