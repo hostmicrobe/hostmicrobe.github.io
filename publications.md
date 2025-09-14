@@ -15,7 +15,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2025.09.12.675863" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1101/2025.09.12.675863" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1101/2025.09.12.675863" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">Human wastewater contamination drives the emergence of novel multidrug resistant bacteria in the Galapagos marine ecosystem.</a></h3>
     <span class="pub-authors">Lal A, Riopelle JC, Villarin K, Mathur M, Enriquez L, Xiao R, Phemister-jimenez N, Gilbert K, Cole SD, Tilyou M, Kennedy KP, Vaca E, Castillo W, Weisberg M, Mattei LM*, Beiting DP* </span>
     <span class="pub-journal"><i><b>  </b></i></span>
@@ -27,7 +27,7 @@ comments: false
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.biorxiv.org/content/10.1101/2025.05.20.655157v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1101/2025.05.20.655157v1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">Genetic crosses reveal genomic loci responsible for virulence and persistence in Cryptosporidium parvum infection.</a></h3>
     <span class="pub-authors">Shaw S, Li X, Buenconsejo G, Zhou TH, Cohen A, Yasur-Landau D, Xiao R, Beiting DP, Anderson TJC, Striepen B. </span>
     <span class="pub-journal"><i><b>  </b></i>. Accepted.  Cell Reports</span>
