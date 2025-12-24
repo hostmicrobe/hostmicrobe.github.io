@@ -22,15 +22,42 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1101/2025.09.12.675863" target="_blank">PDF</a> | </span>
 </div>
 
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.64898/2025.12.22.695505 " data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.64898/2025.12.22.695505" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.64898/2025.12.22.695505 " target="_new">Diverse infections transcriptionally reprogram the intestinal epithelium and epithelial-immune cell interactions.</a></h3>
+    <span class="pub-authors">Hart A, Merolle M, Howard C, Haskins BE, Cohn IS, Bobba S, Xiao R, Yang Y, Cadwell K, Ma J, Yano H, Hou X, Wallbank BA, Cutillo D, The MIST Consortium, Ivanov II, Striepen B, Shin S, Brodsky IE, Artis D, Hunter CA, Beiting DP* </span>
+    <span class="pub-journal"><i><b>  </b></i></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2025.10.07.680968" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1101/2025.10.07.680968" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Widespread genomic heterogeneity at the type II NAD(P)H dehydrogenase locus predisposes Cryptosporidium to clofazimine resistance.</a></h3>
+    <span class="pub-authors">Buenconsejo G*, Shaw S*, Xiao R, Balestra A, O'Dea KM, Jiang P, Xu B, Wang D, Zhu G, Beiting DP, Striepen B. </span>
+    <span class="pub-journal"><i><b>  </b></i></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1101/2025.10.07.680968" target="_blank">PDF</a> | </span>
+</div>
+
 
 ## 2025
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">A Wildlife Health Outbreak Response Table-top Exercise for Pandemic Preparedness Planning.</a></h3>
+    <span class="pub-authors">Ahyong V, Ayscue P, Gowen R, Spottiswoode N, Alex CE, Anis E, Beiting DP, Gibison M, Greening SE, Keatts L, Larsen RS, Miller EA, Niewinski B, Gagne RB, Tato CM, Ellis J, Murphy L </span>
+    <span class="pub-journal"><i><b>  Health Security</b></i>. Accepted</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank"></a> | </span>
+</div>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.celrep.2025.116315" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2025.116315" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.celrep.2025.116315" target="_new">Genetic crosses reveal genomic loci responsible for virulence and persistence in Cryptosporidium parvum infection.</a></h3>
     <span class="pub-authors">Shaw S, Li X, Buenconsejo G, Zhou TH, Cohen A, Yasur-Landau D, Xiao R, Beiting DP, Anderson TJC, Striepen B. </span>
-    <span class="pub-journal"><i><b>  </b></i>. Accepted.  Cell Reports</span>
+    <span class="pub-journal"><i><b>  Cell Reports</b></i>. October 28 2025</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Sebastian_CellReports_2025.pdf" target="_blank">PDF</a> | </span>
 </div>
 
@@ -40,7 +67,7 @@ comments: false
 <div class="__dimensions_badge_embed__" data-doi="10.1093/jambio/lxaf186" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1093/jambio/lxaf186" target="_new">Analysis of the survival capacity and transcriptional response of Salmonella enterica serovar Infantis under stress conditions of clinical and food safety relevance.</a></h3>
     <span class="pub-authors">Pinheiro Vilela F, dos Prazeres Rodrigues D, Beiting DP*, Pfrimer Falcão J*. </span>
-    <span class="pub-journal"><i><b>  Journal of Applied Microbiology</b></i>. August 2025</span>
+    <span class="pub-journal"><i><b>  Journal of Applied Microbiology</b></i>. August 1 2025</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Felipe_AppliedMicro_2025.pdf" target="_blank">PDF</a> | </span>
 </div>
 
