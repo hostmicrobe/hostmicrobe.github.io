@@ -23,7 +23,7 @@ comments: false
 </div>
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.64898/2025.12.22.695505 " data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.64898/2025.12.22.695505" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.64898/2025.12.22.695505" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.64898/2025.12.22.695505 " target="_new">Diverse infections transcriptionally reprogram the intestinal epithelium and epithelial-immune cell interactions.</a></h3>
     <span class="pub-authors">Hart A, Merolle M, Howard C, Haskins BE, Cohn IS, Bobba S, Xiao R, Yang Y, Cadwell K, Ma J, Yano H, Hou X, Wallbank BA, Cutillo D, The MIST Consortium, Ivanov II, Striepen B, Shin S, Brodsky IE, Artis D, Hunter CA, Beiting DP* </span>
@@ -79,6 +79,15 @@ comments: false
     <span class="pub-journal"><i><b>  mSphere</b></i>. May 30 2025</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Koshi_msphere_2025.pdf" target="_blank">PDF</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1128/msphere.00326-25" target="_blank"> Commentary</a></span><br>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.celrep.2025.115351" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2025.115351" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.celrep.2025.115351" target="_new">B cell stimulation changes the structure and higher-order organization of the inactive X chromosome.</a></h3>
+    <span class="pub-authors">Sierra I, Toothacre NE, van der Weide RH, Lovell CD, Nguyen SC, Barnett RJ, Cook AL, Ryu H, Pyfrom S, Wang H, Beiting DP, Philips-Cremins JE, Joyce EF, and Anguera MC. </span>
+    <span class="pub-journal"><i><b>  Cell Reports</b></i>. March 25 2025</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Isabel_CellReports_2025.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
