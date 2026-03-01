@@ -11,6 +11,8 @@ Fill in `href`. You may have to adjust `rel`.
 -->
 <noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
 
+{% endcomment %}
+
 <!-- Apple Touch Icons for iPhone and iPad -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/labicon2.png">
 <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/labicon2.png">
@@ -18,7 +20,6 @@ Fill in `href`. You may have to adjust `rel`.
 
 <!-- Link to PWA Manifest -->
 <link rel="manifest" href="/assets/manifest.json">
-{% endcomment %}
 
 <!-- Dynamic CSS Background Crossfader -->
 {% assign carousel_images = site.static_files | where_exp: "file", "file.path contains 'assets/img/carousel/'" %}
