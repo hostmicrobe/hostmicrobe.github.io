@@ -24,11 +24,11 @@ title:                 Host + Microbe
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  **Beiting Lab**<br/> Center for Host-Microbial Interactions (CHMI)
+  **Beiting Lab**<br/> Infectious diseases and computational biology
 
 # A shorter description for the sidebar.
 tagline:               >
-  **Beiting Lab**<br/> Center for Host-Microbial Interactions (CHMI)
+  **Beiting Lab**<br/> Infectious diseases and computational biology
 
 # A list of keywords for your blog
 keywords:              [Genomics, Microbiome, Infectious diseases, Immunology, Microbiology, Bioinformatics]
