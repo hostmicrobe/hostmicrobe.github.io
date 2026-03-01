@@ -36,9 +36,9 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.6.1 -->
+<!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Publications | Host + Microbe</title>
-<meta name="generator" content="Jekyll v3.8.6" />
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Publications" />
 <meta name="author" content="Daniel Beiting" />
 <meta property="og:locale" content="en" />
@@ -47,12 +47,13 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 <link rel="canonical" href="http://localhost:4000/publications/" />
 <meta property="og:url" content="http://localhost:4000/publications/" />
 <meta property="og:site_name" content="Host + Microbe" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Publications" />
 <meta name="twitter:site" content="@hostmicrobe" />
 <meta name="twitter:creator" content="@hostmicrobe" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Daniel Beiting"},"url":"http://localhost:4000/publications/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/schleiferi.png"},"name":"Daniel Beiting"},"headline":"Publications","description":"Beiting Lab Center for Host-Microbial Interactions (CHMI)","@type":"WebPage","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Daniel Beiting"},"description":"Beiting Lab Center for Host-Microbial Interactions (CHMI)","headline":"Publications","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/schleiferi.png"},"name":"Daniel Beiting"},"url":"http://localhost:4000/publications/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -143,13 +144,112 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
   <style id="_pageStyle">
 
-.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,0.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#409ba3;border-color:#409ba3}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#409ba3;border-color:#409ba3}@media screen{body.dark-mode{--body-bg: #2d3539;--border-color: #3d494f}}@media screen and (prefers-color-scheme: dark){body{--body-bg: #2d3539;--border-color: #3d494f}}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
-
+.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:rgb(63.8602040816,154.5602040816,162.8897959184);border-color:rgb(63.8602040816,154.5602040816,162.8897959184)}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:rgb(63.8602040816,154.5602040816,162.8897959184);border-color:rgb(63.8602040816,154.5602040816,162.8897959184)}@media screen{body.dark-mode{--body-bg: hsl(200.8695652174, 12.5%, 20%);--border-color: hsl(200.8695652174, 12.5%, 27.5%)}}@media screen and (prefers-color-scheme: dark){body{--body-bg: hsl(200.8695652174, 12.5%, 20%);--border-color: hsl(200.8695652174, 12.5%, 27.5%)}}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
 </style>
 
 
 <!--<![endif]-->
 
+
+
+<!-- Dynamic CSS Background Crossfader -->
+
+
+
+
+<style>
+  .sidebar {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sidebar-fader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: #000;
+  }
+
+  .sidebar-fader img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    filter: brightness(0.6);
+    /* Total duration = 3s per image */
+    
+    animation: imageFade 27s ease-in-out infinite;
+  }
+
+  /* Dynamic Animation Delays */
+  
+  .sidebar-fader img:nth-child(1) { 
+    animation-delay: 0s; 
+  }
+  
+  .sidebar-fader img:nth-child(2) { 
+    animation-delay: 3s; 
+  }
+  
+  .sidebar-fader img:nth-child(3) { 
+    animation-delay: 6s; 
+  }
+  
+  .sidebar-fader img:nth-child(4) { 
+    animation-delay: 9s; 
+  }
+  
+  .sidebar-fader img:nth-child(5) { 
+    animation-delay: 12s; 
+  }
+  
+  .sidebar-fader img:nth-child(6) { 
+    animation-delay: 15s; 
+  }
+  
+  .sidebar-fader img:nth-child(7) { 
+    animation-delay: 18s; 
+  }
+  
+  .sidebar-fader img:nth-child(8) { 
+    animation-delay: 21s; 
+  }
+  
+  .sidebar-fader img:nth-child(9) { 
+    animation-delay: 24s; 
+  }
+  
+
+  @keyframes imageFade {
+    
+    
+    
+    
+    
+    0%   { opacity: 0; }
+    1.111111111111111%  { opacity: 1; }
+    11.11111111111111%  { opacity: 1; }
+    12.222222222222221%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  .sidebar-carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    pointer-events: none;
+  }
+</style>
 
 
 
@@ -205,7 +305,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
   data-color="rgb(79,177,186)"
   data-theme-color="rgb(25,55,71)"
   
-    data-image="/assets/img/pennvet2.jpg"
+    data-image="/assets/img/pennvet.jpg"
     data-overlay
   
   >
@@ -225,21 +325,413 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-<h2 id="2020">2020</h2>
+<h2 id="preprints">Preprints</h2>
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
-    <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan MC, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP.</span>
-    <span class="pub-journal"><i><b> mSphere</b></i>. Aug 05 2020.</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8447002/tree" target="_blank"> Code</a></span><br />
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2025.09.12.675863" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1101/2025.09.12.675863" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Human wastewater contamination drives the emergence of novel multidrug resistant bacteria in the Galapagos marine ecosystem.</a></h3>
+    <span class="pub-authors">Lal A, Riopelle JC, Villarin K, Mathur M, Enriquez L, Xiao R, Phemister-jimenez N, Gilbert K, Cole SD, Tilyou M, Kennedy KP, Vaca E, Castillo W, Weisberg M, Mattei LM*, Beiting DP* </span>
+    <span class="pub-journal"><i><b>  </b></i></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1101/2025.09.12.675863" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.64898/2025.12.22.695505" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.64898/2025.12.22.695505" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.64898/2025.12.22.695505 " target="_new">Diverse infections transcriptionally reprogram the intestinal epithelium and epithelial-immune cell interactions.</a></h3>
+    <span class="pub-authors">Hart A, Merolle M, Howard C, Haskins BE, Cohn IS, Bobba S, Xiao R, Yang Y, Cadwell K, Ma J, Yano H, Hou X, Wallbank BA, Cutillo D, The MIST Consortium, Ivanov II, Striepen B, Shin S, Brodsky IE, Artis D, Hunter CA, Beiting DP* </span>
+    <span class="pub-journal"><i><b>  </b></i></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2025.10.07.680968" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1101/2025.10.07.680968" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Widespread genomic heterogeneity at the type II NAD(P)H dehydrogenase locus predisposes Cryptosporidium to clofazimine resistance.</a></h3>
+    <span class="pub-authors">Buenconsejo G*, Shaw S*, Xiao R, Balestra A, O'Dea KM, Jiang P, Xu B, Wang D, Zhu G, Beiting DP, Striepen B. </span>
+    <span class="pub-journal"><i><b>  </b></i></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1101/2025.10.07.680968" target="_blank">PDF</a> | </span>
+</div>
+
+<h2 id="2025">2025</h2>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">A Wildlife Health Outbreak Response Table-top Exercise for Pandemic Preparedness Planning.</a></h3>
+    <span class="pub-authors">Ahyong V, Ayscue P, Gowen R, Spottiswoode N, Alex CE, Anis E, Beiting DP, Gibison M, Greening SE, Keatts L, Larsen RS, Miller EA, Niewinski B, Gagne RB, Tato CM, Ellis J, Murphy L </span>
+    <span class="pub-journal"><i><b>  Health Security</b></i>. Accepted</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank"></a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.celrep.2025.116315" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2025.116315" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.celrep.2025.116315" target="_new">Genetic crosses reveal genomic loci responsible for virulence and persistence in Cryptosporidium parvum infection.</a></h3>
+    <span class="pub-authors">Shaw S, Li X, Buenconsejo G, Zhou TH, Cohen A, Yasur-Landau D, Xiao R, Beiting DP, Anderson TJC, Striepen B. </span>
+    <span class="pub-journal"><i><b>  Cell Reports</b></i>. October 28 2025</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Sebastian_CellReports_2025.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1093/jambio/lxaf186" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1093/jambio/lxaf186" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1093/jambio/lxaf186" target="_new">Analysis of the survival capacity and transcriptional response of Salmonella enterica serovar Infantis under stress conditions of clinical and food safety relevance.</a></h3>
+    <span class="pub-authors">Pinheiro Vilela F, dos Prazeres Rodrigues D, Beiting DP*, Pfrimer Falcão J*. </span>
+    <span class="pub-journal"><i><b>  Journal of Applied Microbiology</b></i>. August 1 2025</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Felipe_AppliedMicro_2025.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/msphere.00216-25" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/msphere.00216-25" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/msphere.00216-25" target="_new">Defining neuronal responses to the neurotropic parasite Toxoplasma gondii.</a></h3>
+    <span class="pub-authors">Johnson HJ, Kochanowsky JA, Chandrasekaran S, Hunter CA, Beiting DP*, and Koshy AA*. </span>
+    <span class="pub-journal"><i><b>  mSphere</b></i>. May 30 2025</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Koshi_msphere_2025.pdf" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1128/msphere.00326-25" target="_blank"> Commentary</a></span><br />
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.celrep.2025.115351" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2025.115351" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.celrep.2025.115351" target="_new">B cell stimulation changes the structure and higher-order organization of the inactive X chromosome.</a></h3>
+    <span class="pub-authors">Sierra I, Toothacre NE, van der Weide RH, Lovell CD, Nguyen SC, Barnett RJ, Cook AL, Ryu H, Pyfrom S, Wang H, Beiting DP, Philips-Cremins JE, Joyce EF, and Anguera MC. </span>
+    <span class="pub-journal"><i><b>  Cell Reports</b></i>. March 25 2025</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Isabel_CellReports_2025.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.stemcr.2025.102449" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.stemcr.2025.102449" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.stemcr.2025.102449" target="_new">Single-cell multiomic comparison of mouse and rat spermatogenesis reveal gene regulatory networks conserved for over 20 million years.</a></h3>
+    <span class="pub-authors">Whelan EC, Swain JJ, Sussman JH, Smith D, Yang F, Rotolo A, Avarbock MR, Malekshahi C, Radaelli E, Beiting DP, and Brinster RL. </span>
+    <span class="pub-journal"><i><b>  Stem Cell Reports</b></i>. March 4 2025</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Eoin_StemCellReports_2025.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<h2 id="2024">2024</h2>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/sciimmunol.ado0398" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1126/sciimmunol.ado0398" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1126/sciimmunol.ado0398" target="_new">Maintenance of X chromosome inactivation after T cell activation requires NF-κB signaling.</a></h3>
+    <span class="pub-authors">Forsyth KS, Toothacre NE, Jiwrajka N, Driscoll AM, Shallberg LA, Cunningham-Rundles C, Barmettler S, Farmer J, Verbsky J, Routes J, Beiting DP, Romberg N, May MJ, and Anguera MC. </span>
+    <span class="pub-journal"><i><b>  Science Immunology</b></i>. Oct 4 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1012418" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1012418" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.ppat.1012418" target="_new">Turning the needle into the haystack: culture-independent amplification of complex microbial genomes directly from their native environment.</a></h3>
+    <span class="pub-authors">Pilling OA, Sundararaman SA, Brisson D, Beiting DP. </span>
+    <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. Sept 12 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/SWGA_PPATH_2024.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/scitranslmed.adn0904" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.adn0904" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1126/scitranslmed.adn0904" target="_new">Modified C-type natriuretic peptide normalizes tumor vasculature, reinvigorates anti-tumor immunity, and improves solid tumor therapies.</a></h3>
+    <span class="pub-authors">Lu Z, Verginadis I, Kumazoe M, Castillo GM, Yao Y, Guerra RE, Bicher S, You M, McClung G, Qiu R, Xiao Z, Miao Z, George SS, Beiting DP, Nojiri T, Tanaka Y, Fujimura Y, Onda H, Hatakeyama Y, Nishimoto-Ashfield A, Bykova K, Guo W, Fan Y, Buynov NM, Diehl JA, Stanger BZ, Tachibana H, Gade TP, Puré E, Koumenis C, Bolotin EM, Fuchs SY</span>
+    <span class="pub-journal"><i><b>  Science Translational Medicine</b></i>. Aug 21 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.xcrm.2024.101649" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.xcrm.2024.101649" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.xcrm.2024.101649" target="_new">PARP11 inhibition inactivates tumor-infiltrating regulatory T cells and improves the efficacy of immunotherapies.</a></h3>
+    <span class="pub-authors">Basavaraja R, Zhang H, Holczbauer Agnes, Lu Z, Radaelli Enrico, Assenmacher CA, George SS, Nallamalla VC, Beiting DP, Meyer-Ficca ML, Meyer RG, Guo W, Fan Y, Modzelewski AJ, Spiegelman VS, Cohen MS, and Fuchs SY</span>
+    <span class="pub-journal"><i><b>  Cell Reports Medicine</b></i>. July 16 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41586-024-07466-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41586-024-07466-1" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s41586-024-07466-1" target="_new">Transcriptional control of the Cryptosporidium lifecycle.</a></h3>
+    <span class="pub-authors">Walzer K, Tandel J, Byerly J, Daniels A, Gullicksrud J, Whelan E, Carro S, Krespan K, Beiting DP, Striepen B.</span>
+    <span class="pub-journal"><i><b>  Nature</b></i>. May 29 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Walzer_Nature_2024.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1012211" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1012211" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.ppat.1012211" target="_new">CCR5 promotes the migration of pathological CD8+ T cells to the leishmanial lesions.</a></h3>
+    <span class="pub-authors">Sacramento LA, Amorim CF, Lombana CG, Beiting DP, Novais FO, Carvalho LP, Carvalho EM, Scott P.</span>
+    <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. May 6 2024</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<h2 id="2023">2023</h2>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/scitranslmed.adh1469" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.adh1469" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1126/scitranslmed.adh1469" target="_new">Multiomic profiling of cutaneous leishmaniasis infections reveals microbiota-driven mechanisms underlying disease severity</a></h3>
+    <span class="pub-authors">Amorim CF, Lovins VM, Singh TP, Novais FO, Harris JC, Lago AS, Carvalho LP, Carvalho EM, Beiting DP, Scott P, Grice EA. </span>
+    <span class="pub-journal"><i><b>  Science Translational Medicine</b></i>. Oct 18 2023</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/camila_STM_2023.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s42523-023-00268-2" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s42523-023-00268-2" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s42523-023-00268-2" target="_new">Immune-mediated hematological disease in dogs is associated with alterations of the fecal microbiota: a pilot study</a></h3>
+    <span class="pub-authors">Liu P-Y, Xia D, McGonigle K, Carroll AB, Chiango J, Scavello H, Martins R, Mehta S, Krespan E, Lunde E, LeVine D, Fellman CL, Goggs R, Beiting DP* and Garden OA*.</span>
+    <span class="pub-journal"><i><b>  Animal Microbiome</b></i>. Sept 29 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Po-Yu_AnimalMicrobiome_2023.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pntd.0011552" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pntd.0011552" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.pntd.0011552" target="_new">NKG2D promotes CD8 T cell-mediated cytotoxicity and is associated with treatment failure in human cutaneous leishmaniasis</a></h3>
+    <span class="pub-authors">Sacramento LA, Amorim CF, Campos TM, Saldanha M, Arruda S, Carvalho LP, Beiting DP, Carvalho EM, Novais FO, Scott P.</span>
+    <span class="pub-journal"><i><b>  PLOS Neglected Tropical Diseases</b></i>. Aug 21 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Lais_PNTD_2023.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-023-01505-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-023-01505-1" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s40168-023-01505-1" target="_new">Improved eukaryotic detection compatible with large-scale automated analysis of metagenomes</a></h3>
+    <span class="pub-authors">Bazant W, Blevins AS, Crouch K*, Beiting DP*.</span>
+    <span class="pub-journal"><i><b>  Microbiome</b></i>. April 10 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wojtek_CORRAL_2023.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1011230" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1011230" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.ppat.1011230" target="_new">Selective whole-genome amplification reveals population genetics of Leishmania braziliensis directly from patient skin biopsies</a></h3>
+    <span class="pub-authors">Pilling OA, Grace CA, Reis-Cunha JL, Berry ASF, Mitchell MW, Yu JA, Malekshahi C, Krespan E, Go CK, Lombana C, Song YS, Amorim CF, Lago AS, Carvalho LP, Carvalho EM, Brisson D, Scott P, Jeffares DC, Beiting DP.</span>
+    <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. March 20 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Pilling_ppath_2023.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<p><a href="https://codeocean.com/capsule/0499289/tree"><hy-img root-margin="512px" src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean">
+  <noscript><img data-ignore src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean"/></noscript>
+  <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+</hy-img>
+</a></p>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41564-023-01338-6" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41564-023-01338-6" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s41564-023-01338-6" target="_new">Inflammatory monocytes promote granuloma control of Yersinia infection
+</a></h3>
+    <span class="pub-authors">Sorobetea D*, Matsuda R*, Peterson ST, Grayczyk JP, Rao I, Krespan E, Lanza M, Assenmacher CA, Mack M, Beiting DP, Radaelli E, Brodsky IE. </span>
+    <span class="pub-journal"><i><b>  Nature Microbiology</b></i>. March 6 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Matsuda_NatMicro_2023.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mbio.03261-22" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/mbio.03261-22" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/mbio.03261-22" target="_new">Genetic ablation of a female specific Apetala 2 transcription factor blocks oocyst shedding in Cryptosporidium parvum</a></h3>
+    <span class="pub-authors">Tandel J, Walzer K, Byerly J, Pinkson B, Beiting DP, Striepen B. </span>
+    <span class="pub-journal"><i><b>  MBio</b></i>. Feb 14 2023.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/tandel_mbio_2023.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<h2 id="2022">2022</h2>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-022-01385-x" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-022-01385-x" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s40168-022-01385-x" target="_new">Gut microbiome of helminth-infected indigenous Malaysians is context dependent</a></h3>
+    <span class="pub-authors">Tee MZ, Er YX, Easton AV, Yap NJ, Lee IL, Devlin J, Chen Z, Ng KS, Subramanian P, Angelova A, Oyesola O, Sargsian S, Ngui R, Beiting DP, Boey CCM, Chua KH, Cadwell K, Lim YAL, Loke P, Lee SC. </span>
+    <span class="pub-journal"><i><b>  Microbiome</b></i>. Dec 7 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Malaysia_helminth.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1158/2326-6066.CIR-22-0295" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1158/2326-6066.CIR-22-0295" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1158/2326-6066.CIR-22-0295" target="_new">Protection of the regulatory T cells from fragility in the tumor microenvironment</a></h3>
+    <span class="pub-authors">Zhang H, Tomar V, Li J, Basavaraja R, Yan F, Gui J, McBrearty N, Costich TL, Beiting DP, Blanco M, Conejo-Garcia J, Saggu G, Berger A, Nefedova Y, Gabrilovich D, and Fuchs SY.</span>
+    <span class="pub-journal"><i><b>  Cancer Immunology Research</b></i>. Dec 2 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_Tregs_tumor_2022.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.molcel.2022.08.030" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.molcel.2022.08.030" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.molcel.2022.08.030" target="_new">The lncRNA ALPHA specifically targets chikungunya virus to control infection</a></h3>
+    <span class="pub-authors">Basavappa MG, Ferretti M, Dittmar M, Stoute J, Sullivan MC, Whig K, Shen H, Liu KF, Schultz DC, Beiting DP, Lynch KW, Henao-Mejia J, Cherry S.</span>
+    <span class="pub-journal"><i><b>  Molecular Cell</b></i>. Oct 6 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/lncRNA_alpha_CherryLab.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.cmet.2022.08.007" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.cmet.2022.08.007" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.cmet.2022.08.007" target="_new">ATF3 and CH25H regulate effector trogocytosis and anti-tumor activities of endogenous and immunotherapeutic cytotoxic T lymphocytes</a></h3>
+    <span class="pub-authors">Lu Z, McBrearty N, Chen J, Tomar VS, Zhang H, De Rosa G, Tan A, Weljie AM, Beiting DP, Miao Z, George SS, Berger A, Saggu G, Diehl JA, Koumenis C, and Fuchs SY.</span>
+    <span class="pub-journal"><i><b>  Cell Metabolism</b></i>. Sept 6 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_trogocytosis_2022.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1010296" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1010296" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.ppat.1010296" target="_new">Impact of secondary TCR engagement on the heterogeneity of pathogen-specific CD8+ T cell response during acute and chronic toxoplasmosis</a></h3>
+    <span class="pub-authors">Shallberg LA, Phan AT, Christian DA, Perry JA, Haskins BE, Beiting DP, Harris TH, Koshi AA, Hunter CA.</span>
+    <span class="pub-journal"><i><b>  PLOS Pathogens</b></i>. June 21 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/PPath_Shallberg_2022.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-022-00383-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s43018-022-00383-0" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s43018-022-00383-0" target="_new">Targeting PARP11 to avert immunosuppression and improve CAR T therapy in solid tumors</a></h3>
+    <span class="pub-authors">Zhang H, Yu P, Tomar VS, Chen X, Atherton MJ, Lu Z, Zhang HG, Li H, Ortiz A, Gui J, Leu NA, Yan F, Blanco A, Meyer-Ficca ML, Meyer RG, Beiting DP, Li J, Nunez-Cruz S, O'Connor RS, Johnson lR, Minn AJ, George SS, Koumenis C, Diehl jA, Milone MC, Zheng H, Fuchs SY.</span>
+    <span class="pub-journal"><i><b>  Nature Cancer</b></i>. May 30 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_NatureCancer_CAR-T_2022" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1010003" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1010003" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.ppat.1010003" target="_new">A genetic screen identifies a protective type III interferon response to Cryptosporidium that requires TLR3 dependent recognition</a></h3>
+    <span class="pub-authors">Gibson AR, Sateriale A, Dumaine JE, Engiles JB, Pardy RD, Gullicksrud JA, O'Dea K, Doench JG, Beiting DP, Hunter CA, Striepen B.</span>
+    <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. May 18 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/PPath_CryptoScreen_2022.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.xjon.2022.04.040" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.xjon.2022.04.040" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1016/j.xjon.2022.04.040" target="_new">Chronic Hypoxemia Induces Mitochondrial Respiratory Complex Gene Expression in the Fetal Sheep Brain</a></h3>
+    <span class="pub-authors">Moon JK, Lawrence KM, Hunt ML, Davey MG, Flake AW, Licht DJ, Chen JM, Kilbaugh TJ, Gaynor JW, Beiting DP</span>
+    <span class="pub-journal"><i><b> The Journal of Thoracic and Cardiovascular Surgery (JCTVS) Open </b></i>. June 22 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Lamb_EXTEND_brainHypoxia.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pbio.3001618" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.3001618" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.pbio.3001618" target="_new">Re-establishment of spermatogenesis after more than 20 years of cryopreservation of rat spermatogonial stem cells reveals an important impact in differentiation capacity</a></h3>
+    <span class="pub-authors">Whelan EC, Yang F, Avarbock MR, Sullivan MC, Beiting DP, Brinster RL.</span>
+    <span class="pub-journal"><i><b> PLOS Biology</b></i>. May 10 2022.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Eoin_freeze_PLOSbio_2022.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://www.wiley.com/en-us/Yamada%27s+Textbook+of+Gastroenterology%2C+3+Volume+Set%2C+7th+Edition-p-9781119600169" target="_new">Chapter 121. Parasitic diseases: protozoa</a></h3>
+    <span class="pub-authors">Beiting DP and John AO.</span>
+    <span class="pub-journal"><i><b> Book Chapter: Yamada's Textbook of Gastroenterology, 3 Volume Set, 7th Edition</b></i>. April 2022</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://www.wiley.com/en-us/Yamada%27s+Textbook+of+Gastroenterology%2C+3+Volume+Set%2C+7th+Edition-p-9781119600169" target="_blank">Publisher's website</a> | </span>
+</div>
+
+<h2 id="2021">2021</h2>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41385-021-00468-6" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41385-021-00468-6" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s41385-021-00468-6" target="_new">Crosstalk between enterocytes and innate lymphoid cells drives early IFN-γ-mediated control of Cryptosporidium</a></h3>
+    <span class="pub-authors">Gullicksrud J, Sateriale A, Engiles J, Gibson A, Shaw S, Hutchins Z, Martin L, Christian D, Taylor GA, Yamamoto M, Beiting DP, Striepen B, Hunter CA.</span>
+    <span class="pub-journal"><i><b> Mucosal Immunology</b></i>. Nov 8 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/crypto_enterocyteImmunity_2021.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.ppat.1009967" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.ppat.1009967" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.ppat.1009967" target="_new">The Card19 locus of murine chromosome 13 regulates terminal cell lysis downstream of caspase activation and Gasdermin-D cleavage</a></h3>
+    <span class="pub-authors">Bjanes E, Garcia Sillas R, Matsuda R, Demarco B, Fettrelet T, DeLaney AA, Kronfeld OS, Lee BL, Rodriguez Lopez EM, Grubaugh D, Wynosky-Dolfi MA, Philip NH, Krespan E, Tovar D, Joannas L, Beiting DP, Henao-Mejia J, Schaefer BC, Chen KW, Broz P, Brodsky IE.</span>
+    <span class="pub-journal"><i><b> PLOS Pathogens</b></i>. October 14 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Brodsky_PPath_2021.pdf" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mBio.01214-21" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/mBio.01214-21" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/mBio.01214-21" target="_new">An open-source toolkit to expand bioinformatics training in infectious diseases</a></h3>
+    <span class="pub-authors">Berry ASF*, Amorim CF*, Berry CL, Syrett CM, English ED, Beiting DP.</span>
+    <span class="pub-journal"><i><b> mBio</b></i>. July 6 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/DIY_mBio_2021.pdf" target="_blank">PDF</a></span><br />
+</div>
+
+<p><a href="https://codeocean.com/capsule/1031026/tree"><hy-img root-margin="512px" src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean">
+  <noscript><img data-ignore src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean"/></noscript>
+  <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+</hy-img>
+</a></p>
+
+<div class="github-card" data-github="DIYtranscriptomics/DIYtranscriptomics.github.io" data-width="400" data-height="" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s40168-021-01089-8" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1186/s40168-021-01089-8" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1186/s40168-021-01089-8" target="_new">Remodeling of the maternal gut microbiome during pregnancy is shaped by parity</a></h3>
+    <span class="pub-authors">Berry ASF, Pierdon MK, Misic AM, Sullivan MC, O’Brien K, Chen Y, Murray SJ, Ramharack LA, Baldassano RN, Parsons RN, Beiting DP.</span>
+    <span class="pub-journal"><i><b> Microbiome</b></i>. June 27 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_PigPregnancy_Microbiome_2021.pdf" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://vimeo.com/565435665" target="_blank"> Video abstract</a></span><br />
+</div>
+
+<p><a href="https://codeocean.com/capsule/8021926/tree"><hy-img root-margin="512px" src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean">
+  <noscript><img data-ignore src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean"/></noscript>
+  <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+</hy-img>
+</a></p>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1172/JCI144225" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1172/JCI144225" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1172/JCI144225" target="_new">Regulation of the intercellular biomolecule transfer-driven tumor angiogenesis, growth, and responses to anti-cancer therapies</a></h3>
+    <span class="pub-authors">Lu Z, Ortiz A, Verginadis I, Peck AR, Zahedi F, Cho C, Yu P, DeRita RM, Sun Y, Yaspan A, Krespan E, Beiting DP, Radaelli E, Ryeom S, Diehl JA, Rui H, Koumenis C, Fuchs SY.</span>
+    <span class="pub-journal"><i><b> Journal of Clinical Investigation</b></i>. May 17 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_JCI_2021.pdf" target="_blank">PDF</a> </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pntd.0009321.20240978v1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pntd.0009321" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1371/journal.pntd.0009321" target="_new">Localized skin inflammation during cutaneous leishmaniasis drives a chronic, systemic IFN-γ signature</a></h3>
+    <span class="pub-authors">Amorim CF, Novais FO, Nguyen BT, Nascimento MT, Lago J, Lago AS, Carvalho LP, Beiting DP*, Scott P*.</span>
+    <span class="pub-journal"><i><b> PLOS Neglected Tropical Diseases</b></i>. April 1 2021.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Camila_blood_PLOSNTD.pdf" target="_blank">PDF</a> </span>
+</div>
+
+<h2 id="2020">2020</h2>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://www.mdpi.com/2073-4425/12/1/58" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.3390/genes12010058" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://www.mdpi.com/2073-4425/12/1/58" target="_new">Mutations Affecting HVO_1357 or HVO_2248 Cause Hypermotility in Haloferax volcanii, Suggesting Roles in Motility Regulation</a></h3>
+    <span class="pub-authors">Collins M, Afolayan S, Igiraneza AB, Schiller H, Krespan E, Beiting DP, Dyall-Smith M, Pfeiffer F, Pohlschroder M.</span>
+    <span class="pub-journal"><i><b> Genes</b></i>. Dec 31 2020.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/genes_2020.pdf" target="_blank">PDF</a> </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mSphere.00670-20" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/mSphere.00670-20" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/mSphere.00670-20" target="_new">Natural infection with Giardia is associated with altered community structure of the human and canine gut microbiome</a></h3>
+    <span class="pub-authors">Berry ASF, Johnson K, Martins R, Sullivan MC, Amorim CF, Putre A, Scott A, Wang S, Lindsay B, Baldassano R, Nolan TJ, Beiting DP.</span>
+    <span class="pub-journal"><i><b> mSphere</b></i>. Aug 05 2020.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Berry_Giardia_mSphere_2020.pdf" target="_blank">PDF</a></span><br />
+</div>
+
+<p><a href="https://codeocean.com/capsule/8447002/tree"><hy-img root-margin="512px" src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean">
+  <noscript><img data-ignore src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean"/></noscript>
+  <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+</hy-img>
+</a></p>
+
+<div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s43018-020-0064-0" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1038/s43018-020-0064-0" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s43018-020-0064-0" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1038/s43018-020-0064-0" target="_new">Activation of p38α stress-activated protein kinase drives the formation of the pre-metastatic niche in the lungs</a></h3>
     <span class="pub-authors">Gui J, Zahedi F, Ortiz A, Cho C, Katlinski KV, Alicea-Torres K, Li J, Todd L, Zhang H, Beiting DP, Sander C, Kirkwood JM, Snow BE, Wakeham AC, Mak TW, Diehl JA, Koumenis C, Ryeom SW, Stanger BZ, Puré E, Gabrilovich DI, Fuchs SY.</span>
     <span class="pub-journal"><i><b>Nature Cancer</b></i>. May 25 2020.</span>
@@ -248,7 +740,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.chom.2020.01.010" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.chom.2020.01.010" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.chom.2020.01.010" target="_new">Xenosiderophore utilization promotes Bacteroides thetaiotaomicron resilience during colitis</a></h3>
     <span class="pub-authors">Zhu W, Winter MG, Spiga L, Hughes ER, Chanin R, Mulgaonkar A, Pennington J, Maas M, Behrendt CL, Kim J, Sun X, <span class="pub-member-author">Beiting DP</span>, Hooper LV, Winter S.</span>
     <span class="pub-journal"><i><b>Cell Host Microbe</b></i>. Feb 18 2020.</span>
@@ -257,7 +749,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1084/jem.20181757" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1084/jem.20181757" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1084/jem.20181757" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1084/jem.20181757" target="_new">The Toxoplasma gondii virulence factor ROP16 acts in cis and trans, and suppresses T cell responses</a></h3>
     <span class="pub-authors">Chen L*, Christian DA*, Kochanowsky JA, Phan AT, Clark J, <span class="pub-member-author">Wang S</span>, Berry C, Oh J, Chen X, Roos DS, <span class="pub-member-author">Beiting DP</span>, Koshy AA, Hunter CA</span>.
     <span class="pub-journal"><i><b>Journal of Experimental Medicine</b></i>. Jan 20 2020.</span>
@@ -267,7 +759,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 <h2 id="2019">2019</h2>
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s13326-019-0217-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1186/s13326-019-0217-1" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1186/s13326-019-0217-1" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1186/s13326-019-0217-1" target="_new">OHMI: The Ontology of Host-Microbiome Interactions</a></h3>
     <span class="pub-authors">He Y, Wang H, Zheng J, <span class="pub-member-author">Beiting DP</span>, Masci AM, Yu H, Curtis JL, Smith B, Alekseyenko AV, Obeid JS.</span>
@@ -276,15 +768,20 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 </div>
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1126/scitranslmed.aax4204" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1126/scitranslmed.aax4204" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.aax4204" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1126/scitranslmed.aax4204" target="_new">Variable gene expression and parasite load predict treatment outcome in cutaneous leishmaniasis</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Amorim CF</span>, Novais FO, Nguyen B, Misic AM, Carvalho LP, Carvalho EM, <span class="pub-member-author">Beiting DP*</span>, Scott P*. </span>
     <span class="pub-journal"><i><b>Science Translational Medicine</b></i>. Nov 20; 2019.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Amorim_STM_2019.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/6534016/tree" target="_blank">Code</a> | </span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/leishCover.png" target="_blank">Cover</a></span><br />
 </div>
+
+<p><a href="https://codeocean.com/capsule/6534016/tree"><hy-img root-margin="512px" src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean">
+  <noscript><img data-ignore src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean"/></noscript>
+  <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+</hy-img>
+</a></p>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41564-019-0539-x" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -292,9 +789,14 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1038/s41564-019-0539-x" target="_new">Lifecycle progression and sexual development of the apicomplexan parasite Cryptosporidium parvum</a></h3>
      <span class="pub-authors">Tandel J, English ED, Sateriale A, Gullicksrud JA, <span class="pub-member-author">Beiting DP</span>, <span class="pub-member-author">Sullivan MC</span>, Pinkston B, Striepen B.</span>
     <span class="pub-journal"><i><b>Nature Microbiology</b></i>. Sept 02; 2019. </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Striepen_NatureMicro_2019.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/8887900/tree" target="_blank">Code</a></span><br />
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Striepen_NatureMicro_2019.pdf" target="_blank">PDF</a> | </span><br />
 </div>
+
+<p><a href="https://codeocean.com/capsule/8887900/tree"><hy-img root-margin="512px" src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean">
+  <noscript><img data-ignore src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean"/></noscript>
+  <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+</hy-img>
+</a></p>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s40168-019-0740-4" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -302,9 +804,14 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1186/s40168-019-0740-4" target="_new">Diet-induced remission in chronic enteropathy is associated with altered microbial community structure and synthesis of secondary bile acids</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Wang S</span>, Martins R, <span class="pub-member-author">Sullivan MC</span>, Friedman ES, <span class="pub-member-author">Misic AM</span>, <span class="pub-member-author">El-Fahmawi A</span>, <span class="pub-member-author">De Martinis ECP</span>, <span class="pub-member-author">O’Brien K</span>, <span class="pub-member-author">Chen Y</span>, Bradley C, <span class="pub-member-author">Zhang G</span>, <span class="pub-member-author">Berry ASF</span>, Hunter CA, Baldassano RN, Rondeau MP, <span class="pub-member-author">Beiting DP.</span></span>
     <span class="pub-journal"><i><b>Microbiome</b></i>. Aug 31; 2019. </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wang_CanineIBD_2019.pdf" target="_blank">PDF</a> | </span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://codeocean.com/capsule/2300652/tree" target="_blank">Code</a></span><br />
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Wang_CanineIBD_2019.pdf" target="_blank">PDF</a> | </span><br />
 </div>
+
+<p><a href="https://codeocean.com/capsule/2300652/tree"><hy-img root-margin="512px" src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean">
+  <noscript><img data-ignore src="https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg" alt="Open in Code Ocean"/></noscript>
+  <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+</hy-img>
+</a></p>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0215497" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
@@ -402,7 +909,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 <div data-badge-popover="right" data-badge-type="donut" data-doi="10.4049/jimmunol.1701597" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.4049/jimmunol.1701597" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/jimmunol.1701597" target="_new">CD8+ T cells lack local signals to produce IFN-γ in the skin during leishmania infection.</a></h3>
-       <span class="pub-authors">Novais FO, Wong AC, Villarea DO, <span class="pub-member-author">Beiting DP</span>, Scott P.</span>
+       <span class="pub-authors">Novais FO, Wong AC, Villareal DO, <span class="pub-member-author">Beiting DP</span>, Scott P.</span>
     <span class="pub-journal"><i><b>Journal of Immunology</b></i>. Jan 24; 2018.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Novais_JI_2018.pdf" target="_blank">PDF</a></span>.
 </div>
@@ -498,7 +1005,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1128/mBio.01881-16" target="_new">STAT1 signaling in astrocytes is essential for control of Toxoplasma gondii in the central nervous system.</a></h3>
     <span class="pub-authors">Hidano S, Randall LM, Dawson L, Dietrich HK, Konradt C, Klover PJ, John B, Harris TH, Fang Q, Turek B, Kobayashi T, Hennighausen L, <span class="pub-member-author">Beiting DP</span>, Koshy A, Hunter CA.</span>
     <span class="pub-journal"><i><b>MBio</b></i>. Nov 8; 2016.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Shinya_astrocytesSTAT1_2016.pdf" target="_blank">PDF</a></span>.
 </div>
 
@@ -508,7 +1014,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1371/journal.ppat.1005910" target="_new">Activity of uncleaved caspase-8 controls anti-bacterial immune defense and TLR-induced cytokine production independent of cell death.</a></h3>
     <span class="pub-authors">Philip NH, DeLaney A, Santos-Marerro M, Grier J, Sun Y, Wynosky-Dolfi M, Peterson L, Zwack EE, Hu B, Olson TM, Rongvaux A, Pope SD, Lopez CB, Oberst A, <span class="pub-member-author">Beiting DP</span>, Henao-Mejia J, Brodsky IE.</span>
     <span class="pub-journal"><i><b>PLOS Pathogens</b></i>. Oct 13; 2016.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Brodsky_caspase8_2016.PDF" target="_blank">PDF</a></span>.
 </div>
 
@@ -528,7 +1033,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1371/journal.pntd.0004992" target="_new">Meta-transcriptome profiling of the human-Leishmania braziliensis cutaneous lesion.</a></h3>
     <span class="pub-authors">Christensen S, Dillon LAL, Carvalho LP, Passos S, Novais F, Hughitt K, <span class="pub-member-author">Beiting DP</span>, Carvalho EM, Scott P, El-Sayed NM and Mosser DM. </span>
     <span class="pub-journal"><i><b>PLOS Neglected Tropical Diseases</b></i>. Sept 15; 2016.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Mosser_PLOSntd_2016.PDF" target="_blank">PDF</a></span>.
 </div>
 
@@ -538,7 +1042,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.4049/jimmunol.1600522" target="_new">Cutting Edge: IL-4, IL-21, and IFN-g Interact to Govern TBET and CD11c Expression in TLR-Activated B Cells.</a></h3>
     <span class="pub-authors">Naradikian MS, Myles A, <span class="pub-member-author">Beiting DP</span>, Roberts KJ, Dawson L, Herati RS, Bengsch B, Linderman SL, Stelekati E, Spolski R, Wherry EJ, Hunter C, Hensley SE, Leonard WJ, Cancro MP.</span>
     <span class="pub-journal"><i><b>Cutting Edge: Journal of Immunology</b></i>. July 18; 2016.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Cancro_JI_2016.pdf" target="_blank">PDF</a></span>.
 </div>
 
@@ -548,7 +1051,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1016/j.celrep.2016.03.006" target="_new">Suppression of type I interferon signaling overcomes the oncogene-induced senescence and mediates melanoma development and progression.</a></h3>
     <span class="pub-authors">Katlinskaya YV, Katlinski KV, Yu Q, Ortiz A, <span class="pub-member-author">Beiting DP</span>, Brice A, Davar D, Sanders C, Kirkwood JM, Rui H, Xu X, Koumenis C, Diehl JA, Fuchs SY.</span>
     <span class="pub-journal"><i><b>Cell Reports</b></i>. April 5; 2016.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_CellReports_2016.PDF" target="_blank">PDF</a></span>.
 </div>
 
@@ -558,8 +1060,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1074/jbc.M115.713008" target="_new">T Cell Receptor-Induced NF-kB signaling and transcriptional activation are regulated by STIM1- and Orai1-mediated calcium entry.</a></h3>
     <span class="pub-authors">Liu X, Berry CT, Ruthel G, Madara JJ, MacGillivray K, Gray CM, Madge LA, McCorkell KA, <span class="pub-member-author">Beiting DP</span>, Hershberg U, May MJ and Freedman BD.</span>
     <span class="pub-journal"><i><b>J Biol Chem</b></i>. Jan 29; 2016.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
-    <span style="display: inline-block; padding-bottom: 5px;">&lt;a href="http://hostmicrobe.github.io/pubs/Freedman_JBC_2016.pdf target="_blank"&gt;PDF&lt;/a&gt;</span>.
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Freedman_JBC_2016.pdf" target="_blank">PDF</a></span>.
 </div>
 
 <div class="pub">
@@ -568,7 +1069,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1128/MCB.00988-15" target="_new">Type I Interferons Control Proliferation and Function of Intestinal Epithelium.</a></h3>
     <span class="pub-authors">Katlinskaya YV, Katlinski KV, Lasri A, Li N, <span class="pub-member-author">Beiting DP</span>, Durham AC, Yang T, Pikarsky E, lengner CJ, Johnson BF, Ben-Neriah Y, Fuchs SY.</span>
     <span class="pub-journal"><i><b>Mol Cell Biol</b></i>. Jan 25; 2016.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Fuchs_MolCellBio_2016.pdf" target="_blank">PDF</a></span>.
 </div>
 
@@ -590,7 +1090,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1016/j.vetmic.2015.09.007" target="_new">Genome sequencing reveals clonal dynamics of methicillin-resistant Staphylococcus aureus in the same household in the context of clinical disease in a person and a dog</a></h3>
     <span class="pub-authors">Davis MF, Misic AM, Morris DO, Moss JT, Tolomeo P, <span class="pub-member-author">Beiting DP</span>, Nachamkin I, Lautenbach E, Rankin SC.</span>
     <span class="pub-journal"><i><b>Veterinary Microbiology</b></i>. Nov 18; 2015.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Rankin_VetMicro_2015.pdf" target="_blank">PDF</a></span>.
 </div>
 
@@ -600,7 +1099,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
     <h3><a href="https://doi.org/10.1128/genomeA.01011-15" target="_new">Complete genome sequence and methylome of Staphylococcus schleiferi, an important cause of skin and ear infections in veterinary medicine.</a></h3>
     <span class="pub-authors">Misic A, Cain C, Morris DO, Rankin S, <span class="pub-member-author">Beiting DP.</span></span>
     <span class="pub-journal"><i><b>Genome Announcements</b></i>. Sept 10; 2015.</span>
-    <span class="pub-journal"><i><b>Cancer Cell</b></i>. Feb 13; 2017.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/schleiferi_genomeAnnounce_2015.pdf" target="_blank">PDF</a></span>.
 </div>
 
@@ -673,7 +1171,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1371/journal.pone.0088398" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1371/journal.pone.0088398" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0088398" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1371/journal.pone.0088398" target="_new">Differential Induction of TLR3-dependent Innate Immune Signaling by Closely Related Parasite Species.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, Peixoto L, Akopyants NS, Beverley SM, Wherry EJ, Christian DA, Hunter CA, Brodsky IE, Roos DS.</span>
     <span class="pub-journal"><i><b>PLOS One</b></i>. Feb 5; 2014.</span>
@@ -682,7 +1180,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1093/infdis/jiu013" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1093/infdis/jiu013" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1093/infdis/jiu013" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1093/infdis/jiu013" target="_new">Human Classical Monocytes Control the Intracellular Stage of leishmania braziliensis by Reactive Oxygen Species.</a></h3>
     <span class="pub-authors">Novais FO, Nguyen BT, <span class="pub-member-author">Beiting DP</span>, Carvalho LP, Glennie ND, Passos S, Carvalho EM, Scott P.</span>
     <span class="pub-journal"><i><b>Journal of Infectious Diseases</b></i>. Apr 15; 2014.</span>
@@ -767,7 +1265,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.vetpar.2008.10.051" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.vetpar.2008.10.051" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/j.vetpar.2008.10.051" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/j.vetpar.2008.10.051">Immunity to Trichinella spiralis muscle infection.</a></h3>
     <span class="pub-authors">Fabre MV*, <span class="pub-member-author">Beiting DP*</span>, SK Bliss, and JA Appleton.</span>
     <span class="pub-journal"><i><b>Veterinary Parasitology</b></i>. Feb 23; 2009.</span>
@@ -776,7 +1274,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.4049/jimmunol.178.12.7974" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.4049/jimmunol.178.12.7974" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.4049/jimmunol.178.12.7974" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/jimmunol.178.12.7974">IL-10 regulates movement of intestinally derived CD4+ T cells to the liver.</a></h3>
     <span class="pub-authors">Bliss SK, SP Bliss, <span class="pub-member-author">Beiting DP</span>, A Alcaraz, and JA Appleton.</span>
     <span class="pub-journal"><i><b>The Journal of Immunology</b></i>. Jun 15; 2007.</span>
@@ -785,7 +1283,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.4049/jimmunol.178.2.1039" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.4049/jimmunol.178.2.1039" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.4049/jimmunol.178.2.1039" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.4049/jimmunol.178.2.1039">Coordinated control of immunity to muscle stage Trichinella spiralis by IL-10, regulatory T cells, and TGF-beta.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, LF Gagliardo, M Hesse, SK Bliss, D Meskill, and JA Appleton.</span>
     <span class="pub-journal"><i><b>The Journal of Immunology</b></i>. Jan 15; 2007.</span>
@@ -794,7 +1292,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/IAI.74.3.1941-1943.2006" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/IAI.74.3.1941-1943.2006" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/IAI.74.3.1941-1943.2006" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/IAI.74.3.1941-1943.2006">Synthesis of syndecan-1 by skeletal muscle cells is an early response to infection with Trichinella spiralis but is not essential for nurse cell development.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, PW Park, and JA Appleton.</span>
     <span class="pub-journal"><i><b>Infection and Immunity</b></i>. Feb 22; 2006.</span>
@@ -803,7 +1301,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/IAI.72.6.3129-3137.2004" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1128/IAI.72.6.3129-3137.2004" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/IAI.72.6.3129-3137.2004" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1128/IAI.72.6.3129-3137.2004">Interleukin-10 limits local and body cavity inflammation during infection with muscle-stage Trichinella spiralis.</a></h3>
     <span class="pub-authors"><span class="pub-member-author">Beiting DP</span>, SK Bliss, DH Schlafer, VL Roberts, and JA Appleton.</span>
     <span class="pub-journal"><i><b>Infection and Immunity</b></i>. May 20; 2004.</span>
@@ -812,11 +1310,20 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/S0166-6851(02)00094-4" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/S0166-6851(02)00094-4" data-style="small_circle" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1016/S0166-6851(02)00094-4" data-style="small_circle" style="float: right;"></div>
     <h3><a href="https://doi.org/10.1016/S0166-6851(02)00094-4">A putative serine protease among the excretory-secretory glycoproteins of L1 Trichinella spiralis.</a></h3>
     <span class="pub-authors">Romaris F, S North, LF Gagliardo, B Butcher, K Ghosh, <span class="pub-member-author">Beiting DP</span>, M Panico, P Arasu, A Dell, HR Morris, JA Appleton.</span>
     <span class="pub-journal"><i><b>Mol Biochem Parasitol</b></i>. April 25; 2002.</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Romaris_MBP_2002.pdf" target="_blank">PDF</a></span>.
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1119/1.880158" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1119/1.880158" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1119/1.880158">What does a pine cone tell us about humidity?</a></h3>
+    <span class="pub-authors">Silva L, <span class="pub-member-author">Beiting DP</span>.</span>
+    <span class="pub-journal"><i><b>Physics Teacher</b></i>. April 25; 2002.</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a></span>.
 </div>
 
 </article>
@@ -827,7 +1334,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 <footer role="contentinfo">
   <hr/>
   
-    <p><small class="copyright">© 2020. Dan Beiting. All rights reserved.
+    <p><small class="copyright">© 2021. Dan Beiting. All rights reserved.
 </small></p>
   
   
@@ -847,7 +1354,32 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 >
   <header id="_sidebar" class="sidebar" role="banner">
     
-    <div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/pennvet2.jpg)"></div>
+    
+    
+    <div class="sidebar-fader">
+      
+        <img src="/assets/img/carousel/arnva_water.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batclose.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batcollect.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batwing.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/cortedepedra.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/galapagos_lab.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/pennvet.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/phillyskyline.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/swissroll_saa1.png" data-ignore alt="" />
+      
+    </div>
+
+    <!-- Dark Overlay Layer -->
+    <div class="sidebar-carousel-overlay"></div>
 
     <div class="sidebar-sticky">
       <div class="sidebar-about">
@@ -923,7 +1455,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
       <li>
         <a
           
-          href="https://bit.ly/hostmicrobe_protocols"
+          href="https://protocols.hostmicrobe.org/"
           class="sidebar-nav-item"
           
         >

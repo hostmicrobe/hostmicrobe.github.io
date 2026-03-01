@@ -36,9 +36,9 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.6.1 -->
+<!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Press and outreach | Host + Microbe</title>
-<meta name="generator" content="Jekyll v3.8.6" />
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Press and outreach" />
 <meta name="author" content="Daniel Beiting" />
 <meta property="og:locale" content="en" />
@@ -47,12 +47,13 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 <link rel="canonical" href="http://localhost:4000/press/" />
 <meta property="og:url" content="http://localhost:4000/press/" />
 <meta property="og:site_name" content="Host + Microbe" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Press and outreach" />
 <meta name="twitter:site" content="@hostmicrobe" />
 <meta name="twitter:creator" content="@hostmicrobe" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Daniel Beiting"},"url":"http://localhost:4000/press/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/schleiferi.png"},"name":"Daniel Beiting"},"headline":"Press and outreach","description":"A collection of our media coverage and outreach efforts","@type":"WebPage","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Daniel Beiting"},"description":"A collection of our media coverage and outreach efforts","headline":"Press and outreach","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/schleiferi.png"},"name":"Daniel Beiting"},"url":"http://localhost:4000/press/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -143,13 +144,112 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
   <style id="_pageStyle">
 
-.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,0.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#409ba3;border-color:#409ba3}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#409ba3;border-color:#409ba3}@media screen{body.dark-mode{--body-bg: #2d3539;--border-color: #3d494f}}@media screen and (prefers-color-scheme: dark){body{--body-bg: #2d3539;--border-color: #3d494f}}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
-
+.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:rgb(63.8602040816,154.5602040816,162.8897959184);border-color:rgb(63.8602040816,154.5602040816,162.8897959184)}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:rgb(63.8602040816,154.5602040816,162.8897959184);border-color:rgb(63.8602040816,154.5602040816,162.8897959184)}@media screen{body.dark-mode{--body-bg: hsl(200.8695652174, 12.5%, 20%);--border-color: hsl(200.8695652174, 12.5%, 27.5%)}}@media screen and (prefers-color-scheme: dark){body{--body-bg: hsl(200.8695652174, 12.5%, 20%);--border-color: hsl(200.8695652174, 12.5%, 27.5%)}}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
 </style>
 
 
 <!--<![endif]-->
 
+
+
+<!-- Dynamic CSS Background Crossfader -->
+
+
+
+
+<style>
+  .sidebar {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sidebar-fader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: #000;
+  }
+
+  .sidebar-fader img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    filter: brightness(0.6);
+    /* Total duration = 3s per image */
+    
+    animation: imageFade 27s ease-in-out infinite;
+  }
+
+  /* Dynamic Animation Delays */
+  
+  .sidebar-fader img:nth-child(1) { 
+    animation-delay: 0s; 
+  }
+  
+  .sidebar-fader img:nth-child(2) { 
+    animation-delay: 3s; 
+  }
+  
+  .sidebar-fader img:nth-child(3) { 
+    animation-delay: 6s; 
+  }
+  
+  .sidebar-fader img:nth-child(4) { 
+    animation-delay: 9s; 
+  }
+  
+  .sidebar-fader img:nth-child(5) { 
+    animation-delay: 12s; 
+  }
+  
+  .sidebar-fader img:nth-child(6) { 
+    animation-delay: 15s; 
+  }
+  
+  .sidebar-fader img:nth-child(7) { 
+    animation-delay: 18s; 
+  }
+  
+  .sidebar-fader img:nth-child(8) { 
+    animation-delay: 21s; 
+  }
+  
+  .sidebar-fader img:nth-child(9) { 
+    animation-delay: 24s; 
+  }
+  
+
+  @keyframes imageFade {
+    
+    
+    
+    
+    
+    0%   { opacity: 0; }
+    1.111111111111111%  { opacity: 1; }
+    11.11111111111111%  { opacity: 1; }
+    12.222222222222221%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  .sidebar-carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    pointer-events: none;
+  }
+</style>
 
 
 
@@ -205,7 +305,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
   data-color="rgb(79,177,186)"
   data-theme-color="rgb(25,55,71)"
   
-    data-image="/assets/img/pennvet2.jpg"
+    data-image="/assets/img/pennvet.jpg"
     data-overlay
   
   >
@@ -240,6 +340,396 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
   
     
+
+    <h2 id="y-2025">2025</h2>
+    <div class="columns">
+    
+  
+
+  
+  <div class="column column-1-2">
+    
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/ticks/#project"
+  >
+  <meta property="name" content="A Pennsylvania study of deer and ticks at the University of Pennsylvania School of Veterinary Medicine could shape public health and safety across the Commonwealth"/>
+  <meta property="image" content=""/>
+
+  <a href="/projects/ticks/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img img sixteen-nine">
+      
+        
+
+
+  <hy-img
+    
+    src="/assets/img/projects/tick-image.png"
+    
+    alt="A Pennsylvania study of deer and ticks at the University of Pennsylvania School of Veterinary Medicine could shape public health and safety across the Commonwealth"
+  
+    
+    root-margin="512px"
+  >
+    <noscript><img data-ignore 
+    src="/assets/img/projects/tick-image.png"
+    
+    alt="A Pennsylvania study of deer and ticks at the University of Pennsylvania School of Veterinary Medicine could shape public health and safety across the Commonwealth"
+  /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title">
+    <a href="/projects/ticks/" class="flip-title" property="mainEntityOfPage">A Pennsylvania study of deer and ticks at the University of Pennsylvania School of Veterinary Medicine could shape public health and safety across the Commonwealth</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      Tracking Ticks to Protect Pennsylvanians from Hidden Outdoor Threats
+
+    </p>
+  
+</article>
+
+  </div>
+
+  
+
+  
+
+  
+    </div>
+
+    <h2 id="y-2023">2023</h2>
+    <div class="columns">
+    
+  
+
+  
+  <div class="column column-1-2">
+    
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/Leishmania/#project"
+  >
+  <meta property="name" content="Uncovering the role of skin microbiome and immune response in cutaneous leishmaniasis"/>
+  <meta property="image" content=""/>
+
+  <a href="/projects/Leishmania/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img img sixteen-nine">
+      
+        
+
+
+  <hy-img
+    
+    src="/assets/img/projects/grouppic.jpg"
+    
+    alt="Uncovering the role of skin microbiome and immune response in cutaneous leishmaniasis"
+  
+    
+    root-margin="512px"
+  >
+    <noscript><img data-ignore 
+    src="/assets/img/projects/grouppic.jpg"
+    
+    alt="Uncovering the role of skin microbiome and immune response in cutaneous leishmaniasis"
+  /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title">
+    <a href="/projects/Leishmania/" class="flip-title" property="mainEntityOfPage">Uncovering the role of skin microbiome and immune response in cutaneous leishmaniasis</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      This story covers a long running collaboration that resulted in the finding that bacteria present in leishmaniasis skin lesions are linked to treatment failure, suggesting new possibilities for treatment of this parasitic disease.
+
+    </p>
+  
+</article>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+  <div class="column column-1-2">
+    
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/Galapagos_2023/#project"
+  >
+  <meta property="name" content="Social ecology and community work in the Galápagos"/>
+  <meta property="image" content=""/>
+
+  <a href="/projects/Galapagos_2023/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img img sixteen-nine">
+      
+        
+
+
+  <hy-img
+    
+    src="/assets/img/projects/galapagos_2022.jpg"
+    
+    alt="Social ecology and community work in the Galápagos"
+  
+    
+    root-margin="512px"
+  >
+    <noscript><img data-ignore 
+    src="/assets/img/projects/galapagos_2022.jpg"
+    
+    alt="Social ecology and community work in the Galápagos"
+  /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title">
+    <a href="/projects/Galapagos_2023/" class="flip-title" property="mainEntityOfPage">Social ecology and community work in the Galápagos</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      A profile of our ongoing collaborative One Health work with PennGlobal and the Galapagos Education Research Alliance (GERA) to engage community partners in microbiology research in the Galapagos.
+
+    </p>
+  
+</article>
+
+  </div>
+
+  
+
+  
+
+  
+    </div>
+
+    <h2 id="y-2022">2022</h2>
+    <div class="columns">
+    
+  
+
+  
+  <div class="column column-1-2">
+    
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/Galapagos/#project"
+  >
+  <meta property="name" content="In the Galápagos, training community scientists to monitor water quality"/>
+  <meta property="image" content=""/>
+
+  <a href="/projects/Galapagos/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img img sixteen-nine">
+      
+        
+
+
+  <hy-img
+    
+    src="/assets/img/projects/sealions.jpg"
+    
+    alt="In the Galápagos, training community scientists to monitor water quality"
+  
+    
+    root-margin="512px"
+  >
+    <noscript><img data-ignore 
+    src="/assets/img/projects/sealions.jpg"
+    
+    alt="In the Galápagos, training community scientists to monitor water quality"
+  /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title">
+    <a href="/projects/Galapagos/" class="flip-title" property="mainEntityOfPage">In the Galápagos, training community scientists to monitor water quality</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      Both dense human populations and a plethora of wildlife can pose a challenge to marine and public health in the Galápagos Islands. With portable, user-friendly PCR technology, Penn faculty and students are training local scientists and school children to perform water quality research.
+
+    </p>
+  
+</article>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+  <div class="column column-1-2">
+    
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/AAMC/#project"
+  >
+  <meta property="name" content="Into the wild: Scientists strive to stop animal diseases from igniting the next pandemic"/>
+  <meta property="image" content=""/>
+
+  <a href="/projects/AAMC/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img img sixteen-nine">
+      
+        
+
+
+  <hy-img
+    
+    src="/assets/img/projects/EcoHealth.jpg"
+    
+    alt="Into the wild: Scientists strive to stop animal diseases from igniting the next pandemic"
+  
+    
+    root-margin="512px"
+  >
+    <noscript><img data-ignore 
+    src="/assets/img/projects/EcoHealth.jpg"
+    
+    alt="Into the wild: Scientists strive to stop animal diseases from igniting the next pandemic"
+  /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title">
+    <a href="/projects/AAMC/" class="flip-title" property="mainEntityOfPage">Into the wild: Scientists strive to stop animal diseases from igniting the next pandemic</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      COVID-19 spotlights the growing threat of zoonotic outbreaks and boosts support for surveillance of pathogens in animals. Can science curtail a phenomenon fueled by human behavior?
+
+    </p>
+  
+</article>
+
+  </div>
+
+  
+
+  
+
+  
+    </div>
+
+    <h2 id="y-2021">2021</h2>
+    <div class="columns">
+    
+  
+
+  
+  <div class="column column-1-2">
+    
+
+
+
+<article
+  class="project-card"
+  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/IIZD/#project"
+  >
+  <meta property="name" content="Institute for Infectious and Zoonotic Diseases (IIZD)"/>
+  <meta property="image" content=""/>
+
+  <a href="/projects/IIZD/" class="no-hover no-print-link flip-project" tabindex="-1">
+    <div class="project-card-img img sixteen-nine">
+      
+        
+
+
+  <hy-img
+    
+    src="/assets/img/projects/iizd.jpeg"
+    
+    alt="Institute for Infectious and Zoonotic Diseases (IIZD)"
+  
+    
+    root-margin="512px"
+  >
+    <noscript><img data-ignore 
+    src="/assets/img/projects/iizd.jpeg"
+    
+    alt="Institute for Infectious and Zoonotic Diseases (IIZD)"
+  /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+
+
+      
+    </div>
+  </a>
+  <h3 class="project-card-title">
+    <a href="/projects/IIZD/" class="flip-title" property="mainEntityOfPage">Institute for Infectious and Zoonotic Diseases (IIZD)</a>
+  </h3>
+  
+    <p class="project-card-text fine" property="disambiguatingDescription">
+      Article announcing the launch of our new Institute for Infectious and Zoonotic Diseases (IIZD), for which our group leads the technology and outreach activities.
+
+    </p>
+  
+</article>
+
+  </div>
+
+  
+
+  
+
+  
+    </div>
 
     <h2 id="y-2019">2019</h2>
     <div class="columns">
@@ -1068,7 +1558,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 <footer role="contentinfo">
   <hr/>
   
-    <p><small class="copyright">© 2020. Dan Beiting. All rights reserved.
+    <p><small class="copyright">© 2021. Dan Beiting. All rights reserved.
 </small></p>
   
   
@@ -1088,7 +1578,32 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 >
   <header id="_sidebar" class="sidebar" role="banner">
     
-    <div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/pennvet2.jpg)"></div>
+    
+    
+    <div class="sidebar-fader">
+      
+        <img src="/assets/img/carousel/arnva_water.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batclose.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batcollect.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batwing.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/cortedepedra.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/galapagos_lab.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/pennvet.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/phillyskyline.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/swissroll_saa1.png" data-ignore alt="" />
+      
+    </div>
+
+    <!-- Dark Overlay Layer -->
+    <div class="sidebar-carousel-overlay"></div>
 
     <div class="sidebar-sticky">
       <div class="sidebar-about">
@@ -1164,7 +1679,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
       <li>
         <a
           
-          href="https://bit.ly/hostmicrobe_protocols"
+          href="https://protocols.hostmicrobe.org/"
           class="sidebar-nav-item"
           
         >

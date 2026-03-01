@@ -36,9 +36,9 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.6.1 -->
+<!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Posts | Host + Microbe</title>
-<meta name="generator" content="Jekyll v3.8.6" />
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Posts" />
 <meta name="author" content="Daniel Beiting" />
 <meta property="og:locale" content="en" />
@@ -47,12 +47,13 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 <link rel="canonical" href="http://localhost:4000/posts/" />
 <meta property="og:url" content="http://localhost:4000/posts/" />
 <meta property="og:site_name" content="Host + Microbe" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Posts" />
 <meta name="twitter:site" content="@hostmicrobe" />
 <meta name="twitter:creator" content="@hostmicrobe" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Daniel Beiting"},"url":"http://localhost:4000/posts/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/schleiferi.png"},"name":"Daniel Beiting"},"headline":"Posts","description":"This is the list layout for showing blog posts, which shows just the title and groups them by year of publication. Check out the blog layout for comparison. Open posts.md to edit this text.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Daniel Beiting"},"description":"This is the list layout for showing blog posts, which shows just the title and groups them by year of publication. Check out the blog layout for comparison. Open posts.md to edit this text.","headline":"Posts","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/schleiferi.png"},"name":"Daniel Beiting"},"url":"http://localhost:4000/posts/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -143,13 +144,112 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
   <style id="_pageStyle">
 
-.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,0.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#409ba3;border-color:#409ba3}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#409ba3;border-color:#409ba3}@media screen{body.dark-mode{--body-bg: #2d3539;--border-color: #3d494f}}@media screen and (prefers-color-scheme: dark){body{--body-bg: #2d3539;--border-color: #3d494f}}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
-
+.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:rgb(63.8602040816,154.5602040816,162.8897959184);border-color:rgb(63.8602040816,154.5602040816,162.8897959184)}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:rgb(63.8602040816,154.5602040816,162.8897959184);border-color:rgb(63.8602040816,154.5602040816,162.8897959184)}@media screen{body.dark-mode{--body-bg: hsl(200.8695652174, 12.5%, 20%);--border-color: hsl(200.8695652174, 12.5%, 27.5%)}}@media screen and (prefers-color-scheme: dark){body{--body-bg: hsl(200.8695652174, 12.5%, 20%);--border-color: hsl(200.8695652174, 12.5%, 27.5%)}}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
 </style>
 
 
 <!--<![endif]-->
 
+
+
+<!-- Dynamic CSS Background Crossfader -->
+
+
+
+
+<style>
+  .sidebar {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sidebar-fader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: #000;
+  }
+
+  .sidebar-fader img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    filter: brightness(0.6);
+    /* Total duration = 3s per image */
+    
+    animation: imageFade 27s ease-in-out infinite;
+  }
+
+  /* Dynamic Animation Delays */
+  
+  .sidebar-fader img:nth-child(1) { 
+    animation-delay: 0s; 
+  }
+  
+  .sidebar-fader img:nth-child(2) { 
+    animation-delay: 3s; 
+  }
+  
+  .sidebar-fader img:nth-child(3) { 
+    animation-delay: 6s; 
+  }
+  
+  .sidebar-fader img:nth-child(4) { 
+    animation-delay: 9s; 
+  }
+  
+  .sidebar-fader img:nth-child(5) { 
+    animation-delay: 12s; 
+  }
+  
+  .sidebar-fader img:nth-child(6) { 
+    animation-delay: 15s; 
+  }
+  
+  .sidebar-fader img:nth-child(7) { 
+    animation-delay: 18s; 
+  }
+  
+  .sidebar-fader img:nth-child(8) { 
+    animation-delay: 21s; 
+  }
+  
+  .sidebar-fader img:nth-child(9) { 
+    animation-delay: 24s; 
+  }
+  
+
+  @keyframes imageFade {
+    
+    
+    
+    
+    
+    0%   { opacity: 0; }
+    1.111111111111111%  { opacity: 1; }
+    11.11111111111111%  { opacity: 1; }
+    12.222222222222221%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  .sidebar-carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    pointer-events: none;
+  }
+</style>
 
 
 
@@ -205,7 +305,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
   data-color="rgb(79,177,186)"
   data-theme-color="rgb(25,55,71)"
   
-    data-image="/assets/img/pennvet2.jpg"
+    data-image="/assets/img/pennvet.jpg"
     data-overlay
   
   >
@@ -220,7 +320,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
   
     <p class="message" >
-      This is the <code class="highlighter-rouge">list</code> layout for showing blog posts, which shows just the title and groups them by year of publication. Check out the <code class="highlighter-rouge">blog</code> layout for comparison. Open <code class="highlighter-rouge">posts.md</code> to edit this text.
+      This is the <code class="language-plaintext highlighter-rouge">list</code> layout for showing blog posts, which shows just the title and groups them by year of publication. Check out the <code class="language-plaintext highlighter-rouge">blog</code> layout for comparison. Open <code class="language-plaintext highlighter-rouge">posts.md</code> to edit this text.
 
     </p>
   
@@ -241,9 +341,312 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
   
   
     
+    <h2 id="y-2024" class="hr">2024</h2>
+    <ul class="related-posts">
+    
+  
+  
+
+
+<li>
+  <a href="/blog/team/2024-11-12-kat_morucci/" class="h4 flip-title"><span>Kat Morucci</span></a>
+  <time class="heading faded fine" datetime="2024-11-12T00:00:00-05:00">12 Nov</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2024-05-06-rui_xiao/" class="h4 flip-title"><span>Rui Xiao</span></a>
+  <time class="heading faded fine" datetime="2024-05-06T00:00:00-04:00">06 May</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2024-05-06-andrew_hart/" class="h4 flip-title"><span>Andrew Hart</span></a>
+  <time class="heading faded fine" datetime="2024-05-06T00:00:00-04:00">06 May</time>
+</li>
+
+  
+
+  
+  
+    </ul>
+    <h2 id="y-2022" class="hr">2022</h2>
+    <ul class="related-posts">
+    
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-12-04-karen_hanze/" class="h4 flip-title"><span>Karen Hanze</span></a>
+  <time class="heading faded fine" datetime="2022-12-04T00:00:00-05:00">04 Dec</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-12-04-felipe_pinheiro_vilela/" class="h4 flip-title"><span>Felipe Pinheiro Vilela</span></a>
+  <time class="heading faded fine" datetime="2022-12-04T00:00:00-05:00">04 Dec</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-12-03-celine_adomakoh/" class="h4 flip-title"><span>Celine Adomakoh</span></a>
+  <time class="heading faded fine" datetime="2022-12-03T00:00:00-05:00">03 Dec</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-12-02-Samy_Morton/" class="h4 flip-title"><span>Samantha Morton</span></a>
+  <time class="heading faded fine" datetime="2022-12-02T00:00:00-05:00">02 Dec</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-12-01-yirui_hong/" class="h4 flip-title"><span>Yirui Hong</span></a>
+  <time class="heading faded fine" datetime="2022-12-01T00:00:00-05:00">01 Dec</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-06-04-theresa_astmann/" class="h4 flip-title"><span>Theresa Astmann</span></a>
+  <time class="heading faded fine" datetime="2022-06-04T00:00:00-04:00">04 Jun</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-06-04-shelby_monnin/" class="h4 flip-title"><span>Shelby Monnin</span></a>
+  <time class="heading faded fine" datetime="2022-06-04T00:00:00-04:00">04 Jun</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-06-04-erin_denardo/" class="h4 flip-title"><span>Erin DeNardo</span></a>
+  <time class="heading faded fine" datetime="2022-06-04T00:00:00-04:00">04 Jun</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-06-04-dan_cutillo/" class="h4 flip-title"><span>Dan Cutillo</span></a>
+  <time class="heading faded fine" datetime="2022-06-04T00:00:00-04:00">04 Jun</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-06-03-arnav_lal/" class="h4 flip-title"><span>Arnav Lal</span></a>
+  <time class="heading faded fine" datetime="2022-06-03T00:00:00-04:00">03 Jun</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-06-02-stephanie-sila/" class="h4 flip-title"><span>Stephanie Sila</span></a>
+  <time class="heading faded fine" datetime="2022-06-02T00:00:00-04:00">02 Jun</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-06-01-jessica_distefano/" class="h4 flip-title"><span>Jessica DiStefano</span></a>
+  <time class="heading faded fine" datetime="2022-06-01T00:00:00-04:00">01 Jun</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-01-14-lisa_mattei/" class="h4 flip-title"><span>Lisa Mattei</span></a>
+  <time class="heading faded fine" datetime="2022-01-14T00:00:00-05:00">14 Jan</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2022-01-01-ekram_ibrahim/" class="h4 flip-title"><span>Ekram Ibrahim</span></a>
+  <time class="heading faded fine" datetime="2022-01-01T00:00:00-05:00">01 Jan</time>
+</li>
+
+  
+
+  
+  
+    </ul>
+    <h2 id="y-2021" class="hr">2021</h2>
+    <ul class="related-posts">
+    
+  
+  
+
+
+<li>
+  <a href="/blog/team/2021-07-01-sanya_mehta/" class="h4 flip-title"><span>Sanya Mehta</span></a>
+  <time class="heading faded fine" datetime="2021-07-01T00:00:00-04:00">01 Jul</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2021-06-01-luke_kazmierski/" class="h4 flip-title"><span>Luke Kazmierski</span></a>
+  <time class="heading faded fine" datetime="2021-06-01T00:00:00-04:00">01 Jun</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2021-05-01-leah_soderman/" class="h4 flip-title"><span>Leah Soderman</span></a>
+  <time class="heading faded fine" datetime="2021-05-01T00:00:00-04:00">01 May</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2021-02-08-ann_blevins/" class="h4 flip-title"><span>Ann Blevins</span></a>
+  <time class="heading faded fine" datetime="2021-02-08T00:00:00-05:00">08 Feb</time>
+</li>
+
+  
+
+  
+  
+    </ul>
     <h2 id="y-2020" class="hr">2020</h2>
     <ul class="related-posts">
     
+  
+  
+
+
+<li>
+  <a href="/blog/team/2020-11-10-qianxuan_she/" class="h4 flip-title"><span>Qianxuan She</span></a>
+  <time class="heading faded fine" datetime="2020-11-10T00:00:00-05:00">10 Nov</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2020-07-01-seble_negatu/" class="h4 flip-title"><span>Seble Negatu</span></a>
+  <time class="heading faded fine" datetime="2020-07-01T00:00:00-04:00">01 Jul</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2020-04-01-lydia_mendoza/" class="h4 flip-title"><span>Lydia Mendoza</span></a>
+  <time class="heading faded fine" datetime="2020-04-01T00:00:00-04:00">01 Apr</time>
+</li>
+
+  
+
+  
   
   
 
@@ -285,18 +688,6 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 
 <li>
-  <a href="/blog/team/2020-01-25-olivia_pilling/" class="h4 flip-title"><span>Olivia Pilling</span></a>
-  <time class="heading faded fine" datetime="2020-01-25T00:00:00-05:00">25 Jan</time>
-</li>
-
-  
-
-  
-  
-  
-
-
-<li>
   <a href="/blog/team/2020-01-24-wojtek_basant/" class="h4 flip-title"><span>Wojtek Basant</span></a>
   <time class="heading faded fine" datetime="2020-01-24T00:00:00-05:00">24 Jan</time>
 </li>
@@ -321,6 +712,18 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 
 <li>
+  <a href="/blog/team/2020-01-22-olivia_pilling/" class="h4 flip-title"><span>Olivia Pilling</span></a>
+  <time class="heading faded fine" datetime="2020-01-22T00:00:00-05:00">22 Jan</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
   <a href="/blog/team/2020-01-22-alex_berry/" class="h4 flip-title"><span>Alex Berry</span></a>
   <time class="heading faded fine" datetime="2020-01-22T00:00:00-05:00">22 Jan</time>
 </li>
@@ -334,6 +737,18 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <li>
   <a href="/blog/team/2020-01-21-elise_krespan/" class="h4 flip-title"><span>Elise Krespan</span></a>
+  <time class="heading faded fine" datetime="2020-01-21T00:00:00-05:00">21 Jan</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2020-01-21-clara-malekshahi/" class="h4 flip-title"><span>Clara Malekshahi</span></a>
   <time class="heading faded fine" datetime="2020-01-21T00:00:00-05:00">21 Jan</time>
 </li>
 
@@ -524,6 +939,30 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
   
   
+  
+
+
+<li>
+  <a href="/blog/team/2017-01-02-sam_murray/" class="h4 flip-title"><span>Samuel Murray</span></a>
+  <time class="heading faded fine" datetime="2017-01-02T00:00:00-05:00">02 Jan</time>
+</li>
+
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2017-01-01-lydia_ramharack/" class="h4 flip-title"><span>Lydia Ramharack</span></a>
+  <time class="heading faded fine" datetime="2017-01-01T00:00:00-05:00">01 Jan</time>
+</li>
+
+  
+
+  
+  
     </ul>
     <h2 id="y-2016" class="hr">2016</h2>
     <ul class="related-posts">
@@ -537,6 +976,18 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
   <time class="heading faded fine" datetime="2016-07-22T00:00:00-04:00">22 Jul</time>
 </li>
 
+  
+
+  
+  
+  
+
+
+<li>
+  <a href="/blog/team/2016-05-01-kevin_obrien/" class="h4 flip-title"><span>Kevin O'Brien</span></a>
+  <time class="heading faded fine" datetime="2016-05-01T00:00:00-04:00">01 May</time>
+</li>
+
   </ul>
 
 
@@ -546,7 +997,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 <footer role="contentinfo">
   <hr/>
   
-    <p><small class="copyright">© 2020. Dan Beiting. All rights reserved.
+    <p><small class="copyright">© 2021. Dan Beiting. All rights reserved.
 </small></p>
   
   
@@ -566,7 +1017,32 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 >
   <header id="_sidebar" class="sidebar" role="banner">
     
-    <div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/pennvet2.jpg)"></div>
+    
+    
+    <div class="sidebar-fader">
+      
+        <img src="/assets/img/carousel/arnva_water.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batclose.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batcollect.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/batwing.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/cortedepedra.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/galapagos_lab.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/pennvet.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/phillyskyline.jpg" data-ignore alt="" />
+      
+        <img src="/assets/img/carousel/swissroll_saa1.png" data-ignore alt="" />
+      
+    </div>
+
+    <!-- Dark Overlay Layer -->
+    <div class="sidebar-carousel-overlay"></div>
 
     <div class="sidebar-sticky">
       <div class="sidebar-about">
@@ -642,7 +1118,7 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
       <li>
         <a
           
-          href="https://bit.ly/hostmicrobe_protocols"
+          href="https://protocols.hostmicrobe.org/"
           class="sidebar-nav-item"
           
         >

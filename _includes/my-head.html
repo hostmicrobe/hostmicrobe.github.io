@@ -11,3 +11,71 @@ Fill in `href`. You may have to adjust `rel`.
 -->
 <noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
 {% endcomment %}
+
+<!-- Dynamic CSS Background Crossfader -->
+{% assign carousel_images = site.static_files | where_exp: "file", "file.path contains 'assets/img/carousel/'" %}
+{% assign num_images = carousel_images | size %}
+
+{% if num_images > 0 %}
+<style>
+  .sidebar {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sidebar-fader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: #000;
+  }
+
+  .sidebar-fader img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    filter: brightness(0.6);
+    /* Total duration = 3s per image */
+    {% assign duration = num_images | times: 3 %}
+    animation: imageFade {{ duration }}s ease-in-out infinite;
+  }
+
+  /* Dynamic Animation Delays */
+  {% for image in carousel_images %}
+  .sidebar-fader img:nth-child({{ forloop.index }}) { 
+    animation-delay: {{ forloop.index0 | times: 3 }}s; 
+  }
+  {% endfor %}
+
+  @keyframes imageFade {
+    {% assign step = 100.0 | divided_by: num_images %}
+    {% assign fade_in_end = step | times: 0.1 %}
+    {% assign fade_out_start = step %}
+    {% assign fade_out_end = step | plus: fade_in_end %}
+    
+    0%   { opacity: 0; }
+    {{ fade_in_end }}%  { opacity: 1; }
+    {{ fade_out_start }}%  { opacity: 1; }
+    {{ fade_out_end }}%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  .sidebar-carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    pointer-events: none;
+  }
+</style>
+{% endif %}

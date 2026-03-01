@@ -14,7 +14,16 @@
       {% capture bg_style %}background-color:{{bg_color}};{% if image != 'none' %}background-image:url({% include smart-url.txt url=image %}){% endif %}{% endcapture %}
       {% capture bg_class %}sidebar-bg {% if image != 'none' %}sidebar-overlay{% endif %}{% endcapture %}
     {% endif %}
-    <div class="{{bg_class}}" style="{{bg_style}}"></div>
+    
+    {% assign carousel_images = site.static_files | where_exp: "file", "file.path contains 'assets/img/carousel/'" %}
+    <div class="sidebar-fader">
+      {% for image in carousel_images %}
+        <img src="{{ image.path | relative_url }}" data-ignore alt="" />
+      {% endfor %}
+    </div>
+
+    <!-- Dark Overlay Layer -->
+    <div class="sidebar-carousel-overlay"></div>
 
     <div class="sidebar-sticky">
       <div class="sidebar-about">
