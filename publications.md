@@ -31,13 +31,15 @@ comments: false
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
+## 2026
+
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2025.10.07.680968" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="10.1101/2025.10.07.680968" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Widespread genomic heterogeneity at the type II NAD(P)H dehydrogenase locus predisposes Cryptosporidium to clofazimine resistance.</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41564-026-02331-5" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41564-026-02331-5" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Genomic heterogeneity of NAD(P)H dehydrogenase predisposes Cryptosporidium to clofazimine resistance.</a></h3>
     <span class="pub-authors">Buenconsejo G*, Shaw S*, Xiao R, Balestra A, O'Dea KM, Jiang P, Xu B, Wang D, Zhu G, Beiting DP, Striepen B. </span>
-    <span class="pub-journal"><i><b>  </b></i></span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1101/2025.10.07.680968" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b>  Nature Microbiology (in press)</b></i></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="https://doi.org/10.1038/s41564-026-02331-5" target="_blank">PDF</a> | </span>
 </div>
 
 
