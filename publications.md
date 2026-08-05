@@ -40,7 +40,7 @@ comments: false
     <h3><a href="https://doi.org/10.1038/s41467-026-74899-9" target="_new">Human wastewater contamination drives the emergence of novel multidrug resistant bacteria in the Galapagos marine ecosystem.</a></h3>
     <span class="pub-authors">Lal A, Riopelle JC, Villarin K, Mathur M, Enriquez L, Xiao R, Phemister-jimenez N, Gilbert K, Cole SD, Tilyou M, Kennedy KP, Vaca E, Castillo W, Weisberg M, Mattei LM*, Beiting DP* </span>
     <span class="pub-journal"><i><b>. Nature Communications</b></i>. August 4 2026</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Sebastian_CellReports_2025.pdf" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Beiting_Galapagos_2026.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
