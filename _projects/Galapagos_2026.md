@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'On the move: Water quality and antimicrobial resistance testing goes mobile'
-date: 04 August 2026
+date: 04 Aug 2026
 image: /assets/img/projects/SanCristobal.jpg
 screenshot: /assets/img/projects/SanCristobal.jpg
 links:
