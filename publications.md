@@ -28,7 +28,7 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.64898/2025.12.22.695505" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.64898/2025.12.22.695505" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.64898/2025.12.22.695505 " target="_new">Diverse infections transcriptionally reprogram the intestinal epithelium and epithelial-immune cell interactions.</a></h3>
+    <h3><a href="https://doi.org/10.64898/2025.12.22.695505" target="_new">Diverse infections transcriptionally reprogram the intestinal epithelium and epithelial-immune cell interactions.</a></h3>
     <span class="pub-authors">Hart A, Merolle M, Howard C, Haskins BE, Cohn IS, Bobba S, Xiao R, Yang Y, Cadwell K, Ma J, Yano H, Hou X, Wallbank BA, Cutillo D, The MIST Consortium, Ivanov II, Striepen B, Shin S, Brodsky IE, Artis D, Hunter CA, Beiting DP* </span>
     <span class="pub-journal"><i><b>. Nature Immunology (accepted)</b></i></span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
