@@ -11,6 +11,19 @@ comments: false
 
 
 
+## In progress
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">VEuPathDB: 2026 update on data, tools and infrastructure for eukaryotic pathogens, vectors and hosts.</a></h3>
+    <span class="pub-authors">Aurrecoechea C, Basenko E, Beiting DP, Boehme U, Brestelli J, Brown S, Crouch K, Demko R, Douherty R, Elliott L, Fisher S, Gajria B, Harb O, Harper E, Helb D, Hu S, Jones A, Kissinger J, Kittur N, Li W, Ludwig A, Mccabe A, McDowell MA, Mesdaghi S, Muharram A, Muzemil S, Mural M, Redmond F, Rigden DJ, Roos D, Spruill D, Tzvetkov J, Winkelman M</span>
+    <span class="pub-journal"><i><b>  </b></i></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+
+
 ## Preprints
 
 <div class="pub">
@@ -26,11 +39,20 @@ comments: false
 ## 2026
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.64898/2025.12.22.695505" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="10.64898/2025.12.22.695505" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="https://doi.org/10.64898/2025.12.22.695505" target="_new">Diverse infections transcriptionally reprogram the intestinal epithelium and epithelial-immune cell interactions.</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="" target="_new">Ablation of a maternal Cryptosporidium mRNA-binding protein results in sterile sporozoites.</a></h3>
+    <span class="pub-authors">Daniels A, Shaw S, Nötzel C, Xiao R, O'Dea K, Beiting DP, Striepen B</span>
+    <span class="pub-journal"><i><b>  MBio (accepted)</b></i></span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+</div>
+
+<div class="pub">
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41590-026-02665-6" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1038/s41590-026-02665-6" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1038/s41590-026-02665-6" target="_new">Diverse infections transcriptionally reprogram the intestinal epithelium and epithelial-immune cell interactions.</a></h3>
     <span class="pub-authors">Hart A, Merolle M, Howard C, Haskins BE, Cohn IS, Bobba S, Xiao R, Yang Y, Cadwell K, Ma J, Yano H, Hou X, Wallbank BA, Cutillo D, The MIST Consortium, Ivanov II, Striepen B, Shin S, Brodsky IE, Artis D, Hunter CA, Beiting DP* </span>
-    <span class="pub-journal"><i><b>. Nature Immunology (accepted)</b></i></span>
+    <span class="pub-journal"><i><b>. Nature Immunology</b></i>.  October 7 2026</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
 </div>
 
@@ -46,7 +68,7 @@ comments: false
 <div class="pub">
 <div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1038/s41564-026-02331-5" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
 <div class="__dimensions_badge_embed__" data-doi="10.1038/s41564-026-02331-5" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Genomic heterogeneity of NAD(P)H dehydrogenase predisposes Cryptosporidium to clofazimine resistance.</a></h3>
+    <h3><a href="https://doi.org/10.1038/s41564-026-02331-5" target="_new">Genomic heterogeneity of NAD(P)H dehydrogenase predisposes Cryptosporidium to clofazimine resistance.</a></h3>
     <span class="pub-authors">Buenconsejo G*, Shaw S*, Xiao R, Balestra A, O'Dea KM, Jiang P, Xu B, Wang D, Zhu G, Beiting DP, Striepen B. </span>
     <span class="pub-journal"><i><b>  Nature Microbiology</b></i>. May 13 2026</span>
     <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Buenconsejo_and_Shaw_NatMicro_2026.pdf" target="_blank">PDF</a> | </span>
@@ -56,8 +78,8 @@ comments: false
 ## 2025
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1101/2025.04.01.646690 " data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1101/2025.04.01.646690" data-style="small_circle" style="float: right;"></div>
     <h3><a href="" target="_new">A Wildlife Health Outbreak Response Table-top Exercise for Pandemic Preparedness Planning.</a></h3>
     <span class="pub-authors">Ahyong V, Ayscue P, Gowen R, Spottiswoode N, Alex CE, Anis E, Beiting DP, Gibison M, Greening SE, Keatts L, Larsen RS, Miller EA, Niewinski B, Gagne RB, Tato CM, Ellis J, Murphy L </span>
     <span class="pub-journal"><i><b>  Health Security</b></i>. Accepted</span>
