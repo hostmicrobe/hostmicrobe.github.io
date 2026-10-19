@@ -53,7 +53,7 @@ comments: false
     <h3><a href="https://doi.org/10.1038/s41590-026-02665-6" target="_new">Diverse infections transcriptionally reprogram the intestinal epithelium and epithelial-immune cell interactions.</a></h3>
     <span class="pub-authors">Hart A, Merolle M, Howard C, Haskins BE, Cohn IS, Bobba S, Xiao R, Yang Y, Cadwell K, Ma J, Yano H, Hou X, Wallbank BA, Cutillo D, The MIST Consortium, Ivanov II, Striepen B, Shin S, Brodsky IE, Artis D, Hunter CA, Beiting DP* </span>
     <span class="pub-journal"><i><b>. Nature Immunology</b></i>.  October 7 2026</span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/GutPath_2026.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
