@@ -39,12 +39,12 @@ comments: false
 ## 2026
 
 <div class="pub">
-<div data-badge-popover="right" data-badge-type="donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
-<div class="__dimensions_badge_embed__" data-doi="" data-style="small_circle" style="float: right;"></div>
-    <h3><a href="" target="_new">Ablation of a maternal Cryptosporidium mRNA-binding protein results in sterile sporozoites.</a></h3>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1128/mbio.01991-26" data-hide-no-mentions="true" class="altmetric-embed" style="float: right;"></div>
+<div class="__dimensions_badge_embed__" data-doi="10.1128/mbio.01991-26" data-style="small_circle" style="float: right;"></div>
+    <h3><a href="https://doi.org/10.1128/mbio.01991-26" target="_new">Ablation of a maternal Cryptosporidium mRNA-binding protein results in sterile sporozoites.</a></h3>
     <span class="pub-authors">Daniels A, Shaw S, Nötzel C, Xiao R, O'Dea K, Beiting DP, Striepen B</span>
-    <span class="pub-journal"><i><b>  MBio (accepted)</b></i></span>
-    <span style="display: inline-block; padding-bottom: 5px;"><a href="" target="_blank">PDF</a> | </span>
+    <span class="pub-journal"><i><b>. MBio</b></i>. October 29 2029</span>
+    <span style="display: inline-block; padding-bottom: 5px;"><a href="http://hostmicrobe.github.io/pubs/Abby_CryptoFRBP_Mbio_2026.pdf" target="_blank">PDF</a> | </span>
 </div>
 
 <div class="pub">
